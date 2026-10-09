@@ -1,0 +1,1721 @@
+[
+  {
+    "canonical_url": "https://github.com/mehooz/vision4leg",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: Toolkit for vision-guided quadruped locomotion, with simulation and deployment workflows.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：面向视觉引导四足机器人运动研究的工具包，包含仿真和部署流程。",
+    "summary_en": "Toolkit for vision-guided quadruped locomotion, with simulation and deployment workflows.",
+    "summary_zh": "面向视觉引导四足机器人运动研究的工具包，包含仿真和部署流程。"
+  },
+  {
+    "canonical_url": "https://github.com/metadriverse/metadrive",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: Driving simulator for autonomous-driving research and multi-agent experiments.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：面向自动驾驶研究与多智能体实验的驾驶仿真器。",
+    "summary_en": "Driving simulator for autonomous-driving research and multi-agent experiments.",
+    "summary_zh": "面向自动驾驶研究与多智能体实验的驾驶仿真器。"
+  },
+  {
+    "canonical_url": "https://github.com/metrorobots/ros_command",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: Unified command-line interface for ROS development tools.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：统一 ROS 开发工具的命令行接口。",
+    "summary_en": "Unified command-line interface for ROS development tools.",
+    "summary_zh": "统一 ROS 开发工具的命令行接口。"
+  },
+  {
+    "canonical_url": "https://github.com/mgonzs13/llama_ros",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: ROS 2 integration for llama.cpp language models and llava.cpp vision-language models.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：为 ROS 2 集成 llama.cpp 语言模型与 llava.cpp 视觉语言模型。",
+    "summary_en": "ROS 2 integration for llama.cpp language models and llava.cpp vision-language models.",
+    "summary_zh": "为 ROS 2 集成 llama.cpp 语言模型与 llava.cpp 视觉语言模型。"
+  },
+  {
+    "canonical_url": "https://github.com/mgonzs13/piper_ros",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: Piper text-to-speech integration for ROS 2.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：为 ROS 2 集成 Piper 文本转语音功能。",
+    "summary_en": "Piper text-to-speech integration for ROS 2.",
+    "summary_zh": "为 ROS 2 集成 Piper 文本转语音功能。"
+  },
+  {
+    "canonical_url": "https://github.com/mgonzs13/whisper_ros",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: ROS 2 speech recognition using SileroVAD and whisper.cpp.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：结合 SileroVAD 与 whisper.cpp 的 ROS 2 语音识别工具。",
+    "summary_en": "ROS 2 speech recognition using SileroVAD and whisper.cpp.",
+    "summary_zh": "结合 SileroVAD 与 whisper.cpp 的 ROS 2 语音识别工具。"
+  },
+  {
+    "canonical_url": "https://github.com/mgonzs13/yolo_ros",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: ROS 2 integration for Ultralytics YOLO perception models.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：为 ROS 2 集成 Ultralytics YOLO 感知模型。",
+    "summary_en": "ROS 2 integration for Ultralytics YOLO perception models.",
+    "summary_zh": "为 ROS 2 集成 Ultralytics YOLO 感知模型。"
+  },
+  {
+    "canonical_url": "https://github.com/miccol/ros-behavior-tree",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: Behavior-tree library for ROS, with C++ and Python interfaces.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：面向 ROS 的行为树库，提供 C++ 与 Python 接口。",
+    "summary_en": "Behavior-tree library for ROS, with C++ and Python interfaces.",
+    "summary_zh": "面向 ROS 的行为树库，提供 C++ 与 Python 接口。"
+  },
+  {
+    "canonical_url": "https://github.com/michaelyuancb/general_flow",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: Research code for learning general motion flows as robot affordances.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：将通用运动流作为机器人可供性表示的研究代码。",
+    "summary_en": "Research code for learning general motion flows as robot affordances.",
+    "summary_zh": "将通用运动流作为机器人可供性表示的研究代码。"
+  },
+  {
+    "canonical_url": "https://github.com/micro-ros/micro_ros_setup",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: Build and firmware setup tools for micro-ROS.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：用于 micro-ROS 构建与固件配置的工具。",
+    "summary_en": "Build and firmware setup tools for micro-ROS.",
+    "summary_zh": "用于 micro-ROS 构建与固件配置的工具。"
+  },
+  {
+    "canonical_url": "https://github.com/microsoft/airsim",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: Simulator for autonomous vehicles built on Unreal Engine and Unity.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：基于 Unreal Engine 与 Unity 的自主车辆仿真器。",
+    "summary_en": "Simulator for autonomous vehicles built on Unreal Engine and Unity.",
+    "summary_zh": "基于 Unreal Engine 与 Unity 的自主车辆仿真器。"
+  },
+  {
+    "canonical_url": "https://github.com/minedojo/voyager",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: Research implementation of an open-ended language-model agent in Minecraft.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：在 Minecraft 中实现开放式语言模型具身智能体的研究项目。",
+    "summary_en": "Research implementation of an open-ended language-model agent in Minecraft.",
+    "summary_zh": "在 Minecraft 中实现开放式语言模型具身智能体的研究项目。"
+  },
+  {
+    "canonical_url": "https://github.com/mithi/hexapod",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: Browser-based simulator for hexapod robot geometry and motion.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：在浏览器中模拟六足机器人几何结构与运动的工具。",
+    "summary_en": "Browser-based simulator for hexapod robot geometry and motion.",
+    "summary_zh": "在浏览器中模拟六足机器人几何结构与运动的工具。"
+  },
+  {
+    "canonical_url": "https://github.com/mithi/robotics-coursework",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: Collection of online robotics courses and learning resources.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：机器人在线课程与学习资源集合。",
+    "summary_en": "Collection of online robotics courses and learning resources.",
+    "summary_zh": "机器人在线课程与学习资源集合。"
+  },
+  {
+    "canonical_url": "https://github.com/mmurray/cvdn",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: Dataset and research tools for cooperative vision-and-dialog navigation.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：协作式视觉对话导航的数据集与研究工具。",
+    "summary_en": "Dataset and research tools for cooperative vision-and-dialog navigation.",
+    "summary_zh": "协作式视觉对话导航的数据集与研究工具。"
+  },
+  {
+    "canonical_url": "https://github.com/morse-simulator/morse",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: Modular simulation engine for robotics research.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：面向机器人研究的模块化仿真引擎。",
+    "summary_en": "Modular simulation engine for robotics research.",
+    "summary_zh": "面向机器人研究的模块化仿真引擎。"
+  },
+  {
+    "canonical_url": "https://github.com/motphys/motrixsim-docs",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: Documentation for the MotrixSim multibody dynamics and robotics simulation engine.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：MotrixSim 多体动力学与机器人仿真引擎文档。",
+    "summary_en": "Documentation for the MotrixSim multibody dynamics and robotics simulation engine.",
+    "summary_zh": "MotrixSim 多体动力学与机器人仿真引擎文档。"
+  },
+  {
+    "canonical_url": "https://github.com/moveit/moveit",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: Robot motion-planning framework for ROS.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：面向 ROS 的机器人运动规划框架。",
+    "summary_en": "Robot motion-planning framework for ROS.",
+    "summary_zh": "面向 ROS 的机器人运动规划框架。"
+  },
+  {
+    "canonical_url": "https://github.com/moveit/moveit2",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: Robot motion-planning framework for ROS 2.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：面向 ROS 2 的机器人运动规划框架。",
+    "summary_en": "Robot motion-planning framework for ROS 2.",
+    "summary_zh": "面向 ROS 2 的机器人运动规划框架。"
+  },
+  {
+    "canonical_url": "https://github.com/mp3guy/elasticfusion",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: Real-time dense visual SLAM system.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：实时稠密视觉 SLAM 系统。",
+    "summary_en": "Real-time dense visual SLAM system.",
+    "summary_zh": "实时稠密视觉 SLAM 系统。"
+  },
+  {
+    "canonical_url": "https://github.com/mp3guy/kintinuous",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: Dense visual SLAM system for large-scale mapping.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：面向大范围建图的稠密视觉 SLAM 系统。",
+    "summary_en": "Dense visual SLAM system for large-scale mapping.",
+    "summary_zh": "面向大范围建图的稠密视觉 SLAM 系统。"
+  },
+  {
+    "canonical_url": "https://github.com/mrpt/mrpt",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: Mobile-robot programming toolkit for perception, mapping, and navigation.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：面向感知、建图与导航的移动机器人编程工具包。",
+    "summary_en": "Mobile-robot programming toolkit for perception, mapping, and navigation.",
+    "summary_zh": "面向感知、建图与导航的移动机器人编程工具包。"
+  },
+  {
+    "canonical_url": "https://github.com/mrpt/mvsim",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: Vehicle and mobile-robot simulator with C++ and Python APIs.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：提供 C++ 与 Python API 的车辆和移动机器人仿真器。",
+    "summary_en": "Vehicle and mobile-robot simulator with C++ and Python APIs.",
+    "summary_zh": "提供 C++ 与 Python API 的车辆和移动机器人仿真器。"
+  },
+  {
+    "canonical_url": "https://github.com/mrpt/srba",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: Relative-SLAM framework using sparse bundle adjustment; maintainers recommend MOLA for newer work.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：采用稀疏光束法平差的相对 SLAM 框架；维护者建议新项目使用 MOLA。",
+    "summary_en": "Relative-SLAM framework using sparse bundle adjustment; maintainers recommend MOLA for newer work.",
+    "summary_zh": "采用稀疏光束法平差的相对 SLAM 框架；维护者建议新项目使用 MOLA。"
+  },
+  {
+    "canonical_url": "https://github.com/muddasser-mm/thrower_goalie_robotarms",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: Robot-arm experiment involving throwing and goalkeeping tasks.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：用于机械臂投掷与守门任务的实验项目。",
+    "summary_en": "Robot-arm experiment involving throwing and goalkeeping tasks.",
+    "summary_zh": "用于机械臂投掷与守门任务的实验项目。"
+  },
+  {
+    "canonical_url": "https://github.com/mujocolab/mjlab",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: MuJoCo-Warp robotics and reinforcement-learning workflows using an Isaac Lab-style API.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：基于 MuJoCo-Warp、采用 Isaac Lab 风格 API 的机器人与强化学习工具。",
+    "summary_en": "MuJoCo-Warp robotics and reinforcement-learning workflows using an Isaac Lab-style API.",
+    "summary_zh": "基于 MuJoCo-Warp、采用 Isaac Lab 风格 API 的机器人与强化学习工具。"
+  },
+  {
+    "canonical_url": "https://github.com/nasa-jpl/rosa",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: Natural-language agent for interacting with and inspecting ROS robotics systems.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：通过自然语言交互和检查 ROS 机器人系统的智能体。",
+    "summary_en": "Natural-language agent for interacting with and inspecting ROS robotics systems.",
+    "summary_zh": "通过自然语言交互和检查 ROS 机器人系统的智能体。"
+  },
+  {
+    "canonical_url": "https://github.com/neka-nat/kinpy",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: Python toolkit for robot kinematics calculations.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：用于机器人运动学计算的 Python 工具包。",
+    "summary_en": "Python toolkit for robot kinematics calculations.",
+    "summary_zh": "用于机器人运动学计算的 Python 工具包。"
+  },
+  {
+    "canonical_url": "https://github.com/nerfstudio-project/nerfstudio",
+    "decision": "include",
+    "relevance": "supporting",
+    "reason_en": "Supporting tool for embodied-AI foundations: Toolkit for neural radiance fields and 3D scene reconstruction.",
+    "reason_zh": "可支持具身 AI 的基础工具：用于神经辐射场与三维场景重建的工具包。",
+    "summary_en": "Toolkit for neural radiance fields and 3D scene reconstruction.",
+    "summary_zh": "用于神经辐射场与三维场景重建的工具包。"
+  },
+  {
+    "canonical_url": "https://github.com/newton-physics/newton",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: GPU-accelerated physics engine for robotics simulation, built on NVIDIA Warp.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：基于 NVIDIA Warp、面向机器人仿真的 GPU 加速物理引擎。",
+    "summary_en": "GPU-accelerated physics engine for robotics simulation, built on NVIDIA Warp.",
+    "summary_zh": "基于 NVIDIA Warp、面向机器人仿真的 GPU 加速物理引擎。"
+  },
+  {
+    "canonical_url": "https://github.com/nickgkan/3d_flowmatch_actor",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: 3D flow-matching policy implementation for single-arm and dual-arm manipulation.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：用于单臂和双臂操作的三维流匹配策略实现。",
+    "summary_en": "3D flow-matching policy implementation for single-arm and dual-arm manipulation.",
+    "summary_zh": "用于单臂和双臂操作的三维流匹配策略实现。"
+  },
+  {
+    "canonical_url": "https://github.com/norlab-ulaval/libpointmatcher",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: Iterative closest-point library for 2D and 3D robotic mapping.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：用于机器人二维与三维建图的迭代最近点算法库。",
+    "summary_en": "Iterative closest-point library for 2D and 3D robotic mapping.",
+    "summary_zh": "用于机器人二维与三维建图的迭代最近点算法库。"
+  },
+  {
+    "canonical_url": "https://github.com/nvidia-cosmos/cosmos-reason1",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: Models for physical common-sense reasoning and embodied decision-making.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：用于物理常识推理与具身决策的模型。",
+    "summary_en": "Models for physical common-sense reasoning and embodied decision-making.",
+    "summary_zh": "用于物理常识推理与具身决策的模型。"
+  },
+  {
+    "canonical_url": "https://github.com/nvidia/warp",
+    "decision": "include",
+    "relevance": "supporting",
+    "reason_en": "Supporting tool for embodied-AI foundations: Python framework for GPU-accelerated simulation and differentiable computing.",
+    "reason_zh": "可支持具身 AI 的基础工具：用于 GPU 加速仿真与可微计算的 Python 框架。",
+    "summary_en": "Python framework for GPU-accelerated simulation and differentiable computing.",
+    "summary_zh": "用于 GPU 加速仿真与可微计算的 Python 框架。"
+  },
+  {
+    "canonical_url": "https://github.com/nvlabs/curobo",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: CUDA-accelerated library for robot motion generation.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：用于机器人运动生成的 CUDA 加速库。",
+    "summary_en": "CUDA-accelerated library for robot motion generation.",
+    "summary_zh": "用于机器人运动生成的 CUDA 加速库。"
+  },
+  {
+    "canonical_url": "https://github.com/nvlabs/gr00t-wholebodycontrol",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: Tools and models for developing humanoid whole-body controllers.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：用于开发人形机器人全身控制器的工具与模型。",
+    "summary_en": "Tools and models for developing humanoid whole-body controllers.",
+    "summary_zh": "用于开发人形机器人全身控制器的工具与模型。"
+  },
+  {
+    "canonical_url": "https://github.com/nvlabs/mimicgen",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: Simulation environments and tooling for the MimicGen robot-data generation project.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：MimicGen 机器人数据生成项目的仿真环境与工具。",
+    "summary_en": "Simulation environments and tooling for the MimicGen robot-data generation project.",
+    "summary_zh": "MimicGen 机器人数据生成项目的仿真环境与工具。"
+  },
+  {
+    "canonical_url": "https://github.com/nvlabs/nvdiffrast",
+    "decision": "include",
+    "relevance": "supporting",
+    "reason_en": "Supporting tool for embodied-AI foundations: GPU primitives for differentiable rendering.",
+    "reason_zh": "可支持具身 AI 的基础工具：用于可微渲染的 GPU 基础组件。",
+    "summary_en": "GPU primitives for differentiable rendering.",
+    "summary_zh": "用于可微渲染的 GPU 基础组件。"
+  },
+  {
+    "canonical_url": "https://github.com/nvlabs/rvt",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: Implementations of RVT and RVT-2 robot manipulation policies.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：RVT 与 RVT-2 机器人操作策略的实现。",
+    "summary_en": "Implementations of RVT and RVT-2 robot manipulation policies.",
+    "summary_zh": "RVT 与 RVT-2 机器人操作策略的实现。"
+  },
+  {
+    "canonical_url": "https://github.com/ompl/ompl",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: Library of motion-planning algorithms.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：运动规划算法库。",
+    "summary_en": "Library of motion-planning algorithms.",
+    "summary_zh": "运动规划算法库。"
+  },
+  {
+    "canonical_url": "https://github.com/open-rmf/rmf",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: Framework for coordinating robot fleets and shared infrastructure.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：用于协调机器人集群与共享基础设施的框架。",
+    "summary_en": "Framework for coordinating robot fleets and shared infrastructure.",
+    "summary_zh": "用于协调机器人集群与共享基础设施的框架。"
+  },
+  {
+    "canonical_url": "https://github.com/open-x-humanoid/tienkung-lab",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: Isaac Lab workflows for TienKung legged-robot research.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：面向 TienKung 腿式机器人研究的 Isaac Lab 工作流。",
+    "summary_en": "Isaac Lab workflows for TienKung legged-robot research.",
+    "summary_zh": "面向 TienKung 腿式机器人研究的 Isaac Lab 工作流。"
+  },
+  {
+    "canonical_url": "https://github.com/openai/roboschool",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: Deprecated robot simulation package integrated with OpenAI Gym.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：已弃用的机器人仿真包，可与 OpenAI Gym 集成。",
+    "summary_en": "Deprecated robot simulation package integrated with OpenAI Gym.",
+    "summary_zh": "已弃用的机器人仿真包，可与 OpenAI Gym 集成。"
+  },
+  {
+    "canonical_url": "https://github.com/opencv/opencv",
+    "decision": "include",
+    "relevance": "supporting",
+    "reason_en": "Supporting tool for embodied-AI foundations: Computer-vision library for image processing, calibration, and perception.",
+    "reason_zh": "可支持具身 AI 的基础工具：用于图像处理、标定与感知的计算机视觉库。",
+    "summary_en": "Computer-vision library for image processing, calibration, and perception.",
+    "summary_zh": "用于图像处理、标定与感知的计算机视觉库。"
+  },
+  {
+    "canonical_url": "https://github.com/opengvlab/instruct2act",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: Research code for mapping multimodal instructions to robotic actions.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：将多模态指令映射为机器人动作的研究代码。",
+    "summary_en": "Research code for mapping multimodal instructions to robotic actions.",
+    "summary_zh": "将多模态指令映射为机器人动作的研究代码。"
+  },
+  {
+    "canonical_url": "https://github.com/opengvlab/vebrain",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: Research implementation of visual embodied reasoning and control with multimodal models.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：利用多模态模型进行视觉具身推理与控制的研究实现。",
+    "summary_en": "Research implementation of visual embodied reasoning and control with multimodal models.",
+    "summary_zh": "利用多模态模型进行视觉具身推理与控制的研究实现。"
+  },
+  {
+    "canonical_url": "https://github.com/openlegged/urdf-studio",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: Web-based URDF robot-model editor with 3D visualization and export workflows.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：提供三维可视化与导出流程的网页 URDF 机器人模型编辑器。",
+    "summary_en": "Web-based URDF robot-model editor with 3D visualization and export workflows.",
+    "summary_zh": "提供三维可视化与导出流程的网页 URDF 机器人模型编辑器。"
+  },
+  {
+    "canonical_url": "https://github.com/openmind/om1",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: Modular hardware-abstraction framework for robot AI systems.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：面向机器人 AI 系统的模块化硬件抽象框架。",
+    "summary_en": "Modular hardware-abstraction framework for robot AI systems.",
+    "summary_zh": "面向机器人 AI 系统的模块化硬件抽象框架。"
+  },
+  {
+    "canonical_url": "https://github.com/openmvg/openmvg",
+    "decision": "include",
+    "relevance": "supporting",
+    "reason_en": "Supporting tool for embodied-AI foundations: Multiple-view geometry and structure-from-motion library.",
+    "reason_zh": "可支持具身 AI 的基础工具：多视图几何与运动恢复结构算法库。",
+    "summary_en": "Multiple-view geometry and structure-from-motion library.",
+    "summary_zh": "多视图几何与运动恢复结构算法库。"
+  },
+  {
+    "canonical_url": "https://github.com/opentelevision/television",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: Teleoperation tools for collecting bimanual robot demonstrations.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：用于采集双臂机器人示范数据的遥操作工具。",
+    "summary_en": "Teleoperation tools for collecting bimanual robot demonstrations.",
+    "summary_zh": "用于采集双臂机器人示范数据的遥操作工具。"
+  },
+  {
+    "canonical_url": "https://github.com/orebrouniversity/yumi",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: ROS packages for the ABB YuMi robot.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：面向 ABB YuMi 机器人的 ROS 软件包。",
+    "summary_en": "ROS packages for the ABB YuMi robot.",
+    "summary_zh": "面向 ABB YuMi 机器人的 ROS 软件包。"
+  },
+  {
+    "canonical_url": "https://github.com/orocos/orocos_kinematics_dynamics",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: C++ library for robot kinematics and dynamics.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：用于机器人运动学与动力学的 C++ 库。",
+    "summary_en": "C++ library for robot kinematics and dynamics.",
+    "summary_zh": "用于机器人运动学与动力学的 C++ 库。"
+  },
+  {
+    "canonical_url": "https://github.com/pantor/ruckig",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: Real-time, jerk-constrained trajectory generation for robots and machines.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：面向机器人与机器设备的实时限加加速度轨迹生成库。",
+    "summary_en": "Real-time, jerk-constrained trajectory generation for robots and machines.",
+    "summary_zh": "面向机器人与机器设备的实时限加加速度轨迹生成库。"
+  },
+  {
+    "canonical_url": "https://github.com/peract/peract",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: Multi-task transformer policy for robotic manipulation.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：用于机器人操作的多任务 Transformer 策略。",
+    "summary_en": "Multi-task transformer policy for robotic manipulation.",
+    "summary_zh": "用于机器人操作的多任务 Transformer 策略。"
+  },
+  {
+    "canonical_url": "https://github.com/personalrobotics/aikido",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: Tools for robot kinematics, dynamics, and optimization.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：用于机器人运动学、动力学与优化的工具。",
+    "summary_en": "Tools for robot kinematics, dynamics, and optimization.",
+    "summary_zh": "用于机器人运动学、动力学与优化的工具。"
+  },
+  {
+    "canonical_url": "https://github.com/personalrobotics/ssik",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: Analytical inverse-kinematics solver for six- and seven-axis revolute robot arms.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：面向六轴与七轴转动关节机械臂的解析逆运动学求解器。",
+    "summary_en": "Analytical inverse-kinematics solver for six- and seven-axis revolute robot arms.",
+    "summary_zh": "面向六轴与七轴转动关节机械臂的解析逆运动学求解器。"
+  },
+  {
+    "canonical_url": "https://github.com/phantomcybernetics/phntm_bridge_client",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: ROS 2 bridge for live data, video streaming, teleoperation, and remote monitoring.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：支持实时数据、视频传输、遥操作与远程监测的 ROS 2 桥接工具。",
+    "summary_en": "ROS 2 bridge for live data, video streaming, teleoperation, and remote monitoring.",
+    "summary_zh": "支持实时数据、视频传输、遥操作与远程监测的 ROS 2 桥接工具。"
+  },
+  {
+    "canonical_url": "https://github.com/phylliade/ikpy",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: Python library for inverse kinematics.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：用于逆运动学计算的 Python 库。",
+    "summary_en": "Python library for inverse kinematics.",
+    "summary_zh": "用于逆运动学计算的 Python 库。"
+  },
+  {
+    "canonical_url": "https://github.com/picknikrobotics/moveit_studio_sdk",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: Public mirror of the MoveIt Pro SDK.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：MoveIt Pro SDK 的公开镜像。",
+    "summary_en": "Public mirror of the MoveIt Pro SDK.",
+    "summary_zh": "MoveIt Pro SDK 的公开镜像。"
+  },
+  {
+    "canonical_url": "https://github.com/pickxiguapi/embodied-r1",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: Research code for reinforced embodied reasoning in robot manipulation.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：通过强化学习提升机器人操作具身推理能力的研究代码。",
+    "summary_en": "Research code for reinforced embodied reasoning in robot manipulation.",
+    "summary_zh": "通过强化学习提升机器人操作具身推理能力的研究代码。"
+  },
+  {
+    "canonical_url": "https://github.com/pointcloudlibrary/pcl",
+    "decision": "include",
+    "relevance": "supporting",
+    "reason_en": "Supporting tool for embodied-AI foundations: Library for processing and analyzing 3D point clouds.",
+    "reason_zh": "可支持具身 AI 的基础工具：用于三维点云处理与分析的库。",
+    "summary_en": "Library for processing and analyzing 3D point clouds.",
+    "summary_zh": "用于三维点云处理与分析的库。"
+  },
+  {
+    "canonical_url": "https://github.com/poppy-project/poppy_ergo_jr_description",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: ROS 1 URDF and Collada model assets for the Poppy Ergo Jr robot.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：Poppy Ergo Jr 机器人的 ROS 1 URDF 与 Collada 模型资源。",
+    "summary_en": "ROS 1 URDF and Collada model assets for the Poppy Ergo Jr robot.",
+    "summary_zh": "Poppy Ergo Jr 机器人的 ROS 1 URDF 与 Collada 模型资源。"
+  },
+  {
+    "canonical_url": "https://github.com/poppy-project/poppy_torso_description",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: URDF model assets for the Poppy Torso robot.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：Poppy Torso 机器人的 URDF 模型资源。",
+    "summary_en": "URDF model assets for the Poppy Torso robot.",
+    "summary_zh": "Poppy Torso 机器人的 URDF 模型资源。"
+  },
+  {
+    "canonical_url": "https://github.com/positronicslab/moby",
+    "decision": "include",
+    "relevance": "supporting",
+    "reason_en": "Supporting tool for embodied-AI foundations: Rigid-body dynamics simulator.",
+    "reason_zh": "可支持具身 AI 的基础工具：刚体动力学仿真器。",
+    "summary_en": "Rigid-body dynamics simulator.",
+    "summary_zh": "刚体动力学仿真器。"
+  },
+  {
+    "canonical_url": "https://github.com/prbonn/kiss-icp",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: LiDAR odometry pipeline based on iterative closest-point registration.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：基于迭代最近点配准的激光雷达里程计流程。",
+    "summary_en": "LiDAR odometry pipeline based on iterative closest-point registration.",
+    "summary_zh": "基于迭代最近点配准的激光雷达里程计流程。"
+  },
+  {
+    "canonical_url": "https://github.com/projectchrono/chrono",
+    "decision": "include",
+    "relevance": "supporting",
+    "reason_en": "Supporting tool for embodied-AI foundations: C++ library for multiphysics and multibody dynamics simulation.",
+    "reason_zh": "可支持具身 AI 的基础工具：用于多物理场与多体动力学仿真的 C++ 库。",
+    "summary_en": "C++ library for multiphysics and multibody dynamics simulation.",
+    "summary_zh": "用于多物理场与多体动力学仿真的 C++ 库。"
+  },
+  {
+    "canonical_url": "https://github.com/px4/px4-autopilot",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: Autopilot software for drones and other autonomous vehicles.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：用于无人机及其他自主载具的自动驾驶软件。",
+    "summary_en": "Autopilot software for drones and other autonomous vehicles.",
+    "summary_zh": "用于无人机及其他自主载具的自动驾驶软件。"
+  },
+  {
+    "canonical_url": "https://github.com/pydy/pydy",
+    "decision": "include",
+    "relevance": "supporting",
+    "reason_en": "Supporting tool for embodied-AI foundations: Toolkit for multibody dynamics modeling and analysis.",
+    "reason_zh": "可支持具身 AI 的基础工具：用于多体动力学建模与分析的工具包。",
+    "summary_en": "Toolkit for multibody dynamics modeling and analysis.",
+    "summary_zh": "用于多体动力学建模与分析的工具包。"
+  },
+  {
+    "canonical_url": "https://github.com/pyomeca/bioptim",
+    "decision": "include",
+    "relevance": "supporting",
+    "reason_en": "Supporting tool for embodied-AI foundations: Optimal-control framework linking CasADi, Ipopt, ACADOS, and biorbd.",
+    "reason_zh": "可支持具身 AI 的基础工具：连接 CasADi、Ipopt、ACADOS 与 biorbd 的最优控制框架。",
+    "summary_en": "Optimal-control framework linking CasADi, Ipopt, ACADOS, and biorbd.",
+    "summary_zh": "连接 CasADi、Ipopt、ACADOS 与 biorbd 的最优控制框架。"
+  },
+  {
+    "canonical_url": "https://github.com/qgallouedec/panda-gym",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: Robotic reinforcement-learning environments built on PyBullet and Gymnasium.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：基于 PyBullet 与 Gymnasium 的机器人强化学习环境。",
+    "summary_en": "Robotic reinforcement-learning environments built on PyBullet and Gymnasium.",
+    "summary_zh": "基于 PyBullet 与 Gymnasium 的机器人强化学习环境。"
+  },
+  {
+    "canonical_url": "https://github.com/qiayuanl/legged_control",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: Legged-robot framework for predictive control, whole-body control, and state estimation.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：面向腿式机器人的预测控制、全身控制与状态估计框架。",
+    "summary_en": "Legged-robot framework for predictive control, whole-body control, and state estimation.",
+    "summary_zh": "面向腿式机器人的预测控制、全身控制与状态估计框架。"
+  },
+  {
+    "canonical_url": "https://github.com/rai-opensource/spatialmath-python",
+    "decision": "include",
+    "relevance": "supporting",
+    "reason_en": "Supporting tool for embodied-AI foundations: Python tools for 2D and 3D position and orientation representations.",
+    "reason_zh": "可支持具身 AI 的基础工具：用于二维与三维位置、姿态表示的 Python 工具。",
+    "summary_en": "Python tools for 2D and 3D position and orientation representations.",
+    "summary_zh": "用于二维与三维位置、姿态表示的 Python 工具。"
+  },
+  {
+    "canonical_url": "https://github.com/randygaul/qu3e",
+    "decision": "include",
+    "relevance": "supporting",
+    "reason_en": "Supporting tool for embodied-AI foundations: Archived lightweight 3D physics engine.",
+    "reason_zh": "可支持具身 AI 的基础工具：已归档的轻量三维物理引擎。",
+    "summary_en": "Archived lightweight 3D physics engine.",
+    "summary_zh": "已归档的轻量三维物理引擎。"
+  },
+  {
+    "canonical_url": "https://github.com/rapyuta-robotics/zethus",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: Browser-based visualization of live robot data.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：在浏览器中可视化实时机器人数据的工具。",
+    "summary_en": "Browser-based visualization of live robot data.",
+    "summary_zh": "在浏览器中可视化实时机器人数据的工具。"
+  },
+  {
+    "canonical_url": "https://github.com/raulmur/orb_slam2",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: Visual SLAM for monocular, stereo, and RGB-D cameras.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：支持单目、双目与 RGB-D 相机的视觉 SLAM 系统。",
+    "summary_en": "Visual SLAM for monocular, stereo, and RGB-D cameras.",
+    "summary_zh": "支持单目、双目与 RGB-D 相机的视觉 SLAM 系统。"
+  },
+  {
+    "canonical_url": "https://github.com/rbdl/rbdl",
+    "decision": "include",
+    "relevance": "supporting",
+    "reason_en": "Supporting tool for embodied-AI foundations: C++ library for rigid-body dynamics algorithms.",
+    "reason_zh": "可支持具身 AI 的基础工具：用于刚体动力学算法的 C++ 库。",
+    "summary_en": "C++ library for rigid-body dynamics algorithms.",
+    "summary_zh": "用于刚体动力学算法的 C++ 库。"
+  },
+  {
+    "canonical_url": "https://github.com/rdiankov/openrave",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: Environment for developing and testing robot motion-planning algorithms.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：用于开发与测试机器人运动规划算法的环境。",
+    "summary_en": "Environment for developing and testing robot motion-planning algorithms.",
+    "summary_zh": "用于开发与测试机器人运动规划算法的环境。"
+  },
+  {
+    "canonical_url": "https://github.com/real-stanford/universal_manipulation_interface",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: Interface for collecting in-the-wild demonstrations and teaching robot manipulation.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：用于采集自然场景示范与训练机器人操作的接口。",
+    "summary_en": "Interface for collecting in-the-wild demonstrations and teaching robot manipulation.",
+    "summary_zh": "用于采集自然场景示范与训练机器人操作的接口。"
+  },
+  {
+    "canonical_url": "https://github.com/resibots/minitaur_sdk",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: Extension of the Ghost Robotics SDK for Minitaur robot control.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：面向 Minitaur 机器人控制的 Ghost Robotics SDK 扩展。",
+    "summary_en": "Extension of the Ghost Robotics SDK for Minitaur robot control.",
+    "summary_zh": "面向 Minitaur 机器人控制的 Ghost Robotics SDK 扩展。"
+  },
+  {
+    "canonical_url": "https://github.com/rethinkrobotics/baxter_common",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: ROS messages and robot-description files for Baxter.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：Baxter 机器人的 ROS 消息与描述文件。",
+    "summary_en": "ROS messages and robot-description files for Baxter.",
+    "summary_zh": "Baxter 机器人的 ROS 消息与描述文件。"
+  },
+  {
+    "canonical_url": "https://github.com/rethinkrobotics/sawyer_robot",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: Sawyer robot components for use with the Intera SDK.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：配合 Intera SDK 使用的 Sawyer 机器人组件。",
+    "summary_en": "Sawyer robot components for use with the Intera SDK.",
+    "summary_zh": "配合 Intera SDK 使用的 Sawyer 机器人组件。"
+  },
+  {
+    "canonical_url": "https://github.com/rhoban/onshape-to-robot",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: Converts Onshape assemblies into URDF, SDF, and MuJoCo robot descriptions.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：将 Onshape 装配体转换为 URDF、SDF 与 MuJoCo 机器人描述文件。",
+    "summary_en": "Converts Onshape assemblies into URDF, SDF, and MuJoCo robot descriptions.",
+    "summary_zh": "将 Onshape 装配体转换为 URDF、SDF 与 MuJoCo 机器人描述文件。"
+  },
+  {
+    "canonical_url": "https://github.com/rhoban/onshape-to-robot-examples",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: Robot assembly examples for the onshape-to-robot exporter.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：onshape-to-robot 导出工具的机器人装配体示例。",
+    "summary_en": "Robot assembly examples for the onshape-to-robot exporter.",
+    "summary_zh": "onshape-to-robot 导出工具的机器人装配体示例。"
+  },
+  {
+    "canonical_url": "https://github.com/rhoeby/mini-turty",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: ROS package for the Mini-Turty robot.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：面向 Mini-Turty 机器人的 ROS 软件包。",
+    "summary_en": "ROS package for the Mini-Turty robot.",
+    "summary_zh": "面向 Mini-Turty 机器人的 ROS 软件包。"
+  },
+  {
+    "canonical_url": "https://github.com/ridgeback/ridgeback_manipulation",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: Manipulator integration packages for the Ridgeback mobile platform.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：用于 Ridgeback 移动平台机械臂集成的软件包。",
+    "summary_en": "Manipulator integration packages for the Ridgeback mobile platform.",
+    "summary_zh": "用于 Ridgeback 移动平台机械臂集成的软件包。"
+  },
+  {
+    "canonical_url": "https://github.com/rigsofrods/rigs-of-rods",
+    "decision": "needs_review",
+    "relevance": null,
+    "reason_en": "Publisher metadata describes a vehicle game and physics sandbox; no robot-learning interface or robotics workflow is established.",
+    "reason_zh": "发布者信息描述车辆游戏与物理沙盒，尚未明确机器人学习接口或机器人研究流程。",
+    "summary_en": "Soft-body physics sandbox focused on vehicles and gameplay.",
+    "summary_zh": "以车辆与游戏玩法为重点的软体物理沙盒。"
+  },
+  {
+    "canonical_url": "https://github.com/rimim/awd",
+    "decision": "needs_review",
+    "relevance": null,
+    "reason_en": "URDF and Placo headings suggest robotics, but the short publisher summary does not establish the task or intended use.",
+    "reason_zh": "URDF 与 Placo 章节提示机器人相关性，但简短发布者描述未明确任务与预期用途。",
+    "summary_en": "Adverserial Waddle Dynamics project with training and URDF visualization sections.",
+    "summary_zh": "包含训练和 URDF 可视化章节的 Adverserial Waddle Dynamics 项目。"
+  },
+  {
+    "canonical_url": "https://github.com/rlinf/rlinf",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: Reinforcement-learning infrastructure for embodied and agentic AI.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：面向具身 AI 与智能体 AI 的强化学习基础设施。",
+    "summary_en": "Reinforcement-learning infrastructure for embodied and agentic AI.",
+    "summary_zh": "面向具身 AI 与智能体 AI 的强化学习基础设施。"
+  },
+  {
+    "canonical_url": "https://github.com/robocasa/robocasa",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: Simulation platform for everyday manipulation tasks and generalist robots.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：面向日常操作任务与通用机器人的仿真平台。",
+    "summary_en": "Simulation platform for everyday manipulation tasks and generalist robots.",
+    "summary_zh": "面向日常操作任务与通用机器人的仿真平台。"
+  },
+  {
+    "canonical_url": "https://github.com/robot-descriptions/fanuc_m710ic_description",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: URDF model of the Fanuc M-710iC manipulator.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：Fanuc M-710iC 机械臂的 URDF 模型。",
+    "summary_en": "URDF model of the Fanuc M-710iC manipulator.",
+    "summary_zh": "Fanuc M-710iC 机械臂的 URDF 模型。"
+  },
+  {
+    "canonical_url": "https://github.com/robot-descriptions/jaxon_description",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: URDF model of the JAXON humanoid robot.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：JAXON 人形机器人的 URDF 模型。",
+    "summary_en": "URDF model of the JAXON humanoid robot.",
+    "summary_zh": "JAXON 人形机器人的 URDF 模型。"
+  },
+  {
+    "canonical_url": "https://github.com/robot-descriptions/jvrc_description",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: URDF model of the JVRC humanoid robot.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：JVRC 人形机器人的 URDF 模型。",
+    "summary_en": "URDF model of the JVRC humanoid robot.",
+    "summary_zh": "JVRC 人形机器人的 URDF 模型。"
+  },
+  {
+    "canonical_url": "https://github.com/robot-descriptions/stretch_description",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: URDF model of the Stretch RE1 mobile manipulator.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：Stretch RE1 移动操作机器人的 URDF 模型。",
+    "summary_en": "URDF model of the Stretch RE1 mobile manipulator.",
+    "summary_zh": "Stretch RE1 移动操作机器人的 URDF 模型。"
+  },
+  {
+    "canonical_url": "https://github.com/robotecai/rai",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: ROS 2 agent framework for physical-AI robotics tasks.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：面向物理 AI 机器人任务的 ROS 2 智能体框架。",
+    "summary_en": "ROS 2 agent framework for physical-AI robotics tasks.",
+    "summary_zh": "面向物理 AI 机器人任务的 ROS 2 智能体框架。"
+  },
+  {
+    "canonical_url": "https://github.com/robotecai/rai-agriculture-demo",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: Agricultural guided-vehicle demonstration using the RAI framework.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：使用 RAI 框架的农业自动导引车演示。",
+    "summary_en": "Agricultural guided-vehicle demonstration using the RAI framework.",
+    "summary_zh": "使用 RAI 框架的农业自动导引车演示。"
+  },
+  {
+    "canonical_url": "https://github.com/robotecai/rai-manipulation-demo",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: Robot-arm manipulation demonstration using the RAI framework.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：使用 RAI 框架的机械臂操作演示。",
+    "summary_en": "Robot-arm manipulation demonstration using the RAI framework.",
+    "summary_zh": "使用 RAI 框架的机械臂操作演示。"
+  },
+  {
+    "canonical_url": "https://github.com/robotemi/sdk",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: SDK for developing applications on the temi robot platform.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：用于 temi 机器人平台应用开发的 SDK。",
+    "summary_en": "SDK for developing applications on the temi robot platform.",
+    "summary_zh": "用于 temi 机器人平台应用开发的 SDK。"
+  },
+  {
+    "canonical_url": "https://github.com/roboterax/humanoid-gym",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: Reinforcement-learning framework for humanoid control and sim-to-real research.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：面向人形机器人控制与仿真到现实迁移研究的强化学习框架。",
+    "summary_en": "Reinforcement-learning framework for humanoid control and sim-to-real research.",
+    "summary_zh": "面向人形机器人控制与仿真到现实迁移研究的强化学习框架。"
+  },
+  {
+    "canonical_url": "https://github.com/roboticexplorationlab/trajectoryoptimization.jl",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: Julia library for trajectory optimization.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：用于轨迹优化的 Julia 库。",
+    "summary_en": "Julia library for trajectory optimization.",
+    "summary_zh": "用于轨迹优化的 Julia 库。"
+  },
+  {
+    "canonical_url": "https://github.com/roboticsdata/score_lerobot_episodes",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: Toolkit for quantitatively scoring LeRobot data episodes.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：用于定量评分 LeRobot 数据片段的工具包。",
+    "summary_en": "Toolkit for quantitatively scoring LeRobot data episodes.",
+    "summary_zh": "用于定量评分 LeRobot 数据片段的工具包。"
+  },
+  {
+    "canonical_url": "https://github.com/roboticslibrary/rl",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: C++ robotics library for kinematics, dynamics, motion planning, and control.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：涵盖运动学、动力学、运动规划与控制的 C++ 机器人库。",
+    "summary_en": "C++ robotics library for kinematics, dynamics, motion planning, and control.",
+    "summary_zh": "涵盖运动学、动力学、运动规划与控制的 C++ 机器人库。"
+  },
+  {
+    "canonical_url": "https://github.com/robotis-git/open_manipulator",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: ROS 2 packages for ROBOTIS OpenMANIPULATOR robot arms.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：面向 ROBOTIS OpenMANIPULATOR 机械臂的 ROS 2 软件包。",
+    "summary_en": "ROS 2 packages for ROBOTIS OpenMANIPULATOR robot arms.",
+    "summary_zh": "面向 ROBOTIS OpenMANIPULATOR 机械臂的 ROS 2 软件包。"
+  },
+  {
+    "canonical_url": "https://github.com/robotis-git/turtlebot3",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: ROS packages and examples for TurtleBot3.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：TurtleBot3 的 ROS 软件包与示例。",
+    "summary_en": "ROS packages and examples for TurtleBot3.",
+    "summary_zh": "TurtleBot3 的 ROS 软件包与示例。"
+  },
+  {
+    "canonical_url": "https://github.com/robotlocomotion/drake",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: Toolkit for model-based robotics design, simulation, and analysis.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：用于基于模型的机器人设计、仿真与分析的工具包。",
+    "summary_en": "Toolkit for model-based robotics design, simulation, and analysis.",
+    "summary_zh": "用于基于模型的机器人设计、仿真与分析的工具包。"
+  },
+  {
+    "canonical_url": "https://github.com/robotlocomotion/models",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: URDF, SDF, and mesh assets for robotics projects.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：用于机器人项目的 URDF、SDF 与网格模型资源。",
+    "summary_en": "URDF, SDF, and mesh assets for robotics projects.",
+    "summary_zh": "用于机器人项目的 URDF、SDF 与网格模型资源。"
+  },
+  {
+    "canonical_url": "https://github.com/robotology/icub-main",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: Main software repository for the iCub humanoid robot.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：iCub 人形机器人的主要软件仓库。",
+    "summary_en": "Main software repository for the iCub humanoid robot.",
+    "summary_zh": "iCub 人形机器人的主要软件仓库。"
+  },
+  {
+    "canonical_url": "https://github.com/robotology/icub-models",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: URDF and SDF models of the iCub humanoid robot.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：iCub 人形机器人的 URDF 与 SDF 模型。",
+    "summary_en": "URDF and SDF models of the iCub humanoid robot.",
+    "summary_zh": "iCub 人形机器人的 URDF 与 SDF 模型。"
+  },
+  {
+    "canonical_url": "https://github.com/robotology/yarp",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: Middleware and tools for distributed robot systems.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：用于分布式机器人系统的中间件与工具。",
+    "summary_en": "Middleware and tools for distributed robot systems.",
+    "summary_zh": "用于分布式机器人系统的中间件与工具。"
+  },
+  {
+    "canonical_url": "https://github.com/robotwebtools/rosbridge_suite",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: Server implementations of the rosbridge protocol for ROS integration.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：用于 ROS 集成的 rosbridge 协议服务端实现。",
+    "summary_en": "Server implementations of the rosbridge protocol for ROS integration.",
+    "summary_zh": "用于 ROS 集成的 rosbridge 协议服务端实现。"
+  },
+  {
+    "canonical_url": "https://github.com/roboverseorg/roboverse",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: Platform, datasets, and benchmarks for scalable robot learning.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：面向可扩展机器人学习的平台、数据集与基准。",
+    "summary_en": "Platform, datasets, and benchmarks for scalable robot learning.",
+    "summary_zh": "面向可扩展机器人学习的平台、数据集与基准。"
+  },
+  {
+    "canonical_url": "https://github.com/rock-simulation/mars",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: Robotics research tool for simulation and visualization.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：面向机器人研究的仿真与可视化工具。",
+    "summary_en": "Robotics research tool for simulation and visualization.",
+    "summary_zh": "面向机器人研究的仿真与可视化工具。"
+  },
+  {
+    "canonical_url": "https://github.com/ros-aldebaran/romeo_robot",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: ROS stack for the Aldebaran Romeo robot.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：面向 Aldebaran Romeo 机器人的 ROS 软件栈。",
+    "summary_en": "ROS stack for the Aldebaran Romeo robot.",
+    "summary_zh": "面向 Aldebaran Romeo 机器人的 ROS 软件栈。"
+  },
+  {
+    "canonical_url": "https://github.com/ros-controls/ros2_control",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: ROS 2 framework for robot hardware interfaces and controllers.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：面向机器人硬件接口与控制器的 ROS 2 框架。",
+    "summary_en": "ROS 2 framework for robot hardware interfaces and controllers.",
+    "summary_zh": "面向机器人硬件接口与控制器的 ROS 2 框架。"
+  },
+  {
+    "canonical_url": "https://github.com/ros-industrial-attic/robotiq",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: ROS packages for Robotiq robot hardware.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：面向 Robotiq 机器人硬件的 ROS 软件包。",
+    "summary_en": "ROS packages for Robotiq robot hardware.",
+    "summary_zh": "面向 Robotiq 机器人硬件的 ROS 软件包。"
+  },
+  {
+    "canonical_url": "https://github.com/ros-industrial/fanuc",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: ROS-Industrial support packages for Fanuc robots.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：面向 Fanuc 机器人的 ROS-Industrial 支持软件包。",
+    "summary_en": "ROS-Industrial support packages for Fanuc robots.",
+    "summary_zh": "面向 Fanuc 机器人的 ROS-Industrial 支持软件包。"
+  },
+  {
+    "canonical_url": "https://github.com/ros-industrial/universal_robot",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: ROS-Industrial support packages for Universal Robots arms.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：面向 Universal Robots 机械臂的 ROS-Industrial 支持软件包。",
+    "summary_en": "ROS-Industrial support packages for Universal Robots arms.",
+    "summary_zh": "面向 Universal Robots 机械臂的 ROS-Industrial 支持软件包。"
+  },
+  {
+    "canonical_url": "https://github.com/ros-infrastructure/robots.ros.org",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: Source repository for the robots.ros.org robot catalog.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：robots.ros.org 机器人目录的源代码仓库。",
+    "summary_en": "Source repository for the robots.ros.org robot catalog.",
+    "summary_zh": "robots.ros.org 机器人目录的源代码仓库。"
+  },
+  {
+    "canonical_url": "https://github.com/ros-naoqi/nao_meshes",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: Mesh installation package for the NAO robot.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：用于 NAO 机器人网格模型安装的软件包。",
+    "summary_en": "Mesh installation package for the NAO robot.",
+    "summary_zh": "用于 NAO 机器人网格模型安装的软件包。"
+  },
+  {
+    "canonical_url": "https://github.com/ros-navigation/navigation2",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: ROS 2 framework for autonomous robot navigation.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：面向机器人自主导航的 ROS 2 框架。",
+    "summary_en": "ROS 2 framework for autonomous robot navigation.",
+    "summary_zh": "面向机器人自主导航的 ROS 2 框架。"
+  },
+  {
+    "canonical_url": "https://github.com/ros/robot_state_publisher",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: Publishes robot link transforms from joint states and robot descriptions.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：根据关节状态与机器人描述发布连杆坐标变换的工具。",
+    "summary_en": "Publishes robot link transforms from joint states and robot descriptions.",
+    "summary_zh": "根据关节状态与机器人描述发布连杆坐标变换的工具。"
+  },
+  {
+    "canonical_url": "https://github.com/ros/xacro",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: XML macro language commonly used to author robot descriptions.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：常用于编写机器人描述文件的 XML 宏语言。",
+    "summary_en": "XML macro language commonly used to author robot descriptions.",
+    "summary_zh": "常用于编写机器人描述文件的 XML 宏语言。"
+  },
+  {
+    "canonical_url": "https://github.com/ros2/launch",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: ROS 2 framework for launching and testing multiple processes.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：用于启动与测试多个进程的 ROS 2 框架。",
+    "summary_en": "ROS 2 framework for launching and testing multiple processes.",
+    "summary_zh": "用于启动与测试多个进程的 ROS 2 框架。"
+  },
+  {
+    "canonical_url": "https://github.com/ros2/rmw_fastrtps",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: ROS 2 middleware implementation using eProsima Fast DDS.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：使用 eProsima Fast DDS 的 ROS 2 中间件实现。",
+    "summary_en": "ROS 2 middleware implementation using eProsima Fast DDS.",
+    "summary_zh": "使用 eProsima Fast DDS 的 ROS 2 中间件实现。"
+  },
+  {
+    "canonical_url": "https://github.com/ros2/ros2",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: ROS 2 core platform and development resources.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：ROS 2 核心平台与开发资源。",
+    "summary_en": "ROS 2 core platform and development resources.",
+    "summary_zh": "ROS 2 核心平台与开发资源。"
+  },
+  {
+    "canonical_url": "https://github.com/ros2/rosbag2",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: Records and replays ROS 2 topic data.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：用于录制与回放 ROS 2 话题数据的工具。",
+    "summary_en": "Records and replays ROS 2 topic data.",
+    "summary_zh": "用于录制与回放 ROS 2 话题数据的工具。"
+  },
+  {
+    "canonical_url": "https://github.com/ros2/rviz",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: 3D visualization tool for ROS robot data.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：用于 ROS 机器人数据的三维可视化工具。",
+    "summary_en": "3D visualization tool for ROS robot data.",
+    "summary_zh": "用于 ROS 机器人数据的三维可视化工具。"
+  },
+  {
+    "canonical_url": "https://github.com/rpng/open_vins",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: Research platform for visual-inertial navigation.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：视觉惯性导航研究平台。",
+    "summary_en": "Research platform for visual-inertial navigation.",
+    "summary_zh": "视觉惯性导航研究平台。"
+  },
+  {
+    "canonical_url": "https://github.com/rt-net/sciurus17_description",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: ROS robot-description package for Sciurus17.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：Sciurus17 机器人的 ROS 描述软件包。",
+    "summary_en": "ROS robot-description package for Sciurus17.",
+    "summary_zh": "Sciurus17 机器人的 ROS 描述软件包。"
+  },
+  {
+    "canonical_url": "https://github.com/samindaa/rllib",
+    "decision": "include",
+    "relevance": "supporting",
+    "reason_en": "Supporting tool for embodied-AI foundations: C++ reinforcement-learning library for prediction and control.",
+    "reason_zh": "可支持具身 AI 的基础工具：用于预测与控制的 C++ 强化学习库。",
+    "summary_en": "C++ reinforcement-learning library for prediction and control.",
+    "summary_zh": "用于预测与控制的 C++ 强化学习库。"
+  },
+  {
+    "canonical_url": "https://github.com/schunk-se-co-kg/schunk_svh_ros_driver",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: ROS drivers for the SCHUNK SVH robotic hand.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：面向 SCHUNK SVH 机械手的 ROS 驱动。",
+    "summary_en": "ROS drivers for the SCHUNK SVH robotic hand.",
+    "summary_zh": "面向 SCHUNK SVH 机械手的 ROS 驱动。"
+  },
+  {
+    "canonical_url": "https://github.com/selfpatch/ros2_medkit",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: ROS 2 diagnostics gateway with a REST API for robot data and operations.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：通过 REST API 提供机器人数据与操作接口的 ROS 2 诊断网关。",
+    "summary_en": "ROS 2 diagnostics gateway with a REST API for robot data and operations.",
+    "summary_zh": "通过 REST API 提供机器人数据与操作接口的 ROS 2 诊断网关。"
+  },
+  {
+    "canonical_url": "https://github.com/sferes2/sferes2",
+    "decision": "include",
+    "relevance": "supporting",
+    "reason_en": "The source tags include evolutionary robotics; retain as a supporting evolutionary-computation tool rather than a robot framework.",
+    "reason_zh": "来源标签包含进化机器人研究，作为进化计算辅助工具收录，不将其称为机器人框架。",
+    "summary_en": "C++ framework for evolutionary computation, including evolutionary-robotics research.",
+    "summary_zh": "用于进化计算的 C++ 框架，涉及进化机器人研究。"
+  },
+  {
+    "canonical_url": "https://github.com/shbang91/draco3_description",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: URDF model of the Draco3 humanoid robot.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：Draco3 人形机器人的 URDF 模型。",
+    "summary_en": "URDF model of the Draco3 humanoid robot.",
+    "summary_zh": "Draco3 人形机器人的 URDF 模型。"
+  },
+  {
+    "canonical_url": "https://github.com/simbody/simbody",
+    "decision": "include",
+    "relevance": "supporting",
+    "reason_en": "Supporting tool for embodied-AI foundations: C++ multibody dynamics library for articulated mechanical and biomechanical systems.",
+    "reason_zh": "可支持具身 AI 的基础工具：用于关节机械系统与生物力学系统的 C++ 多体动力学库。",
+    "summary_en": "C++ multibody dynamics library for articulated mechanical and biomechanical systems.",
+    "summary_zh": "用于关节机械系统与生物力学系统的 C++ 多体动力学库。"
+  },
+  {
+    "canonical_url": "https://github.com/simple-robotics/proxsuite",
+    "decision": "include",
+    "relevance": "supporting",
+    "reason_en": "Supporting tool for embodied-AI foundations: Proximal optimization toolbox for numerical optimization workflows.",
+    "reason_zh": "可支持具身 AI 的基础工具：用于数值优化流程的近端优化工具箱。",
+    "summary_en": "Proximal optimization toolbox for numerical optimization workflows.",
+    "summary_zh": "用于数值优化流程的近端优化工具箱。"
+  },
+  {
+    "canonical_url": "https://github.com/siyuanhuang95/manipvqa",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: Research code for injecting robotic affordances into multimodal language models.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：将机器人可供性信息融入多模态语言模型的研究代码。",
+    "summary_en": "Research code for injecting robotic affordances into multimodal language models.",
+    "summary_zh": "将机器人可供性信息融入多模态语言模型的研究代码。"
+  },
+  {
+    "canonical_url": "https://github.com/skriegman/evosoro",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: Python soft-robot simulator built on Voxelyze.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：基于 Voxelyze 的 Python 软体机器人仿真器。",
+    "summary_en": "Python soft-robot simulator built on Voxelyze.",
+    "summary_zh": "基于 Voxelyze 的 Python 软体机器人仿真器。"
+  },
+  {
+    "canonical_url": "https://github.com/skylark0924/rofunc",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: Python toolkit for robot learning from demonstration and manipulation.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：用于机器人示范学习与操作的 Python 工具包。",
+    "summary_en": "Python toolkit for robot learning from demonstration and manipulation.",
+    "summary_zh": "用于机器人示范学习与操作的 Python 工具包。"
+  },
+  {
+    "canonical_url": "https://github.com/sofa-framework/sofa",
+    "decision": "include",
+    "relevance": "supporting",
+    "reason_en": "Supporting tool for embodied-AI foundations: Multiphysics simulation framework with an emphasis on medical simulation.",
+    "reason_zh": "可支持具身 AI 的基础工具：以医学仿真为重点的多物理场仿真框架。",
+    "summary_en": "Multiphysics simulation framework with an emphasis on medical simulation.",
+    "summary_zh": "以医学仿真为重点的多物理场仿真框架。"
+  },
+  {
+    "canonical_url": "https://github.com/stack-of-tasks/pinocchio",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: Library for rigid-body dynamics and analytical derivatives.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：用于刚体动力学及解析导数计算的库。",
+    "summary_en": "Library for rigid-body dynamics and analytical derivatives.",
+    "summary_zh": "用于刚体动力学及解析导数计算的库。"
+  },
+  {
+    "canonical_url": "https://github.com/stack-of-tasks/talos-data",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: TALOS robot model data for the Stack-of-Tasks framework.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：用于 Stack-of-Tasks 框架的 TALOS 机器人模型数据。",
+    "summary_en": "TALOS robot model data for the Stack-of-Tasks framework.",
+    "summary_zh": "用于 Stack-of-Tasks 框架的 TALOS 机器人模型数据。"
+  },
+  {
+    "canonical_url": "https://github.com/stack-of-tasks/tsid",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: Task-space inverse dynamics library built on Pinocchio.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：基于 Pinocchio 的任务空间逆动力学库。",
+    "summary_en": "Task-space inverse dynamics library built on Pinocchio.",
+    "summary_zh": "基于 Pinocchio 的任务空间逆动力学库。"
+  },
+  {
+    "canonical_url": "https://github.com/stanfordvl/behavior-1k",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: Simulation platform and household-task benchmark for embodied-AI research.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：面向具身 AI 研究的仿真平台与家庭任务基准。",
+    "summary_en": "Simulation platform and household-task benchmark for embodied-AI research.",
+    "summary_zh": "面向具身 AI 研究的仿真平台与家庭任务基准。"
+  },
+  {
+    "canonical_url": "https://github.com/stanfordvl/igibson",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: Robot simulation environment with interactive indoor scenes.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：包含可交互室内场景的机器人仿真环境。",
+    "summary_en": "Robot simulation environment with interactive indoor scenes.",
+    "summary_zh": "包含可交互室内场景的机器人仿真环境。"
+  },
+  {
+    "canonical_url": "https://github.com/start-jsk/rtmros_choreonoid",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: Choreonoid simulation integration with ROS and hrpsys tooling.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：将 Choreonoid 仿真与 ROS、hrpsys 工具集成的项目。",
+    "summary_en": "Choreonoid simulation integration with ROS and hrpsys tooling.",
+    "summary_zh": "将 Choreonoid 仿真与 ROS、hrpsys 工具集成的项目。"
+  },
+  {
+    "canonical_url": "https://github.com/stella-cv/stella_vslam",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: Visual SLAM framework derived from OpenVSLAM.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：基于 OpenVSLAM 衍生的视觉 SLAM 框架。",
+    "summary_en": "Visual SLAM framework derived from OpenVSLAM.",
+    "summary_zh": "基于 OpenVSLAM 衍生的视觉 SLAM 框架。"
+  },
+  {
+    "canonical_url": "https://github.com/stephane-caron/openrave_models",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: Robot model collection for OpenRAVE.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：面向 OpenRAVE 的机器人模型集合。",
+    "summary_en": "Robot model collection for OpenRAVE.",
+    "summary_zh": "面向 OpenRAVE 的机器人模型集合。"
+  },
+  {
+    "canonical_url": "https://github.com/stephane-caron/pymanoid",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: OpenRAVE-based environment for humanoid robotics prototyping.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：基于 OpenRAVE 的人形机器人原型研究环境。",
+    "summary_en": "OpenRAVE-based environment for humanoid robotics prototyping.",
+    "summary_zh": "基于 OpenRAVE 的人形机器人原型研究环境。"
+  },
+  {
+    "canonical_url": "https://github.com/stereolabs/zed-sdk",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: Spatial-perception SDK for ZED cameras and robotics applications.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：面向 ZED 相机与机器人应用的空间感知 SDK。",
+    "summary_en": "Spatial-perception SDK for ZED cameras and robotics applications.",
+    "summary_zh": "面向 ZED 相机与机器人应用的空间感知 SDK。"
+  },
+  {
+    "canonical_url": "https://github.com/stevemacenski/slam_toolbox",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: ROS SLAM tools for mapping, localization, and map maintenance.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：用于建图、定位与地图维护的 ROS SLAM 工具。",
+    "summary_en": "ROS SLAM tools for mapping, localization, and map maintenance.",
+    "summary_zh": "用于建图、定位与地图维护的 ROS SLAM 工具。"
+  },
+  {
+    "canonical_url": "https://github.com/strasdat/sophus",
+    "decision": "include",
+    "relevance": "supporting",
+    "reason_en": "Supporting tool for embodied-AI foundations: Eigen-based C++ Lie-group library for geometric computation.",
+    "reason_zh": "可支持具身 AI 的基础工具：基于 Eigen、用于几何计算的 C++ 李群库。",
+    "summary_en": "Eigen-based C++ Lie-group library for geometric computation.",
+    "summary_zh": "基于 Eigen、用于几何计算的 C++ 李群库。"
+  },
+  {
+    "canonical_url": "https://github.com/symforce-org/symforce",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: Symbolic computation, code generation, and nonlinear optimization for robotics.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：面向机器人的符号计算、代码生成与非线性优化工具。",
+    "summary_en": "Symbolic computation, code generation, and nonlinear optimization for robotics.",
+    "summary_zh": "面向机器人的符号计算、代码生成与非线性优化工具。"
+  },
+  {
+    "canonical_url": "https://github.com/tavish9/any4lerobot",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: Utility collection for LeRobot models, datasets, and embodiment extensions.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：面向 LeRobot 模型、数据集与机器人形态扩展的工具集合。",
+    "summary_en": "Utility collection for LeRobot models, datasets, and embodiment extensions.",
+    "summary_zh": "面向 LeRobot 模型、数据集与机器人形态扩展的工具集合。"
+  },
+  {
+    "canonical_url": "https://github.com/tea-lab/robo-abc",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: Research code for generalizing robot affordances through semantic correspondence.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：通过语义对应关系泛化机器人可供性的研究代码。",
+    "summary_en": "Research code for generalizing robot affordances through semantic correspondence.",
+    "summary_zh": "通过语义对应关系泛化机器人可供性的研究代码。"
+  },
+  {
+    "canonical_url": "https://github.com/tesseract-robotics/tesseract",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: Environment for robot motion planning.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：用于机器人运动规划的环境。",
+    "summary_en": "Environment for robot motion planning.",
+    "summary_zh": "用于机器人运动规划的环境。"
+  },
+  {
+    "canonical_url": "https://github.com/therobotstudio/so-arm100",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: Designs and setup documentation for Standard Open Arm robots and LeRobot integration.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：Standard Open Arm 机械臂设计、配置文档与 LeRobot 集成资源。",
+    "summary_en": "Designs and setup documentation for Standard Open Arm robots and LeRobot integration.",
+    "summary_zh": "Standard Open Arm 机械臂设计、配置文档与 LeRobot 集成资源。"
+  },
+  {
+    "canonical_url": "https://github.com/timqian/bambot",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: Tools for experimenting with low-cost AI robots.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：用于低成本 AI 机器人实验的工具。",
+    "summary_en": "Tools for experimenting with low-cost AI robots.",
+    "summary_zh": "用于低成本 AI 机器人实验的工具。"
+  },
+  {
+    "canonical_url": "https://github.com/tixiaoshan/lio-sam",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: LiDAR-inertial odometry using smoothing and mapping.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：采用平滑与建图方法的激光惯性里程计。",
+    "summary_en": "LiDAR-inertial odometry using smoothing and mapping.",
+    "summary_zh": "采用平滑与建图方法的激光惯性里程计。"
+  },
+  {
+    "canonical_url": "https://github.com/tomasvr/turtlebot3_drlnav",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: Unmaintained ROS 2 framework for TurtleBot3 navigation with deep reinforcement learning.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：已停止维护、通过深度强化学习实现 TurtleBot3 导航的 ROS 2 框架。",
+    "summary_en": "Unmaintained ROS 2 framework for TurtleBot3 navigation with deep reinforcement learning.",
+    "summary_zh": "已停止维护、通过深度强化学习实现 TurtleBot3 导航的 ROS 2 框架。"
+  },
+  {
+    "canonical_url": "https://github.com/toni-sm/skrl",
+    "decision": "include",
+    "relevance": "supporting",
+    "reason_en": "Supporting tool for embodied-AI foundations: Reinforcement-learning library with integrations for robotics simulation environments.",
+    "reason_zh": "可支持具身 AI 的基础工具：提供机器人仿真环境集成的强化学习库。",
+    "summary_en": "Reinforcement-learning library with integrations for robotics simulation environments.",
+    "summary_zh": "提供机器人仿真环境集成的强化学习库。"
+  },
+  {
+    "canonical_url": "https://github.com/tork-a/rtmros_nextage",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: ROS and OpenRTM controller software for the Nextage dual-arm robot.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：面向 Nextage 双臂机器人的 ROS 与 OpenRTM 控制软件。",
+    "summary_en": "ROS and OpenRTM controller software for the Nextage dual-arm robot.",
+    "summary_zh": "面向 Nextage 双臂机器人的 ROS 与 OpenRTM 控制软件。"
+  },
+  {
+    "canonical_url": "https://github.com/triped-robot/trip_kinematics",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: Python inverse-kinematics tools for hybrid serial-parallel robots.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：面向串并联混合机器人的 Python 逆运动学工具。",
+    "summary_en": "Python inverse-kinematics tools for hybrid serial-parallel robots.",
+    "summary_zh": "面向串并联混合机器人的 Python 逆运动学工具。"
+  },
+  {
+    "canonical_url": "https://github.com/ubiquityrobotics/fiducials",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: Marker-based simultaneous localization and mapping for robots.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：面向机器人的标记式同步定位与建图工具。",
+    "summary_en": "Marker-based simultaneous localization and mapping for robots.",
+    "summary_zh": "面向机器人的标记式同步定位与建图工具。"
+  },
+  {
+    "canonical_url": "https://github.com/ultralytics/ultralytics",
+    "decision": "include",
+    "relevance": "supporting",
+    "reason_en": "Supporting tool for embodied-AI foundations: YOLO toolkit for detection, segmentation, pose estimation, and tracking.",
+    "reason_zh": "可支持具身 AI 的基础工具：用于目标检测、分割、姿态估计与跟踪的 YOLO 工具包。",
+    "summary_en": "YOLO toolkit for detection, segmentation, pose estimation, and tracking.",
+    "summary_zh": "用于目标检测、分割、姿态估计与跟踪的 YOLO 工具包。"
+  },
+  {
+    "canonical_url": "https://github.com/unitreerobotics/unitree_sdk2",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: SDK for communicating with and controlling Unitree robots.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：用于宇树机器人通信与控制的 SDK。",
+    "summary_en": "SDK for communicating with and controlling Unitree robots.",
+    "summary_zh": "用于宇树机器人通信与控制的 SDK。"
+  },
+  {
+    "canonical_url": "https://github.com/unitreerobotics/xr_teleoperate",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: XR-device teleoperation tools for Unitree humanoid robots.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：通过 XR 设备遥操作宇树人形机器人的工具。",
+    "summary_en": "XR-device teleoperation tools for Unitree humanoid robots.",
+    "summary_zh": "通过 XR 设备遥操作宇树人形机器人的工具。"
+  },
+  {
+    "canonical_url": "https://github.com/unity-technologies/ml-agents",
+    "decision": "include",
+    "relevance": "supporting",
+    "reason_en": "Supporting tool for embodied-AI foundations: Toolkit for training intelligent agents in Unity games and simulations.",
+    "reason_zh": "可支持具身 AI 的基础工具：在 Unity 游戏与仿真环境中训练智能体的工具包。",
+    "summary_en": "Toolkit for training intelligent agents in Unity games and simulations.",
+    "summary_zh": "在 Unity 游戏与仿真环境中训练智能体的工具包。"
+  },
+  {
+    "canonical_url": "https://github.com/upkie/upkie_description",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: URDF and Xacro model descriptions for Upkie wheeled bipeds.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：Upkie 轮式双足机器人的 URDF 与 Xacro 模型描述。",
+    "summary_en": "URDF and Xacro model descriptions for Upkie wheeled bipeds.",
+    "summary_zh": "Upkie 轮式双足机器人的 URDF 与 Xacro 模型描述。"
+  },
+  {
+    "canonical_url": "https://github.com/uw-biorobotics/ikbt",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: Python package for symbolic robot-arm inverse kinematics.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：用于机械臂符号逆运动学求解的 Python 软件包。",
+    "summary_en": "Python package for symbolic robot-arm inverse kinematics.",
+    "summary_zh": "用于机械臂符号逆运动学求解的 Python 软件包。"
+  },
+  {
+    "canonical_url": "https://github.com/uwrobotlearning/wheeledlab",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: Isaac Lab environments and workflows for mobile robotics.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：面向移动机器人的 Isaac Lab 环境与工作流。",
+    "summary_en": "Isaac Lab environments and workflows for mobile robotics.",
+    "summary_zh": "面向移动机器人的 Isaac Lab 环境与工作流。"
+  },
+  {
+    "canonical_url": "https://github.com/uynitsuj/rby1_description",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: Robot-description assets for the RBY1 mobile manipulator.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：RBY1 移动操作机器人的描述资源。",
+    "summary_en": "Robot-description assets for the RBY1 mobile manipulator.",
+    "summary_zh": "RBY1 移动操作机器人的描述资源。"
+  },
+  {
+    "canonical_url": "https://github.com/uz-slamlab/orb_slam3",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: Library for visual, visual-inertial, and multi-map SLAM.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：用于视觉、视觉惯性与多地图 SLAM 的库。",
+    "summary_en": "Library for visual, visual-inertial, and multi-map SLAM.",
+    "summary_zh": "用于视觉、视觉惯性与多地图 SLAM 的库。"
+  },
+  {
+    "canonical_url": "https://github.com/uzh-rpg/foresight-nav",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: Research code for scene imagination and efficient robotic exploration.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：用于场景想象与高效机器人探索的研究代码。",
+    "summary_en": "Research code for scene imagination and efficient robotic exploration.",
+    "summary_zh": "用于场景想象与高效机器人探索的研究代码。"
+  },
+  {
+    "canonical_url": "https://github.com/vimalabs/vima",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: Robot manipulation policy conditioned on multimodal prompts.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：以多模态提示为条件的机器人操作策略。",
+    "summary_en": "Robot manipulation policy conditioned on multimodal prompts.",
+    "summary_zh": "以多模态提示为条件的机器人操作策略。"
+  },
+  {
+    "canonical_url": "https://github.com/vimalabs/vimabench",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: Benchmark task suite for multimodal robot learning.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：面向多模态机器人学习的基准任务集。",
+    "summary_en": "Benchmark task suite for multimodal robot learning.",
+    "summary_zh": "面向多模态机器人学习的基准任务集。"
+  },
+  {
+    "canonical_url": "https://github.com/vwxyzjn/cleanrl",
+    "decision": "include",
+    "relevance": "supporting",
+    "reason_en": "Supporting tool for embodied-AI foundations: Single-file implementations of deep reinforcement-learning algorithms.",
+    "reason_zh": "可支持具身 AI 的基础工具：深度强化学习算法的单文件实现集合。",
+    "summary_en": "Single-file implementations of deep reinforcement-learning algorithms.",
+    "summary_zh": "深度强化学习算法的单文件实现集合。"
+  },
+  {
+    "canonical_url": "https://github.com/wbk-robotics/pybullet_industrial",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: PyBullet extensions for industrial robot simulation.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：面向工业机器人仿真的 PyBullet 扩展。",
+    "summary_en": "PyBullet extensions for industrial robot simulation.",
+    "summary_zh": "面向工业机器人仿真的 PyBullet 扩展。"
+  },
+  {
+    "canonical_url": "https://github.com/wenbowen123/bundletrack",
+    "decision": "include",
+    "relevance": "supporting",
+    "reason_en": "Supporting tool for embodied-AI foundations: Model-free 6D pose tracking for previously unseen objects.",
+    "reason_zh": "可支持具身 AI 的基础工具：无需预先提供物体模型的未知物体六维姿态跟踪方法。",
+    "summary_en": "Model-free 6D pose tracking for previously unseen objects.",
+    "summary_zh": "无需预先提供物体模型的未知物体六维姿态跟踪方法。"
+  },
+  {
+    "canonical_url": "https://github.com/wengmister/bidexhand",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: Hardware and software resources for a biomimetic dexterous robotic hand.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：仿生灵巧机械手的硬件与软件资源。",
+    "summary_en": "Hardware and software resources for a biomimetic dexterous robotic hand.",
+    "summary_zh": "仿生灵巧机械手的硬件与软件资源。"
+  },
+  {
+    "canonical_url": "https://github.com/whoenig/crazyflie_ros",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: ROS driver for the Bitcraze Crazyflie drone.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：Bitcraze Crazyflie 无人机的 ROS 驱动。",
+    "summary_en": "ROS driver for the Bitcraze Crazyflie drone.",
+    "summary_zh": "Bitcraze Crazyflie 无人机的 ROS 驱动。"
+  },
+  {
+    "canonical_url": "https://github.com/wisc-hci/lively",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: Toolkit for commanding robots through mixed interaction modalities.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：通过多种交互方式控制机器人的工具包。",
+    "summary_en": "Toolkit for commanding robots through mixed interaction modalities.",
+    "summary_zh": "通过多种交互方式控制机器人的工具包。"
+  },
+  {
+    "canonical_url": "https://github.com/worv-ai/d2e",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: Vision-action pretraining on desktop data for transfer to embodied AI.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：利用桌面数据进行视觉动作预训练并迁移到具身 AI 的项目。",
+    "summary_en": "Vision-action pretraining on desktop data for transfer to embodied AI.",
+    "summary_zh": "利用桌面数据进行视觉动作预训练并迁移到具身 AI 的项目。"
+  },
+  {
+    "canonical_url": "https://github.com/xarm-developer/xarm_ros2",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: ROS 2 developer packages for UFACTORY robot products.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：面向 UFACTORY 机器人产品的 ROS 2 开发软件包。",
+    "summary_en": "ROS 2 developer packages for UFACTORY robot products.",
+    "summary_zh": "面向 UFACTORY 机器人产品的 ROS 2 开发软件包。"
+  },
+  {
+    "canonical_url": "https://github.com/xavierpuigf/virtualhome",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: API for a multi-agent household simulation environment.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：多智能体家庭仿真环境的 API。",
+    "summary_en": "API for a multi-agent household simulation environment.",
+    "summary_zh": "多智能体家庭仿真环境的 API。"
+  },
+  {
+    "canonical_url": "https://github.com/xipengwang/aprilsam",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: SLAM graph-optimization library and examples.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：SLAM 图优化库与示例。",
+    "summary_en": "SLAM graph-optimization library and examples.",
+    "summary_zh": "SLAM 图优化库与示例。"
+  },
+  {
+    "canonical_url": "https://github.com/yay-robot/yay_robot",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: Robot-learning implementation with ALOHA teleoperation workflows.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：包含 ALOHA 遥操作流程的机器人学习实现。",
+    "summary_en": "Robot-learning implementation with ALOHA teleoperation workflows.",
+    "summary_zh": "包含 ALOHA 遥操作流程的机器人学习实现。"
+  },
+  {
+    "canonical_url": "https://github.com/ycheng517/tabletop-handybot",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: Voice-controlled tabletop robotic-arm assistant project.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：通过语音控制桌面机械臂助手的项目。",
+    "summary_en": "Voice-controlled tabletop robotic-arm assistant project.",
+    "summary_zh": "通过语音控制桌面机械臂助手的项目。"
+  },
+  {
+    "canonical_url": "https://github.com/yuankaiqi/reverie",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: Dataset and benchmark for visual-language navigation using referring expressions.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：利用指代表达开展视觉语言导航的数据集与基准。",
+    "summary_en": "Dataset and benchmark for visual-language navigation using referring expressions.",
+    "summary_zh": "利用指代表达开展视觉语言导航的数据集与基准。"
+  },
+  {
+    "canonical_url": "https://github.com/zayfod/pycozmo",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: Python communication library and alternative SDK for the Cozmo robot.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：Cozmo 机器人的 Python 通信库与替代 SDK。",
+    "summary_en": "Python communication library and alternative SDK for the Cozmo robot.",
+    "summary_zh": "Cozmo 机器人的 Python 通信库与替代 SDK。"
+  },
+  {
+    "canonical_url": "https://github.com/zql-kk/flowpolicy",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: 3D flow-based policy for robot manipulation.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：用于机器人操作的三维流式策略。",
+    "summary_en": "3D flow-based policy for robot manipulation.",
+    "summary_zh": "用于机器人操作的三维流式策略。"
+  },
+  {
+    "canonical_url": "https://rerun.io",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher metadata identifies a robotics or embodied-agent use: Visualization and debugging tools for robotics and spatial data.",
+    "reason_zh": "发布者信息明确涉及机器人或具身智能体：面向机器人与空间数据的可视化和调试工具。",
+    "summary_en": "Visualization and debugging tools for robotics and spatial data.",
+    "summary_zh": "面向机器人与空间数据的可视化和调试工具。"
+  }
+]

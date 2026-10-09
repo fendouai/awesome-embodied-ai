@@ -1,0 +1,47 @@
+name: Suggest a resource / 推荐资源
+description: Propose a source-backed embodied AI or robotics resource.
+title: '[Resource] '
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Resource name / 名称
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Canonical public URL / 规范公开网址
+      placeholder: https://github.com/owner/project
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category / 分类
+      options:
+        - components / 核心元器件
+        - hardware / 硬件平台
+        - software / 软件工具
+        - models / 模型
+        - datasets / 数据集
+        - benchmarks / 基准评测
+        - companies / 公司
+        - products / 产品
+        - research / 研究学习
+    validations:
+      required: true
+  - type: textarea
+    id: purpose
+    attributes:
+      label: Purpose and relevance / 用途与关联
+      description: State the task and whether this is directly relevant or a supporting tool. Include short English and Chinese descriptions.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Primary evidence and unknowns / 一手依据与未知项
+      description: Include publisher documentation, known license scope, check date/method and unresolved questions. Do not include credentials or private data.
+    validations:
+      required: true

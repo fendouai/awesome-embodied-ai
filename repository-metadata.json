@@ -1,0 +1,29 @@
+{
+  "name": "awesome-embodied-ai",
+  "description": "Curated embodied AI and robotics resources with bilingual metadata, transparent ranking and reproducible open data.",
+  "homepage": "https://botstest.com/",
+  "languages": [
+    "en",
+    "zh-CN"
+  ],
+  "topics": [
+    "awesome",
+    "awesome-list",
+    "embodied-ai",
+    "robotics",
+    "physical-ai",
+    "robot-learning",
+    "vision-language-action",
+    "robot-simulation",
+    "ros2",
+    "datasets",
+    "benchmarks",
+    "robot-hardware",
+    "robot-components",
+    "open-data"
+  ],
+  "list_license": "CC0-1.0",
+  "tooling_license": "MIT",
+  "publication_status": "prepared_locally_not_published",
+  "edition": "2026-10-09"
+}

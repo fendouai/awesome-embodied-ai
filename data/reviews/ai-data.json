@@ -1,0 +1,1676 @@
+[
+  {
+    "canonical_url": "https://github.com/crystalccy1/3d-covdiffusion",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "3D-CovDiffusion implements a 3D-aware diffusion policy for coverage path planning.",
+    "summary_zh": "3D-CovDiffusion 实现用于覆盖路径规划的三维感知扩散策略。"
+  },
+  {
+    "canonical_url": "https://github.com/tonyzhaozh/act",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "Action Chunking Transformer provides a policy-learning implementation for bimanual robot manipulation.",
+    "summary_zh": "Action Chunking Transformer 提供面向双臂机器人操作的策略学习实现。"
+  },
+  {
+    "canonical_url": "https://github.com/opendrivelab/agibot-world",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "AgiBot World provides manipulation-platform resources for embodied-system data and learning.",
+    "summary_zh": "AgiBot World 提供具身系统数据与学习所需的机器人操作平台资源。"
+  },
+  {
+    "canonical_url": "https://github.com/dwipddalal/anchor-align",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "Anchor-Align studies VLA fine-tuning with representation anchoring and language-action alignment.",
+    "summary_zh": "Anchor-Align 研究结合表征锚定与语言动作对齐的 VLA 微调方法。"
+  },
+  {
+    "canonical_url": "https://github.com/anyloc/anyloc",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "AnyLoc provides visual place-recognition research code for localization.",
+    "summary_zh": "AnyLoc 提供用于定位的视觉地点识别研究代码。"
+  },
+  {
+    "canonical_url": "https://github.com/beingbeyond/being-h",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "Being-H is BeingBeyond's family of human-centric embodied foundation models.",
+    "summary_zh": "Being-H 是 BeingBeyond 面向以人为中心任务的具身基础模型系列。"
+  },
+  {
+    "canonical_url": "https://github.com/ustcwhy/bitvla",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "BitVLA implements 1-bit vision-language-action models for robotic manipulation.",
+    "summary_zh": "BitVLA 实现用于机器人操作的 1 比特视觉语言动作模型。"
+  },
+  {
+    "canonical_url": "https://github.com/cliport/cliport",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "CLIPort studies language-conditioned visual pick-and-place robot policies.",
+    "summary_zh": "CLIPort 研究由语言条件驱动的视觉拾取放置机器人策略。"
+  },
+  {
+    "canonical_url": "https://github.com/cair-vinuni/clp_vla",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "CLP-VLA provides layer-focused fine-tuning and evaluation code for VLA models.",
+    "summary_zh": "CLP-VLA 提供围绕模型层选择的 VLA 微调与评估代码。"
+  },
+  {
+    "canonical_url": "https://github.com/chenyuzhangx/causalactiontokenizer",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "CATok studies causal action tokenization for robot policies with conditional annealing in flow matching.",
+    "summary_zh": "CATok 研究用于机器人策略的因果动作分词，结合条件退火与流匹配。"
+  },
+  {
+    "canonical_url": "https://github.com/microsoft/cogact",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "CogACT is a vision-language-action research model for robot manipulation.",
+    "summary_zh": "CogACT 是面向机器人操作的视觉语言动作研究模型。"
+  },
+  {
+    "canonical_url": "https://github.com/nvlabs/contact_graspnet",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "Contact-GraspNet generates 6-DoF grasp candidates from scene geometry.",
+    "summary_zh": "Contact-GraspNet 根据场景几何生成六自由度抓取候选。"
+  },
+  {
+    "canonical_url": "https://github.com/nvlabs/cosmos-policy",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "Cosmos Policy explores robot policies using world-model representations.",
+    "summary_zh": "Cosmos Policy 探索使用世界模型表征的机器人策略。"
+  },
+  {
+    "canonical_url": "https://github.com/rail-berkeley/crossformer",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "CrossFormer provides a cross-embodiment framework for robot policy learning.",
+    "summary_zh": "CrossFormer 提供跨机器人形态的策略学习框架。"
+  },
+  {
+    "canonical_url": "https://github.com/csmile-1006/deas-isaac-gr00t",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "DEAS Isaac GR00T provides setup resources combining DEAS, Isaac GR00T and RoboCasa.",
+    "summary_zh": "DEAS Isaac GR00T 提供组合 DEAS、Isaac GR00T 与 RoboCasa 的配置资源。"
+  },
+  {
+    "canonical_url": "https://github.com/yueyang130/deer-vla",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "DeeR-VLA studies dynamic multimodal-model inference for robot execution.",
+    "summary_zh": "DeeR-VLA 研究用于机器人执行的多模态模型动态推理。"
+  },
+  {
+    "canonical_url": "https://github.com/depthanything/depth-anything-v2",
+    "decision": "include",
+    "relevance": "supporting",
+    "reason_en": "Depth estimation is a supporting perception primitive, not a robot policy.",
+    "reason_zh": "深度估计属于辅助感知基础组件，并非机器人策略。",
+    "summary_en": "Depth Anything V2 provides monocular depth-estimation models for scene perception.",
+    "summary_zh": "Depth Anything V2 提供用于场景感知的单目深度估计模型。"
+  },
+  {
+    "canonical_url": "https://github.com/augety7777/dexora-vla",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "Dexora provides VLA policy resources for high-degree-of-freedom bimanual dexterity.",
+    "summary_zh": "Dexora 提供面向高自由度双臂灵巧操作的 VLA 策略资源。"
+  },
+  {
+    "canonical_url": "https://github.com/real-stanford/diffusion_policy",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "Diffusion Policy learns visuomotor robot actions using action diffusion.",
+    "summary_zh": "Diffusion Policy 使用动作扩散学习视觉运动机器人动作。"
+  },
+  {
+    "canonical_url": "https://github.com/nvidia/dreamdojo",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "DreamDojo studies robot world models learned from human video data.",
+    "summary_zh": "DreamDojo 研究从人类视频数据学习机器人世界模型。"
+  },
+  {
+    "canonical_url": "https://github.com/amap-ml/dreamx-phi",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "DreamX-Phi provides an action-conditioned video world model for robotic manipulation.",
+    "summary_zh": "DreamX-Phi 提供面向机器人操作的动作条件视频世界模型。"
+  },
+  {
+    "canonical_url": "https://github.com/hzxie/dynamicvla",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "DynamicVLA provides research resources for dynamic-object robotic manipulation.",
+    "summary_zh": "DynamicVLA 提供动态物体机器人操作的研究资源。"
+  },
+  {
+    "canonical_url": "https://github.com/eve-world/eveworld",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "EVEWorld studies physical-evolution supervision and temporal consistency in embodied world models.",
+    "summary_zh": "EVEWorld 研究具身世界模型中的物理演化监督与跨帧一致性。"
+  },
+  {
+    "canonical_url": "https://github.com/behappya/eveworld",
+    "decision": "needs_review",
+    "relevance": null,
+    "reason_en": "The same EVEWorld description appears under another namespace; its upstream relationship needs verification.",
+    "reason_zh": "相同 EVEWorld 描述同时出现在另一命名空间下，需核查其上游关系。",
+    "summary_en": "This EVEWorld repository presents physical-evolution supervision for embodied world models.",
+    "summary_zh": "此 EVEWorld 仓库介绍面向具身世界模型的物理演化监督方法。"
+  },
+  {
+    "canonical_url": "https://github.com/agibottech/ewmbench",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "EWMBench evaluates scene, motion and semantic quality in embodied world models.",
+    "summary_zh": "EWMBench 评估具身世界模型的场景、运动与语义质量。"
+  },
+  {
+    "canonical_url": "https://github.com/buaa-ci-lab/embodiinfer",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "EmbodiInfer provides inference and reinforcement-learning rollout infrastructure for embodied models.",
+    "summary_zh": "EmbodiInfer 提供具身模型推理与强化学习轨迹采集基础设施。"
+  },
+  {
+    "canonical_url": "https://github.com/buaa-ci-lab/embodirun",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "EmbodiRun provides a runtime connecting embodied models with compute nodes and robots or simulators.",
+    "summary_zh": "EmbodiRun 提供连接具身模型、计算节点与机器人或仿真器的执行运行时。"
+  },
+  {
+    "canonical_url": "https://github.com/benjamindaoson/embodied-ai-lab",
+    "decision": "include",
+    "relevance": "supporting",
+    "reason_en": "Clearly robotics-focused research hub; classify as a collection rather than an implemented model.",
+    "reason_zh": "研究资源中心明确面向机器人，应作为合集而非已实现模型。",
+    "summary_en": "Embodied AI Lab is a research hub covering VLA, data infrastructure and robotics evaluation.",
+    "summary_zh": "Embodied AI Lab 是涵盖 VLA、数据基础设施与机器人评估的研究资源中心。"
+  },
+  {
+    "canonical_url": "https://github.com/dld0621/embodied-ai-zero-to-hero",
+    "decision": "include",
+    "relevance": "supporting",
+    "reason_en": "Robotics-focused educational or reference material supports embodied research, rather than providing a robot policy.",
+    "reason_zh": "面向机器人的教育或参考材料可辅助具身研究，并非直接提供机器人策略。",
+    "summary_en": "Embodied AI Zero to Hero is a bilingual guide covering robot learning, baselines and evaluation.",
+    "summary_zh": "Embodied AI Zero to Hero 是涵盖机器人学习、基线与评估的双语指南。"
+  },
+  {
+    "canonical_url": "https://github.com/benjamindaoson/embodied-dataops",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher identifies robot collection and evaluation workflows; its active-build status is preserved.",
+    "reason_zh": "发布者明确描述机器人采集与评估工作流，保留开发中的状态。",
+    "summary_en": "Embodied DataOps is an active build for robot data collection, validation and training workflows.",
+    "summary_zh": "Embodied DataOps 是开发中的机器人数据采集、校验与训练工作流项目。"
+  },
+  {
+    "canonical_url": "https://github.com/abc12345anouys/evobot",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "EvoBot provides an agent and reusable skill library for LIBERO manipulation tasks.",
+    "summary_zh": "EvoBot 提供用于 LIBERO 操作任务的代理与可复用技能库。"
+  },
+  {
+    "canonical_url": "https://github.com/cair-vinuni/foca",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "FOCA studies future-oriented conditioning for data-efficient VLA adaptation.",
+    "summary_zh": "FOCA 研究使用面向未来的条件机制进行数据高效的 VLA 适配。"
+  },
+  {
+    "canonical_url": "https://github.com/fluxvla/fluxvla",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "FluxVLA provides VLA engineering resources spanning data preparation and robot deployment.",
+    "summary_zh": "FluxVLA 提供覆盖数据准备到机器人部署的 VLA 工程资源。"
+  },
+  {
+    "canonical_url": "https://github.com/nvlabs/foundationpose",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Pose estimation and tracking support robotic perception; no task performance is inferred.",
+    "reason_zh": "位姿估计与跟踪可支撑机器人感知，不推断任务性能。",
+    "summary_en": "FoundationPose provides 6D object-pose estimation and tracking tools for perception.",
+    "summary_zh": "FoundationPose 提供面向感知的物体六维位姿估计与跟踪工具。"
+  },
+  {
+    "canonical_url": "https://deepmind.google/models/gemini-robotics",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "Gemini Robotics presents Google DeepMind models linking robotic perception and action.",
+    "summary_zh": "Gemini Robotics 介绍 Google DeepMind 连接机器人感知与动作的模型。"
+  },
+  {
+    "canonical_url": "https://github.com/graspnet/graspnet-baseline",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "GraspNet Baseline implements grasp-detection baselines for the GraspNet-1Billion benchmark.",
+    "summary_zh": "GraspNet Baseline 实现 GraspNet-1Billion 基准的抓取检测基线。"
+  },
+  {
+    "canonical_url": "https://github.com/pku-epic/graspvla",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "GraspVLA provides grasping-model research pretrained with synthetic action data.",
+    "summary_zh": "GraspVLA 提供使用合成动作数据预训练的抓取模型研究资源。"
+  },
+  {
+    "canonical_url": "https://github.com/idea-research/grounded-sam-2",
+    "decision": "include",
+    "relevance": "supporting",
+    "reason_en": "Detection and segmentation are supporting visual-perception primitives, not robot action models.",
+    "reason_zh": "检测与分割属于辅助视觉感知组件，并非机器人动作模型。",
+    "summary_en": "Grounded SAM 2 combines detection and segmentation resources for open-set visual perception.",
+    "summary_zh": "Grounded SAM 2 提供开放集视觉感知所需的检测与分割资源。"
+  },
+  {
+    "canonical_url": "https://github.com/zhiyingdu/himoe-vla",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "HiMoE-VLA studies hierarchical mixture-of-experts policies for vision-language-action learning.",
+    "summary_zh": "HiMoE-VLA 研究用于视觉语言动作学习的分层混合专家策略。"
+  },
+  {
+    "canonical_url": "https://github.com/horizonrobotics/holomotion",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "HoloMotion provides a foundation-model project for whole-body humanoid control.",
+    "summary_zh": "HoloMotion 提供面向人形机器人全身控制的基础模型项目。"
+  },
+  {
+    "canonical_url": "https://github.com/3587jjh/huro",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "HuRo provides a pipeline converting human videos into robot-oriented VLA pretraining material.",
+    "summary_zh": "HuRo 提供将人类视频转换为面向机器人的 VLA 预训练材料的流程。"
+  },
+  {
+    "canonical_url": "https://github.com/internrobotics/internnav",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "InternNav provides a platform for developing navigation foundation models.",
+    "summary_zh": "InternNav 提供用于开发导航基础模型的平台。"
+  },
+  {
+    "canonical_url": "https://github.com/internrobotics/internvla-a-series",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "InternVLA-A series studies understanding, generation and action for robotic manipulation.",
+    "summary_zh": "InternVLA-A 系列研究机器人操作中的理解、生成与动作建模。"
+  },
+  {
+    "canonical_url": "https://github.com/internrobotics/internvla-m1",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "InternVLA-M1 provides a spatially guided vision-language-action framework for robot policies.",
+    "summary_zh": "InternVLA-M1 提供使用空间引导的机器人视觉语言动作框架。"
+  },
+  {
+    "canonical_url": "https://github.com/miv-xjtu/janusvln",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "JanusVLN studies vision-language navigation with separate semantic and spatial memory.",
+    "summary_zh": "JanusVLN 研究使用独立语义与空间记忆的视觉语言导航。"
+  },
+  {
+    "canonical_url": "https://github.com/robbyant/lingbot-va",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "LingBot-VA provides causal video-action world-model research for robot control.",
+    "summary_zh": "LingBot-VA 提供用于机器人控制的因果视频动作世界模型研究资源。"
+  },
+  {
+    "canonical_url": "https://github.com/allenai/molmobot",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "MolmoBot provides simulation-based research and data resources for robotic manipulation.",
+    "summary_zh": "MolmoBot 提供基于仿真的机器人操作研究与数据资源。"
+  },
+  {
+    "canonical_url": "https://github.com/thu-ml/motus",
+    "decision": "needs_review",
+    "relevance": null,
+    "reason_en": "The publisher title identifies a latent-action world model but available headings do not establish a robotic task.",
+    "reason_zh": "发布者标题说明潜在动作世界模型，但现有标题未确立机器人任务。",
+    "summary_en": "Motus provides a unified latent-action world-model implementation.",
+    "summary_zh": "Motus 提供统一潜在动作世界模型实现。"
+  },
+  {
+    "canonical_url": "https://github.com/cintellifusion/multiworld",
+    "decision": "needs_review",
+    "relevance": null,
+    "reason_en": "Stored description identifies video world modeling but gives no specific robotic or embodied task.",
+    "reason_zh": "存储描述仅明确视频世界建模，未提供具体机器人或具身任务。",
+    "summary_en": "MultiWorld provides multi-agent, multi-view video world-model code.",
+    "summary_zh": "MultiWorld 提供多代理、多视角视频世界模型代码。"
+  },
+  {
+    "canonical_url": "https://github.com/nvidia/cosmos",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "NVIDIA Cosmos provides world models, data and tools for physical AI, including robotics.",
+    "summary_zh": "NVIDIA Cosmos 提供包含机器人应用在内的物理 AI 世界模型、数据与工具。"
+  },
+  {
+    "canonical_url": "https://github.com/nvidia/isaac-gr00t",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "NVIDIA Isaac GR00T provides foundation-model resources for generalist robots.",
+    "summary_zh": "NVIDIA Isaac GR00T 提供通用机器人基础模型资源。"
+  },
+  {
+    "canonical_url": "https://github.com/octo-models/octo",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "Octo provides a transformer-based robot policy and adaptation resources.",
+    "summary_zh": "Octo 提供基于 Transformer 的机器人策略及适配资源。"
+  },
+  {
+    "canonical_url": "https://github.com/nhirose/omnivla",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "OmniVLA provides training and inference code for multimodal robot navigation.",
+    "summary_zh": "OmniVLA 提供多模态机器人导航的训练与推理代码。"
+  },
+  {
+    "canonical_url": "https://github.com/moojink/openvla-oft",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "OpenVLA-OFT provides fine-tuning tools for OpenVLA action prediction.",
+    "summary_zh": "OpenVLA-OFT 提供用于 OpenVLA 动作预测的微调工具。"
+  },
+  {
+    "canonical_url": "https://github.com/nvlabs/pointworld",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "PointWorld studies 3D world models for robotic manipulation.",
+    "summary_zh": "PointWorld 研究用于机器人操作的三维世界模型。"
+  },
+  {
+    "canonical_url": "https://github.com/facebookresearch/r3m",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "R3M provides visual representations learned from human video for robot manipulation.",
+    "summary_zh": "R3M 提供从人类视频学习、用于机器人操作的视觉表征。"
+  },
+  {
+    "canonical_url": "https://github.com/robot-vlas/robovlms",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "RoboVLMs provides a framework linking vision-language models to robotic actions.",
+    "summary_zh": "RoboVLMs 提供连接视觉语言模型与机器人动作的框架。"
+  },
+  {
+    "canonical_url": "https://say-can.github.io",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "SayCan studies grounding language instructions in executable robot skills.",
+    "summary_zh": "SayCan 研究将语言指令落地为可执行机器人技能的方法。"
+  },
+  {
+    "canonical_url": "https://github.com/facebookresearch/segment-anything",
+    "decision": "include",
+    "relevance": "supporting",
+    "reason_en": "Image segmentation is a supporting robotic-perception building block, not an action policy.",
+    "reason_zh": "图像分割是机器人感知的辅助基础组件，并非动作策略。",
+    "summary_en": "Segment Anything provides image-segmentation models as perception building blocks.",
+    "summary_zh": "Segment Anything 提供可作为感知基础组件的图像分割模型。"
+  },
+  {
+    "canonical_url": "https://github.com/prime-rl/simplevla-rl",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "SimpleVLA-RL provides reinforcement-learning training resources for VLA policies.",
+    "summary_zh": "SimpleVLA-RL 提供 VLA 策略的强化学习训练资源。"
+  },
+  {
+    "canonical_url": "https://github.com/2toinf/uniact",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "UniAct studies universal action representations for embodied foundation models.",
+    "summary_zh": "UniAct 研究具身基础模型的通用动作表征。"
+  },
+  {
+    "canonical_url": "https://github.com/opendrivelab/univla",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "OpenDriveLab UniVLA studies task-centric latent actions for robot policies.",
+    "summary_zh": "OpenDriveLab 的 UniVLA 研究机器人策略中的任务中心潜在动作。"
+  },
+  {
+    "canonical_url": "https://github.com/baaivision/univla",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "BAAI UniVLA provides a unified vision-language-action model research project.",
+    "summary_zh": "BAAI 的 UniVLA 提供统一视觉语言动作模型研究项目。"
+  },
+  {
+    "canonical_url": "https://github.com/facebookresearch/jepa",
+    "decision": "needs_review",
+    "relevance": null,
+    "reason_en": "Only general video representation learning is described; a concrete robotics use needs confirmation.",
+    "reason_zh": "当前仅描述通用视频表征学习，需确认具体机器人用途。",
+    "summary_en": "V-JEPA provides video representation-learning resources for perception and world modeling.",
+    "summary_zh": "V-JEPA 提供用于感知与世界建模的视频表征学习资源。"
+  },
+  {
+    "canonical_url": "https://github.com/buceageorgia/virena",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "VIRENA demonstrates a small VLA policy on ManiSkill PickCube with LeRobot integration resources.",
+    "summary_zh": "VIRENA 在 ManiSkill PickCube 上展示小型 VLA 策略，并提供 LeRobot 集成资源。"
+  },
+  {
+    "canonical_url": "https://github.com/ilearn-lab/vla-diffusion-policy-robotics",
+    "decision": "include",
+    "relevance": "supporting",
+    "reason_en": "Robotics-focused educational or reference material supports embodied research, rather than providing a robot policy.",
+    "reason_zh": "面向机器人的教育或参考材料可辅助具身研究，并非直接提供机器人策略。",
+    "summary_en": "VLA Diffusion Policy Robotics collects papers and resources on diffusion for robotic manipulation.",
+    "summary_zh": "VLA Diffusion Policy Robotics 收集机器人操作中的扩散方法论文与资源。"
+  },
+  {
+    "canonical_url": "https://github.com/bakhtawar-i/vla_grounding_probe",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "VLA Grounding Probe investigates SmolVLA language grounding using instruction perturbations.",
+    "summary_zh": "VLA Grounding Probe 使用指令扰动研究 SmolVLA 的语言落地能力。"
+  },
+  {
+    "canonical_url": "https://github.com/openhelix-team/vla-rft",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "VLA-RFT provides reinforcement fine-tuning resources for vision-language-action models.",
+    "summary_zh": "VLA-RFT 提供视觉语言动作模型的强化学习微调资源。"
+  },
+  {
+    "canonical_url": "https://github.com/huangwl18/voxposer",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "VoxPoser builds language-guided 3D value maps for robotic manipulation planning.",
+    "summary_zh": "VoxPoser 构建由语言引导的三维价值图，用于机器人操作规划。"
+  },
+  {
+    "canonical_url": "https://github.com/opendrivelab/wholebodyvla",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "WholebodyVLA studies latent VLA representations for whole-body locomotion and manipulation.",
+    "summary_zh": "WholebodyVLA 研究全身移动与操作控制所需的潜在 VLA 表征。"
+  },
+  {
+    "canonical_url": "https://github.com/amazon-far/abc",
+    "decision": "needs_review",
+    "relevance": null,
+    "reason_en": "Behavior cloning is stated, but available metadata does not identify the data embodiments or robot tasks.",
+    "reason_zh": "当前明确行为克隆，但现有元数据未说明数据对应的机器人形态或任务。",
+    "summary_en": "ABC provides behavior-cloning data, training and evaluation resources.",
+    "summary_zh": "ABC 提供行为克隆的数据、训练与评估资源。"
+  },
+  {
+    "canonical_url": "https://github.com/amirrezadavar/amirrezadavar.github.io",
+    "decision": "include",
+    "relevance": "supporting",
+    "reason_en": "Robotics research portfolio is relevant supporting context, but is not a policy repository.",
+    "reason_zh": "机器人研究个人作品集属于相关辅助背景，并非策略代码仓库。",
+    "summary_en": "Amirreza Davar's portfolio presents robotics research on learning, manipulation and embodied AI.",
+    "summary_zh": "Amirreza Davar 的个人作品集展示机器人学习、操作与具身 AI 研究。"
+  },
+  {
+    "canonical_url": "https://github.com/aaditya-prasad/consistency-policy",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "Consistency Policy studies visuomotor-policy distillation using consistency models.",
+    "summary_zh": "Consistency Policy 研究使用一致性模型蒸馏视觉运动策略。"
+  },
+  {
+    "canonical_url": "https://github.com/danijar/daydreamer",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "DayDreamer provides world-model methods for physical robot learning.",
+    "summary_zh": "DayDreamer 提供用于实体机器人学习的世界模型方法。"
+  },
+  {
+    "canonical_url": "https://github.com/dexmal/dexbotic",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "Dexbotic provides a toolbox for vision-language-action model development.",
+    "summary_zh": "Dexbotic 提供视觉语言动作模型开发工具箱。"
+  },
+  {
+    "canonical_url": "https://github.com/eloialonso/diamond",
+    "decision": "exclude",
+    "relevance": null,
+    "reason_en": "Publisher headings focus on Atari and game world models; no robot-control application is evidenced.",
+    "reason_zh": "发布者标题聚焦 Atari 与游戏世界模型，未提供机器人控制应用证据。",
+    "summary_en": "DIAMOND studies reinforcement learning in diffusion world models for Atari and game environments.",
+    "summary_zh": "DIAMOND 研究 Atari 等游戏环境中的扩散世界模型强化学习。"
+  },
+  {
+    "canonical_url": "https://github.com/danijar/dreamerv2",
+    "decision": "exclude",
+    "relevance": null,
+    "reason_en": "Stored description explicitly targets Atari; no embodied robotic task is evidenced.",
+    "reason_zh": "存储描述明确针对 Atari，未提供具身机器人任务证据。",
+    "summary_en": "DreamerV2 implements discrete world-model reinforcement learning for Atari.",
+    "summary_zh": "DreamerV2 实现用于 Atari 的离散世界模型强化学习。"
+  },
+  {
+    "canonical_url": "https://github.com/gawtamcr/eai2025_project",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "EAI2025 Project combines 3D semantic mapping and VLA deployment for manipulation.",
+    "summary_zh": "EAI2025 Project 结合三维语义建图与用于操作任务的 VLA 部署。"
+  },
+  {
+    "canonical_url": "https://github.com/clement-callaert/ego-world-sub-jepa",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "Ego-World JEPA studies ego/world latent factorization for planning on PushT.",
+    "summary_zh": "Ego-World JEPA 研究用于 PushT 规划的自身与世界潜在表征分解。"
+  },
+  {
+    "canonical_url": "https://github.com/coenwerem/equidexflow",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "EquiDexFlow provides contact-grounded generative flows for dexterous grasping.",
+    "summary_zh": "EquiDexFlow 提供以接触信息为依据的灵巧抓取生成流。"
+  },
+  {
+    "canonical_url": "https://github.com/black-forest-labs/flux-action",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "FLUX 3 Action provides world-action modeling and action-prediction resources for robots and simulators.",
+    "summary_zh": "FLUX 3 Action 提供面向机器人与仿真器的世界动作建模和动作预测资源。"
+  },
+  {
+    "canonical_url": "https://github.com/abc-irobotics/guide",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "GUIDE provides an instruction-based environment for robot data collection and manipulation.",
+    "summary_zh": "GUIDE 提供基于指令的机器人数据采集与操作环境。"
+  },
+  {
+    "canonical_url": "https://github.com/fmarcantoni/imitation-learning-robotic-manipulation",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "This imitation-learning project compares behavior cloning and Diffusion Policy on Panda pick-and-place.",
+    "summary_zh": "此模仿学习项目在 Panda 拾取放置任务上比较行为克隆与 Diffusion Policy。"
+  },
+  {
+    "canonical_url": "https://github.com/amgustav/kineforge",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "kineForge provides training, stress-testing and replay workflows for MuJoCo robot policies.",
+    "summary_zh": "kineForge 提供 MuJoCo 机器人策略训练、压力测试与回放工作流。"
+  },
+  {
+    "canonical_url": "https://github.com/ajmcastro/langgraph-vla-agent",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "LangGraph VLA Agent orchestrates SmolVLA and LeRobot policies for multi-step manipulation.",
+    "summary_zh": "LangGraph VLA Agent 编排 SmolVLA 与 LeRobot 策略以开展多步骤操作。"
+  },
+  {
+    "canonical_url": "https://github.com/2047767028-lang/lerobot-dp-toolkit",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "LeRobot DP Toolkit provides timing, dataset-downsampling and camera-alignment utilities for Diffusion Policy.",
+    "summary_zh": "LeRobot DP Toolkit 提供 Diffusion Policy 的时序、数据降采样与摄像头对齐工具。"
+  },
+  {
+    "canonical_url": "https://github.com/chaoshengsc/libero-camera-ablation",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "LIBERO Camera Ablation studies how camera-input changes affect robot-policy behavior.",
+    "summary_zh": "LIBERO Camera Ablation 研究摄像头输入变化对机器人策略行为的影响。"
+  },
+  {
+    "canonical_url": "https://github.com/robbyant/lingbot-vla",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "LingBot-VLA provides a vision-language-action foundation-model project.",
+    "summary_zh": "LingBot-VLA 提供视觉语言动作基础模型项目。"
+  },
+  {
+    "canonical_url": "https://github.com/daniiarabdiev/mlx-smolvla",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "MLX SmolVLA provides Apple Silicon inference and serving resources for SmolVLA.",
+    "summary_zh": "MLX SmolVLA 提供面向 Apple Silicon 的 SmolVLA 推理与服务资源。"
+  },
+  {
+    "canonical_url": "https://github.com/archishmansengupta/mlx-vla",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "MLX VLA provides Apple Silicon training and deployment resources for VLA models.",
+    "summary_zh": "MLX VLA 提供面向 Apple Silicon 的 VLA 模型训练与部署资源。"
+  },
+  {
+    "canonical_url": "https://github.com/allenzren/open-pi-zero",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "Open Pi Zero is a reimplementation of Physical Intelligence's pi0 VLA model.",
+    "summary_zh": "Open Pi Zero 是 Physical Intelligence 的 pi0 VLA 模型复现项目。"
+  },
+  {
+    "canonical_url": "https://github.com/dexmal/opendm",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "OpenDM provides an open-world foundation-model research project for embodied intelligence.",
+    "summary_zh": "OpenDM 提供面向具身智能的开放世界基础模型研究项目。"
+  },
+  {
+    "canonical_url": "https://github.com/dexmal/opendw",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "OpenDW provides an action-conditioned world-model project for embodied intelligence.",
+    "summary_zh": "OpenDW 提供具身智能的动作条件世界模型项目。"
+  },
+  {
+    "canonical_url": "https://github.com/physical-intelligence/openpi",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "openpi provides code and model resources for Physical Intelligence robot policies.",
+    "summary_zh": "openpi 提供 Physical Intelligence 机器人策略的代码与模型资源。"
+  },
+  {
+    "canonical_url": "https://github.com/abbott400097/openpi-dexterous-public",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Publisher explicitly describes Shadow Hand adaptation and includes negative results; no independent validation is implied.",
+    "reason_zh": "发布者明确描述 Shadow Hand 适配并包含负面结果，不暗示独立验证。",
+    "summary_en": "Openpi Dexterous studies pi0 LoRA adaptation for Shadow Hand manipulation and reports experimental limitations.",
+    "summary_zh": "Openpi Dexterous 研究用于 Shadow Hand 操作的 pi0 LoRA 适配，并报告实验限制。"
+  },
+  {
+    "canonical_url": "https://github.com/claribelconjugate629/openvla-reproduction",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "OpenVLA Reproduction documents setup and evaluation of OpenVLA on LIBERO tasks.",
+    "summary_zh": "OpenVLA Reproduction 记录 OpenVLA 在 LIBERO 任务上的配置与评估。"
+  },
+  {
+    "canonical_url": "https://github.com/ansh1113/ovla",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "O-VLA studies VLA transfer through semantic primitive learning.",
+    "summary_zh": "O-VLA 研究通过语义基础动作学习进行 VLA 迁移。"
+  },
+  {
+    "canonical_url": "https://github.com/archebase/physical-ai-handbook",
+    "decision": "include",
+    "relevance": "supporting",
+    "reason_en": "Robotics-focused educational or reference material supports embodied research, rather than providing a robot policy.",
+    "reason_zh": "面向机器人的教育或参考材料可辅助具身研究，并非直接提供机器人策略。",
+    "summary_en": "ArcheBase Physical AI Handbook covers VLA, world models, robot control, evaluation and data practices.",
+    "summary_zh": "ArcheBase Physical AI Handbook 涵盖 VLA、世界模型、机器人控制、评估与数据实践。"
+  },
+  {
+    "canonical_url": "https://github.com/distortionlab/pre-execution-return",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "Pre-Execution Return studies robot initial-state robustness around frozen VLA policies.",
+    "summary_zh": "Pre-Execution Return 研究冻结 VLA 策略周围的机器人初始状态鲁棒性。"
+  },
+  {
+    "canonical_url": "https://github.com/bigben111/rlinf-actprobe",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "RLinf ActProbe adds probe-based early termination to embodied-policy reinforcement learning.",
+    "summary_zh": "RLinf ActProbe 为具身策略强化学习加入基于探针的提前终止机制。"
+  },
+  {
+    "canonical_url": "https://github.com/12-twelve-12/robolings",
+    "decision": "include",
+    "relevance": "supporting",
+    "reason_en": "Robotics-focused educational or reference material supports embodied research, rather than providing a robot policy.",
+    "reason_zh": "面向机器人的教育或参考材料可辅助具身研究，并非直接提供机器人策略。",
+    "summary_en": "robolings provides small robot-learning exercises in kinematics, control and policy methods.",
+    "summary_zh": "robolings 提供运动学、控制与策略方法方面的小型机器人学习练习。"
+  },
+  {
+    "canonical_url": "https://github.com/starvla/starvla",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "StarVLA provides modular code for developing vision-language-action models.",
+    "summary_zh": "StarVLA 提供开发视觉语言动作模型的模块化代码。"
+  },
+  {
+    "canonical_url": "https://github.com/fastcrest/tether",
+    "decision": "needs_review",
+    "relevance": null,
+    "reason_en": "General edge/cloud deployment is described; robot-specific integration or workflow is not established.",
+    "reason_zh": "当前描述通用边缘与云部署，尚未确立机器人专用集成或工作流。",
+    "summary_en": "FastCrest Tether provides a CLI for edge-to-cloud AI deployment across computing platforms.",
+    "summary_zh": "FastCrest Tether 提供跨计算平台的边缘到云端 AI 部署命令行工具。"
+  },
+  {
+    "canonical_url": "https://github.com/aghasalim/vla-from-scratch",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "VLA From Scratch compares action representations on multimodal demonstrations and obstacle-routing tasks.",
+    "summary_zh": "VLA From Scratch 在多模态示范与障碍绕行任务上比较不同动作表征。"
+  },
+  {
+    "canonical_url": "https://github.com/ferbin12/vla-manipulation-ablations",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "VLA Manipulation Ablations studies manipulation generalization and OpenVLA under constrained GPU memory.",
+    "summary_zh": "VLA Manipulation Ablations 研究操作泛化能力与受限显存条件下的 OpenVLA。"
+  },
+  {
+    "canonical_url": "https://github.com/airgo0911/vla-paper-reading-notes",
+    "decision": "include",
+    "relevance": "supporting",
+    "reason_en": "Robotics-focused educational or reference material supports embodied research, rather than providing a robot policy.",
+    "reason_zh": "面向机器人的教育或参考材料可辅助具身研究，并非直接提供机器人策略。",
+    "summary_en": "VLA Paper Reading Notes provides reading notes and an index for robot-policy papers.",
+    "summary_zh": "VLA Paper Reading Notes 提供机器人策略论文阅读笔记与索引。"
+  },
+  {
+    "canonical_url": "https://github.com/nvlabs/vla0",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "VLA-0 provides research code for building vision-language-action models from vision-language models.",
+    "summary_zh": "VLA-0 提供从视觉语言模型构建视觉语言动作模型的研究代码。"
+  },
+  {
+    "canonical_url": "https://github.com/guanxinglu/vlarl",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "VLA-RL provides reinforcement-learning code for adapting VLA models to robotic manipulation.",
+    "summary_zh": "VLA-RL 提供将 VLA 模型适配到机器人操作任务的强化学习代码。"
+  },
+  {
+    "canonical_url": "https://github.com/buceageorgia/worldproof",
+    "decision": "needs_review",
+    "relevance": null,
+    "reason_en": "Physical-invariant rollout evaluation is relevant in principle, but the stored text does not identify a robot task.",
+    "reason_zh": "物理不变量轨迹评估具有潜在相关性，但存储文本未明确机器人任务。",
+    "summary_en": "WorldProof evaluates world-model rollout predictions against reference data and physical invariants.",
+    "summary_zh": "WorldProof 对照参考数据与物理不变量评估世界模型的轨迹预测。"
+  },
+  {
+    "canonical_url": "https://amass.is.tue.mpg.de",
+    "decision": "include",
+    "relevance": "supporting",
+    "reason_en": "Human motion data is supporting material for motion and embodiment research, not robot demonstrations.",
+    "reason_zh": "人类动作数据是运动与形态研究的辅助材料，并非机器人示范。",
+    "summary_en": "AMASS unifies human motion-capture datasets into a shared representation.",
+    "summary_zh": "AMASS 将人类动作捕捉数据集统一为共用表征。"
+  },
+  {
+    "canonical_url": "https://agibot-world.com",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "AgiBot World provides robot demonstration data and embodied-manipulation resources.",
+    "summary_zh": "AgiBot World 提供机器人示范数据与具身操作资源。"
+  },
+  {
+    "canonical_url": "https://virtualhumans.mpi-inf.mpg.de/behave",
+    "decision": "include",
+    "relevance": "supporting",
+    "reason_en": "Human-object interaction data supports embodied perception and reconstruction research.",
+    "reason_zh": "人物交互数据可支持具身感知与重建研究。",
+    "summary_en": "BEHAVE provides human-object interaction data for reconstructing bodies and objects.",
+    "summary_zh": "BEHAVE 提供用于人体与物体重建的人物交互数据。"
+  },
+  {
+    "canonical_url": "https://rail-berkeley.github.io/bridgedata",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "BridgeData V2 provides multi-task robot-manipulation demonstrations.",
+    "summary_zh": "BridgeData V2 提供多任务机器人操作示范数据。"
+  },
+  {
+    "canonical_url": "https://github.com/calibra-robotics/calibra",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "Calibra provides dataset observability and coreset-selection tools for robotics imitation learning.",
+    "summary_zh": "Calibra 提供机器人模仿学习的数据集可观测性与核心子集选择工具。"
+  },
+  {
+    "canonical_url": "https://github.com/geekgineer/cloudpeek",
+    "decision": "include",
+    "relevance": "supporting",
+    "reason_en": "Point-cloud inspection is supporting perception tooling; the project is not a robot-demonstration dataset.",
+    "reason_zh": "点云检查属于辅助感知工具，此项目并非机器人示范数据集。",
+    "summary_en": "CloudPeek provides a lightweight C++ point-cloud viewer for visual data inspection.",
+    "summary_zh": "CloudPeek 提供用于视觉数据检查的轻量 C++ 点云查看器。"
+  },
+  {
+    "canonical_url": "https://github.com/facebookresearch/contactpose",
+    "decision": "include",
+    "relevance": "supporting",
+    "reason_en": "Hand-object contact and pose data support grasping/perception research; no robot action labels are assumed.",
+    "reason_zh": "手物接触与位姿数据可辅助抓取和感知研究，不假定含机器人动作标签。",
+    "summary_en": "ContactPose provides hand-object contact, pose and RGB-D grasp-image data.",
+    "summary_zh": "ContactPose 提供手物接触、位姿与 RGB-D 抓握图像数据。"
+  },
+  {
+    "canonical_url": "https://droid-dataset.github.io",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "DROID provides robot-manipulation data and a demonstration-collection workflow.",
+    "summary_zh": "DROID 提供机器人操作数据与示范采集工作流。"
+  },
+  {
+    "canonical_url": "https://ego-exo4d-data.org",
+    "decision": "include",
+    "relevance": "supporting",
+    "reason_en": "Human activity video is supporting data for embodied perception and imitation research.",
+    "reason_zh": "人类活动视频是具身感知与模仿研究的辅助数据。",
+    "summary_en": "Ego-Exo4D provides egocentric and third-person video data of skilled human activities.",
+    "summary_zh": "Ego-Exo4D 提供熟练人类活动的第一与第三人称视频数据。"
+  },
+  {
+    "canonical_url": "https://ego4d-data.org",
+    "decision": "include",
+    "relevance": "supporting",
+    "reason_en": "Egocentric human-interaction video is supporting data, not itself robot-policy training trajectories.",
+    "reason_zh": "第一人称人类交互视频属于辅助数据，其本身并非机器人策略训练轨迹。",
+    "summary_en": "Ego4D provides egocentric video data for understanding human activities and interactions.",
+    "summary_zh": "Ego4D 提供用于理解人类活动与交互的第一人称视频数据。"
+  },
+  {
+    "canonical_url": "https://github.com/arclab-hku/event_based_vo-vio-slam",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "HKU Event-based VO/VIO/SLAM provides event-camera datasets and robotics localization resources.",
+    "summary_zh": "HKU Event-based VO/VIO/SLAM 提供事件相机数据集与机器人定位资源。"
+  },
+  {
+    "canonical_url": "https://grab.is.tue.mpg.de",
+    "decision": "include",
+    "relevance": "supporting",
+    "reason_en": "Whole-body grasping data supports motion and interaction research, not a robot-specific benchmark.",
+    "reason_zh": "全身抓握数据可支持运动与交互研究，并非机器人专用基准。",
+    "summary_en": "GRAB provides whole-body human grasping and object-interaction data.",
+    "summary_zh": "GRAB 提供人类全身抓握与物体交互数据。"
+  },
+  {
+    "canonical_url": "https://facebookresearch.github.io/hot3d",
+    "decision": "include",
+    "relevance": "supporting",
+    "reason_en": "Hand-object interaction data supports perception and manipulation research.",
+    "reason_zh": "手物交互数据可支持感知与操作研究。",
+    "summary_en": "HOT3D provides hand-object interaction data for perception and manipulation research.",
+    "summary_zh": "HOT3D 提供用于感知与操作研究的手物交互数据。"
+  },
+  {
+    "canonical_url": "https://github.com/bossxjh/led",
+    "decision": "needs_review",
+    "relevance": null,
+    "reason_en": "Dataset scoring is described, but the available publisher metadata does not establish robotics data scope.",
+    "reason_zh": "发布者元数据描述数据集评分，但尚未确立其机器人数据范围。",
+    "summary_en": "LED provides dataset-scoring and compact-subset-selection code.",
+    "summary_zh": "LED 提供数据集评分与紧凑子集选择代码。"
+  },
+  {
+    "canonical_url": "https://github.com/dillonjohnson7/lmfao",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "LMFAO augments LeRobot demonstration videos with visual variations for robot learning.",
+    "summary_zh": "LMFAO 为机器人学习中的 LeRobot 示范视频添加视觉变化。"
+  },
+  {
+    "canonical_url": "https://objaverse.allenai.org",
+    "decision": "include",
+    "relevance": "supporting",
+    "reason_en": "3D object assets are supporting inputs for perception and simulated scenes, not robot demonstrations.",
+    "reason_zh": "三维物体资产是感知与仿真场景的辅助输入，并非机器人示范。",
+    "summary_en": "Objaverse provides 3D object assets for visual-learning and simulation research.",
+    "summary_zh": "Objaverse 提供视觉学习与仿真研究所需的三维物体资产。"
+  },
+  {
+    "canonical_url": "https://github.com/arrebolblack/octo",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "This Octo deployment project covers teleoperation, RLDS collection and fine-tuning for Universal Robots arms.",
+    "summary_zh": "此 Octo 部署项目涵盖 Universal Robots 机械臂的遥操作、RLDS 数据采集与微调。"
+  },
+  {
+    "canonical_url": "https://robotics-transformer-x.github.io",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "Open X-Embodiment collects robot demonstration datasets and associated model resources.",
+    "summary_zh": "Open X-Embodiment 汇集机器人示范数据集与相关模型资源。"
+  },
+  {
+    "canonical_url": "https://github.com/davian-robotics/phuma",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "PHUMA provides code and data-generation resources for humanoid locomotion.",
+    "summary_zh": "PHUMA 提供人形机器人移动数据的代码与生成资源。"
+  },
+  {
+    "canonical_url": "https://x-humanoid-robomind.github.io",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "RoboMIND provides multi-platform robotic-manipulation data.",
+    "summary_zh": "RoboMIND 提供多平台机器人操作数据。"
+  },
+  {
+    "canonical_url": "https://robonet.wiki",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "RoboNet provides robot-interaction data for visual dynamics and manipulation research.",
+    "summary_zh": "RoboNet 提供视觉动力学与操作研究所需的机器人交互数据。"
+  },
+  {
+    "canonical_url": "https://roboturk.stanford.edu",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "RoboTurk provides demonstration-collection resources for robot-manipulation learning.",
+    "summary_zh": "RoboTurk 提供机器人操作学习的示范采集资源。"
+  },
+  {
+    "canonical_url": "https://github.com/engcang/slam-application",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "SLAM-application collects installation and testing resources for LiDAR and visual-inertial SLAM systems.",
+    "summary_zh": "SLAM-application 汇集激光雷达与视觉惯性 SLAM 系统的安装与测试资源。"
+  },
+  {
+    "canonical_url": "https://shapenet.org",
+    "decision": "include",
+    "relevance": "supporting",
+    "reason_en": "Annotated 3D geometry is supporting material for perception and simulation.",
+    "reason_zh": "标注三维几何属于感知与仿真的辅助材料。",
+    "summary_en": "ShapeNet provides annotated 3D shapes for perception and scene research.",
+    "summary_zh": "ShapeNet 提供用于感知与场景研究的标注三维形状。"
+  },
+  {
+    "canonical_url": "https://github.com/disaterpeace/synthetic-data-driven-learning-for-unseen-object-manipulation-in-pybullet",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "This PyBullet project generates synthetic RGB-D grasp data and trains unseen-object manipulation baselines.",
+    "summary_zh": "此 PyBullet 项目生成合成 RGB-D 抓取数据，并训练未见物体操作基线。"
+  },
+  {
+    "canonical_url": "https://github.com/artyomzifir/viki",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "ViKi converts human RGB-D demonstrations into retargeted robot motions and LeRobot datasets.",
+    "summary_zh": "ViKi 将人类 RGB-D 示范转换为重定向机器人动作与 LeRobot 数据集。"
+  },
+  {
+    "canonical_url": "https://github.com/2toinf/x-vla",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "X-VLA studies soft-prompted transformers for cross-embodiment vision-language-action learning.",
+    "summary_zh": "X-VLA 研究用于跨机器人形态视觉语言动作学习的软提示 Transformer。"
+  },
+  {
+    "canonical_url": "https://github.com/archerkattri/actionabi",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "ActionABI studies recovery of undocumented robot action-tensor semantics from trajectories.",
+    "summary_zh": "ActionABI 研究从轨迹恢复未记录的机器人动作张量语义。"
+  },
+  {
+    "canonical_url": "https://github.com/opengvlab/all-seeing",
+    "decision": "needs_review",
+    "relevance": null,
+    "reason_en": "Generic visual recognition may support perception, but no specific robotics use appears in stored metadata.",
+    "reason_zh": "通用视觉识别可能辅助感知，但存储元数据没有具体机器人用途。",
+    "summary_en": "All-Seeing provides panoptic visual-recognition and open-world relation-understanding resources.",
+    "summary_zh": "All-Seeing 提供全景视觉识别与开放世界关系理解资源。"
+  },
+  {
+    "canonical_url": "https://github.com/aim404/c3-jepa",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "C³-JEPA studies a multi-view world model for underwater ROV salvage.",
+    "summary_zh": "C³-JEPA 研究用于水下遥控潜航器打捞的多视角世界模型。"
+  },
+  {
+    "canonical_url": "https://github.com/barisyazici/deep-rl-grasping",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "Deep RL Grasping provides training and evaluation code for depth/RGB-D robotic grasping policies.",
+    "summary_zh": "Deep RL Grasping 提供深度与 RGB-D 机器人抓取策略的训练和评估代码。"
+  },
+  {
+    "canonical_url": "https://github.com/droid-dataset/droid",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "The DROID repository provides setup resources for its robot demonstration-collection platform.",
+    "summary_zh": "DROID 仓库提供其机器人示范采集平台的配置资源。"
+  },
+  {
+    "canonical_url": "https://github.com/evidentiary-operatingmicroscope154/embodied-eval-automation",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "Embodied Eval Automation provides workflows for collecting robot-benchmark and simulator episodes.",
+    "summary_zh": "Embodied Eval Automation 提供采集机器人基准与仿真器交互回合的工作流。"
+  },
+  {
+    "canonical_url": "https://github.com/burhan-q/fiftyone-abc130k",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "FiftyOne ABC130k provides a viewer-oriented subset of robot teleoperation MCAP data.",
+    "summary_zh": "FiftyOne ABC130k 提供用于查看的机器人遥操作 MCAP 数据子集。"
+  },
+  {
+    "canonical_url": "https://github.com/graspnet/graspnetapi",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "graspnetAPI provides tools for accessing and working with GraspNet-1Billion data.",
+    "summary_zh": "graspnetAPI 提供访问与处理 GraspNet-1Billion 数据的工具。"
+  },
+  {
+    "canonical_url": "https://github.com/wenbowen123/iros20-6d-pose-tracking",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "se(3)-TrackNet provides 6D object-pose tracking research and visual-feedback-control examples.",
+    "summary_zh": "se(3)-TrackNet 提供六维物体位姿跟踪研究与视觉反馈控制示例。"
+  },
+  {
+    "canonical_url": "https://github.com/backblaze-b2-samples/lerobot-b2-streaming",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "LeRobot B2 Streaming provides byte-range streaming of LeRobot datasets from Backblaze B2 storage.",
+    "summary_zh": "LeRobot B2 Streaming 提供从 Backblaze B2 存储按字节范围流式读取 LeRobot 数据集的工具。"
+  },
+  {
+    "canonical_url": "https://github.com/bradsward/mekiki",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "mekiki checks demonstration data for action-state mismatch, idle footage and camera synchronization issues.",
+    "summary_zh": "mekiki 检查示范数据中的动作状态不匹配、空闲画面与相机同步问题。"
+  },
+  {
+    "canonical_url": "https://github.com/agenthinkai/mesh-twin",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "Mesh Twin provides a MuJoCo-based synthetic-data pipeline for mobile-robot navigation.",
+    "summary_zh": "Mesh Twin 提供基于 MuJoCo 的移动机器人导航合成数据流程。"
+  },
+  {
+    "canonical_url": "https://github.com/api-evangelist/neuracore",
+    "decision": "include",
+    "relevance": "supporting",
+    "reason_en": "Robotics API documentation profile is relevant supporting context; explicitly third-party, not the Neuracore service or official code.",
+    "reason_zh": "机器人 API 资料属于相关辅助背景；明确为第三方整理，并非 Neuracore 服务或官方代码。",
+    "summary_en": "This API Evangelist repository is an independent profile of Neuracore's robot-skill API surface.",
+    "summary_zh": "此 API Evangelist 仓库是对 Neuracore 机器人技能 API 的独立第三方资料整理。"
+  },
+  {
+    "canonical_url": "https://github.com/plbkin190/physical-ai-atlas-data",
+    "decision": "include",
+    "relevance": "supporting",
+    "reason_en": "Physical-AI ecosystem catalog data is supporting reference material, not robot trajectories.",
+    "reason_zh": "物理 AI 生态目录数据属于辅助参考材料，并非机器人轨迹。",
+    "summary_en": "Physical AI Atlas Data catalogs physical-AI models, hardware, platforms, labs and companies.",
+    "summary_zh": "Physical AI Atlas Data 汇编物理 AI 模型、硬件、平台、实验室与公司数据。"
+  },
+  {
+    "canonical_url": "https://github.com/browingkourtsr122-oss/robodata-doctor",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "RoboData Doctor provides conformance checks and semantic comparisons for robot-learning datasets.",
+    "summary_zh": "RoboData Doctor 提供机器人学习数据集的规范检查与语义比较。"
+  },
+  {
+    "canonical_url": "https://github.com/agent-field/roboscribe-af",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "Roboscribe-AF provides multi-agent annotation workflows for LeRobot demonstration datasets.",
+    "summary_zh": "Roboscribe-AF 提供 LeRobot 示范数据集的多代理标注工作流。"
+  },
+  {
+    "canonical_url": "https://github.com/robotindex/robotindex-data",
+    "decision": "needs_review",
+    "relevance": null,
+    "reason_en": "Directory schemas are shown, but learning-data utility and source authority need review before inclusion.",
+    "reason_zh": "目前展示目录数据结构，收录前需核查学习数据用途与来源权威性。",
+    "summary_en": "robotindex-data provides schema-defined directory data behind robotindex.io.",
+    "summary_zh": "robotindex-data 提供 robotindex.io 背后的结构化目录数据。"
+  },
+  {
+    "canonical_url": "https://github.com/artl13/robotrace-dev",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "RoboTrace SDK logs robot episodes with synchronized video, sensor and action data for observability and evaluation.",
+    "summary_zh": "RoboTrace SDK 记录包含同步视频、传感器与动作数据的机器人回合，用于可观测性与评估。"
+  },
+  {
+    "canonical_url": "https://github.com/lil-lab/touchdown",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "Touchdown provides natural-language navigation and spatial-reasoning data.",
+    "summary_zh": "Touchdown 提供自然语言导航与空间推理数据。"
+  },
+  {
+    "canonical_url": "https://askforalfred.com",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "ALFRED benchmarks following language instructions in interactive environments.",
+    "summary_zh": "ALFRED 用于评估在交互环境中执行语言指令的能力。"
+  },
+  {
+    "canonical_url": "https://behavior.stanford.edu",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "BEHAVIOR provides household-activity benchmarks for embodied agents and robotics.",
+    "summary_zh": "BEHAVIOR 提供具身代理与机器人家居活动基准。"
+  },
+  {
+    "canonical_url": "https://github.com/facebookresearch/benchmarl",
+    "decision": "needs_review",
+    "relevance": null,
+    "reason_en": "Generic MARL benchmarking is described without identifying a robotic or embodied environment.",
+    "reason_zh": "当前描述通用多代理强化学习基准，未明确机器人或具身环境。",
+    "summary_en": "BenchMARL provides tools for comparing multi-agent reinforcement-learning algorithms, tasks and models.",
+    "summary_zh": "BenchMARL 提供比较多代理强化学习算法、任务与模型的工具。"
+  },
+  {
+    "canonical_url": "https://github.com/mees/calvin",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "CALVIN benchmarks language-conditioned policy learning for long-horizon robot manipulation.",
+    "summary_zh": "CALVIN 用于评估语言条件驱动的长时程机器人操作策略学习。"
+  },
+  {
+    "canonical_url": "https://github.com/alecbossard/geopolicy-bench",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "GeoPolicy-Bench compares perception and policy designs on Panda manipulation tasks.",
+    "summary_zh": "GeoPolicy-Bench 在 Panda 操作任务上比较感知与策略设计。"
+  },
+  {
+    "canonical_url": "https://github.com/farama-foundation/gymnasium-robotics",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "Gymnasium Robotics provides simulated robotics environments for reinforcement learning.",
+    "summary_zh": "Gymnasium Robotics 提供机器人强化学习仿真环境。"
+  },
+  {
+    "canonical_url": "https://github.com/carlosferrazza/humanoid-bench",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "HumanoidBench provides whole-body-control tasks for humanoid robot-learning evaluation.",
+    "summary_zh": "HumanoidBench 提供用于人形机器人学习评估的全身控制任务。"
+  },
+  {
+    "canonical_url": "https://github.com/lifelong-robot-learning/libero",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "LIBERO benchmarks knowledge transfer in lifelong robot learning.",
+    "summary_zh": "LIBERO 用于评估终身机器人学习中的知识迁移。"
+  },
+  {
+    "canonical_url": "https://github.com/robfiras/loco-mujoco",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "LocoMuJoCo provides imitation-learning benchmarks for locomotion using MuJoCo.",
+    "summary_zh": "LocoMuJoCo 提供使用 MuJoCo 的移动模仿学习基准。"
+  },
+  {
+    "canonical_url": "https://github.com/mani-skill/maniskill",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "ManiSkill provides robotic-manipulation simulation and benchmark environments.",
+    "summary_zh": "ManiSkill 提供机器人操作仿真与基准环境。"
+  },
+  {
+    "canonical_url": "https://github.com/farama-foundation/metaworld",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "Meta-World provides robot-manipulation tasks for multi-task and meta-learning evaluation.",
+    "summary_zh": "Meta-World 提供用于多任务与元学习评估的机器人操作任务。"
+  },
+  {
+    "canonical_url": "https://github.com/myohub/myosuite",
+    "decision": "include",
+    "relevance": "supporting",
+    "reason_en": "Musculoskeletal simulation is supporting embodied motor-control research, rather than a robot-only suite.",
+    "reason_zh": "肌肉骨骼仿真可辅助具身运动控制研究，并非仅用于机器人的套件。",
+    "summary_en": "MyoSuite provides musculoskeletal simulation tasks for motor-control learning.",
+    "summary_zh": "MyoSuite 提供用于运动控制学习的肌肉骨骼仿真任务。"
+  },
+  {
+    "canonical_url": "https://github.com/stepjam/rlbench",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "RLBench provides a task suite for visual robot-learning evaluation.",
+    "summary_zh": "RLBench 提供用于视觉机器人学习评估的任务套件。"
+  },
+  {
+    "canonical_url": "https://robo-arena.github.io",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "RoboArena provides robot-manipulation policy evaluation resources.",
+    "summary_zh": "RoboArena 提供机器人操作策略评估资源。"
+  },
+  {
+    "canonical_url": "https://github.com/robotwin-platform/robotwin",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "RoboTwin provides bimanual manipulation benchmarks and data-generation tools.",
+    "summary_zh": "RoboTwin 提供双臂操作基准与数据生成工具。"
+  },
+  {
+    "canonical_url": "https://github.com/simpler-env/simplerenv",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "SimplerEnv provides simulated environments for evaluating robot-manipulation policies under shared setups.",
+    "summary_zh": "SimplerEnv 提供在共用配置下评估机器人操作策略的仿真环境。"
+  },
+  {
+    "canonical_url": "https://github.com/archerkattri/actionshift",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "ActionShift evaluates adaptation to hidden robot action-interface contracts on ManiSkill tasks.",
+    "summary_zh": "ActionShift 在 ManiSkill 任务上评估对隐藏机器人动作接口约定的适应能力。"
+  },
+  {
+    "canonical_url": "https://github.com/air-embodied-brain/actprobe",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "ActProbe provides probes and benchmarks for early failure detection in generative robot policies.",
+    "summary_zh": "ActProbe 提供生成式机器人策略提前故障检测的探针与基准。"
+  },
+  {
+    "canonical_url": "https://github.com/bark-simulator/bark",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Autonomous-driving behavior planning is embodied autonomy; the inherited manipulation category is inaccurate.",
+    "reason_zh": "自动驾驶行为规划属于具身自主性，沿用的操作分类不准确。",
+    "summary_en": "BARK provides simulation and benchmarking tools for autonomous-driving behavior planning.",
+    "summary_zh": "BARK 提供自动驾驶行为规划的仿真与基准工具。"
+  },
+  {
+    "canonical_url": "https://github.com/aalmuzairee/dmcgb2",
+    "decision": "needs_review",
+    "relevance": null,
+    "reason_en": "Control generalization is plausible supporting work, but available headings do not specify robotic tasks.",
+    "reason_zh": "控制泛化可能是辅助研究，但现有标题未明确机器人任务。",
+    "summary_en": "DMC-GB2 provides the DMControl Generalization Benchmark 2 release and training examples.",
+    "summary_zh": "DMC-GB2 提供 DMControl Generalization Benchmark 2 与训练示例。"
+  },
+  {
+    "canonical_url": "https://github.com/evolutiongym/evogym",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "Evolution Gym benchmarks joint optimization of soft-robot design and control.",
+    "summary_zh": "Evolution Gym 用于评估软体机器人设计与控制的联合优化。"
+  },
+  {
+    "canonical_url": "https://github.com/gepetto/example-robot-data",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "Example Robot Data collects robot URDF models for benchmarks and examples.",
+    "summary_zh": "Example Robot Data 汇集基准与示例使用的机器人 URDF 模型。"
+  },
+  {
+    "canonical_url": "https://github.com/amanshah0729/faultline",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "Faultline studies LIBERO policy robustness using perturbation and ablation workflows.",
+    "summary_zh": "Faultline 使用扰动与消融工作流研究 LIBERO 策略鲁棒性。"
+  },
+  {
+    "canonical_url": "https://github.com/clvrai/furniture-bench",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "FurnitureBench provides real-world furniture-assembly benchmarks and related simulation resources.",
+    "summary_zh": "FurnitureBench 提供真实环境家具装配基准及相关仿真资源。"
+  },
+  {
+    "canonical_url": "https://github.com/coenwerem/parcelstow",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "ParcelStow evaluates imitation-learned robot-policy robustness under execution-timing variation in Isaac Lab.",
+    "summary_zh": "ParcelStow 在 Isaac Lab 中评估模仿学习机器人策略对执行时序变化的鲁棒性。"
+  },
+  {
+    "canonical_url": "https://github.com/vikashplus/robohive",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "RoboHive provides a framework and task suites for robot learning.",
+    "summary_zh": "RoboHive 提供机器人学习框架与任务套件。"
+  },
+  {
+    "canonical_url": "https://github.com/enyihou/robopianist-cost-aware-intervention",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "RoboPianist Cost-Aware Intervention provides a benchmark for teacher interventions in RoboPianist.",
+    "summary_zh": "RoboPianist Cost-Aware Intervention 提供 RoboPianist 中教师干预的成本感知基准。"
+  },
+  {
+    "canonical_url": "https://github.com/robot-colosseum/robot-colosseum",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "Robot Colosseum benchmarks generalization in robotic manipulation.",
+    "summary_zh": "Robot Colosseum 用于评估机器人操作的泛化能力。"
+  },
+  {
+    "canonical_url": "https://github.com/xingyu-lin/softgym",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "SoftGym provides benchmark environments for deformable-object manipulation.",
+    "summary_zh": "SoftGym 提供可变形物体操作的基准环境。"
+  },
+  {
+    "canonical_url": "https://github.com/andrejorsula/space_robotics_bench",
+    "decision": "include",
+    "relevance": "direct",
+    "reason_en": "Stored description or headings explicitly concern robotic or embodied learning, perception, control or evaluation.",
+    "reason_zh": "存储描述或标题明确涉及机器人或具身学习、感知、控制与评估。",
+    "summary_en": "Space Robotics Bench provides robot-learning resources for space-oriented tasks.",
+    "summary_zh": "Space Robotics Bench 提供面向空间任务的机器人学习资源。"
+  },
+  {
+    "canonical_url": "https://github.com/aaa-mvc/traceos",
+    "decision": "exclude",
+    "relevance": null,
+    "reason_en": "Generic AI experiment reporting is described without an embodied or robotics-specific workflow.",
+    "reason_zh": "当前描述通用 AI 实验报告，没有具身或机器人专用工作流。",
+    "summary_en": "TraceOS structures general AI experiments into reports and comparable experiment assets.",
+    "summary_zh": "TraceOS 将通用 AI 实验组织为报告与可比较的实验资产。"
+  }
+]

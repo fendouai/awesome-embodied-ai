@@ -1,0 +1,1 @@
+jsonschema[format-nongpl]==4.26.0

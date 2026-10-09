@@ -1,0 +1,746 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:botstest:awesome-embodied-ai:resource:v1",
+  "title": "Awesome Embodied AI resource",
+  "description": "One editorially included canonical endpoint. Unknown license scopes and historic check dates remain explicit.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "name",
+    "kind",
+    "website",
+    "canonical_url",
+    "detail_url",
+    "summary",
+    "category",
+    "subcategories",
+    "primary_subcategory",
+    "relevance",
+    "editorial",
+    "access",
+    "licenses",
+    "repository",
+    "verification",
+    "sources",
+    "tags",
+    "topics",
+    "applications",
+    "aliases",
+    "ranking",
+    "classification"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^url-[0-9a-f]{16}$"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "kind": {
+      "enum": [
+        "component",
+        "hardware",
+        "software",
+        "model",
+        "dataset",
+        "benchmark",
+        "company",
+        "product",
+        "research"
+      ]
+    },
+    "website": {
+      "type": "string",
+      "format": "uri",
+      "pattern": "^https?://"
+    },
+    "canonical_url": {
+      "type": "string",
+      "format": "uri",
+      "pattern": "^https?://"
+    },
+    "detail_url": {
+      "type": "string",
+      "format": "uri",
+      "pattern": "^https?://"
+    },
+    "summary": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "en",
+        "zh-CN"
+      ],
+      "properties": {
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "zh-CN": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "category": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "slug",
+        "name"
+      ],
+      "properties": {
+        "slug": {
+          "enum": [
+            "components",
+            "hardware",
+            "software",
+            "models",
+            "datasets",
+            "benchmarks",
+            "companies",
+            "products",
+            "research"
+          ]
+        },
+        "name": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "en",
+            "zh-CN"
+          ],
+          "properties": {
+            "en": {
+              "type": "string",
+              "minLength": 1
+            },
+            "zh-CN": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        }
+      }
+    },
+    "subcategories": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "slug",
+          "name"
+        ],
+        "properties": {
+          "slug": {
+            "type": "string",
+            "minLength": 1
+          },
+          "name": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "en",
+              "zh-CN"
+            ],
+            "properties": {
+              "en": {
+                "type": "string",
+                "minLength": 1
+              },
+              "zh-CN": {
+                "type": "string",
+                "minLength": 1
+              }
+            }
+          }
+        }
+      },
+      "uniqueItems": true
+    },
+    "primary_subcategory": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "relevance": {
+      "enum": [
+        "direct",
+        "supporting"
+      ]
+    },
+    "editorial": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "decision",
+        "reviewed_on",
+        "method",
+        "reason"
+      ],
+      "properties": {
+        "decision": {
+          "const": "include"
+        },
+        "reviewed_on": {
+          "type": "string",
+          "format": "date"
+        },
+        "method": {
+          "type": "string",
+          "minLength": 1
+        },
+        "reason": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "en",
+            "zh-CN"
+          ],
+          "properties": {
+            "en": {
+              "type": "string",
+              "minLength": 1
+            },
+            "zh-CN": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        }
+      }
+    },
+    "access": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "label",
+        "status"
+      ],
+      "properties": {
+        "label": {
+          "enum": [
+            "open",
+            "commercial",
+            "research"
+          ]
+        },
+        "status": {
+          "const": "directory_reported"
+        }
+      }
+    },
+    "licenses": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "repository",
+        "weights",
+        "dataset",
+        "hardware_design"
+      ],
+      "properties": {
+        "repository": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "identifier",
+            "status",
+            "source_url",
+            "observed_at"
+          ],
+          "properties": {
+            "identifier": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "status": {
+              "enum": [
+                "repository_reported",
+                "unknown",
+                "not_individually_verified"
+              ]
+            },
+            "source_url": {
+              "anyOf": [
+                {
+                  "type": "string",
+                  "format": "uri",
+                  "pattern": "^https?://"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "observed_at": {
+              "anyOf": [
+                {
+                  "type": "string",
+                  "format": "date-time"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            }
+          }
+        },
+        "weights": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "identifier",
+            "status",
+            "source_url",
+            "observed_at"
+          ],
+          "properties": {
+            "identifier": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "status": {
+              "enum": [
+                "repository_reported",
+                "unknown",
+                "not_individually_verified"
+              ]
+            },
+            "source_url": {
+              "anyOf": [
+                {
+                  "type": "string",
+                  "format": "uri",
+                  "pattern": "^https?://"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "observed_at": {
+              "anyOf": [
+                {
+                  "type": "string",
+                  "format": "date-time"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            }
+          }
+        },
+        "dataset": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "identifier",
+            "status",
+            "source_url",
+            "observed_at"
+          ],
+          "properties": {
+            "identifier": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "status": {
+              "enum": [
+                "repository_reported",
+                "unknown",
+                "not_individually_verified"
+              ]
+            },
+            "source_url": {
+              "anyOf": [
+                {
+                  "type": "string",
+                  "format": "uri",
+                  "pattern": "^https?://"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "observed_at": {
+              "anyOf": [
+                {
+                  "type": "string",
+                  "format": "date-time"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            }
+          }
+        },
+        "hardware_design": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "identifier",
+            "status",
+            "source_url",
+            "observed_at"
+          ],
+          "properties": {
+            "identifier": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "status": {
+              "enum": [
+                "repository_reported",
+                "unknown",
+                "not_individually_verified"
+              ]
+            },
+            "source_url": {
+              "anyOf": [
+                {
+                  "type": "string",
+                  "format": "uri",
+                  "pattern": "^https?://"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "observed_at": {
+              "anyOf": [
+                {
+                  "type": "string",
+                  "format": "date-time"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    "repository": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "owner",
+        "name",
+        "language",
+        "archived",
+        "pushed_at"
+      ],
+      "properties": {
+        "owner": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "name": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "language": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "archived": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "pushed_at": {
+          "anyOf": [
+            {
+              "type": "string",
+              "format": "date-time"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      }
+    },
+    "verification": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "link_status",
+        "checked_at",
+        "method",
+        "new_check_performed"
+      ],
+      "properties": {
+        "link_status": {
+          "enum": [
+            "reachable",
+            "unchecked",
+            "needs_review"
+          ]
+        },
+        "checked_at": {
+          "anyOf": [
+            {
+              "type": "string",
+              "format": "date-time"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "method": {
+          "type": "string",
+          "minLength": 1
+        },
+        "new_check_performed": {
+          "const": false
+        }
+      }
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "name",
+          "url"
+        ],
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string",
+            "format": "uri",
+            "pattern": "^https?://"
+          }
+        }
+      }
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "topics": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "applications": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "aliases": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "slug",
+          "name",
+          "detail_url"
+        ],
+        "properties": {
+          "id": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "slug": {
+            "type": "string",
+            "minLength": 1
+          },
+          "name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "detail_url": {
+            "type": "string",
+            "format": "uri",
+            "pattern": "^https?://"
+          }
+        }
+      }
+    },
+    "ranking": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "score",
+        "pagerank",
+        "normalized_pagerank",
+        "quality",
+        "link_health",
+        "completeness",
+        "rank_updated_at",
+        "representative_node_id",
+        "graph_scope",
+        "algorithm_version"
+      ],
+      "properties": {
+        "score": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "pagerank": {
+          "type": "number",
+          "exclusiveMinimum": 0,
+          "maximum": 1
+        },
+        "normalized_pagerank": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "quality": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "link_health": {
+          "enum": [
+            0,
+            0.2,
+            1
+          ]
+        },
+        "completeness": {
+          "enum": [
+            0,
+            0.25,
+            0.5,
+            0.75,
+            1
+          ]
+        },
+        "rank_updated_at": {
+          "anyOf": [
+            {
+              "type": "string",
+              "format": "date-time"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "representative_node_id": {
+          "type": "integer"
+        },
+        "graph_scope": {
+          "const": "full_1039_directory_records"
+        },
+        "algorithm_version": {
+          "const": "botstest-pr-v1"
+        }
+      }
+    },
+    "classification": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "method",
+        "source_category",
+        "registry_category",
+        "source_subcategories",
+        "reason"
+      ],
+      "properties": {
+        "method": {
+          "enum": [
+            "editorial_override",
+            "imported_directory_taxonomy"
+          ]
+        },
+        "source_category": {
+          "enum": [
+            "components",
+            "hardware",
+            "software",
+            "models",
+            "datasets",
+            "benchmarks",
+            "companies",
+            "products",
+            "research"
+          ]
+        },
+        "registry_category": {
+          "enum": [
+            "components",
+            "hardware",
+            "software",
+            "models",
+            "datasets",
+            "benchmarks",
+            "companies",
+            "products",
+            "research"
+          ]
+        },
+        "source_subcategories": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "reason": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "en",
+            "zh-CN"
+          ],
+          "properties": {
+            "en": {
+              "type": "string",
+              "minLength": 1
+            },
+            "zh-CN": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        }
+      }
+    }
+  }
+}

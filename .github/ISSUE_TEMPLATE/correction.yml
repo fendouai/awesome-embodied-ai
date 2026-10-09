@@ -1,0 +1,17 @@
+name: Correct metadata / 元数据纠错
+description: Report an incorrect classification, description, license observation or endpoint.
+title: '[Correction] '
+body:
+  - type: input
+    id: url
+    attributes:
+      label: Resource URL or stable ID / 资源网址或稳定ID
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: Correction and evidence / 修改与依据
+      description: Explain the incorrect field, proposed value, primary source and observation date. A failed request alone does not prove permanent removal.
+    validations:
+      required: true

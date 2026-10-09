@@ -1,0 +1,28 @@
+{
+  "edition": "2026-10-09",
+  "curated": 958,
+  "candidates": 1000,
+  "excluded": 16,
+  "needs_review": 26,
+  "categories": 9,
+  "subcategories_available": 55,
+  "ranking_nodes": 1039,
+  "ranking_edges": 668,
+  "max_score_reproduction_error": 0.0,
+  "new_endpoint_checks": 0,
+  "relevance_counts": {
+    "direct": 822,
+    "supporting": 136
+  },
+  "per_category": {
+    "components": 28,
+    "hardware": 38,
+    "software": 579,
+    "models": 76,
+    "datasets": 33,
+    "benchmarks": 31,
+    "companies": 44,
+    "products": 27,
+    "research": 102
+  }
+}

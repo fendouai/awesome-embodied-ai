@@ -1,0 +1,16 @@
+{
+  "data/classification-overrides.json": "2f3e81a3c4e4b45d755d0f1f6f1bb2996b6d1d3bef297440c1e1d8df9455e747",
+  "data/decisions.json": "a5e7dd407efb5a87f2322d15dcc40684f7dd51eff2390e6c7335b62516699a60",
+  "data/display-names.json": "85055bfc35d80e4e9585c8e8203608d4df9b43c0393031bce100ec1086c5b7c3",
+  "data/resources.csv": "cf8006634875f5192c40bae1e774ff4c1a510e88370f930acb2a1463cccc5526",
+  "data/resources.json": "e0f738be0766f721affb56e09aeaaf8fcef47d337807d305c08e57214c4edc0f",
+  "data/reviews/ai-data.json": "49a49d38596413c3a19c19b5e07425c1b6add657802370c1c0db3255595051fa",
+  "data/reviews/physical-research.json": "0cd5d0fb68396ecd4e2a0b3ec29bbd928e134519144b72ad8706e81435434be0",
+  "data/reviews/software-a.json": "c0054f8ad5e6727467eea8b001ab26e8576439482209b64283d4ca21b9998b92",
+  "data/reviews/software-b.json": "21a061d7024cfdc33662478912959e6b54e8b8c93c98922ed129d5531d56acc1",
+  "data/reviews/software-c.json": "b6f724832e4759e14cf73ca40d4587dc37364c98830c5408ef3e1abb392dd5fd",
+  "data/source-snapshot.json": "d59d54d4969feac0b228cdb296f1b149057d2e5f96dcc6a85a4a2587399438da",
+  "data/summary.json": "ce2994e7504a541c5fba8205875383a5917734cb4785ee844cc935470fcbe2ba",
+  "data/taxonomy.json": "91c42c015b56dd2e254b11a235e16a3e2a4e717b25a52cb96ecfca1e0ea1d8fe",
+  "data/url-registry.json": "44fd563b9f1bc2823cae604c9258498a89d83f7c13a7fd8ef846da13287c3977"
+}

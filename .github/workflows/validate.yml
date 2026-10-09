@@ -1,0 +1,31 @@
+name: Validate data and bilingual lists
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: '3.12'
+      - name: Install pinned validation dependencies
+        run: python -m pip install -r requirements-dev.lock
+      - name: Validate schema, provenance, ranking and language parity
+        run: python scripts/validate.py
+      - name: Test ranking behavior
+        run: python -m unittest discover -s tests
+      - name: Rebuild English then Chinese
+        run: python scripts/build.py
+      - name: Ensure generated files are committed
+        run: git diff --exit-code -- README.md README.zh-CN.md lists/ data/resources.json data/resources.csv data/decisions.json data/summary.json data/checksums.json

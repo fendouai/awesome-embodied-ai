@@ -1,0 +1,8 @@
+{
+  "https://github.com/huggingface/lerobot": "LeRobot",
+  "https://github.com/google-deepmind/mujoco": "MuJoCo",
+  "https://github.com/enactic/openarm": "OpenArm",
+  "https://github.com/bulletphysics/bullet3": "Bullet Physics",
+  "https://github.com/google-deepmind/dm_control": "dm_control",
+  "https://github.com/cyberbotics/webots": "Webots"
+}

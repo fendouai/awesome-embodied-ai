@@ -1,0 +1,464 @@
+{
+  "version": 1,
+  "designed_on": "2026-10-07",
+  "categories": [
+    {
+      "slug": "components",
+      "name": "Core components",
+      "symbol": "◈",
+      "seo_title": "Robot actuators, sensors & compute",
+      "description": "Explore actuation, sensing, compute and power components for intelligent machines.",
+      "children": [
+        {
+          "slug": "actuators-motors",
+          "name": "Actuators & motors",
+          "description": "Find integrated joint actuators, servo motors and compact drive assemblies for robotic motion.",
+          "guidance": "Compare continuous and peak torque, speed, thermal limits, voltage and feedback. Match the actuator’s communication interface and mounting to the intended joint."
+        },
+        {
+          "slug": "reducers-transmissions",
+          "name": "Reducers & transmissions",
+          "description": "Explore precision reduction gears and transmissions for robotic joints.",
+          "guidance": "Compare reduction ratio, backlash, stiffness, efficiency and lifetime under the expected load. Check the complete motor-and-gear assembly rather than treating peak gearbox torque as a continuous rating."
+        },
+        {
+          "slug": "motor-drives",
+          "name": "Motor drives & controllers",
+          "description": "Find drive electronics and servo controllers for robotic motors and joints.",
+          "guidance": "Check supported motors, encoder types, current limits and command interfaces. A motor controller is not necessarily an integrated actuator; confirm what hardware is supplied."
+        },
+        {
+          "slug": "force-tactile",
+          "name": "Force & tactile sensing",
+          "description": "Explore force-torque sensors and tactile sensing for contact-aware robotic manipulation.",
+          "guidance": "Match measurement range, resolution, sample rate and mechanical mounting to the contact task. Distinguish whole-wrist force sensing from local fingertip or surface tactile information."
+        },
+        {
+          "slug": "vision-range",
+          "name": "Vision & range sensing",
+          "description": "Find depth cameras, stereo systems and LiDAR sensors for robot perception.",
+          "guidance": "Compare useful range, field of view, frame rate and performance under the intended lighting. Verify synchronization, calibration and driver support before choosing a camera or range sensor."
+        },
+        {
+          "slug": "position-inertial",
+          "name": "Position & inertial sensing",
+          "description": "Explore encoders, inertial sensors and motion-tracking systems for robotic state estimation.",
+          "guidance": "Check encoder resolution, sensor noise, drift and timing requirements. Distinguish relative motion measurements from absolute pose estimates and confirm the expected reference frame."
+        },
+        {
+          "slug": "edge-compute",
+          "name": "Edge compute",
+          "description": "Find embedded processors and accelerators for on-device robotic perception and control.",
+          "guidance": "Budget power, cooling, memory and I/O before comparing inference performance. Verify supported runtimes and real-time control requirements separately from AI acceleration."
+        },
+        {
+          "slug": "power-electronics",
+          "name": "Power & electronics",
+          "description": "Explore power-conversion, battery and electronic components for robotic systems.",
+          "guidance": "Review voltage, transient current, protection and charging requirements at system level. Battery cells, battery packs and battery-management electronics are separate procurement decisions."
+        }
+      ]
+    },
+    {
+      "slug": "hardware",
+      "name": "Hardware",
+      "symbol": "⌘",
+      "seo_title": "Robot hardware, arms & development platforms",
+      "description": "Find robot arms, hands, teleoperation rigs and platforms for development.",
+      "children": [
+        {
+          "slug": "robot-arms",
+          "name": "Robot arms",
+          "description": "Explore robot arms and manipulation platforms for development, education and research.",
+          "guidance": "Compare workspace, payload, repeatability, sensing and control interfaces. Check the complete setup, including controller, mounting and end effector, before estimating cost or compatibility."
+        },
+        {
+          "slug": "hands-grippers",
+          "name": "Hands & grippers",
+          "description": "Find parallel grippers, adaptive end effectors and dexterous robot hands.",
+          "guidance": "Choose grasp mechanics around the objects and task. Compare opening range, force, tactile feedback and finger control rather than assuming additional fingers guarantee better manipulation."
+        },
+        {
+          "slug": "teleoperation-rigs",
+          "name": "Teleoperation rigs",
+          "description": "Explore demonstration-collection hardware and interfaces for controlling robots remotely.",
+          "guidance": "Match leader and follower kinematics, control latency and data synchronization. Check whether the rig records the observations and actions required by the target learning pipeline."
+        },
+        {
+          "slug": "research-humanoids",
+          "name": "Research humanoid platforms",
+          "description": "Find humanoid development hardware for embodied AI and locomotion experiments.",
+          "guidance": "Confirm developer access, safety procedures, supported interfaces and replacement-part availability. A humanoid form factor does not establish autonomous capability or suitability for human interaction."
+        },
+        {
+          "slug": "mobile-bases",
+          "name": "Mobile bases & rovers",
+          "description": "Explore wheeled, legged and rover development platforms for mobile robotics.",
+          "guidance": "Compare terrain, turning geometry, payload, power and odometry interfaces. Verify braking, emergency-stop behavior and integration requirements for the intended environment."
+        },
+        {
+          "slug": "diy-education",
+          "name": "DIY & education hardware",
+          "description": "Find buildable robot designs and educational hardware platforms.",
+          "guidance": "Check assembly instructions, bill of materials and design licenses. An open software driver does not establish that the mechanical design is open hardware."
+        }
+      ]
+    },
+    {
+      "slug": "software",
+      "name": "Software",
+      "symbol": "⊞",
+      "seo_title": "Robotics software, simulation & control",
+      "description": "Explore simulation, learning, navigation, middleware and robot operations software.",
+      "children": [
+        {
+          "slug": "simulation-physics",
+          "name": "Simulation & physics",
+          "description": "Explore physics engines and simulation platforms for developing and testing robotic systems.",
+          "guidance": "Choose around contact fidelity, sensor rendering, robot assets and compute requirements. Confirm supported versions and licenses before comparing simulation speed or transferring policies to hardware."
+        },
+        {
+          "slug": "robot-learning",
+          "name": "Robot learning frameworks",
+          "description": "Find training workflows for imitation learning, reinforcement learning and robotic policy adaptation.",
+          "guidance": "Check data formats, observation/action interfaces and supported environments. Distinguish a framework’s training infrastructure from the licenses and requirements of individual policies."
+        },
+        {
+          "slug": "navigation-slam",
+          "name": "Navigation & SLAM",
+          "description": "Explore mapping, localization, odometry and navigation software for autonomous robots.",
+          "guidance": "Match sensors, coordinate frames and localization assumptions to the deployment environment. Mapping, pose estimation, path planning and obstacle avoidance serve different parts of the navigation stack."
+        },
+        {
+          "slug": "planning-control",
+          "name": "Motion planning & control",
+          "description": "Find kinematics, dynamics, trajectory-generation and motion-planning tools.",
+          "guidance": "Check robot models, collision representations, timing and control interfaces. A feasible geometric path still needs dynamic and hardware-level validation before execution."
+        },
+        {
+          "slug": "middleware",
+          "name": "Middleware & communication",
+          "description": "Explore messaging and dataflow infrastructure for distributed robotic systems.",
+          "guidance": "Compare delivery semantics, timing, transport security and integration requirements. Verify compatibility with the selected ROS distribution or runtime instead of assuming drop-in replacement."
+        },
+        {
+          "slug": "perception-geometry",
+          "name": "Perception & geometry",
+          "description": "Find point-cloud processing, calibration and geometric estimation libraries.",
+          "guidance": "Choose tools around sensor modality, calibration assumptions and required geometric outputs. Check numerical precision, runtime requirements and data conventions before connecting pipelines."
+        },
+        {
+          "slug": "robot-sdks",
+          "name": "Robot SDKs",
+          "description": "Explore manufacturer and project SDKs for communicating with robotic hardware.",
+          "guidance": "Confirm model, firmware and transport compatibility in the publisher’s documentation. An SDK may expose commands without providing a complete safety or autonomy stack."
+        },
+        {
+          "slug": "teleoperation",
+          "name": "Teleoperation software",
+          "description": "Explore software interfaces and retargeting tools for remotely controlling robots and collecting demonstrations.",
+          "guidance": "Check latency, observation synchronization and supported control devices. Verify robot-side limits and emergency handling before connecting a teleoperation pipeline."
+        },
+        {
+          "slug": "visualization-data",
+          "name": "Visualization & data tools",
+          "description": "Find tools for visualizing, recording and inspecting robotic data.",
+          "guidance": "Check supported message formats, timestamps and playback workflows. Evaluate local versus hosted storage and data-export capabilities before relying on a tool for development records."
+        },
+        {
+          "slug": "fleet-autonomy",
+          "name": "Fleet & autonomy systems",
+          "description": "Explore coordination, operations and autonomy tools for fleets and mobile systems.",
+          "guidance": "Distinguish fleet coordination from onboard autonomy. Review connectivity assumptions, failure handling and operational responsibilities for each supported platform."
+        }
+      ]
+    },
+    {
+      "slug": "models",
+      "name": "Models",
+      "symbol": "✳",
+      "seo_title": "Robot AI models, VLA & world models",
+      "description": "Find robotic policies, vision-language-action models and perception or world models.",
+      "children": [
+        {
+          "slug": "vla",
+          "name": "Vision-language-action",
+          "description": "Explore VLA and robotic foundation-model resources connecting perception, instructions and actions.",
+          "guidance": "Compare observation inputs, action representations, supported embodiments and adaptation requirements. Review model-weight licenses separately from code licenses and benchmark claims."
+        },
+        {
+          "slug": "robot-policies",
+          "name": "Robot policies",
+          "description": "Find imitation-learning and learned-control policies for robotic tasks.",
+          "guidance": "Check how actions are represented and what demonstrations or rewards were used. Assess distribution shift and closed-loop behavior before using a trained policy on a different robot."
+        },
+        {
+          "slug": "world-models",
+          "name": "World models",
+          "description": "Explore predictive and generative world-model resources for physical AI and robot planning.",
+          "guidance": "Distinguish generated visual futures from validated physical dynamics. Review conditioning inputs, rollout horizon and evaluation protocols before treating predictions as executable plans."
+        },
+        {
+          "slug": "perception",
+          "name": "Perception models",
+          "description": "Find segmentation, depth, pose and visual representation models for robot perception pipelines.",
+          "guidance": "Check output geometry, coordinate frames and failure cases under the intended camera setup. General image-model performance does not establish task-level robotic reliability."
+        },
+        {
+          "slug": "grasping",
+          "name": "Grasping models",
+          "description": "Explore grasp detection and prediction models for robotic manipulation.",
+          "guidance": "Check object representations, gripper geometry and collision assumptions. Evaluate generated grasps with the actual end effector and sensing configuration."
+        },
+        {
+          "slug": "language-planning",
+          "name": "Language-guided planning",
+          "description": "Find model-based approaches connecting natural-language instructions with robotic skills and plans.",
+          "guidance": "Review grounding, skill interfaces and execution feedback. Language-generated plans require validation against the robot’s capabilities and environment."
+        }
+      ]
+    },
+    {
+      "slug": "datasets",
+      "name": "Datasets",
+      "symbol": "▤",
+      "seo_title": "Robot learning datasets & demonstration data",
+      "description": "Find robotic demonstrations, motion data and scene assets for learning.",
+      "children": [
+        {
+          "slug": "robot-demonstrations",
+          "name": "Robot demonstrations",
+          "description": "Find recorded robot interactions and demonstrations for learning manipulation and control.",
+          "guidance": "Inspect robot embodiments, observation/action formats, task diversity and collection procedures. Check train/test splits and dataset licenses before mixing sources."
+        },
+        {
+          "slug": "motion-interaction",
+          "name": "Motion & interaction data",
+          "description": "Explore motion capture, egocentric video and human-object interaction datasets relevant to robotics.",
+          "guidance": "Assess modality, coordinate systems, consent and licensing. Human motion and video may require retargeting or additional supervision before they can train robot actions."
+        },
+        {
+          "slug": "scene-assets",
+          "name": "Scene & object assets",
+          "description": "Find 3D scenes and object resources for robotics perception and simulation.",
+          "guidance": "Check geometry, scale, physical annotations and asset licenses. A visual mesh may need collision geometry and dynamics parameters before it works in simulation."
+        }
+      ]
+    },
+    {
+      "slug": "benchmarks",
+      "name": "Benchmarks",
+      "symbol": "◷",
+      "seo_title": "Robotics benchmarks & evaluation environments",
+      "description": "Explore tasks and evaluation suites for manipulation, navigation and control.",
+      "children": [
+        {
+          "slug": "manipulation",
+          "name": "Manipulation",
+          "description": "Explore task suites for evaluating grasping, manipulation and language-conditioned robotic behavior.",
+          "guidance": "Compare task definitions, robot configuration, evaluation splits and success criteria. Do not compare scores from different environment versions as if they measure identical performance."
+        },
+        {
+          "slug": "navigation-interaction",
+          "name": "Navigation & embodied interaction",
+          "description": "Find evaluation tasks for navigation and interaction in embodied environments.",
+          "guidance": "Inspect observations, maps, instructions and permitted agent actions. Check how task success and path efficiency are measured and whether test environments overlap with training data."
+        },
+        {
+          "slug": "whole-body",
+          "name": "Locomotion & whole-body control",
+          "description": "Explore evaluation environments for locomotion, humanoid skills and motor-control research.",
+          "guidance": "Review body models, contact assumptions, control frequency and reward or metric definitions. Simulation task completion does not establish real-hardware robustness."
+        },
+        {
+          "slug": "policy-evaluation",
+          "name": "Policy evaluation",
+          "description": "Find tools and protocols for evaluating robotic policies and generalization.",
+          "guidance": "Review task coverage, sample counts, seeds and evaluation conditions. Reproduction in simulation and performance on physical hardware provide different kinds of evidence."
+        }
+      ]
+    },
+    {
+      "slug": "companies",
+      "name": "Companies",
+      "symbol": "▥",
+      "seo_title": "Embodied AI & robotics companies",
+      "description": "Find robotics manufacturers, AI developers and automation companies.",
+      "children": [
+        {
+          "slug": "humanoid-developers",
+          "name": "Humanoid developers",
+          "description": "Discover organizations developing humanoid robotic platforms and related systems.",
+          "guidance": "Distinguish prototypes, development hardware and products with documented deployment support. Verify current platform status and published interfaces with the organization."
+        },
+        {
+          "slug": "arm-makers",
+          "name": "Manipulation & arm makers",
+          "description": "Find companies developing robotic arms, end effectors and manipulation platforms.",
+          "guidance": "Review the manufacturer’s platform families and supported integration ecosystem. A company profile is not a claim that every product supports a particular controller or research stack."
+        },
+        {
+          "slug": "mobile-legged",
+          "name": "Mobile & legged robot makers",
+          "description": "Find developers of wheeled, quadruped and other mobile robotic platforms.",
+          "guidance": "Compare stated operating environments, integration support and service arrangements. Mobility form, intended application and autonomous capability should be evaluated separately."
+        },
+        {
+          "slug": "industrial-automation",
+          "name": "Industrial automation",
+          "description": "Discover robot manufacturers and automation companies serving industrial workflows.",
+          "guidance": "Review the specific robot family, integrator support and intended process. Company-level inclusion does not certify a work cell’s safety or compliance."
+        },
+        {
+          "slug": "service-logistics",
+          "name": "Service & logistics robotics",
+          "description": "Find organizations building service and logistics robotic systems.",
+          "guidance": "Review intended users, deployment conditions and operational support. A robot used inside a factory or hospital may serve logistics rather than manufacturing or medical treatment."
+        },
+        {
+          "slug": "ai-software",
+          "name": "AI & robotics software",
+          "description": "Discover developers of robotic intelligence, spatial models and software infrastructure.",
+          "guidance": "Separate research demonstrations from supported products. Verify model access, software interfaces, licensing and deployment commitments with each organization."
+        },
+        {
+          "slug": "component-suppliers",
+          "name": "Component suppliers",
+          "description": "Find suppliers of actuation, sensing and robot-development components.",
+          "guidance": "Use product-level documentation to establish specifications and availability. A supplier’s broad catalogue does not guarantee suitability for a particular robotic application."
+        }
+      ]
+    },
+    {
+      "slug": "products",
+      "name": "Products",
+      "symbol": "◇",
+      "seo_title": "Robots, humanoids & mobile robotics products",
+      "description": "Explore complete robots by form and platform; confirm availability with the maker.",
+      "children": [
+        {
+          "slug": "humanoids",
+          "name": "Humanoid & biped robots",
+          "description": "Explore humanoid and bipedal robot platforms, from research projects to manufacturer product lines.",
+          "guidance": "Bipedal locomotion and humanoid form are related but distinct properties. Check the exact body design, developer interfaces, operating limits and availability; two legs do not establish human-like capability."
+        },
+        {
+          "slug": "quadrupeds",
+          "name": "Quadruped robots",
+          "description": "Explore four-legged robot platforms for research, development and inspection.",
+          "guidance": "Check terrain, operating limits, payload support and developer interfaces. Confirm the exact edition and service requirements with the maker."
+        },
+        {
+          "slug": "mobile-manipulators",
+          "name": "Mobile manipulators",
+          "description": "Find robot platforms combining a mobile base with manipulation capability.",
+          "guidance": "Assess reach, payload, stability and navigation assumptions together. Confirm how base and arm interfaces coordinate and what safety procedures the publisher requires."
+        },
+        {
+          "slug": "mobile-rovers",
+          "name": "Mobile robots & rovers",
+          "description": "Explore wheeled and rover robotic platforms for autonomy and development.",
+          "guidance": "Check terrain, drive geometry, localization and payload requirements. Distinguish onboard autonomy from remote operation and platform-level developer tools."
+        },
+        {
+          "slug": "consumer-education",
+          "name": "Consumer & education robots",
+          "description": "Discover programmable and educational robot products for learning and home projects.",
+          "guidance": "Check intended users, assembly needs, supported programming environments and maintenance. Confirm age guidance and supervision requirements with the publisher."
+        },
+        {
+          "slug": "aerial-marine",
+          "name": "Aerial & marine robots",
+          "description": "Explore flying and underwater robotic platforms and development ecosystems.",
+          "guidance": "Review operating environment, communication, propulsion and failure handling. Air and water impose different platform requirements; check applicable operating rules for the planned use."
+        },
+        {
+          "slug": "industrial-arms",
+          "name": "Industrial arm systems",
+          "description": "Explore complete arm systems for industrial and collaborative automation workflows.",
+          "guidance": "Compare workspace, payload and integration support for the specific model. Collaborative operation depends on the complete application and risk assessment, not the arm label alone."
+        }
+      ]
+    },
+    {
+      "slug": "research",
+      "name": "Research & learning",
+      "symbol": "⌬",
+      "seo_title": "Robotics research labs, learning & standards",
+      "description": "Explore robotics labs, learning materials, official documentation and references.",
+      "children": [
+        {
+          "slug": "academic-labs",
+          "name": "Academic labs",
+          "description": "Discover university labs studying robot learning, perception, control and human-robot interaction.",
+          "guidance": "Use current lab pages to identify research themes and original publications. Lab inclusion is not a claim about recruitment, collaboration availability or commercial products."
+        },
+        {
+          "slug": "research-institutes",
+          "name": "Research institutes",
+          "description": "Find research organizations contributing to robotic intelligence and intelligent machines.",
+          "guidance": "Review original project pages and publication dates. Separate research programs, public artifacts and supported technology offerings."
+        },
+        {
+          "slug": "learning-docs",
+          "name": "Courses & documentation",
+          "description": "Explore robotics learning materials and publisher-maintained documentation.",
+          "guidance": "Check prerequisites, supported versions and whether material is conceptual or platform-specific. Use official release documentation when implementing a hardware workflow."
+        },
+        {
+          "slug": "standards-collections",
+          "name": "Standards & reference collections",
+          "description": "Find official robotics terminology, industry references and curated discovery collections.",
+          "guidance": "Distinguish formal published standards from drafts, association practices and community lists. A directory informed by a standard is not itself certified against that standard."
+        }
+      ]
+    }
+  ],
+  "applications": [
+    {
+      "slug": "manufacturing",
+      "name": "Manufacturing",
+      "description": "Explore components, tools and organizations connected to manufacturing robotics. Inclusion does not certify suitability for a particular deployment."
+    },
+    {
+      "slug": "logistics",
+      "name": "Logistics",
+      "description": "Explore components, tools and organizations connected to logistics robotics. Inclusion does not certify suitability for a particular deployment."
+    },
+    {
+      "slug": "inspection",
+      "name": "Inspection & maintenance",
+      "description": "Explore components, tools and organizations connected to inspection & maintenance robotics. Inclusion does not certify suitability for a particular deployment."
+    },
+    {
+      "slug": "healthcare",
+      "name": "Healthcare",
+      "description": "Explore components, tools and organizations connected to healthcare robotics. Inclusion does not certify suitability for a particular deployment."
+    },
+    {
+      "slug": "agriculture",
+      "name": "Agriculture",
+      "description": "Explore components, tools and organizations connected to agriculture robotics. Inclusion does not certify suitability for a particular deployment."
+    },
+    {
+      "slug": "consumer",
+      "name": "Consumer & home",
+      "description": "Explore components, tools and organizations connected to consumer & home robotics. Inclusion does not certify suitability for a particular deployment."
+    },
+    {
+      "slug": "education",
+      "name": "Education & research",
+      "description": "Explore components, tools and organizations connected to education & research robotics. Inclusion does not certify suitability for a particular deployment."
+    },
+    {
+      "slug": "transport",
+      "name": "Transport & autonomy",
+      "description": "Explore components, tools and organizations connected to transport & autonomy robotics. Inclusion does not certify suitability for a particular deployment."
+    },
+    {
+      "slug": "commercial-services",
+      "name": "Commercial services",
+      "description": "Explore components, tools and organizations connected to commercial services robotics. Inclusion does not certify suitability for a particular deployment."
+    }
+  ]
+}

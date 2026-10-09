@@ -1,0 +1,747 @@
+[
+  {
+    "canonical_url": "https://github.com/12-twelve-12/robolings",
+    "category": "research",
+    "subcategories": [
+      "learning-docs"
+    ],
+    "reason_en": "robolings is a collection of small robot-learning exercises, not a learned-control policy.",
+    "reason_zh": "robolings 是小型机器人学习练习合集，并非学习式控制策略。"
+  },
+  {
+    "canonical_url": "https://github.com/2047767028-lang/lerobot-dp-toolkit",
+    "category": "software",
+    "subcategories": [
+      "robot-learning"
+    ],
+    "reason_en": "LeRobot DP Toolkit provides dataset timing and inference utilities around Diffusion Policy, not a new robot policy.",
+    "reason_zh": "LeRobot DP Toolkit 为 Diffusion Policy 提供数据时序与推理工具，而非新机器人策略。"
+  },
+  {
+    "canonical_url": "https://github.com/2toinf/x-vla",
+    "category": "models",
+    "subcategories": [
+      "vla"
+    ],
+    "reason_en": "X-VLA is explicitly a soft-prompted cross-embodiment VLA model implementation, not recorded demonstrations.",
+    "reason_zh": "X-VLA 明确是软提示跨形态 VLA 模型实现，并非已记录示范。"
+  },
+  {
+    "canonical_url": "https://github.com/3587jjh/huro",
+    "category": "software",
+    "subcategories": [
+      "visualization-data"
+    ],
+    "reason_en": "HuRo is a human-video robotization pipeline for VLA pretraining material, rather than the action model itself.",
+    "reason_zh": "HuRo 是生成 VLA 预训练材料的人类视频机器人化流程，而非动作模型本身。"
+  },
+  {
+    "canonical_url": "https://github.com/abc-irobotics/guide",
+    "category": "software",
+    "subcategories": [
+      "visualization-data"
+    ],
+    "reason_en": "GUIDE is an instruction-based robotic data-collection environment rather than a VLA model.",
+    "reason_zh": "GUIDE 是基于指令的机器人数据采集环境，而非 VLA 模型。"
+  },
+  {
+    "canonical_url": "https://github.com/abc12345anouys/evobot",
+    "category": "software",
+    "subcategories": [
+      "planning-control"
+    ],
+    "reason_en": "EvoBot is an agent and reusable manipulation-skill library; the publisher explicitly says it is not RL, VLA or a world model.",
+    "reason_zh": "EvoBot 是代理与可复用操作技能库；发布者明确说明它不是强化学习、VLA 或世界模型。"
+  },
+  {
+    "canonical_url": "https://github.com/agent-field/roboscribe-af",
+    "category": "software",
+    "subcategories": [
+      "visualization-data"
+    ],
+    "reason_en": "Roboscribe-AF annotates robot demonstration datasets; it is annotation software rather than a dataset.",
+    "reason_zh": "Roboscribe-AF 标注机器人示范数据集，属于标注软件而非数据集。"
+  },
+  {
+    "canonical_url": "https://github.com/agenthinkai/mesh-twin",
+    "category": "software",
+    "subcategories": [
+      "visualization-data"
+    ],
+    "reason_en": "Mesh Twin is a synthetic navigation-data generation pipeline using MuJoCo, not a fixed scene-asset dataset.",
+    "reason_zh": "Mesh Twin 是使用 MuJoCo 的导航合成数据生成流程，并非固定场景资产数据集。"
+  },
+  {
+    "canonical_url": "https://github.com/agibottech/ewmbench",
+    "category": "benchmarks",
+    "subcategories": [],
+    "reason_en": "EWMBench evaluates embodied world-model scene, motion and semantic quality; it is not a world model. No existing subtype precisely covers world-model evaluation.",
+    "reason_zh": "EWMBench 评估具身世界模型的场景、运动与语义质量，其本身并非世界模型。现有子分类没有精确的世界模型评估类别。"
+  },
+  {
+    "canonical_url": "https://github.com/aim404/c3-jepa",
+    "category": "models",
+    "subcategories": [
+      "world-models"
+    ],
+    "reason_en": "C³-JEPA is a predictive world model for underwater ROV salvage, not a scene/object asset dataset.",
+    "reason_zh": "C³-JEPA 是水下遥控潜航器打捞的预测世界模型，并非场景或物体资产数据集。"
+  },
+  {
+    "canonical_url": "https://github.com/air-embodied-brain/actprobe",
+    "category": "benchmarks",
+    "subcategories": [
+      "policy-evaluation"
+    ],
+    "reason_en": "ActProbe benchmarks early failure detection in robot policies, rather than introducing a manipulation task suite.",
+    "reason_zh": "ActProbe 对机器人策略提前故障检测进行基准评估，而非引入操作任务套件。"
+  },
+  {
+    "canonical_url": "https://github.com/airgo0911/vla-paper-reading-notes",
+    "category": "research",
+    "subcategories": [
+      "learning-docs"
+    ],
+    "reason_en": "VLA Paper Reading Notes is a reading-note and indexing resource rather than VLA model code.",
+    "reason_zh": "VLA Paper Reading Notes 是阅读笔记与索引资源，而非 VLA 模型代码。"
+  },
+  {
+    "canonical_url": "https://github.com/ajmcastro/langgraph-vla-agent",
+    "category": "software",
+    "subcategories": [
+      "planning-control"
+    ],
+    "reason_en": "LangGraph VLA Agent orchestrates existing policies for multi-step planning rather than introducing a new VLA model.",
+    "reason_zh": "LangGraph VLA Agent 为多步骤规划编排已有策略，而非引入新 VLA 模型。"
+  },
+  {
+    "canonical_url": "https://github.com/amanshah0729/faultline",
+    "category": "benchmarks",
+    "subcategories": [
+      "policy-evaluation"
+    ],
+    "reason_en": "Faultline provides perturbation/ablation analyses of existing LIBERO policy performance.",
+    "reason_zh": "Faultline 对已有 LIBERO 策略性能进行扰动与消融分析。"
+  },
+  {
+    "canonical_url": "https://github.com/amgustav/kineforge",
+    "category": "software",
+    "subcategories": [
+      "robot-learning"
+    ],
+    "reason_en": "kineForge is a policy training, stress-testing and replay testbed, not a policy architecture.",
+    "reason_zh": "kineForge 是策略训练、压力测试与回放试验平台，而非策略架构。"
+  },
+  {
+    "canonical_url": "https://github.com/amirrezadavar/amirrezadavar.github.io",
+    "category": "research",
+    "subcategories": [
+      "standards-collections"
+    ],
+    "reason_en": "This is a personal robotics research portfolio, not a robot-policy codebase or academic lab.",
+    "reason_zh": "这是个人机器人研究作品集，并非机器人策略代码库或学术实验室。"
+  },
+  {
+    "canonical_url": "https://github.com/anyloc/anyloc",
+    "category": "models",
+    "subcategories": [
+      "perception"
+    ],
+    "reason_en": "AnyLoc performs visual place recognition; it is a perception/localization model, not a VLA action model.",
+    "reason_zh": "AnyLoc 用于视觉地点识别，属于感知与定位模型，而非 VLA 动作模型。"
+  },
+  {
+    "canonical_url": "https://github.com/api-evangelist/neuracore",
+    "category": "research",
+    "subcategories": [
+      "standards-collections"
+    ],
+    "reason_en": "This Neuracore repository is an independent API profile/reference, not the vendor's service or a robot dataset.",
+    "reason_zh": "此 Neuracore 仓库是独立 API 资料与参考，并非厂商服务或机器人数据集。"
+  },
+  {
+    "canonical_url": "https://github.com/archebase/physical-ai-handbook",
+    "category": "research",
+    "subcategories": [
+      "learning-docs"
+    ],
+    "reason_en": "ArcheBase Physical AI Handbook is an educational electronic book covering robotics methods and practice.",
+    "reason_zh": "ArcheBase Physical AI Handbook 是介绍机器人方法与实践的学习电子书。"
+  },
+  {
+    "canonical_url": "https://github.com/archerkattri/actionabi",
+    "category": "software",
+    "subcategories": [
+      "visualization-data"
+    ],
+    "reason_en": "ActionABI is a trajectory-analysis and action-semantics conversion tool, not a demonstration dataset.",
+    "reason_zh": "ActionABI 是轨迹分析与动作语义转换工具，而非示范数据集。"
+  },
+  {
+    "canonical_url": "https://github.com/archishmansengupta/mlx-vla",
+    "category": "software",
+    "subcategories": [
+      "robot-learning"
+    ],
+    "reason_en": "MLX VLA provides model training/deployment tooling for Apple Silicon rather than one VLA model.",
+    "reason_zh": "MLX VLA 提供 Apple Silicon 模型训练与部署工具，而非单一 VLA 模型。"
+  },
+  {
+    "canonical_url": "https://github.com/arclab-hku/event_based_vo-vio-slam",
+    "category": "datasets",
+    "subcategories": [
+      "motion-interaction"
+    ],
+    "reason_en": "The event-camera VO/VIO/SLAM dataset records sensing and motion for localization rather than manipulation demonstrations.",
+    "reason_zh": "此事件相机 VO/VIO/SLAM 数据集记录定位所需的感知与运动数据，而非操作示范。"
+  },
+  {
+    "canonical_url": "https://github.com/arrebolblack/octo",
+    "category": "software",
+    "subcategories": [
+      "robot-learning"
+    ],
+    "reason_en": "The Octo UR deployment repository describes a teleoperation, RLDS collection and fine-tuning pipeline rather than just dataset files.",
+    "reason_zh": "Octo UR 部署仓库描述遥操作、RLDS 采集与微调流程，而非仅有数据集文件。"
+  },
+  {
+    "canonical_url": "https://github.com/artl13/robotrace-dev",
+    "category": "software",
+    "subcategories": [
+      "visualization-data"
+    ],
+    "reason_en": "RoboTrace SDK logs and evaluates synchronized robot episode data, rather than supplying a demonstration dataset.",
+    "reason_zh": "RoboTrace SDK 记录与评估同步机器人回合数据，而非提供示范数据集。"
+  },
+  {
+    "canonical_url": "https://github.com/artyomzifir/viki",
+    "category": "software",
+    "subcategories": [
+      "teleoperation",
+      "visualization-data"
+    ],
+    "reason_en": "ViKi captures human demonstrations, retargets motions and generates robot-learning data; it is a conversion workflow rather than a dataset.",
+    "reason_zh": "ViKi 采集人类示范、重定向动作并生成机器人学习数据，属于转换工作流而非数据集。"
+  },
+  {
+    "canonical_url": "https://github.com/backblaze-b2-samples/lerobot-b2-streaming",
+    "category": "software",
+    "subcategories": [
+      "visualization-data"
+    ],
+    "reason_en": "LeRobot B2 Streaming is a storage streaming tool, not a scene/object asset dataset.",
+    "reason_zh": "LeRobot B2 Streaming 是存储流式读取工具，并非场景或物体资产数据集。"
+  },
+  {
+    "canonical_url": "https://github.com/bakhtawar-i/vla_grounding_probe",
+    "category": "benchmarks",
+    "subcategories": [
+      "policy-evaluation"
+    ],
+    "reason_en": "VLA Grounding Probe evaluates language grounding through instruction perturbation and representation analysis.",
+    "reason_zh": "VLA Grounding Probe 使用指令扰动与表征分析评估语言落地能力。"
+  },
+  {
+    "canonical_url": "https://github.com/barisyazici/deep-rl-grasping",
+    "category": "models",
+    "subcategories": [
+      "robot-policies"
+    ],
+    "reason_en": "Deep RL Grasping trains and evaluates learned robotic grasping policies, not scene assets.",
+    "reason_zh": "Deep RL Grasping 训练与评估学习式机器人抓取策略，并非场景资产。"
+  },
+  {
+    "canonical_url": "https://github.com/bark-simulator/bark",
+    "category": "benchmarks",
+    "subcategories": [
+      "navigation-interaction"
+    ],
+    "reason_en": "BARK evaluates autonomous-driving behavior planning, not manipulation.",
+    "reason_zh": "BARK 评估自动驾驶行为规划，并非操作任务。"
+  },
+  {
+    "canonical_url": "https://github.com/benjamindaoson/embodied-ai-lab",
+    "category": "research",
+    "subcategories": [
+      "standards-collections"
+    ],
+    "reason_en": "Embodied AI Lab is a research hub and reference collection, not an implemented VLA model.",
+    "reason_zh": "Embodied AI Lab 是研究资源中心与参考合集，并非已实现的 VLA 模型。"
+  },
+  {
+    "canonical_url": "https://github.com/benjamindaoson/embodied-dataops",
+    "category": "software",
+    "subcategories": [
+      "visualization-data"
+    ],
+    "reason_en": "Embodied DataOps builds data collection, validation and lineage workflows; these are data tools rather than a VLA model.",
+    "reason_zh": "Embodied DataOps 构建数据采集、校验与溯源工作流，属于数据工具而非 VLA 模型。"
+  },
+  {
+    "canonical_url": "https://github.com/bigben111/rlinf-actprobe",
+    "category": "software",
+    "subcategories": [
+      "robot-learning"
+    ],
+    "reason_en": "RLinf ActProbe extends embodied PPO training with probe-based early termination rather than defining a VLA model.",
+    "reason_zh": "RLinf ActProbe 为具身 PPO 训练加入基于探针的提前终止机制，而非定义 VLA 模型。"
+  },
+  {
+    "canonical_url": "https://github.com/bradsward/mekiki",
+    "category": "software",
+    "subcategories": [
+      "visualization-data"
+    ],
+    "reason_en": "mekiki checks demonstration quality; it is an inspection tool rather than the demonstrations themselves.",
+    "reason_zh": "mekiki 检查示范数据质量，属于检查工具而非示范数据本身。"
+  },
+  {
+    "canonical_url": "https://github.com/browingkourtsr122-oss/robodata-doctor",
+    "category": "software",
+    "subcategories": [
+      "visualization-data"
+    ],
+    "reason_en": "RoboData Doctor validates dataset contracts and conversion differences, rather than supplying demonstrations.",
+    "reason_zh": "RoboData Doctor 校验数据集约定与转换差异，而非提供示范数据。"
+  },
+  {
+    "canonical_url": "https://github.com/buaa-ci-lab/embodiinfer",
+    "category": "software",
+    "subcategories": [
+      "robot-learning"
+    ],
+    "reason_en": "EmbodiInfer is an inference and RL-rollout engine, rather than a VLA model architecture or weights.",
+    "reason_zh": "EmbodiInfer 是推理与强化学习轨迹采集引擎，而非 VLA 模型架构或权重。"
+  },
+  {
+    "canonical_url": "https://github.com/buaa-ci-lab/embodirun",
+    "category": "software",
+    "subcategories": [
+      "robot-learning"
+    ],
+    "reason_en": "EmbodiRun is a deployment/execution runtime connecting models, compute and robots or simulators.",
+    "reason_zh": "EmbodiRun 是连接模型、计算节点与机器人或仿真器的部署和执行运行时。"
+  },
+  {
+    "canonical_url": "https://github.com/calibra-robotics/calibra",
+    "category": "software",
+    "subcategories": [
+      "visualization-data"
+    ],
+    "reason_en": "Calibra provides dataset observability and coreset selection tools rather than a recorded demonstration dataset.",
+    "reason_zh": "Calibra 提供数据集可观测性与核心子集选择工具，而非已记录的示范数据集。"
+  },
+  {
+    "canonical_url": "https://github.com/chaoshengsc/libero-camera-ablation",
+    "category": "benchmarks",
+    "subcategories": [
+      "policy-evaluation"
+    ],
+    "reason_en": "LIBERO Camera Ablation is a camera-input perturbation and reproduction study evaluating existing policies.",
+    "reason_zh": "LIBERO Camera Ablation 是评估已有策略的相机输入扰动与复现研究。"
+  },
+  {
+    "canonical_url": "https://github.com/coenwerem/parcelstow",
+    "category": "benchmarks",
+    "subcategories": [
+      "policy-evaluation"
+    ],
+    "reason_en": "ParcelStow evaluates policy robustness to execution-timing changes, rather than a general manipulation suite.",
+    "reason_zh": "ParcelStow 评估策略对执行时序变化的鲁棒性，而非通用操作任务套件。"
+  },
+  {
+    "canonical_url": "https://github.com/d-robotics-ai-lab/isr.page",
+    "category": "research",
+    "subcategories": [
+      "standards-collections"
+    ],
+    "reason_en": "The sole captured canonical record explicitly identifies a paper project page; CSS website source is not a planning or robot SDK.",
+    "reason_zh": "该规范化网址唯一已采集记录明确标注为论文项目页面；CSS 网站源码并非规划工具或机器人 SDK。"
+  },
+  {
+    "canonical_url": "https://github.com/daniiarabdiev/mlx-smolvla",
+    "category": "software",
+    "subcategories": [
+      "robot-learning"
+    ],
+    "reason_en": "MLX SmolVLA provides inference, serving and training runtime resources for an existing SmolVLA model.",
+    "reason_zh": "MLX SmolVLA 为已有 SmolVLA 模型提供推理、服务与训练运行时资源。"
+  },
+  {
+    "canonical_url": "https://github.com/dexmal/dexbotic",
+    "category": "software",
+    "subcategories": [
+      "robot-learning"
+    ],
+    "reason_en": "Dexbotic is described as a VLA toolbox for development, not one trained VLA model.",
+    "reason_zh": "Dexbotic 被描述为 VLA 开发工具箱，而非单个已训练 VLA 模型。"
+  },
+  {
+    "canonical_url": "https://github.com/dexterind/gopigo",
+    "category": "hardware",
+    "subcategories": [
+      "diy-education"
+    ],
+    "reason_en": "The publisher identifies the GoPiGo Raspberry Pi robot, and captured topics include STEM and robotics programming.",
+    "reason_zh": "发布者明确标注基于 Raspberry Pi 的 GoPiGo 机器人，已采集主题包括 STEM 及机器人编程。"
+  },
+  {
+    "canonical_url": "https://github.com/dillonjohnson7/lmfao",
+    "category": "software",
+    "subcategories": [
+      "visualization-data"
+    ],
+    "reason_en": "LMFAO is a command-line augmentation tool for LeRobot videos rather than a demonstration dataset.",
+    "reason_zh": "LMFAO 是 LeRobot 视频增强命令行工具，而非示范数据集。"
+  },
+  {
+    "canonical_url": "https://github.com/disaterpeace/synthetic-data-driven-learning-for-unseen-object-manipulation-in-pybullet",
+    "category": "software",
+    "subcategories": [
+      "visualization-data",
+      "robot-learning"
+    ],
+    "reason_en": "The PyBullet project generates synthetic grasp data and trains baselines; it is a workflow, not a fixed scene-asset collection.",
+    "reason_zh": "此 PyBullet 项目生成合成抓取数据并训练基线，属于工作流而非固定场景资产合集。"
+  },
+  {
+    "canonical_url": "https://github.com/distortionlab/pre-execution-return",
+    "category": "benchmarks",
+    "subcategories": [
+      "policy-evaluation"
+    ],
+    "reason_en": "Pre-Execution Return studies initial-state robustness around frozen VLA policies; it is an evaluation/method study, not new VLA weights.",
+    "reason_zh": "Pre-Execution Return 研究冻结 VLA 策略的初始状态鲁棒性，属于评估与方法研究，而非新 VLA 权重。"
+  },
+  {
+    "canonical_url": "https://github.com/dld0621/embodied-ai-zero-to-hero",
+    "category": "research",
+    "subcategories": [
+      "learning-docs"
+    ],
+    "reason_en": "Embodied AI Zero to Hero is explicitly a bilingual educational guide.",
+    "reason_zh": "Embodied AI Zero to Hero 明确是双语学习指南。"
+  },
+  {
+    "canonical_url": "https://github.com/dorianborian/sesame-robot",
+    "category": "hardware",
+    "subcategories": [
+      "diy-education"
+    ],
+    "reason_en": "The publisher describes an ESP32 mini quadruped; captured headings include gathering and printing parts.",
+    "reason_zh": "发布者描述了基于 ESP32 的小型四足机器人；已采集标题包含准备与打印零件。"
+  },
+  {
+    "canonical_url": "https://github.com/empactlab/neural-brain-for-embodied-agents",
+    "category": "research",
+    "subcategories": [
+      "standards-collections"
+    ],
+    "reason_en": "Publisher summary identifies a paper project page, and headings organize explanatory research sections.",
+    "reason_zh": "发布者简介明确标注为论文项目页面，标题组织的是研究说明章节。"
+  },
+  {
+    "canonical_url": "https://github.com/enactic/openarm",
+    "category": "hardware",
+    "subcategories": [
+      "robot-arms"
+    ],
+    "reason_en": "The publisher describes a humanoid arm, not a teleoperation software library.",
+    "reason_zh": "发布者将其描述为人形机器人手臂，而非遥操作软件库。"
+  },
+  {
+    "canonical_url": "https://github.com/enfff/robot-learning-labs",
+    "category": "research",
+    "subcategories": [
+      "learning-docs"
+    ],
+    "reason_en": "The publisher explicitly describes laboratory exercises for a Robot Learning class.",
+    "reason_zh": "发布者明确说明这是 Robot Learning 课程的实验练习。"
+  },
+  {
+    "canonical_url": "https://github.com/engcang/slam-application",
+    "category": "software",
+    "subcategories": [
+      "navigation-slam"
+    ],
+    "reason_en": "SLAM-application is an installation and testing collection for SLAM software, not scene/object assets.",
+    "reason_zh": "SLAM-application 是 SLAM 软件的安装与测试合集，并非场景或物体资产。"
+  },
+  {
+    "canonical_url": "https://github.com/enyihou/robopianist-cost-aware-intervention",
+    "category": "benchmarks",
+    "subcategories": [
+      "policy-evaluation"
+    ],
+    "reason_en": "The RoboPianist extension benchmarks teacher-side intervention costs and policy behavior.",
+    "reason_zh": "此 RoboPianist 扩展对教师端干预成本与策略行为进行基准评估。"
+  },
+  {
+    "canonical_url": "https://github.com/eugenewang5425/embodied-ai-lab",
+    "category": "research",
+    "subcategories": [
+      "learning-docs"
+    ],
+    "reason_en": "The publisher describes a learning lab with explanatory lessons, simulation experiments and reusable replays.",
+    "reason_zh": "发布者描述了包含讲义、仿真实验及可复用回放的学习实验室。"
+  },
+  {
+    "canonical_url": "https://github.com/evan-wyl/humanoid-robot-intelligence",
+    "category": "research",
+    "subcategories": [
+      "standards-collections"
+    ],
+    "reason_en": "Publisher summary and headings explicitly describe a humanoid intelligence paper collection.",
+    "reason_zh": "发布者简介及标题明确表明这是人形机器人智能论文集合。"
+  },
+  {
+    "canonical_url": "https://github.com/evidentiary-operatingmicroscope154/embodied-eval-automation",
+    "category": "software",
+    "subcategories": [
+      "visualization-data"
+    ],
+    "reason_en": "Embodied Eval Automation collects benchmark/simulator episodes through workflows; it is not a static demonstration dataset.",
+    "reason_zh": "Embodied Eval Automation 通过工作流采集基准或仿真器回合，并非静态示范数据集。"
+  },
+  {
+    "canonical_url": "https://github.com/evildmp/brachiograph",
+    "category": "hardware",
+    "subcategories": [
+      "diy-education"
+    ],
+    "reason_en": "The publisher describes a buildable physical plotter; the repository is not a robot learning framework.",
+    "reason_zh": "发布者描述了可制作的物理绘图机构；该仓库并非机器人学习框架。"
+  },
+  {
+    "canonical_url": "https://github.com/evolutiongym/evogym",
+    "category": "benchmarks",
+    "subcategories": [
+      "whole-body"
+    ],
+    "reason_en": "Evolution Gym concerns soft-robot design and control rather than object manipulation.",
+    "reason_zh": "Evolution Gym 涉及软体机器人设计与控制，而非物体操作。"
+  },
+  {
+    "canonical_url": "https://github.com/ewenwan/mvision",
+    "category": "research",
+    "subcategories": [
+      "learning-docs"
+    ],
+    "reason_en": "Captured headings present machine-vision and autonomous-driving knowledge resources, rather than one navigation framework.",
+    "reason_zh": "已采集标题展示了机器视觉及自主驾驶知识资料，而非单一导航框架。"
+  },
+  {
+    "canonical_url": "https://github.com/facebookresearch/contactpose",
+    "category": "datasets",
+    "subcategories": [
+      "motion-interaction"
+    ],
+    "reason_en": "ContactPose contains hand-object contact, pose and grasp imagery; it is interaction data, not scene meshes.",
+    "reason_zh": "ContactPose 包含手物接触、位姿与抓握图像，属于交互数据而非场景网格。"
+  },
+  {
+    "canonical_url": "https://github.com/ferbin12/vla-manipulation-ablations",
+    "category": "benchmarks",
+    "subcategories": [
+      "policy-evaluation"
+    ],
+    "reason_en": "VLA Manipulation Ablations evaluates generalization and constrained-memory feasibility of existing models.",
+    "reason_zh": "VLA Manipulation Ablations 评估已有模型的泛化能力与受限显存可行性。"
+  },
+  {
+    "canonical_url": "https://github.com/flexivrobotics/flexiv_description",
+    "category": "datasets",
+    "subcategories": [
+      "scene-assets"
+    ],
+    "reason_en": "The publisher describes URDF robot descriptions, which are robot model assets rather than a learning framework.",
+    "reason_zh": "发布者描述的是 URDF 机器人描述文件，属于机器人模型资产，而非学习框架。"
+  },
+  {
+    "canonical_url": "https://github.com/fluxvla/fluxvla",
+    "category": "software",
+    "subcategories": [
+      "robot-learning"
+    ],
+    "reason_en": "FluxVLA describes a VLA engineering platform from data to deployment, rather than a single model.",
+    "reason_zh": "FluxVLA 描述的是覆盖数据到部署的 VLA 工程平台，而非单一模型。"
+  },
+  {
+    "canonical_url": "https://github.com/gappaihq/physical-ai-radar",
+    "category": "research",
+    "subcategories": [
+      "standards-collections"
+    ],
+    "reason_en": "The publisher and captured headings describe research briefings and tracking methodology, not robot learning software.",
+    "reason_zh": "发布者及已采集标题描述了研究简报与跟踪方法，而非机器人学习软件。"
+  },
+  {
+    "canonical_url": "https://github.com/geekgineer/cloudpeek",
+    "category": "software",
+    "subcategories": [
+      "visualization-data"
+    ],
+    "reason_en": "CloudPeek is a point-cloud viewer, not a robot-demonstration dataset.",
+    "reason_zh": "CloudPeek 是点云查看器，并非机器人示范数据集。"
+  },
+  {
+    "canonical_url": "https://github.com/gepetto/example-robot-data",
+    "category": "datasets",
+    "subcategories": [
+      "scene-assets"
+    ],
+    "reason_en": "Example Robot Data is a collection of robot URDF assets used by benchmarks, not the benchmark tasks themselves.",
+    "reason_zh": "Example Robot Data 是基准使用的机器人 URDF 资产合集，并非基准任务本身。"
+  },
+  {
+    "canonical_url": "https://github.com/gkjohnson/nasa-urdf-robots",
+    "category": "datasets",
+    "subcategories": [
+      "scene-assets"
+    ],
+    "reason_en": "The publisher explicitly describes pre-built URDF files for Robonaut 2 and Valkyrie.",
+    "reason_zh": "发布者明确描述了 Robonaut 2 与 Valkyrie 的预构建 URDF 文件。"
+  },
+  {
+    "canonical_url": "https://github.com/google-deepmind/mujoco_menagerie",
+    "category": "datasets",
+    "subcategories": [
+      "scene-assets"
+    ],
+    "reason_en": "The publisher identifies a collection of MuJoCo models; its primary resource type is simulation assets.",
+    "reason_zh": "发布者将其标注为 MuJoCo 模型集合；主要资源类型是仿真资产。"
+  },
+  {
+    "canonical_url": "https://github.com/graspnet/graspnetapi",
+    "category": "software",
+    "subcategories": [
+      "visualization-data"
+    ],
+    "reason_en": "graspnetAPI is the GraspNet data toolbox rather than the dataset itself.",
+    "reason_zh": "graspnetAPI 是 GraspNet 数据工具箱，而非数据集本身。"
+  },
+  {
+    "canonical_url": "https://github.com/ianathompson/edo_description",
+    "category": "datasets",
+    "subcategories": [
+      "scene-assets"
+    ],
+    "reason_en": "The publisher identifies an eDO URDF file, a robot model asset rather than learning software.",
+    "reason_zh": "发布者明确标注 eDO 的 URDF 文件，属于机器人模型资产，而非学习软件。"
+  },
+  {
+    "canonical_url": "https://github.com/ilearn-lab/vla-diffusion-policy-robotics",
+    "category": "research",
+    "subcategories": [
+      "standards-collections"
+    ],
+    "reason_en": "VLA Diffusion Policy Robotics is a collection and survey of papers and resources, not a VLA implementation.",
+    "reason_zh": "VLA Diffusion Policy Robotics 是论文与资源合集和综述，并非 VLA 实现。"
+  },
+  {
+    "canonical_url": "https://github.com/iotdesignshop/dexhand_description",
+    "category": "datasets",
+    "subcategories": [
+      "scene-assets"
+    ],
+    "reason_en": "The publisher identifies ROS 2 URDF and visualization for DexHand V1, primarily a robot model description resource.",
+    "reason_zh": "发布者标注为 DexHand V1 的 ROS 2 URDF 及可视化，主要属于机器人模型描述资源。"
+  },
+  {
+    "canonical_url": "https://github.com/jrl-umi3218/pepper_description",
+    "category": "datasets",
+    "subcategories": [
+      "scene-assets"
+    ],
+    "reason_en": "The publisher identifies a Pepper robot description package; it is a model asset rather than a learning framework.",
+    "reason_zh": "发布者标注为 Pepper 机器人描述软件包，属于模型资产，而非学习框架。"
+  },
+  {
+    "canonical_url": "https://github.com/laas/simple_humanoid_description",
+    "category": "datasets",
+    "subcategories": [
+      "scene-assets"
+    ],
+    "reason_en": "The publisher explicitly describes a humanoid rigid-body model available as URDF and SRDF.",
+    "reason_zh": "发布者明确描述了以 URDF 及 SRDF 提供的人形机器人刚体模型。"
+  },
+  {
+    "canonical_url": "https://github.com/lil-lab/touchdown",
+    "category": "datasets",
+    "subcategories": [],
+    "reason_en": "Touchdown provides natural-language navigation and spatial-reasoning data, not recorded robot-action demonstrations. No existing dataset subtype precisely covers navigation-language data.",
+    "reason_zh": "Touchdown 提供自然语言导航与空间推理数据，并非记录机器人动作的示范。现有数据子分类没有精确的导航语言数据类别。"
+  },
+  {
+    "canonical_url": "https://github.com/limxdynamics/humanoid-description",
+    "category": "datasets",
+    "subcategories": [
+      "scene-assets"
+    ],
+    "reason_en": "The publisher describes robot models in URDF, MJCF and USD formats, not a physics engine.",
+    "reason_zh": "发布者描述的是 URDF、MJCF 与 USD 格式的机器人模型，而非物理引擎。"
+  },
+  {
+    "canonical_url": "https://github.com/limxdynamics/tron1-robot-description",
+    "category": "datasets",
+    "subcategories": [
+      "scene-assets"
+    ],
+    "reason_en": "The publisher identifies TRON1 URDF/Xacro robot models, rather than a simulation engine.",
+    "reason_zh": "发布者明确标注 TRON1 的 URDF/Xacro 机器人模型，而非仿真引擎。"
+  },
+  {
+    "canonical_url": "https://github.com/limxdynamics/tron2-robot-description",
+    "category": "datasets",
+    "subcategories": [
+      "scene-assets"
+    ],
+    "reason_en": "The publisher describes TRON2A robot description, mesh and simulation model assets.",
+    "reason_zh": "发布者描述的是 TRON2A 机器人描述、网格及仿真模型资产。"
+  },
+  {
+    "canonical_url": "https://github.com/opendrivelab/agibot-world",
+    "category": "datasets",
+    "subcategories": [
+      "robot-demonstrations"
+    ],
+    "reason_en": "AgiBot World is a robot-manipulation data/platform resource, rather than a single VLA model.",
+    "reason_zh": "AgiBot World 是机器人操作数据与平台资源，而非单一 VLA 模型。"
+  },
+  {
+    "canonical_url": "https://github.com/plbkin190/physical-ai-atlas-data",
+    "category": "research",
+    "subcategories": [
+      "standards-collections"
+    ],
+    "reason_en": "Physical AI Atlas Data catalogs ecosystem entities; it does not contain the motion/interaction recordings implied by the old subtype.",
+    "reason_zh": "Physical AI Atlas Data 汇编生态实体，不包含原子分类所暗示的运动与交互记录。"
+  },
+  {
+    "canonical_url": "https://github.com/starvla/starvla",
+    "category": "software",
+    "subcategories": [
+      "robot-learning"
+    ],
+    "reason_en": "StarVLA is a modular development codebase for VLA models, not one specific model.",
+    "reason_zh": "StarVLA 是 VLA 模型开发的模块化代码库，而非单一具体模型。"
+  },
+  {
+    "canonical_url": "https://github.com/vikashplus/robohive",
+    "category": "software",
+    "subcategories": [
+      "robot-learning"
+    ],
+    "reason_en": "RoboHive is described as a unified robot-learning framework with multiple task suites.",
+    "reason_zh": "RoboHive 被描述为包含多个任务套件的统一机器人学习框架。"
+  },
+  {
+    "canonical_url": "https://github.com/wenbowen123/iros20-6d-pose-tracking",
+    "category": "models",
+    "subcategories": [
+      "perception"
+    ],
+    "reason_en": "se(3)-TrackNet implements 6D pose tracking with visual-control examples; it is a perception method, not motion data.",
+    "reason_zh": "se(3)-TrackNet 实现六维位姿跟踪并提供视觉控制示例，属于感知方法而非运动数据。"
+  }
+]
