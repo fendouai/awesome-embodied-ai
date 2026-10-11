@@ -249,7 +249,7 @@ def main():
     write_json(DATA / "decisions.json", decisions)
     write_json(DATA / "summary.json", summary)
     with (DATA / "resources.csv").open("w", encoding="utf-8-sig", newline="") as f:
-        writer = csv.DictWriter(f, fieldnames=["id", "name", "kind", "category", "subcategory", "relevance", "website", "detail_url", "summary_en", "summary_zh", "repository_license", "language", "archived", "checked_at", "rank_updated_at", "score"])
+        writer = csv.DictWriter(f, lineterminator="\n", fieldnames=["id", "name", "kind", "category", "subcategory", "relevance", "website", "detail_url", "summary_en", "summary_zh", "repository_license", "language", "archived", "checked_at", "rank_updated_at", "score"])
         writer.writeheader()
         for r in resources:
             writer.writerow({"id": r["id"], "name": r["name"], "kind": r["kind"], "category": r["category"]["slug"], "subcategory": r["primary_subcategory"], "relevance": r["relevance"], "website": r["website"], "detail_url": r["detail_url"], "summary_en": r["summary"]["en"], "summary_zh": r["summary"]["zh-CN"], "repository_license": r["licenses"]["repository"]["identifier"], "language": r["repository"]["language"], "archived": r["repository"]["archived"], "checked_at": r["verification"]["checked_at"], "rank_updated_at": r["ranking"]["rank_updated_at"], "score": r["ranking"]["score"]})
