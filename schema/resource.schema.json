@@ -484,6 +484,13 @@
               "type": "null"
             }
           ]
+        },
+        "created_at": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date-time"
         }
       }
     },
@@ -666,7 +673,7 @@
           "type": "integer"
         },
         "graph_scope": {
-          "const": "full_1039_directory_records"
+          "const": "approved_public_directory_records"
         },
         "algorithm_version": {
           "const": "botstest-pr-v1"
@@ -739,6 +746,52 @@
               "minLength": 1
             }
           }
+        }
+      }
+    },
+    "company": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "description": "Saved public company facts; unknown values remain null. Portfolio year is distinct from independently verified incorporation year.",
+      "additionalProperties": false,
+      "properties": {
+        "kind": {
+          "const": "company"
+        },
+        "company_stage": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "founded_year": {
+          "type": [
+            "string",
+            "integer",
+            "null"
+          ]
+        },
+        "portfolio_reported_year": {
+          "type": [
+            "string",
+            "integer",
+            "null"
+          ]
+        },
+        "country": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "startup_claim_source": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "uri"
         }
       }
     }

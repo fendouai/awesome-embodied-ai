@@ -31,7 +31,7 @@
 ## 文件职责
 
 - `data/source-snapshot.json`：公开来源图及目录观测字段，用于复现历史分数。
-- `data/url-registry.json`：1,000个历史核验候选网址。
+- `data/url-registry.json`：2,042个历史核验候选网址。
 - `data/reviews/*.json`：每个候选的一条双语编辑决定。
 - `data/classification-overrides.json`：有依据的分类修正；不改原始来源或历史分数。
 - `data/display-names.json`：发布者名称与大小写规范；原始名称保留在别名中。
@@ -41,3 +41,6 @@
 - `data/summary.json`、`data/checksums.json`：数量与SHA-256完整性清单。
 
 修改原始/复核输入后运行生成与校验命令，不只手改一种语言。新来源观测必须附实际日期及方法；重新生成文件不刷新核验时间。
+
+
+公司元数据记录可获得的公开组合关联、年份及国家，未知值保留 null。组合网站标注年份不等同于已独立核验的注册日期；仓库创建日期不等同于公司成立日期。新增中文摘要保留准确英文用途及中文分类语境，详见 PROVENANCE.md。

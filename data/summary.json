@@ -1,28 +1,28 @@
 {
-  "edition": "2026-10-09",
-  "curated": 958,
-  "candidates": 1000,
+  "edition": "2026-10-11",
+  "curated": 2000,
+  "candidates": 2042,
   "excluded": 16,
   "needs_review": 26,
   "categories": 9,
   "subcategories_available": 55,
-  "ranking_nodes": 1039,
-  "ranking_edges": 668,
+  "ranking_nodes": 2023,
+  "ranking_edges": 1790,
   "max_score_reproduction_error": 0.0,
   "new_endpoint_checks": 0,
   "relevance_counts": {
-    "direct": 822,
+    "direct": 1864,
     "supporting": 136
   },
   "per_category": {
-    "components": 28,
-    "hardware": 38,
-    "software": 579,
-    "models": 76,
-    "datasets": 33,
-    "benchmarks": 31,
-    "companies": 44,
-    "products": 27,
-    "research": 102
+    "components": 38,
+    "hardware": 73,
+    "software": 1169,
+    "models": 190,
+    "datasets": 87,
+    "benchmarks": 57,
+    "companies": 175,
+    "products": 28,
+    "research": 183
   }
 }

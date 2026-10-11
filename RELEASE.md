@@ -2,7 +2,7 @@
 
 [简体中文](RELEASE.zh-CN.md)
 
-This folder is a standalone local project prepared for publication. It has not created a GitHub repository or published a release.
+Public repository: [fendouai/awesome-embodied-ai](https://github.com/fendouai/awesome-embodied-ai). This folder is the reproducible source for the published list. The owner controls release publication.
 
 1. Run the README's dependency setup, build, validation and ranking tests.
 2. Review the generated English and Chinese overviews, inclusion ledger and license scopes.

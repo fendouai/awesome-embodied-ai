@@ -1,26 +1,24 @@
 {
-  "verified_on": "2026-10-09",
-  "python": "3.14.5",
-  "schema_validation": "passed (JSON Schema 2020-12, including URI/date-time/date format checkers)",
+  "verified_on": "2026-10-11",
+  "schema_validation": "passed (JSON Schema 2020-12 including URI/date/date-time)",
   "bilingual_category_files": 18,
-  "overview_language_order_and_record_parity": "passed",
-  "candidate_decisions": 1000,
-  "curated_resources": 958,
+  "candidate_decisions": 2042,
+  "curated_resources": 2000,
   "topic_excluded": 16,
   "needs_review": 26,
-  "classification_corrections": 83,
   "ranking_behavior_tests": {
-    "passed": 4,
+    "passed": 5,
     "failed": 0
   },
   "stored_scores_reproduced_exactly": true,
   "second_rebuild_byte_identical": true,
-  "generated_artifacts_checked": 30,
-  "public_export_privacy_scan": "passed; public resource fields only",
+  "public_export_privacy_scan": "passed",
   "local_markdown_links": "passed",
-  "source_graph_nodes": 1039,
-  "source_graph_edges": 668,
+  "source_graph_nodes": 2023,
+  "source_graph_edges": 1790,
   "new_endpoint_checks": 0,
   "github_actions_status": "configured, not executed on GitHub",
-  "published": false
+  "published": true,
+  "chinese_summary_scope": "Existing translated summaries preserved; new entries have Chinese category context with explicitly labelled English specific purpose.",
+  "repository_url": "https://github.com/fendouai/awesome-embodied-ai"
 }

@@ -31,7 +31,7 @@ Unknown is distinct from false or zero. A missing license is not permission to u
 ## Files and authority
 
 - `data/source-snapshot.json`: public source graph and observed directory fields, used to reproduce historical scores.
-- `data/url-registry.json`: the 1,000-endpoint historical candidate pool.
+- `data/url-registry.json`: the 2,042-endpoint historical candidate pool.
 - `data/reviews/*.json`: one bilingual editorial decision per candidate.
 - `data/classification-overrides.json`: evidence-based corrections; the source taxonomy and score remain intact.
 - `data/display-names.json`: publisher name/capitalization corrections; original names remain in aliases.
@@ -41,3 +41,6 @@ Unknown is distinct from false or zero. A missing license is not permission to u
 - `data/summary.json`, `data/checksums.json`: generated counts and SHA-256 integrity manifest.
 
 Edit source/review inputs, then run the documented build and validation commands. Do not edit generated descriptions in only one language. Adding fresh source observations requires their actual check date and method; regenerating files does not renew a check.
+
+
+Company metadata preserves public portfolio association, reported year and country when available; unknown facts remain null. A portfolio year is not asserted as a verified incorporation date. Repository creation dates describe repositories, not company founding dates. New Chinese summaries retain the precise English purpose alongside Chinese taxonomy context; see PROVENANCE.md.

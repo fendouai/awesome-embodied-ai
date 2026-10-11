@@ -6,21 +6,21 @@
 
 由 [BotsTest](https://botstest.com/) 维护。收录机器人直接相关资源，以及明确标注的基础支持工具；所有链接直接指向资源来源。
 
-当前版本：2026-10-09。958 个收录网址，9 个主类，55 个可用子类。完整候选档案保留1,000个历史核验网址；16个已排除，26个待复核。
+当前版本：2026-10-11。2000 个收录网址，9 个主类，55 个可用子类。完整候选档案保留2042个历史核验网址；16个已排除，26个待复核。
 
 收录、编辑复核与链接核验是不同状态。核验日期来自历史记录；本次没有重新联网检测所有网址或安装测试。排序是目录发现线索，不能替代任务适用性、性能或采购验证。
 
 ## 导航
 
-- [核心元器件 (28)](lists/components.zh-CN.md)
-- [硬件平台 (38)](lists/hardware.zh-CN.md)
-- [软件工具 (579)](lists/software.zh-CN.md)
-- [模型 (76)](lists/models.zh-CN.md)
-- [数据集 (33)](lists/datasets.zh-CN.md)
-- [基准与评测 (31)](lists/benchmarks.zh-CN.md)
-- [公司 (44)](lists/companies.zh-CN.md)
-- [产品 (27)](lists/products.zh-CN.md)
-- [研究与学习 (102)](lists/research.zh-CN.md)
+- [核心元器件 (38)](lists/components.zh-CN.md)
+- [硬件平台 (73)](lists/hardware.zh-CN.md)
+- [软件工具 (1169)](lists/software.zh-CN.md)
+- [模型 (190)](lists/models.zh-CN.md)
+- [数据集 (87)](lists/datasets.zh-CN.md)
+- [基准与评测 (57)](lists/benchmarks.zh-CN.md)
+- [公司 (175)](lists/companies.zh-CN.md)
+- [产品 (28)](lists/products.zh-CN.md)
+- [研究与学习 (183)](lists/research.zh-CN.md)
 
 ## 如何使用
 
@@ -30,102 +30,102 @@
 
 ## 核心元器件
 
-[全部28个资源](lists/components.zh-CN.md)
+[全部38个资源](lists/components.zh-CN.md)
 
+- [oomwoo-pcb](https://github.com/makerspet/oomwoo-pcb) — oomwoo-pcb：电源与电子器件领域的项目或参考资源。具体用途（英文原文）：I/O board for open-source vacuum cleaner robot。 [详情](https://botstest.com/resources/makerspetoomwoo-pcb-06e0c8/)
+- [open_robot_actuator_hardware](https://github.com/open-dynamic-robot-initiative/open_robot_actuator_hardware) — open_robot_actuator_hardware：执行器与电机领域的项目或参考资源。具体用途（英文原文）：Open Robot Actuator Hardware。 [详情](https://botstest.com/resources/open-dynamic-robot-initiativeopen_robot_act-fa5b85/)
 - [ATI Industrial Automation](https://www.ati-ia.com/) — ATI Industrial Automation 提供六维力传感器及机器人末端接口设备。 [详情](https://botstest.com/resources/ati-industrial-automation/)
 - [Bosch Sensortec](https://www.bosch-sensortec.com/) **[基础支持资源]** — Bosch Sensortec 开发用于惯性测量和运动感知的 MEMS 传感器。 [详情](https://botstest.com/resources/bosch-sensortec/)
 - [Bota Systems](https://www.botasys.com/) — Bota Systems 开发用于机器人交互与操作的六维力传感设备。 [详情](https://botstest.com/resources/bota-systems/)
 - [Hailo](https://hailo.ai/) **[基础支持资源]** — Hailo 开发用于本地感知与推理计算的边缘 AI 加速器。 [详情](https://botstest.com/resources/hailo/)
 - [Harmonic Drive](https://www.harmonicdrive.net/) — Harmonic Drive 提供用于机器人关节的谐波减速器和精密运动部件。 [详情](https://botstest.com/resources/harmonic-drive/)
 - [Infineon](https://www.infineon.com/) **[基础支持资源]** — Infineon 提供用于驱动电子设备与嵌入式系统的功率及控制半导体。 [详情](https://botstest.com/resources/infineon/)
-- [maxon](https://www.maxongroup.com/) — maxon 提供用于紧凑型机器人机构的电机、齿轮箱和驱动系统。 [详情](https://botstest.com/resources/maxon/)
-- [Moog](https://www.moog.com/) **[基础支持资源]** — Moog 开发用于复杂应用场景的运动控制部件和执行系统。 [详情](https://botstest.com/resources/moog/)
 
 ## 硬件平台
 
-[全部38个资源](lists/hardware.zh-CN.md)
+[全部73个资源](lists/hardware.zh-CN.md)
 
-- [OpenArm](https://github.com/enactic/openarm) — 用于物理人工智能研究的 OpenArm 人形机器人手臂项目。 [详情](https://botstest.com/resources/enactic-openarm/)
-- [BetaBots Robot Arm Project](https://github.com/4ndreas/BetaBots-Robot-Arm-Project) — BetaBots Robot Arm Project 提供可三维打印的机械臂设计。 [详情](https://botstest.com/resources/4ndreas-betabots-robot-arm-project/)
+- [oomwoo](https://github.com/makerspet/oomwoo) — oomwoo：DIY与教育硬件领域的项目或参考资源。具体用途（英文原文）：Open-source vacuum robot cleaner。 [详情](https://botstest.com/resources/makerspetoomwoo-ea80a7/)
+- [OpenCatEsp32-Quadruped-Robot](https://github.com/PetoiCamp/OpenCatEsp32-Quadruped-Robot) — OpenCatEsp32-Quadruped-Robot：DIY与教育硬件领域的项目或参考资源。具体用途（英文原文）：An ESP32-based open source quadruped robot pet framework for developing Boston Dynamics-style four-legged robots that are perfect for STEM, coding & robotics education, IoT robotics applications…。 [详情](https://botstest.com/resources/petoicampopencatesp32-quadruped-robot-965b87/)
+- [OpenCat-Quadruped-Robot](https://github.com/PetoiCamp/OpenCat-Quadruped-Robot) — OpenCat-Quadruped-Robot：DIY与教育硬件领域的项目或参考资源。具体用途（英文原文）：An open source quadruped robot pet framework for developing Boston Dynamics-style four-legged robots that are perfect for STEM, coding & robotics education, IoT robotics applications, AI-enhanced…。 [详情](https://botstest.com/resources/petoicampopencat-quadruped-robot-7fac80/)
+- [popi_project](https://github.com/popi-mkx3/popi_project) — popi_project：DIY与教育硬件领域的项目或参考资源。具体用途（英文原文）：Here is everything you need to know about POPI, our open-source quadruped robot. If you want to check the videos we will release about it, you can have a look at our YouTube channel。 [详情](https://botstest.com/resources/popi-mkx3popi_project-082df2/)
+- [OpenCat-Old](https://github.com/PetoiCamp/OpenCat-Old) — OpenCat-Old：DIY与教育硬件领域的项目或参考资源。具体用途（英文原文）：Historical reference: A programmable and highly maneuverable robotic cat for STEM education and AI-enhanced services。 [详情](https://botstest.com/resources/petoicampopencat-old-d3f6a6/)
 - [open quadruped](https://github.com/adham-elarabawy/open-quadruped) — open-quadruped 是提供步态生成与机身姿态控制的三维打印四足机器人项目。 [详情](https://botstest.com/resources/adham-elarabawy-open-quadruped/)
-- [SO ARM100 101 Parallel Gripper](https://github.com/roboninecom/SO-ARM100-101-Parallel-Gripper) — SO-ARM100/101 Parallel Gripper 提供面向 SO-ARM 项目的三维打印平行夹爪设计。 [详情](https://botstest.com/resources/roboninecom-so-arm100-101-parallel-gripper/)
-- [microban](https://github.com/Rhoban/microban) — Microban 是小型三维打印人形机器人项目，提供 CAD 设计和配置资料。 [详情](https://botstest.com/resources/rhoban-microban/)
-- [Thor Robot Arm](https://github.com/AngelLM/Thor) — Thor 是提供机械设计与组装资料的三维打印机械臂项目。 [详情](https://botstest.com/resources/thor-robot-arm/)
-- [makerspet loki](https://github.com/makerspet/makerspet_loki) — Maker's Pet Loki 是提供组装与配置资料的三维打印自制家用机器人。 [详情](https://botstest.com/resources/makerspet-makerspet_loki/)
-- [BCN3D Moveo](https://github.com/BCN3D/BCN3D-Moveo) — BCN3D Moveo 是面向教育项目的三维打印机械臂设计。 [详情](https://botstest.com/resources/bcn3d-moveo/)
+- [OpenArm](https://github.com/enactic/openarm) — 用于物理人工智能研究的 OpenArm 人形机器人手臂项目。 [详情](https://botstest.com/resources/enactic-openarm/)
+- [tidybot2](https://github.com/jimmyyhwu/tidybot2) — tidybot2：机械臂领域的项目或参考资源。具体用途（英文原文）：TidyBot++: An Open-Source Holonomic Mobile Manipulator for Robot Learning。 [详情](https://botstest.com/resources/jimmyyhwutidybot2-e76874/)
 
 ## 软件工具
 
-[全部579个资源](lists/software.zh-CN.md)
+[全部1169个资源](lists/software.zh-CN.md)
 
 - [LeRobot](https://github.com/huggingface/lerobot) — 用于机器人控制、数据集及端到端学习的 LeRobot 工具。 [详情](https://botstest.com/resources/huggingface-lerobot/)
 - [MuJoCo](https://github.com/google-deepmind/mujoco) **[基础支持资源]** — 用于多关节动力学与接触计算的 MuJoCo 物理仿真器。 [详情](https://botstest.com/resources/google-deepmind-mujoco/)
-- [Gymnasium](https://github.com/Farama-Foundation/Gymnasium) **[基础支持资源]** — 强化学习环境标准接口及参考环境。 [详情](https://botstest.com/resources/farama-foundation-gymnasium/)
-- [cleanrl](https://github.com/vwxyzjn/cleanrl) **[基础支持资源]** — 深度强化学习算法的单文件实现集合。 [详情](https://botstest.com/resources/vwxyzjn-cleanrl/)
-- [CARLA](https://github.com/carla-simulator/carla) — 自动驾驶研究的开源仿真器。 [详情](https://botstest.com/resources/carla/)
+- [NVIDIA Isaac Lab](https://github.com/isaac-sim/IsaacLab) — 提供物理及渲染工具的 Isaac Lab 机器人学习框架。 [详情](https://botstest.com/resources/nvidia-isaac-lab/)
 - [Bullet Physics](https://github.com/bulletphysics/bullet3) **[基础支持资源]** — 用于碰撞检测及多物理仿真的物理 SDK。 [详情](https://botstest.com/resources/bulletphysics-bullet3/)
-- [scenario runner](https://github.com/carla-simulator/scenario_runner) — CARLA 的交通场景定义及执行引擎。 [详情](https://botstest.com/resources/carla-simulator-scenario_runner/)
 - [onshape to robot](https://github.com/Rhoban/onshape-to-robot) — 将 Onshape 装配体转换为 URDF、SDF 与 MuJoCo 机器人描述文件。 [详情](https://botstest.com/resources/rhoban-onshape-to-robot/)
+- [VINS-Mono](https://github.com/HKUST-Aerial-Robotics/VINS-Mono) — VINS-Mono：导航与SLAM领域的项目或参考资源。具体用途（英文原文）：A Robust and Versatile Monocular Visual-Inertial State Estimator。 [详情](https://botstest.com/resources/hkust-aerial-roboticsvins-mono-484ce2/)
+- [Habitat-Sim](https://github.com/facebookresearch/habitat-sim) — 用于具身智能研究的三维仿真器。 [详情](https://botstest.com/resources/habitat-sim/)
+- [onshape to robot examples](https://github.com/Rhoban/onshape-to-robot-examples) — onshape-to-robot 导出工具的机器人装配体示例。 [详情](https://botstest.com/resources/rhoban-onshape-to-robot-examples/)
 
 ## 模型
 
-[全部76个资源](lists/models.zh-CN.md)
+[全部190个资源](lists/models.zh-CN.md)
 
-- [NVIDIA Isaac GR00T](https://github.com/NVIDIA/Isaac-GR00T) — NVIDIA Isaac GR00T 提供通用机器人基础模型资源。 [详情](https://botstest.com/resources/nvidia-isaac-gr00t/)
-- [iros20 6d pose tracking](https://github.com/wenbowen123/iros20-6d-pose-tracking) — se(3)-TrackNet 提供六维物体位姿跟踪研究与视觉反馈控制示例。 [详情](https://botstest.com/resources/wenbowen123-iros20-6d-pose-tracking/)
-- [Octo](https://github.com/octo-models/octo) — Octo 提供基于 Transformer 的机器人策略及适配资源。 [详情](https://botstest.com/resources/octo/)
-- [openpi](https://github.com/Physical-Intelligence/openpi) — openpi 提供 Physical Intelligence 机器人策略的代码与模型资源。 [详情](https://botstest.com/resources/openpi/)
 - [Diffusion Policy](https://github.com/real-stanford/diffusion_policy) — Diffusion Policy 使用动作扩散学习视觉运动机器人动作。 [详情](https://botstest.com/resources/diffusion-policy/)
-- [Segment Anything](https://github.com/facebookresearch/segment-anything) **[基础支持资源]** — Segment Anything 提供可作为感知基础组件的图像分割模型。 [详情](https://botstest.com/resources/segment-anything/)
-- [DeeR VLA](https://github.com/yueyang130/DeeR-VLA) — DeeR-VLA 研究用于机器人执行的多模态模型动态推理。 [详情](https://botstest.com/resources/yueyang130-deer-vla/)
-- [OpenVLA-OFT](https://github.com/moojink/openvla-oft) — OpenVLA-OFT 提供用于 OpenVLA 动作预测的微调工具。 [详情](https://botstest.com/resources/openvla-oft/)
+- [openpi](https://github.com/Physical-Intelligence/openpi) — openpi 提供 Physical Intelligence 机器人策略的代码与模型资源。 [详情](https://botstest.com/resources/openpi/)
+- [NVIDIA Isaac GR00T](https://github.com/NVIDIA/Isaac-GR00T) — NVIDIA Isaac GR00T 提供通用机器人基础模型资源。 [详情](https://botstest.com/resources/nvidia-isaac-gr00t/)
+- [Octo](https://github.com/octo-models/octo) — Octo 提供基于 Transformer 的机器人策略及适配资源。 [详情](https://botstest.com/resources/octo/)
+- [alpamayo1.5](https://github.com/NVlabs/alpamayo1.5) — alpamayo1.5：视觉语言动作模型领域的项目或参考资源。具体用途（英文原文）：NVIDIA Alpamayo 1.5 Nano is an open 10B reasoning VLA model for autonomous vehicles with reinforcement-learning enhanced reasoning, navigation guidance, and visual question answering。 [详情](https://botstest.com/resources/nvlabsalpamayo15-2c589f/)
+- [iros20 6d pose tracking](https://github.com/wenbowen123/iros20-6d-pose-tracking) — se(3)-TrackNet 提供六维物体位姿跟踪研究与视觉反馈控制示例。 [详情](https://botstest.com/resources/wenbowen123-iros20-6d-pose-tracking/)
+- [Action Chunking Transformer](https://github.com/tonyzhaozh/act) — Action Chunking Transformer 提供面向双臂机器人操作的策略学习实现。 [详情](https://botstest.com/resources/action-chunking-transformer/)
+- [R3M](https://github.com/facebookresearch/r3m) — R3M 提供从人类视频学习、用于机器人操作的视觉表征。 [详情](https://botstest.com/resources/r3m/)
 
 ## 数据集
 
-[全部33个资源](lists/datasets.zh-CN.md)
+[全部87个资源](lists/datasets.zh-CN.md)
 
 - [example robot data](https://github.com/Gepetto/example-robot-data) — Example Robot Data 汇集基准与示例使用的机器人 URDF 模型。 [详情](https://botstest.com/resources/gepetto-example-robot-data/)
 - [MuJoCo Menagerie](https://github.com/google-deepmind/mujoco_menagerie) — 用于 MuJoCo 的机器人及场景模型集合。 [详情](https://botstest.com/resources/mujoco-menagerie/)
-- [nasa urdf robots](https://github.com/gkjohnson/nasa-urdf-robots) — 源于 NASA Robonaut 2 与 Valkyrie 项目的 URDF 机器人模型。 [详情](https://botstest.com/resources/gkjohnson-nasa-urdf-robots/)
-- [eDO description](https://github.com/ianathompson/eDO_description) — eDO 机器人的 URDF 描述软件包。 [详情](https://botstest.com/resources/ianathompson-edo_description/)
-- [AgiBot World](https://agibot-world.com/) — AgiBot World 提供机器人示范数据与具身操作资源。 [详情](https://botstest.com/resources/agibot-world/)
-- [AgiBot World](https://github.com/OpenDriveLab/AgiBot-World) — AgiBot World 提供具身系统数据与学习所需的机器人操作平台资源。 [详情](https://botstest.com/resources/opendrivelab-agibot-world/)
-- [AMASS](https://amass.is.tue.mpg.de/) **[基础支持资源]** — AMASS 将人类动作捕捉数据集统一为共用表征。 [详情](https://botstest.com/resources/amass/)
-- [BridgeData V2](https://rail-berkeley.github.io/bridgedata/) — BridgeData V2 提供多任务机器人操作示范数据。 [详情](https://botstest.com/resources/bridgedata-v2/)
+- [M2DGR](https://github.com/SJTU-ViSYS/M2DGR) — M2DGR：机器人示范数据领域的项目或参考资源。具体用途（英文原文）：M2DGR： a Multi-modal and Multi-scenario Dataset for Ground Robots(RA-L2021 & ICRA2022)。 [详情](https://botstest.com/resources/sjtu-visysm2dgr-2a30b7/)
+- [M3DGR](https://github.com/sjtuyinjie/M3DGR) — M3DGR：机器人示范数据领域的项目或参考资源。具体用途（英文原文）：M3DGR: A Multi-sensor, Multi-scenario and Massive-baseline SLAM Dataset for Ground Robots(IROS2025)。 [详情](https://botstest.com/resources/sjtuyinjiem3dgr-6e45ad/)
+- [oomwoo-one](https://github.com/makerspet/oomwoo-one) — oomwoo-one：场景与物体资源领域的项目或参考资源。具体用途（英文原文）：Open-source vacuum cleaner, model One - ROS2 robot description package。 [详情](https://botstest.com/resources/makerspetoomwoo-one-a1b597/)
+- [proscenic-m6pro](https://github.com/makerspet/proscenic-m6pro) — proscenic-m6pro：场景与物体资源领域的项目或参考资源。具体用途（英文原文）：ROS2 robot description for Proscenic M6 Pro。 [详情](https://botstest.com/resources/makerspetproscenic-m6pro-9273b1/)
+- [robots](https://github.com/chvmp/robots) — robots：场景与物体资源领域的项目或参考资源。具体用途（英文原文）：Collection of quadrupedal robots configured to work in CHAMP development framework。 [详情](https://botstest.com/resources/chvmprobots-32bd5f/)
+- [Universal_Robots_ROS2_Description](https://github.com/UniversalRobots/Universal_Robots_ROS2_Description) — Universal_Robots_ROS2_Description：场景与物体资源领域的项目或参考资源。具体用途（英文原文）：ROS2 URDF description for Universal Robots。 [详情](https://botstest.com/resources/universalrobotsuniversal_robots_ros2_descri-e6b173/)
 
 ## 基准与评测
 
-[全部31个资源](lists/benchmarks.zh-CN.md)
+[全部57个资源](lists/benchmarks.zh-CN.md)
 
 - [LIBERO](https://github.com/Lifelong-Robot-Learning/LIBERO) — LIBERO 用于评估终身机器人学习中的知识迁移。 [详情](https://botstest.com/resources/libero/)
-- [actionshift](https://github.com/Archerkattri/actionshift) — ActionShift 在 ManiSkill 任务上评估对隐藏机器人动作接口约定的适应能力。 [详情](https://botstest.com/resources/archerkattri-actionshift/)
 - [CALVIN](https://github.com/mees/calvin) — CALVIN 用于评估语言条件驱动的长时程机器人操作策略学习。 [详情](https://botstest.com/resources/calvin/)
 - [RLBench](https://github.com/stepjam/RLBench) — RLBench 提供用于视觉机器人学习评估的任务套件。 [详情](https://botstest.com/resources/rlbench/)
-- [SimplerEnv](https://github.com/simpler-env/SimplerEnv) — SimplerEnv 提供在共用配置下评估机器人操作策略的仿真环境。 [详情](https://botstest.com/resources/simplerenv/)
 - [RoboTwin](https://github.com/RoboTwin-Platform/RoboTwin) — RoboTwin 提供双臂操作基准与数据生成工具。 [详情](https://botstest.com/resources/robotwin/)
-- [Meta-World](https://github.com/Farama-Foundation/Metaworld) — Meta-World 提供用于多任务与元学习评估的机器人操作任务。 [详情](https://botstest.com/resources/meta-world/)
-- [softgym](https://github.com/Xingyu-Lin/softgym) — SoftGym 提供可变形物体操作的基准环境。 [详情](https://botstest.com/resources/xingyu-lin-softgym/)
+- [actionshift](https://github.com/Archerkattri/actionshift) — ActionShift 在 ManiSkill 任务上评估对隐藏机器人动作接口约定的适应能力。 [详情](https://botstest.com/resources/archerkattri-actionshift/)
+- [RMBench](https://github.com/RoboTwin-Platform/RMBench) — RMBench：操作任务领域的项目或参考资源。具体用途（英文原文）：Memory-Dependent Manipulation Benchmark based on RoboTwin。 [详情](https://botstest.com/resources/robotwin-platformrmbench-0e6c9e/)
+- [SimplerEnv](https://github.com/simpler-env/SimplerEnv) — SimplerEnv 提供在共用配置下评估机器人操作策略的仿真环境。 [详情](https://botstest.com/resources/simplerenv/)
+- [dexart-release](https://github.com/Kami-code/dexart-release) — dexart-release：操作任务领域的项目或参考资源。具体用途（英文原文）：DexArt: Benchmarking Generalizable Dexterous Manipulation with Articulated Objects, CVPR 2023。 [详情](https://botstest.com/resources/kami-codedexart-release-ff3654/)
 
 ## 公司
 
-[全部44个资源](lists/companies.zh-CN.md)
+[全部175个资源](lists/companies.zh-CN.md)
 
 - [1X Technologies](https://www.1x.tech/) — 1X Technologies 开发人形机器人与具身学习系统。 [详情](https://botstest.com/resources/1x-technologies/)
+- [Advanced Metal Research](https://advancedmetalresearch.com/) — Advanced Metal Research：工业自动化领域的公司或供应商。具体用途（英文原文）：Programmable industrial robots with open-source tooling。 [详情](https://botstest.com/resources/advanced-metal-research-a20ceb/)
+- [Aerones](https://aerones.com/) — Aerones：服务与物流机器人领域的公司或供应商。具体用途（英文原文）：Robotic wind turbine inspection, maintenance and repair。 [详情](https://botstest.com/resources/aerones-8c8d66/)
+- [Agency Tool Company](https://agencytool.com) — Agency Tool Company：AI与机器人软件企业领域的公司或供应商。具体用途（英文原文）：Over-the-air (OTA) software updates and fleet management built for robotics。 [详情](https://botstest.com/resources/agency-tool-company-20356c/)
 - [AgiBot](https://www.agibot.com/) — AgiBot 开发具身机器人平台与机器人学习工具。 [详情](https://botstest.com/resources/agibot/)
-- [Apptronik](https://apptronik.com/) — Apptronik 开发用于实际作业的人形机器人。 [详情](https://botstest.com/resources/apptronik/)
-- [Boston Dynamics](https://bostondynamics.com/) — Boston Dynamics 开发足式机器人与移动操作系统。 [详情](https://botstest.com/resources/boston-dynamics/)
-- [Clearpath Robotics](https://clearpathrobotics.com/) — Clearpath Robotics 开发用于研究与自动化的移动机器人平台。 [详情](https://botstest.com/resources/clearpath-robotics/)
-- [Covariant](https://covariant.ai/) — Covariant 开发用于工业自动化的 AI 机器人操作系统。 [详情](https://botstest.com/resources/covariant/)
-- [DEEP Robotics](https://www.deeprobotics.cn/) — DEEP Robotics 开发用于工业场景的四足机器人。 [详情](https://botstest.com/resources/deep-robotics/)
-- [Dobot](https://www.dobot-robots.com/) — DOBOT 开发用于自动化的协作及工业机械臂。 [详情](https://botstest.com/resources/dobot/)
+- [AIR Robotics](https://www.airoboticstudio.com/) — AIR Robotics：服务与物流机器人领域的公司或供应商。具体用途（英文原文）：Robotics design and engineering services。 [详情](https://botstest.com/resources/air-robotics-106988/)
+- [Aktoria Robotics](https://aktoria.com/) — Aktoria Robotics：AI与机器人软件企业领域的公司或供应商。具体用途（英文原文）：Robot teleoperation software, operator services and teleoperation data。 [详情](https://botstest.com/resources/aktoria-robotics-b1d5d1/)
+- [Algorized](https://www.algorized.com/) — Algorized：元器件供应商领域的公司或供应商。具体用途（英文原文）：Edge AI sensing for human awareness in robots and vehicles。 [详情](https://botstest.com/resources/algorized-a744b6/)
 
 ## 产品
 
-[全部27个资源](lists/products.zh-CN.md)
+[全部28个资源](lists/products.zh-CN.md)
 
 - [Linorobot](https://github.com/linorobot/linorobot2) — Linorobot2 提供用于搭建和仿真自主移动机器人的 ROS 2 资料。 [详情](https://botstest.com/resources/linorobot/)
-- [Open Duck Mini](https://github.com/apirrone/Open_Duck_Mini) — Open Duck Mini 是面向搭建者的小型双足机器人硬件项目。 [详情](https://botstest.com/resources/open-duck-mini/)
 - [Stanford Doggo](https://github.com/Nate711/StanfordDoggoProject) — Stanford Doggo 是用于足式运动实验的四足机器人硬件项目。 [详情](https://botstest.com/resources/stanford-doggo/)
+- [Open Duck Mini](https://github.com/apirrone/Open_Duck_Mini) — Open Duck Mini 是面向搭建者的小型双足机器人硬件项目。 [详情](https://botstest.com/resources/open-duck-mini/)
 - [NASA JPL Open Source Rover](https://github.com/nasa-jpl/open-source-rover) — NASA JPL Open Source Rover 是受火星车启发、可自行搭建的六轮移动探测车项目。 [详情](https://botstest.com/resources/nasa-jpl-open-source-rover/)
 - [1X NEO](https://www.1x.tech/neo) — 1X NEO 是 1X Technologies 开发的人形机器人平台。 [详情](https://botstest.com/resources/1x-neo/)
 - [Bitcraze Crazyflie](https://www.bitcraze.io/) — Bitcraze Crazyflie 是提供开发硬件与软件的小型空中机器人平台。 [详情](https://botstest.com/resources/bitcraze-crazyflie/)
@@ -134,15 +134,15 @@
 
 ## 研究与学习
 
-[全部102个资源](lists/research.zh-CN.md)
+[全部183个资源](lists/research.zh-CN.md)
 
-- [awesome multimodal data](https://github.com/backblaze-labs/awesome-multimodal-data) **[基础支持资源]** — Awesome Multimodal Data 汇集视频、图像、音频、三维及机器人数据集与配套基础设施。 [详情](https://botstest.com/resources/backblaze-labs-awesome-multimodal-data/)
-- [Embodied AI Lab](https://github.com/Benjamindaoson/Embodied-AI-Lab) **[基础支持资源]** — Embodied AI Lab 是涵盖 VLA、数据基础设施与机器人评估的研究资源中心。 [详情](https://botstest.com/resources/benjamindaoson-embodied-ai-lab/)
-- [awesome robotics](https://github.com/kiloreux/awesome-robotics) — kiloreux 的 Awesome Robotics 汇集机器人课程、书籍、软件、论文与出版物。 [详情](https://botstest.com/resources/kiloreux-awesome-robotics/)
 - [Robotics Toolbox for Python](https://github.com/petercorke/robotics-toolbox-python) — Robotics Toolbox for Python 提供用于机器人教学与算法探索的工具和示例。 [详情](https://botstest.com/resources/robotics-toolbox-for-python/)
-- [awesome computer vision](https://github.com/jbhuang0604/awesome-computer-vision) **[基础支持资源]** — Awesome Computer Vision 汇集计算机视觉资源、书籍与课程。 [详情](https://botstest.com/resources/jbhuang0604-awesome-computer-vision/)
-- [Awesome Implicit NeRF Robotics](https://github.com/zubair-irshad/Awesome-Implicit-NeRF-Robotics) — Awesome Implicit NeRF Robotics 汇集面向机器人与强化学习的隐式表示和 NeRF 研究。 [详情](https://botstest.com/resources/zubair-irshad-awesome-implicit-nerf-robotics/)
-- [awesome robotics](https://github.com/ahundt/awesome-robotics) — ahundt 的 Awesome Robotics 汇集机器人相关链接与软件库。 [详情](https://botstest.com/resources/ahundt-awesome-robotics/)
+- [dkt](https://github.com/jhavl/dkt) — dkt：课程与文档领域的项目或参考资源。具体用途（英文原文）：A Tutorial on Manipulator Differential Kinematics。 [详情](https://botstest.com/resources/jhavldkt-e468e7/)
+- [slambook2](https://github.com/gaoxiang12/slambook2) — slambook2：课程与文档领域的项目或参考资源。具体用途（英文原文）：edition 2 of the slambook。 [详情](https://botstest.com/resources/gaoxiang12slambook2-ce8d96/)
+- [slambook-en](https://github.com/gaoxiang12/slambook-en) — slambook-en：课程与文档领域的项目或参考资源。具体用途（英文原文）：The English version of 14 lectures on visual SLAM。 [详情](https://botstest.com/resources/gaoxiang12slambook-en-384c46/)
+- [zenoh plugin ros2dds](https://github.com/eclipse-zenoh/zenoh-plugin-ros2dds) — zenoh-plugin-ros2dds 提供用于 ROS 2 DDS 通信的 Zenoh 插件与桥接器。 [详情](https://botstest.com/resources/eclipse-zenoh-zenoh-plugin-ros2dds/)
+- [Embodied AI Lab](https://github.com/Benjamindaoson/Embodied-AI-Lab) **[基础支持资源]** — Embodied AI Lab 是涵盖 VLA、数据基础设施与机器人评估的研究资源中心。 [详情](https://botstest.com/resources/benjamindaoson-embodied-ai-lab/)
+- [slambook](https://github.com/gaoxiang12/slambook) — slambook：课程与文档领域的项目或参考资源。具体用途（英文原文）：Examples and learning materials accompanying lectures on visual SLAM。 [详情](https://botstest.com/resources/gaoxiang12slambook-cb55f0/)
 - [Unity Robotics Hub](https://github.com/Unity-Technologies/Unity-Robotics-Hub) — Unity Robotics Hub 提供在 Unity 中进行机器人仿真的工具、教程与文档。 [详情](https://botstest.com/resources/unity-technologies-unity-robotics-hub/)
 
 ## 数据与维护

@@ -1,29 +1,13 @@
-# Provenance and edition history
+# Provenance and review scope
 
-This local release was assembled on **2026-10-09** from BotsTest's existing public directory and maintained URL registry. It contains no submissions, customer records, orders, payment events, server configuration, analytics credentials or private media originals.
+This edition was assembled on **11 October 2026** from the BotsTest public resource catalogue, reviewed expansion manifest and maintained historical registry. It contains no customer records, submissions, orders, payment events, server configuration, analytics credentials or private source images.
 
-## Evidence layers
+The 10 October research added **1,026 approved endpoints**, including **130 company websites and 896 project repositories**. Search and breadth-first discovery used public GitHub task/topic searches, publisher README references and official YC, MassRobotics and HAX portfolios followed by primary company websites. Seventy-six additions came from second-depth references. Company portfolio association is not proof of current funding stage or commercial success. Repository presence is not proof that code, models or hardware have been independently tested.
 
-1. **Endpoint observations:** the registry records historical primary-page HTTP/title checks or official GitHub public-repository API checks, with their original timestamps and methods. These checks establish observed endpoint availability, not installation, procurement or compatibility.
-2. **Graph observations:** captured repository README links mapped to published directory records. The source snapshot preserves node IDs and edge basis for offline score reproduction.
-3. **Editorial topic review:** publisher descriptions, README headings, existing record descriptions and aliases were reviewed for embodied AI/robotics relevance. `include`, `exclude` and `needs_review` decisions and English/Chinese reasons are retained for all 1,000 candidates.
-4. **Editorial metadata:** short English descriptions were organized first, then equivalent Chinese explanations. Explicit classification corrections preserve the original taxonomy in `classification` and the source snapshot. No new performance, compatibility or license-scope test is inferred from this process.
+The complete historical archive has **2,042 candidates**: 2,000 included, 26 awaiting review and 16 excluded. Every candidate has an explicit saved editorial decision. The primary source snapshot retains aliases and graph evidence; only approved public records participate in ranking. Checks are historical observations with their original dates, not a guarantee of future availability. The current graph has 2,023 approved public nodes and 1,790 directed references. Its scores match the website edition saved on 10 October.
 
-Ranking timestamps remain **2026-10-07**. Exporting on October 9 does not renew link checks or ranking evidence. Graph reproduction uses all 1,039 original nodes, including nodes not selected for the curated list. Filtering is a display/eligibility step, not a new curated-only PageRank calculation.
+The English edition is generated first. The Chinese edition has the same resource identity, category and ranking. Earlier individually translated summaries are preserved. Newly added Chinese entries provide a Chinese category/purpose context and explicitly retain the specific English purpose sentence; they are not represented as fully translated publisher documentation. Model, dataset and hardware licences remain unknown unless separately established; a repository code licence does not cover every asset.
 
-Data files carry no claim that every source is open source. Commercial suppliers, research artifacts, open tools and enabling infrastructure have different access and license conditions. Repository license observations are kept separate from model-weight, dataset and hardware-design scope.
+Images were visually reviewed for website publication and stored separately. This open-source list exports public image-free metadata, not third-party screenshots. No account session, credential or temporary operational path is included. The export and build run offline and make **zero new endpoint checks**. Public company/project source links and their recorded checks remain attributable.
 
-## Integrity and repeatability
-
-`data/checksums.json` records the SHA-256 of local source/review and generated data files. `scripts/build.py` reproduces the original scores, chooses one representative per canonical endpoint, renders English then Chinese, and regenerates the integrity manifest. `scripts/validate.py` independently checks schema formats, record/decision coverage, bilingual list parity, list order, local links and absence of operational fields.
-
-The repository contains source data needed for an offline rebuild. It does not fetch fresh upstream data, create recurring jobs, publish to GitHub or make payment requests. Future observations require a new source/version, real dates and an editorial change record.
-
-## Editorial references
-
-- [Awesome manifesto](https://github.com/sindresorhus/awesome/blob/main/awesome.md): concise scope, meaningful descriptions, consistent categories, contribution rules and list licensing.
-- [Creating an Awesome list](https://github.com/sindresorhus/awesome/blob/main/create-list.md): list maturity and index submission guidance. This project has not been submitted to the Awesome index.
-- [BotsTest public directory](https://botstest.com/) and [maintained URL list](https://botstest.com/url-list/): originating public resource collection.
-- [JSON Schema 2020-12](https://json-schema.org/draft/2020-12): machine-readable metadata contract.
-
-Third-party projects, publisher source snippets, names and trademarks retain their original rights. CC0 applies to original compilation/editorial contributions, not the upstream software or ownership of the resources listed.
+See [ranking](RANKING.md), [metadata](METADATA.md), [candidate decisions](data/decisions.json) and [structured resources](data/resources.json). The public repository is https://github.com/fendouai/awesome-embodied-ai; this edition is published there under owner authorization.

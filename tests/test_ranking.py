@@ -25,6 +25,11 @@ class RankingTests(unittest.TestCase):
         polluted = module.pagerank([2, 1, 1], [(1, 2), (1, 2), (1, 1), (1, 99), (99, 2)], {1: 1.0, 2: 1.0})
         self.assertEqual(ordinary, polluted)
 
+    def test_held_source_cannot_vote_in_approved_graph(self):
+        baseline = module.pagerank([1, 2], [(1, 2)], {1: 1.0, 2: 1.0})
+        with_held = module.pagerank([1, 2], [(1, 2), (3, 1)], {1: 1.0, 2: 1.0, 3: 100.0})
+        self.assertEqual(baseline, with_held)
+
     def test_quality_uses_health_and_original_completeness(self):
         record = {"link_status": "unchecked", "quality_components": {"tagline": True, "description_at_least_100_characters": True, "sources": False, "subcategory": False}}
         health, complete, q = module.quality(record)

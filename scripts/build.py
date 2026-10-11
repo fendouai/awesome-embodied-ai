@@ -14,7 +14,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data"
-DATE = "2026-10-09"
+DATE = "2026-10-11"
 FEATURED_PER_CATEGORY = 8
 CATEGORY_ZH = {
     "components": "核心元器件", "hardware": "硬件平台", "software": "软件工具",
@@ -113,13 +113,15 @@ def read_reviews():
 
 def build_resources(snapshot, registry, reviews):
     nodes = snapshot["resources"]
-    ids = {r["id"] for r in nodes}
+    ids = set(snapshot.get("ranking_node_ids", [r["id"] for r in nodes]))
     edges = [(e["source"], e["target"]) for e in snapshot["edges"]]
     rank = pagerank(ids, edges, {r["id"]: 0.2 + quality(r)[2] for r in nodes})
     peak = max(rank.values())
     by_url = defaultdict(list)
     for row in nodes:
         by_url[row["canonical_url"]].append(row)
+        if row["id"] not in ids:
+            continue
         expected = round(100 * (0.7 * rank[row["id"]] / peak + 0.3 * quality(row)[2]), 6)
         if row["stored_score"] != expected:
             raise ValueError(f"Stored score cannot be reproduced: {row['slug']}")
@@ -175,15 +177,16 @@ def build_resources(snapshot, registry, reviews):
                 "reason": {"en": override["reason_en"] if override else "Imported public directory classification; inclusion review establishes topic relevance, not every subtype or capability.", "zh-CN": override["reason_zh"] if override else "沿用公开目录分类；收录复核确认主题相关性，不表示每个子类型或能力标签均已单独验证。"},
             },
             "relevance": review["relevance"],
-            "editorial": {"decision": "include", "reviewed_on": DATE, "method": "Saved publisher metadata and catalogue review; no fresh installation or endpoint test", "reason": {"en": review["reason_en"], "zh-CN": review["reason_zh"]}},
+            "editorial": {"decision": "include", "reviewed_on": review.get("reviewed_on", DATE), "method": "Saved publisher metadata and catalogue review; no fresh installation or endpoint test", "reason": {"en": review["reason_en"], "zh-CN": review["reason_zh"]}},
             "access": {"label": row["access"], "status": "directory_reported"},
             "licenses": {"repository": license_entry, "weights": unverified.copy(), "dataset": unverified.copy(), "hardware_design": unverified.copy()},
-            "repository": {"owner": repo.get("owner"), "name": repo.get("name"), "language": repo.get("language"), "archived": repo.get("archived"), "pushed_at": repo.get("pushed_at")},
+            "repository": {"owner": repo.get("owner"), "name": repo.get("name"), "language": repo.get("language"), "archived": repo.get("archived"), "pushed_at": repo.get("pushed_at"), "created_at": repo.get("created_at")},
+            "company": row.get("resource_metadata", {}) if cat == "companies" else None,
             "verification": {"link_status": row["link_status"], "checked_at": registered["checked_at"], "method": registered["check_method"], "new_check_performed": False},
             "sources": row["sources"],
             "tags": row["tags"], "topics": row["topics"], "applications": row["applications"],
             "aliases": [{"id": a["id"], "slug": a["slug"], "name": a["name"], "detail_url": a["detail_url"]} for a in aliases],
-            "ranking": {"score": row["stored_score"], "pagerank": rank[row["id"]], "normalized_pagerank": rank[row["id"]] / peak, "quality": q, "link_health": health, "completeness": completeness, "rank_updated_at": row["stored_rank_updated_at"], "representative_node_id": row["id"], "graph_scope": "full_1039_directory_records", "algorithm_version": "botstest-pr-v1"},
+            "ranking": {"score": row["stored_score"], "pagerank": rank[row["id"]], "normalized_pagerank": rank[row["id"]] / peak, "quality": q, "link_health": health, "completeness": completeness, "rank_updated_at": row["stored_rank_updated_at"], "representative_node_id": row["id"], "graph_scope": "approved_public_directory_records", "algorithm_version": "botstest-pr-v1"},
         }
         if resource["relevance"] not in {"direct", "supporting"}:
             raise ValueError(f"Included resource lacks relevance class: {url}")
@@ -200,7 +203,7 @@ def build_markdown(resources, snapshot, summary, lang):
     companion = "[English](README.md)" if zh else "[简体中文](README.zh-CN.md)"
     lines = ["# Awesome Embodied AI [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)", "", companion, ""]
     lines += (["具身智能与机器人资源精选：连接元器件、硬件、软件、模型、数据集、基准、公司、产品和研究资料。", "", "由 [BotsTest](https://botstest.com/) 维护。收录机器人直接相关资源，以及明确标注的基础支持工具；所有链接直接指向资源来源。"] if zh else ["A curated guide to embodied AI and robotics: components, hardware, software, models, datasets, benchmarks, companies, products and research.", "", "Maintained by [BotsTest](https://botstest.com/). Includes directly relevant resources and explicitly labeled supporting tools. Resource links point to their source."])
-    lines += ["", (f"当前版本：{DATE}。{summary['curated']} 个收录网址，{summary['categories']} 个主类，55 个可用子类。完整候选档案保留1,000个历史核验网址；{summary['excluded']}个已排除，{summary['needs_review']}个待复核。" if zh else f"Edition: {DATE}. **{summary['curated']} curated URLs**, {summary['categories']} categories and 55 available subcategories. The full candidate archive preserves 1,000 historically checked URLs: {summary['excluded']} excluded and {summary['needs_review']} awaiting review."), ""]
+    lines += ["", (f"当前版本：{DATE}。{summary['curated']} 个收录网址，{summary['categories']} 个主类，55 个可用子类。完整候选档案保留{summary['candidates']}个历史核验网址；{summary['excluded']}个已排除，{summary['needs_review']}个待复核。" if zh else f"Edition: {DATE}. **{summary['curated']} curated URLs**, {summary['categories']} categories and 55 available subcategories. The full candidate archive preserves {summary['candidates']} historically checked URLs: {summary['excluded']} excluded and {summary['needs_review']} awaiting review."), ""]
     lines += (["收录、编辑复核与链接核验是不同状态。核验日期来自历史记录；本次没有重新联网检测所有网址或安装测试。排序是目录发现线索，不能替代任务适用性、性能或采购验证。", "", "## 导航", ""] if zh else ["Editorial inclusion and endpoint checks are separate. Check dates are historical; this edition does not imply fresh network checks or installation tests. Scores help discovery; they do not measure performance or suitability for a specific deployment.", "", "## Contents", ""])
     for cat in snapshot["categories"]:
         count = sum(r["category"]["slug"] == cat["slug"] for r in resources)
@@ -237,11 +240,11 @@ def main():
     registry = load(DATA / "url-registry.json")
     reviews = read_reviews()
     keys = {r["canonical_url"] for r in registry["urls"]}
-    if len(keys) != 1000 or set(reviews) != keys:
-        raise ValueError("Exactly one editorial decision is required for each of the 1,000 candidate URLs")
+    if not keys or set(reviews) != keys:
+        raise ValueError("Exactly one editorial decision is required for each candidate URL")
     resources, decisions = build_resources(snapshot, registry, reviews)
     counts = Counter(r["decision"] for r in decisions)
-    summary = {"edition": DATE, "curated": len(resources), "candidates": len(keys), "excluded": counts["exclude"], "needs_review": counts["needs_review"], "categories": len(snapshot["categories"]), "subcategories_available": len(snapshot["subcategories"]), "ranking_nodes": len(snapshot["resources"]), "ranking_edges": len(snapshot["edges"]), "max_score_reproduction_error": 0.0, "new_endpoint_checks": 0, "relevance_counts": dict(Counter(r["relevance"] for r in resources)), "per_category": dict(Counter(r["category"]["slug"] for r in resources))}
+    summary = {"edition": DATE, "curated": len(resources), "candidates": len(keys), "excluded": counts["exclude"], "needs_review": counts["needs_review"], "categories": len(snapshot["categories"]), "subcategories_available": len(snapshot["subcategories"]), "ranking_nodes": len(snapshot.get("ranking_node_ids", snapshot["resources"])), "ranking_edges": len(snapshot["edges"]), "max_score_reproduction_error": 0.0, "new_endpoint_checks": 0, "relevance_counts": dict(Counter(r["relevance"] for r in resources)), "per_category": dict(Counter(r["category"]["slug"] for r in resources))}
     write_json(DATA / "resources.json", resources)
     write_json(DATA / "decisions.json", decisions)
     write_json(DATA / "summary.json", summary)

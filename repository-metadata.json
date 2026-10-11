@@ -24,6 +24,9 @@
   ],
   "list_license": "CC0-1.0",
   "tooling_license": "MIT",
-  "publication_status": "prepared_locally_not_published",
-  "edition": "2026-10-09"
+  "publication_status": "published",
+  "edition": "2026-10-11",
+  "curated_urls": 2000,
+  "candidate_urls": 2042,
+  "repository_url": "https://github.com/fendouai/awesome-embodied-ai"
 }

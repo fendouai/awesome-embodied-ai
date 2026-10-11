@@ -14,7 +14,7 @@ Suggest resources that serve a concrete embodied AI or robotics task. Include th
 6. Update the relevant input decision, provenance and any taxonomy correction. A new URL needs a source record and registry entry before it can enter the generated list.
 7. Run generation, schema/consistency checks and ranking tests. Commit generated output together with its source changes.
 
-The current release intentionally preserves the 1,000-candidate snapshot. Extending that pool is a maintainer operation: update the snapshot/version, count assertions and documented scope together. Never silently replace a candidate to preserve an arbitrary count.
+The current release intentionally preserves the 2,042-candidate snapshot. Extending that pool is a maintainer operation: update the snapshot/version, count assertions and documented scope together. Never silently replace a candidate to preserve an arbitrary count.
 
 ## A resource suggestion
 
