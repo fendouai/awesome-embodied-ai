@@ -1,3 +1,5 @@
+公开仓库：[fendouai/awesome-embodied-ai](https://github.com/fendouai/awesome-embodied-ai)。
+
 # 开源发布说明
 
 [English](RELEASE.md)
