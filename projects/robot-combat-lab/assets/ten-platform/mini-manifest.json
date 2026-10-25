@@ -1,0 +1,162 @@
+[
+  {
+    "repository": "Improbable-AI/rapid-locomotion-rl",
+    "commit": "f5143ef940e934849c00284e34caf164d6ce7b6e",
+    "path": "resources/robots/mini_cheetah/meshes/lower_leg.dae",
+    "local": "assets/ten-platform/rapid/resources/robots/mini_cheetah/meshes/lower_leg.dae",
+    "git_blob_sha1": "32988a2babcce78ce330a7275e051ac62acff93b",
+    "sha256": "a3b4ce531e928783dfc862df927292106888f49180d5ffc1c603c284099b9966",
+    "bytes": 2162964,
+    "source": "https://raw.githubusercontent.com/Improbable-AI/rapid-locomotion-rl/f5143ef940e934849c00284e34caf164d6ce7b6e/resources/robots/mini_cheetah/meshes/lower_leg.dae"
+  },
+  {
+    "repository": "Improbable-AI/rapid-locomotion-rl",
+    "commit": "f5143ef940e934849c00284e34caf164d6ce7b6e",
+    "path": "resources/robots/mini_cheetah/meshes/lower_leg.dae.meta",
+    "local": "assets/ten-platform/rapid/resources/robots/mini_cheetah/meshes/lower_leg.dae.meta",
+    "git_blob_sha1": "423b545d5460da75de8ccfc7dc4a4a2c7978a4a9",
+    "sha256": "ff919d3a56462825dec9e354eaf37e43b33b754954cbd27eccf344f213155aae",
+    "bytes": 2558,
+    "source": "https://raw.githubusercontent.com/Improbable-AI/rapid-locomotion-rl/f5143ef940e934849c00284e34caf164d6ce7b6e/resources/robots/mini_cheetah/meshes/lower_leg.dae.meta"
+  },
+  {
+    "repository": "Improbable-AI/rapid-locomotion-rl",
+    "commit": "f5143ef940e934849c00284e34caf164d6ce7b6e",
+    "path": "resources/robots/mini_cheetah/meshes/mini_abad.obj",
+    "local": "assets/ten-platform/rapid/resources/robots/mini_cheetah/meshes/mini_abad.obj",
+    "git_blob_sha1": "483d9d56720213c632c34beaf9e824c13ba719ec",
+    "sha256": "e59810296d6d1a93e106688953a9dedb32bc271462be324ed7176f658d1d786b",
+    "bytes": 321864,
+    "source": "https://raw.githubusercontent.com/Improbable-AI/rapid-locomotion-rl/f5143ef940e934849c00284e34caf164d6ce7b6e/resources/robots/mini_cheetah/meshes/mini_abad.obj"
+  },
+  {
+    "repository": "Improbable-AI/rapid-locomotion-rl",
+    "commit": "f5143ef940e934849c00284e34caf164d6ce7b6e",
+    "path": "resources/robots/mini_cheetah/meshes/mini_abad.obj.meta",
+    "local": "assets/ten-platform/rapid/resources/robots/mini_cheetah/meshes/mini_abad.obj.meta",
+    "git_blob_sha1": "61d14864972edbd9eb9f4100de9e63a12e807395",
+    "sha256": "e76c86f7ee70afb46842d1d3f1bd99865bc6357a56bded589a9becf0e1e8a6f3",
+    "bytes": 2427,
+    "source": "https://raw.githubusercontent.com/Improbable-AI/rapid-locomotion-rl/f5143ef940e934849c00284e34caf164d6ce7b6e/resources/robots/mini_cheetah/meshes/mini_abad.obj.meta"
+  },
+  {
+    "repository": "Improbable-AI/rapid-locomotion-rl",
+    "commit": "f5143ef940e934849c00284e34caf164d6ce7b6e",
+    "path": "resources/robots/mini_cheetah/meshes/mini_body.obj",
+    "local": "assets/ten-platform/rapid/resources/robots/mini_cheetah/meshes/mini_body.obj",
+    "git_blob_sha1": "3d1a365dc954a85be87d55b06e9d7c231a0fefce",
+    "sha256": "c9fe1f49f9d97fcb9f955e154db103a2a3a40600596d627b011b7cc4db56906a",
+    "bytes": 1139816,
+    "source": "https://raw.githubusercontent.com/Improbable-AI/rapid-locomotion-rl/f5143ef940e934849c00284e34caf164d6ce7b6e/resources/robots/mini_cheetah/meshes/mini_body.obj"
+  },
+  {
+    "repository": "Improbable-AI/rapid-locomotion-rl",
+    "commit": "f5143ef940e934849c00284e34caf164d6ce7b6e",
+    "path": "resources/robots/mini_cheetah/meshes/mini_body.obj.meta",
+    "local": "assets/ten-platform/rapid/resources/robots/mini_cheetah/meshes/mini_body.obj.meta",
+    "git_blob_sha1": "4778513171ffd0ff6a7a3ef2e069d4a9697ec406",
+    "sha256": "50ba6ecc707b2395f1b493db6a7d43755e5ff93560f2bfd872b5234c2482dbfb",
+    "bytes": 2427,
+    "source": "https://raw.githubusercontent.com/Improbable-AI/rapid-locomotion-rl/f5143ef940e934849c00284e34caf164d6ce7b6e/resources/robots/mini_cheetah/meshes/mini_body.obj.meta"
+  },
+  {
+    "repository": "Improbable-AI/rapid-locomotion-rl",
+    "commit": "f5143ef940e934849c00284e34caf164d6ce7b6e",
+    "path": "resources/robots/mini_cheetah/meshes/mini_lower_link.obj",
+    "local": "assets/ten-platform/rapid/resources/robots/mini_cheetah/meshes/mini_lower_link.obj",
+    "git_blob_sha1": "749a62d6f62ff0f4de69ab9bb5f30f9b4e129f84",
+    "sha256": "56d0e20d4b3cc4ba7ae7e31f724c87b6f847c08e6ea8206f61c0882b3e34de7c",
+    "bytes": 1033173,
+    "source": "https://raw.githubusercontent.com/Improbable-AI/rapid-locomotion-rl/f5143ef940e934849c00284e34caf164d6ce7b6e/resources/robots/mini_cheetah/meshes/mini_lower_link.obj"
+  },
+  {
+    "repository": "Improbable-AI/rapid-locomotion-rl",
+    "commit": "f5143ef940e934849c00284e34caf164d6ce7b6e",
+    "path": "resources/robots/mini_cheetah/meshes/mini_lower_link.obj.meta",
+    "local": "assets/ten-platform/rapid/resources/robots/mini_cheetah/meshes/mini_lower_link.obj.meta",
+    "git_blob_sha1": "cbc15a5e5a77b613e33e4ca273b727046dfcc312",
+    "sha256": "4bc553261ae15aa8550d9159ad84c20221b60eec18900bb84ced403866192397",
+    "bytes": 2427,
+    "source": "https://raw.githubusercontent.com/Improbable-AI/rapid-locomotion-rl/f5143ef940e934849c00284e34caf164d6ce7b6e/resources/robots/mini_cheetah/meshes/mini_lower_link.obj.meta"
+  },
+  {
+    "repository": "Improbable-AI/rapid-locomotion-rl",
+    "commit": "f5143ef940e934849c00284e34caf164d6ce7b6e",
+    "path": "resources/robots/mini_cheetah/meshes/mini_upper_link.obj",
+    "local": "assets/ten-platform/rapid/resources/robots/mini_cheetah/meshes/mini_upper_link.obj",
+    "git_blob_sha1": "7ab4d62bf9d95adbbc8b5448dc0535fe8e73b447",
+    "sha256": "b33cc0df8741c85cb064d35eb74364c7e0ceda69e209f9cf52ffa68993ff7b28",
+    "bytes": 1417009,
+    "source": "https://raw.githubusercontent.com/Improbable-AI/rapid-locomotion-rl/f5143ef940e934849c00284e34caf164d6ce7b6e/resources/robots/mini_cheetah/meshes/mini_upper_link.obj"
+  },
+  {
+    "repository": "Improbable-AI/rapid-locomotion-rl",
+    "commit": "f5143ef940e934849c00284e34caf164d6ce7b6e",
+    "path": "resources/robots/mini_cheetah/meshes/mini_upper_link.obj.meta",
+    "local": "assets/ten-platform/rapid/resources/robots/mini_cheetah/meshes/mini_upper_link.obj.meta",
+    "git_blob_sha1": "600ff5771c65910c5757e2f162444a6d1cee1165",
+    "sha256": "4299a6db56994775eeac2ce1a4f31733f3b9cb4f80abd8ceb9d76b8e624dd275",
+    "bytes": 2427,
+    "source": "https://raw.githubusercontent.com/Improbable-AI/rapid-locomotion-rl/f5143ef940e934849c00284e34caf164d6ce7b6e/resources/robots/mini_cheetah/meshes/mini_upper_link.obj.meta"
+  },
+  {
+    "repository": "Improbable-AI/rapid-locomotion-rl",
+    "commit": "f5143ef940e934849c00284e34caf164d6ce7b6e",
+    "path": "resources/robots/mini_cheetah/urdf/meshes/mini_abad.obj",
+    "local": "assets/ten-platform/rapid/resources/robots/mini_cheetah/urdf/meshes/mini_abad.obj",
+    "git_blob_sha1": "483d9d56720213c632c34beaf9e824c13ba719ec",
+    "sha256": "e59810296d6d1a93e106688953a9dedb32bc271462be324ed7176f658d1d786b",
+    "bytes": 321864,
+    "source": "https://raw.githubusercontent.com/Improbable-AI/rapid-locomotion-rl/f5143ef940e934849c00284e34caf164d6ce7b6e/resources/robots/mini_cheetah/urdf/meshes/mini_abad.obj"
+  },
+  {
+    "repository": "Improbable-AI/rapid-locomotion-rl",
+    "commit": "f5143ef940e934849c00284e34caf164d6ce7b6e",
+    "path": "resources/robots/mini_cheetah/urdf/meshes/mini_body.obj",
+    "local": "assets/ten-platform/rapid/resources/robots/mini_cheetah/urdf/meshes/mini_body.obj",
+    "git_blob_sha1": "3d1a365dc954a85be87d55b06e9d7c231a0fefce",
+    "sha256": "c9fe1f49f9d97fcb9f955e154db103a2a3a40600596d627b011b7cc4db56906a",
+    "bytes": 1139816,
+    "source": "https://raw.githubusercontent.com/Improbable-AI/rapid-locomotion-rl/f5143ef940e934849c00284e34caf164d6ce7b6e/resources/robots/mini_cheetah/urdf/meshes/mini_body.obj"
+  },
+  {
+    "repository": "Improbable-AI/rapid-locomotion-rl",
+    "commit": "f5143ef940e934849c00284e34caf164d6ce7b6e",
+    "path": "resources/robots/mini_cheetah/urdf/meshes/mini_lower_link.obj",
+    "local": "assets/ten-platform/rapid/resources/robots/mini_cheetah/urdf/meshes/mini_lower_link.obj",
+    "git_blob_sha1": "749a62d6f62ff0f4de69ab9bb5f30f9b4e129f84",
+    "sha256": "56d0e20d4b3cc4ba7ae7e31f724c87b6f847c08e6ea8206f61c0882b3e34de7c",
+    "bytes": 1033173,
+    "source": "https://raw.githubusercontent.com/Improbable-AI/rapid-locomotion-rl/f5143ef940e934849c00284e34caf164d6ce7b6e/resources/robots/mini_cheetah/urdf/meshes/mini_lower_link.obj"
+  },
+  {
+    "repository": "Improbable-AI/rapid-locomotion-rl",
+    "commit": "f5143ef940e934849c00284e34caf164d6ce7b6e",
+    "path": "resources/robots/mini_cheetah/urdf/meshes/mini_upper_link.obj",
+    "local": "assets/ten-platform/rapid/resources/robots/mini_cheetah/urdf/meshes/mini_upper_link.obj",
+    "git_blob_sha1": "7ab4d62bf9d95adbbc8b5448dc0535fe8e73b447",
+    "sha256": "b33cc0df8741c85cb064d35eb74364c7e0ceda69e209f9cf52ffa68993ff7b28",
+    "bytes": 1417009,
+    "source": "https://raw.githubusercontent.com/Improbable-AI/rapid-locomotion-rl/f5143ef940e934849c00284e34caf164d6ce7b6e/resources/robots/mini_cheetah/urdf/meshes/mini_upper_link.obj"
+  },
+  {
+    "repository": "Improbable-AI/rapid-locomotion-rl",
+    "commit": "f5143ef940e934849c00284e34caf164d6ce7b6e",
+    "path": "resources/robots/mini_cheetah/urdf/mini_cheetah.urdf",
+    "local": "assets/ten-platform/rapid/resources/robots/mini_cheetah/urdf/mini_cheetah.urdf",
+    "git_blob_sha1": "86ed62e7862f0cde1e6bcffef82d02b157916dc7",
+    "sha256": "c9074e8c256a41d365f45cce214477f92fc2763c301c70fb3397a8d8b964032d",
+    "bytes": 15601,
+    "source": "https://raw.githubusercontent.com/Improbable-AI/rapid-locomotion-rl/f5143ef940e934849c00284e34caf164d6ce7b6e/resources/robots/mini_cheetah/urdf/mini_cheetah.urdf"
+  },
+  {
+    "repository": "Improbable-AI/rapid-locomotion-rl",
+    "commit": "f5143ef940e934849c00284e34caf164d6ce7b6e",
+    "path": "resources/robots/mini_cheetah/urdf/mini_cheetah_simple.urdf",
+    "local": "assets/ten-platform/rapid/resources/robots/mini_cheetah/urdf/mini_cheetah_simple.urdf",
+    "git_blob_sha1": "5f21f749de025739af116790f404620d22455eed",
+    "sha256": "ae88fb0d685368c1fd947afea18e179f5fbcf33be61dc03ac27a9b46145cd69c",
+    "bytes": 24315,
+    "source": "https://raw.githubusercontent.com/Improbable-AI/rapid-locomotion-rl/f5143ef940e934849c00284e34caf164d6ce7b6e/resources/robots/mini_cheetah/urdf/mini_cheetah_simple.urdf"
+  }
+]

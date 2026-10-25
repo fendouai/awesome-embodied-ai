@@ -1,0 +1,43 @@
+{
+  "repository": "yinkangning0124/RoboStriker-Preview",
+  "commit": "52f54137770ff632391dd091e973ceb098ba3f98",
+  "archive": "source/whole_body_tracking/unitree_description.tar.gz",
+  "files": [
+    {
+      "member": "unitree_description/package.xml",
+      "local": "assets/adversarial-candidates/RoboStriker-Preview/description/package.xml",
+      "bytes": 511,
+      "sha256": "2c92af2471acb14c8b53ec83731ec2b4c59062b49049d54d3d766bf50d33c805"
+    },
+    {
+      "member": "unitree_description/urdf/g1/main.urdf",
+      "local": "assets/adversarial-candidates/RoboStriker-Preview/description/main.urdf",
+      "bytes": 40589,
+      "sha256": "dbc8471004e9b0b85c27a4ebc1f0d90a727c1cf7ca9ef507b805596f2004d64b"
+    },
+    {
+      "member": "unitree_description/urdf/go2/main.urdf",
+      "local": "assets/adversarial-candidates/RoboStriker-Preview/description/go2-main.urdf",
+      "bytes": 39224,
+      "sha256": "adc2691c6552ebaf54a93cc1b49760a6af75ecee437d6a3b597f65b6935476d7"
+    },
+    {
+      "member": "unitree_description/mjcf/go2.xml",
+      "local": "assets/adversarial-candidates/RoboStriker-Preview/description/go2.xml",
+      "bytes": 13514,
+      "sha256": "9ca1a839a26c25d31458eb2328f0a861dab3de86c91f10ea6185330f7490eabd"
+    },
+    {
+      "member": "unitree_description/mjcf/go1.xml",
+      "local": "assets/adversarial-candidates/RoboStriker-Preview/description/go1.xml",
+      "bytes": 13009,
+      "sha256": "b7598c210670d840aa7116e042d46c3fd4e9085d3e27fd68caeb16629e8db2d1"
+    },
+    {
+      "member": "unitree_description/mjcf/g1.xml",
+      "local": "assets/adversarial-candidates/RoboStriker-Preview/description/g1.xml",
+      "bytes": 31881,
+      "sha256": "5d76cf92f00dd49d6eb9fae38d7d38e46886848b602ac691051e886c3bcccfb1"
+    }
+  ]
+}

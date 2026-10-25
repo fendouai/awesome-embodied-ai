@@ -1,0 +1,762 @@
+{
+  "date": "2026-10-25",
+  "host": {
+    "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+    "python": "3.13.9",
+    "cuda_available": false,
+    "cuda_devices": 0,
+    "free_disk_bytes": 556560384,
+    "xcode": {
+      "ok": false,
+      "output": "xcode-select: error: tool 'xcodebuild' requires Xcode, but active developer directory '/Library/Developer/CommandLineTools' is a command line tools instance"
+    },
+    "cmake": "3.31.6 (venv ARM64)",
+    "ninja": "1.11.1.4 (venv)",
+    "docker": {
+      "ok": false,
+      "output": "failed to connect to the docker API at unix:///Users/f/.colima/x86/docker.sock; check if the path is correct and if the daemon is running: dial unix /Users/f/.colima/x86/docker.sock: connect: no such file or directory"
+    },
+    "full_matches_reproduced": 0
+  },
+  "checkpoint_checks": [
+    {
+      "file": "assets/adversarial-candidates/RoboStriker-Preview/model_3000.pt",
+      "repository": "yinkangning0124/RoboStriker-Preview",
+      "commit": "52f54137770ff632391dd091e973ceb098ba3f98",
+      "sha256": "9f8bb366cdb3fd9d2752d7f7aed67a7391d9ca58aadf361f0f569b35ed54f8bc",
+      "git_object_verified": true,
+      "check": {
+        "kind": "safe tensor-only CPU checkpoint loading",
+        "tensor_count": 50,
+        "tensor_values": 1959263,
+        "finite": true,
+        "subnets": {
+          "taskpolicy_ego": {
+            "input_width": 192,
+            "output_width": 32,
+            "finite": true,
+            "elapsed_ms": 0.777499983087182,
+            "scope": "ELU MLP subnet on synthetic zero input; NOT physical rollout or end-to-end match"
+          },
+          "taskpolicy_opponent": {
+            "input_width": 192,
+            "output_width": 32,
+            "finite": true,
+            "elapsed_ms": 0.047208042815327644,
+            "scope": "ELU MLP subnet on synthetic zero input; NOT physical rollout or end-to-end match"
+          },
+          "prior": {
+            "input_width": 900,
+            "output_width": 64,
+            "finite": true,
+            "elapsed_ms": 0.060832942835986614,
+            "scope": "ELU MLP subnet on synthetic zero input; NOT physical rollout or end-to-end match"
+          },
+          "decoder": {
+            "input_width": 122,
+            "output_width": 29,
+            "finite": true,
+            "elapsed_ms": 0.036792014725506306,
+            "scope": "ELU MLP subnet on synthetic zero input; NOT physical rollout or end-to-end match"
+          }
+        },
+        "normalizer_widths": {
+          "taskpolicy_obs_normalizer_ego_state_dict": [
+            1,
+            192
+          ],
+          "taskpolicy_obs_normalizer_opponent_state_dict": [
+            1,
+            192
+          ],
+          "privileged_obs_normalizer_ego_state_dict": [
+            1,
+            225
+          ],
+          "privileged_obs_normalizer_opponent_state_dict": [
+            1,
+            225
+          ],
+          "prior_obs_normalizer_state_dict": [
+            1,
+            900
+          ],
+          "decoder_obs_normalizer_state_dict": [
+            1,
+            90
+          ]
+        }
+      }
+    },
+    {
+      "file": "assets/adversarial-candidates/NCP/boxing_106.pth",
+      "repository": "Tencent-RoboticsX/NCP",
+      "commit": "42f9af5ecf179443e7d38dfd65241843d27588c2",
+      "sha256": "6faebf1ca5bc31064f6c75c3333f2f72d870bd3bdf9976d835e9f6a5f3a4305e",
+      "git_object_verified": true,
+      "check": {
+        "kind": "safe tensor-only CPU checkpoint loading",
+        "tensor_count": 38,
+        "tensor_values": 8314625,
+        "finite": true,
+        "observed_contract": {
+          "proprioception_width": 323,
+          "task_width": 289,
+          "latent_categories": 256,
+          "latent_embedding_width": 64,
+          "low_level_actions": 28,
+          "scope": "Identified from actual tensor shapes, not a G1 action mapping"
+        }
+      }
+    },
+    {
+      "file": "assets/adversarial-candidates/BHuman/Walk/K1_walk.onnx",
+      "repository": "bhuman/BHumanCodeRelease",
+      "commit": "2e3374ba896da8288607f9a1881b876642fe18b8",
+      "sha256": "9d1ec18504cb9d05ec708b9430783a2331cabf5415fc0db81c6318472e948e8f",
+      "git_object_verified": true,
+      "check": {
+        "kind": "ONNX CPU synthetic-input forward",
+        "inputs": {
+          "input": [
+            1,
+            344
+          ]
+        },
+        "outputs": [
+          [
+            1,
+            13
+          ]
+        ],
+        "finite": true
+      }
+    },
+    {
+      "file": "assets/adversarial-candidates/BHuman/Walk/K1_kick_inner.onnx",
+      "repository": "bhuman/BHumanCodeRelease",
+      "commit": "2e3374ba896da8288607f9a1881b876642fe18b8",
+      "sha256": "7fb9ea33c36e14332861025f22e92f2f4a7ae7681f4532bdd6e1e78975fe3452",
+      "git_object_verified": true,
+      "check": {
+        "kind": "ONNX CPU synthetic-input forward",
+        "inputs": {
+          "input": [
+            1,
+            59
+          ]
+        },
+        "outputs": [
+          [
+            1,
+            13
+          ]
+        ],
+        "finite": true
+      }
+    },
+    {
+      "file": "assets/adversarial-candidates/BHuman/GetUpEngine/K1.onnx",
+      "repository": "bhuman/BHumanCodeRelease",
+      "commit": "2e3374ba896da8288607f9a1881b876642fe18b8",
+      "sha256": "44ee5ddb2b64c79b511ed0914ec40fee81b03987061b130ed17bf546e47cc486",
+      "git_object_verified": true,
+      "check": {
+        "kind": "ONNX CPU synthetic-input forward",
+        "inputs": {
+          "input": [
+            1,
+            73
+          ]
+        },
+        "outputs": [
+          [
+            1,
+            22
+          ]
+        ],
+        "finite": true
+      }
+    }
+  ],
+  "lanes": [
+    {
+      "id": "bhuman",
+      "stage": "Native ARM64 build, six K1 controllers and 3v3 referee scene running",
+      "native_scene_running": true,
+      "completed_match_validated": false,
+      "sensing": "Fast ground truth",
+      "blockers": [
+        "Full visual-perception acceptance and complete match recording remain unverified"
+      ]
+    },
+    {
+      "id": "sports",
+      "stage": "NCP106 vs100 real CPU/MuJoCo 20s physical-character rollout with archived policy IO",
+      "ncp_cpu_transfer_running": true,
+      "native_match_ready": false,
+      "smplolympics_running": false,
+      "blockers": [
+        "SMPLOlympics per-sport complete policies and SMPL assets unavailable",
+        "Original Isaac Gym Linux/NVIDIA stack not available on this Mac",
+        "Cross-engine dynamics parity unverified"
+      ]
+    },
+    {
+      "id": "robostriker",
+      "stage": "Both trained Stage3 actors drive source G1 profile in 20s CPU/MuJoCo encounter",
+      "cpu_transfer_running": true,
+      "native_match_ready": false,
+      "blockers": [
+        "Original Isaac Lab Linux/NVIDIA runtime unavailable",
+        "PhysX-to-MuJoCo equivalence, multi-seed robustness and hardware transfer unverified"
+      ]
+    }
+  ],
+  "scope": "Native B-Human scene acceptance and learned CPU/MuJoCo transfer rollouts. No certified complete native competition reproduction or hardware-destruction benchmark.",
+  "local_runs": {
+    "bhuman": {
+      "date": "2026-10-25",
+      "app": "integrations/bhuman/source/Build/macOS/SimRobot/Release/SimRobot.app",
+      "source_commit": "2e3374ba896da8288607f9a1881b876642fe18b8",
+      "engine": "MuJoCo 3.3.5 / original SimRobot Core3",
+      "scene": "Config/Scenes/K1/MacAcceptance3v3M.ros3",
+      "robots": 6,
+      "robot_type": "K1",
+      "sensing": "Fast simulator ground truth; camera perception not validated",
+      "evidence": [
+        "evidence/bhuman-native-match.png",
+        "evidence/bhuman-native-playing.png"
+      ],
+      "observed_score": [
+        2,
+        0
+      ],
+      "observed_game_state": "PLAYING",
+      "observed_step_rate_approx": 500,
+      "scope": "Local native ARM64 compile, six robot controllers and referee running; screenshots only, not full physics archive or completed match validation",
+      "changes": [
+        "Ninja desktop-only build entry, no robot cross-build",
+        "PCH replaced by identical forced include headers to limit disk use",
+        "Native library rpath and relative Qt framework staging",
+        "Ad-hoc signature of own staged MuJoCo library",
+        "Acceptance .con runs standard referee commands; default views opened"
+      ],
+      "limitations": [
+        "Startup hostname DNS lookup can block temporarily",
+        "Cognition-to-Motion early startup warnings observed",
+        "Native view is not streamed into browser",
+        "Original source/dependency directories must remain next to linked bundle"
+      ],
+      "video": "/results/bhuman-native/studio-match-clock/presentation.mp4",
+      "video_duration_s": 29.946,
+      "capture_average_fps": 26.714753222467106,
+      "video_scope": "Actual native framebuffer samples with native MuJoCo physics timestamps; measured ball/referee overlay and synthetic ball-speed/referee audio"
+    },
+    "robostriker": {
+      "folder": "results/robostriker-cpu/robostriker-cpu-1792894278679335000-part0001",
+      "result": {
+        "software_fingerprint": "81abb93ec2ec1d015070de339e1f801fbafb9b5f845171366d64619e3a88aa68",
+        "provenance_sha256": "493bd16d5c3f3541b8c975c29461e95d5467eed4ab28d3b8cdc79cd3ea248786",
+        "match_id": "robostriker-cpu-1792894278679335000-part0001",
+        "track": "robostriker_cpu_port",
+        "rated": false,
+        "configured_rated": false,
+        "robots": [
+          "g1_robostriker",
+          "g1_robostriker"
+        ],
+        "policies": [
+          "robostriker_ego",
+          "robostriker_opponent"
+        ],
+        "seed": 0,
+        "friction": 1.0,
+        "actual_initial_distance": 2.0,
+        "duration_s": 20.000000000000306,
+        "result": {
+          "reason": "budget_pause",
+          "winner": null,
+          "time": 20.000000000000306,
+          "hardware_damage": false,
+          "resumable": true
+        },
+        "first_contact_s": 2.579999999999967,
+        "contact_duration_s": 2.205,
+        "contact_impulse_ns": 257.52667226277157,
+        "peak_contact_force_n": 702.904233536955,
+        "positive_mechanical_work_j": [
+          3786.130961773915,
+          3955.9764630352483
+        ],
+        "max_tilt_deg": [
+          18.917470763309378,
+          15.20059002187891
+        ],
+        "external_root_force_peak": 0.0,
+        "max_torque_limit_violation_nm": 0.0,
+        "numerical_warnings": 0,
+        "actors": [
+          {
+            "robot": "G1 / RoboStriker source URDF",
+            "key": "g1_robostriker",
+            "model_scope": "Pinned RoboStriker source URDF converted by MuJoCo; source gains/armatures applied; PhysX-to-MuJoCo transfer under validation",
+            "mass_kg": 33.341142000000005,
+            "controlled_dof": 29,
+            "nominal_root_height": 0.8514635809997593,
+            "joint_names": [
+              "left_hip_pitch_joint",
+              "left_hip_roll_joint",
+              "left_hip_yaw_joint",
+              "left_knee_joint",
+              "left_ankle_pitch_joint",
+              "left_ankle_roll_joint",
+              "right_hip_pitch_joint",
+              "right_hip_roll_joint",
+              "right_hip_yaw_joint",
+              "right_knee_joint",
+              "right_ankle_pitch_joint",
+              "right_ankle_roll_joint",
+              "waist_yaw_joint",
+              "waist_roll_joint",
+              "waist_pitch_joint",
+              "left_shoulder_pitch_joint",
+              "left_shoulder_roll_joint",
+              "left_shoulder_yaw_joint",
+              "left_elbow_joint",
+              "left_wrist_roll_joint",
+              "left_wrist_pitch_joint",
+              "left_wrist_yaw_joint",
+              "right_shoulder_pitch_joint",
+              "right_shoulder_roll_joint",
+              "right_shoulder_yaw_joint",
+              "right_elbow_joint",
+              "right_wrist_roll_joint",
+              "right_wrist_pitch_joint",
+              "right_wrist_yaw_joint"
+            ],
+            "kp": [
+              40.17923847366999,
+              99.098427782326,
+              40.17923847366999,
+              99.098427782326,
+              28.501246197377824,
+              28.501246197377824,
+              40.17923847366999,
+              99.098427782326,
+              40.17923847366999,
+              99.098427782326,
+              28.501246197377824,
+              28.501246197377824,
+              40.17923847366999,
+              28.501246197377824,
+              28.501246197377824,
+              14.250623098688912,
+              14.250623098688912,
+              14.250623098688912,
+              14.250623098688912,
+              14.250623098688912,
+              16.77832748185191,
+              16.77832748185191,
+              14.250623098688912,
+              14.250623098688912,
+              14.250623098688912,
+              14.250623098688912,
+              14.250623098688912,
+              16.77832748185191,
+              16.77832748185191
+            ],
+            "kd": [
+              2.5578897651010553,
+              6.3088018536769574,
+              2.5578897651010553,
+              6.3088018536769574,
+              1.8144456866367065,
+              1.8144456866367065,
+              2.5578897651010553,
+              6.3088018536769574,
+              2.5578897651010553,
+              6.3088018536769574,
+              1.8144456866367065,
+              1.8144456866367065,
+              2.5578897651010553,
+              1.8144456866367065,
+              1.8144456866367065,
+              0.9072228433183532,
+              0.9072228433183532,
+              0.9072228433183532,
+              0.9072228433183532,
+              0.9072228433183532,
+              1.0681415022205298,
+              1.0681415022205298,
+              0.9072228433183532,
+              0.9072228433183532,
+              0.9072228433183532,
+              0.9072228433183532,
+              0.9072228433183532,
+              1.0681415022205298,
+              1.0681415022205298
+            ],
+            "torque_limits_nm": [
+              88.0,
+              139.0,
+              88.0,
+              139.0,
+              50.0,
+              50.0,
+              88.0,
+              139.0,
+              88.0,
+              139.0,
+              50.0,
+              50.0,
+              88.0,
+              50.0,
+              50.0,
+              25.0,
+              25.0,
+              25.0,
+              25.0,
+              25.0,
+              5.0,
+              5.0,
+              25.0,
+              25.0,
+              25.0,
+              25.0,
+              25.0,
+              5.0,
+              5.0
+            ],
+            "policy": "robostriker_ego",
+            "policy_file": "assets/adversarial-candidates/RoboStriker-Preview/model_3000.pt",
+            "policy_sha256": "9f8bb366cdb3fd9d2752d7f7aed67a7391d9ca58aadf361f0f569b35ed54f8bc"
+          },
+          {
+            "robot": "G1 / RoboStriker source URDF",
+            "key": "g1_robostriker",
+            "model_scope": "Pinned RoboStriker source URDF converted by MuJoCo; source gains/armatures applied; PhysX-to-MuJoCo transfer under validation",
+            "mass_kg": 33.341142000000005,
+            "controlled_dof": 29,
+            "nominal_root_height": 0.8514635809997593,
+            "joint_names": [
+              "left_hip_pitch_joint",
+              "left_hip_roll_joint",
+              "left_hip_yaw_joint",
+              "left_knee_joint",
+              "left_ankle_pitch_joint",
+              "left_ankle_roll_joint",
+              "right_hip_pitch_joint",
+              "right_hip_roll_joint",
+              "right_hip_yaw_joint",
+              "right_knee_joint",
+              "right_ankle_pitch_joint",
+              "right_ankle_roll_joint",
+              "waist_yaw_joint",
+              "waist_roll_joint",
+              "waist_pitch_joint",
+              "left_shoulder_pitch_joint",
+              "left_shoulder_roll_joint",
+              "left_shoulder_yaw_joint",
+              "left_elbow_joint",
+              "left_wrist_roll_joint",
+              "left_wrist_pitch_joint",
+              "left_wrist_yaw_joint",
+              "right_shoulder_pitch_joint",
+              "right_shoulder_roll_joint",
+              "right_shoulder_yaw_joint",
+              "right_elbow_joint",
+              "right_wrist_roll_joint",
+              "right_wrist_pitch_joint",
+              "right_wrist_yaw_joint"
+            ],
+            "kp": [
+              40.17923847366999,
+              99.098427782326,
+              40.17923847366999,
+              99.098427782326,
+              28.501246197377824,
+              28.501246197377824,
+              40.17923847366999,
+              99.098427782326,
+              40.17923847366999,
+              99.098427782326,
+              28.501246197377824,
+              28.501246197377824,
+              40.17923847366999,
+              28.501246197377824,
+              28.501246197377824,
+              14.250623098688912,
+              14.250623098688912,
+              14.250623098688912,
+              14.250623098688912,
+              14.250623098688912,
+              16.77832748185191,
+              16.77832748185191,
+              14.250623098688912,
+              14.250623098688912,
+              14.250623098688912,
+              14.250623098688912,
+              14.250623098688912,
+              16.77832748185191,
+              16.77832748185191
+            ],
+            "kd": [
+              2.5578897651010553,
+              6.3088018536769574,
+              2.5578897651010553,
+              6.3088018536769574,
+              1.8144456866367065,
+              1.8144456866367065,
+              2.5578897651010553,
+              6.3088018536769574,
+              2.5578897651010553,
+              6.3088018536769574,
+              1.8144456866367065,
+              1.8144456866367065,
+              2.5578897651010553,
+              1.8144456866367065,
+              1.8144456866367065,
+              0.9072228433183532,
+              0.9072228433183532,
+              0.9072228433183532,
+              0.9072228433183532,
+              0.9072228433183532,
+              1.0681415022205298,
+              1.0681415022205298,
+              0.9072228433183532,
+              0.9072228433183532,
+              0.9072228433183532,
+              0.9072228433183532,
+              0.9072228433183532,
+              1.0681415022205298,
+              1.0681415022205298
+            ],
+            "torque_limits_nm": [
+              88.0,
+              139.0,
+              88.0,
+              139.0,
+              50.0,
+              50.0,
+              88.0,
+              139.0,
+              88.0,
+              139.0,
+              50.0,
+              50.0,
+              88.0,
+              50.0,
+              50.0,
+              25.0,
+              25.0,
+              25.0,
+              25.0,
+              25.0,
+              5.0,
+              5.0,
+              25.0,
+              25.0,
+              25.0,
+              25.0,
+              25.0,
+              5.0,
+              5.0
+            ],
+            "policy": "robostriker_opponent",
+            "policy_file": "assets/adversarial-candidates/RoboStriker-Preview/model_3000.pt",
+            "policy_sha256": "9f8bb366cdb3fd9d2752d7f7aed67a7391d9ca58aadf361f0f569b35ed54f8bc"
+          }
+        ],
+        "physics": {
+          "engine": "MuJoCo",
+          "version": "3.17.0",
+          "timestep_s": 0.005,
+          "gravity": [
+            0.0,
+            0.0,
+            -9.81
+          ],
+          "integrator": "implicitfast",
+          "solver": "Newton",
+          "iterations": 80,
+          "self_collision": "source self contacts retained; added massless convex rubber-hand cross/ground proxies",
+          "derived_hand_colliders": [],
+          "no_hidden_root_forces": true,
+          "ground_friction": 1.0
+        },
+        "archive": {
+          "physics_frames": 4001,
+          "control_frames": 1002,
+          "state_spec": 16383,
+          "replay": "restore complete integration state; never reconstruct from animation"
+        },
+        "created_unix": 1792894283.008533,
+        "continuous": {
+          "run_id": "robostriker-cpu-1792894278679335000",
+          "part": 1,
+          "start_s": 0.0,
+          "end_s": 20.000000000000306,
+          "fall_is_terminal": false,
+          "time_limit_is_loss": false,
+          "damage_prediction": "not_calibrated",
+          "endurance_fingerprint": "6a3eb1020e537ebbb17c9c23eb547d850bf5a0b7e4ff894bc41b3e561a48d0d5",
+          "hardware": [
+            {
+              "mode": "not_calibrated",
+              "modeled_motors": 0,
+              "total_motors": 29,
+              "max_temperature_c": null,
+              "thermal_trips": 0,
+              "irreversible_motor_faults": 0,
+              "structural_fracture": "not_modeled",
+              "gearbox_failure": "not_modeled",
+              "real_hardware_damage_confirmed": false
+            },
+            {
+              "mode": "not_calibrated",
+              "modeled_motors": 0,
+              "total_motors": 29,
+              "max_temperature_c": null,
+              "thermal_trips": 0,
+              "irreversible_motor_faults": 0,
+              "structural_fracture": "not_modeled",
+              "gearbox_failure": "not_modeled",
+              "real_hardware_damage_confirmed": false
+            }
+          ],
+          "resume_checkpoint": "runtime.json"
+        },
+        "adversarial_backend": {
+          "name": "RoboStriker Stage3 CPU port",
+          "validated_reproduction": false,
+          "source_sha256": "eb3d33ebfe5e5465b3bda38159e321632a5953fad9b3a2487dbb00314f075703",
+          "scripted_strikes": false
+        }
+      },
+      "native_reproduction": false
+    },
+    "ncp": {
+      "folder": "results/ncp-cpu/ncp-cpu-1792894566395944000",
+      "result": {
+        "match_id": "ncp-cpu-1792894566395944000",
+        "track": "ncp_cpu_port",
+        "rated": false,
+        "robots": [
+          "NCP digital humanoid",
+          "NCP digital humanoid"
+        ],
+        "policies": [
+          "ncp_boxing_106",
+          "ncp_boxing_100"
+        ],
+        "duration_s": 19.999999999999186,
+        "result": {
+          "reason": "budget_pause",
+          "winner": null,
+          "time": 19.999999999999186,
+          "hardware_damage": false
+        },
+        "seed": 0,
+        "first_contact_s": 2.337500000000011,
+        "contact_duration_s": 4.066666666666666,
+        "contact_impulse_ns": 1176.1713142642604,
+        "peak_contact_force_n": 6490.209161948398,
+        "max_tilt_deg": [
+          18.56510495372374,
+          17.33577007142355
+        ],
+        "positive_mechanical_work_j": [
+          35526.73025216662,
+          32787.09539856031
+        ],
+        "numerical_warnings": 0,
+        "max_torque_limit_violation_nm": 0.0,
+        "external_root_force_peak": 0.0,
+        "adversarial_backend": {
+          "name": "NCP CPU physical character transfer",
+          "validated_reproduction": false,
+          "scripted_strikes": false
+        },
+        "continuous": {
+          "damage_prediction": "not_calibrated"
+        },
+        "physics": {
+          "engine": "MuJoCo",
+          "version": "3.17.0",
+          "timestep_s": 0.004166666666666667,
+          "control_dt_s": 0.03333333333333333,
+          "no_hidden_root_forces": true,
+          "source_engine": "Isaac Gym PhysX"
+        },
+        "archive": {
+          "physics_frames": 4801,
+          "control_frames": 600,
+          "replay": "Complete integration states, controls, latent code, noise and neural observations"
+        },
+        "wall_time_s": 1.3966248035430908
+      },
+      "native_reproduction": false
+    },
+    "smplolympics": {
+      "status": "not_running",
+      "blockers": [
+        "Required SMPL assets and per-sport competition task weights not verified available",
+        "Native Isaac Gym Linux/NVIDIA dependency unavailable on this Mac"
+      ],
+      "ncp_is_not_full_sports_suite": true
+    }
+  },
+  "status": "Native B-Human partial acceptance; real RoboStriker and NCP CPU/MuJoCo rollouts verified; SMPLOlympics pending",
+  "reference_videos": {
+    "smplolympics": "research/adversarial-options/SMPLOlympics-official-videos.json",
+    "scope": "Official external reference videos; not local runtime evidence"
+  },
+  "presentation_upgrade": {
+    "report": "reports/presentation-upgrade.md",
+    "validation": "12 passed",
+    "native_soccer": {
+      "backend": "B-Human native studio recording",
+      "duration_s": 29.946,
+      "source_frames": 801,
+      "source_fps": 26.714753222467106,
+      "encoded_fps": 30,
+      "timing": "physics clock; render cost does not change playback speed",
+      "wall_capture_duration_s": 66.038,
+      "telemetry_samples": 2163,
+      "telemetry_columns": [
+        "wall_ms",
+        "controller_clock_ms",
+        "secs_remaining",
+        "phase",
+        "red_score",
+        "white_score",
+        "ball_x_m",
+        "ball_y_m",
+        "robot0_x_m",
+        "robot0_y_m",
+        "robot1_x_m",
+        "robot1_y_m",
+        "robot2_x_m",
+        "robot2_y_m",
+        "robot3_x_m",
+        "robot3_y_m",
+        "robot4_x_m",
+        "robot4_y_m",
+        "robot5_x_m",
+        "robot5_y_m"
+      ],
+      "score_source": "Original native referee data",
+      "ball_speed_source": "position-derived estimate from controller positions aligned to native framebuffer samples / MuJoCo physics-time delta",
+      "speed_unknown_rule": "non-playing phase, referee change, dt outside (0,.2)s, or position discontinuity >=.6m",
+      "synthetic_referee_audio": true,
+      "ball_speed_sonification": true,
+      "events": [],
+      "physics_unchanged": true,
+      "temporal_interpolation": false,
+      "frame_selection": "latest captured frame at recorded physics-clock timestamp; each frame tagged with native MuJoCo time; no invented motion",
+      "video_sha256": "e258cfb73d6c3057446e096a0cce9ba5c0267de1b4a54573ab7cb94a3dd2db95"
+    },
+    "physics_and_original_archives_preserved": true
+  }
+}

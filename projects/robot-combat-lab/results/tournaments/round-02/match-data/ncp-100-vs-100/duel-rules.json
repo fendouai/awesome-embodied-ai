@@ -1,0 +1,19 @@
+{
+  "limit_s": 90.0,
+  "down_confirm_s": 0.25,
+  "recovery_deadline_s": 10.0,
+  "recovery_hold_s": 1.0,
+  "down_tilt_deg": 65.0,
+  "down_height_ratio": 0.55,
+  "upright_tilt_deg": 25.0,
+  "upright_height_ratio": 0.75,
+  "contact_gap_s": 0.1,
+  "impact_window_s": 0.08,
+  "minimum_approach_m_s": 0.25,
+  "minimum_normal_impulse_ns": 0.1,
+  "decision_impulse_margin_ns": 0.5,
+  "version": "physical-contest-v1",
+  "body_scope": "NCP simulated character, not an identified robot",
+  "scoring": "Hands versus opponent torso/head only; guards and down-state contacts excluded",
+  "interpretation": "Competition judgement only, not tissue injury/hardware damage"
+}

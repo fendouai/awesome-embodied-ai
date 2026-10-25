@@ -1,0 +1,500 @@
+{
+  "source_page": "https://smplolympics.github.io/SMPLOlympics-Site/",
+  "scope": "Official authors reference videos, not local Mac rollouts",
+  "default_http_status": 200,
+  "default_content_type": "video/mp4",
+  "videos": [
+    {
+      "label": "乒乓球 · 1 对 1",
+      "url": "https://smplolympics.github.io/SMPLOlympics-Site/videos/pingpong_pulse_amp_1v1.mp4"
+    },
+    {
+      "label": "网球 · 1 对 1",
+      "url": "https://smplolympics.github.io/SMPLOlympics-Site/videos/tennis_pulse_amp_1v1.mp4"
+    },
+    {
+      "label": "拳击 · 双人对抗",
+      "url": "https://smplolympics.github.io/SMPLOlympics-Site/videos/boxing_pulse_amp.mp4"
+    },
+    {
+      "label": "击剑 · 双人对抗",
+      "url": "https://smplolympics.github.io/SMPLOlympics-Site/videos/fencing_pulse_amp.mp4"
+    },
+    {
+      "label": "踢球",
+      "url": "https://smplolympics.github.io/SMPLOlympics-Site/videos/kick_pulse.mp4"
+    },
+    {
+      "label": "篮球罚球",
+      "url": "https://smplolympics.github.io/SMPLOlympics-Site/videos/freethrow_pulse.mp4"
+    },
+    {
+      "label": "足球 · 1 对 1",
+      "url": "https://smplolympics.github.io/SMPLOlympics-Site/videos/soccer_1v1.mp4"
+    },
+    {
+      "label": "足球 · 2 对 2",
+      "url": "https://smplolympics.github.io/SMPLOlympics-Site/videos/soccer_2v2.mp4"
+    },
+    {
+      "label": "标枪",
+      "url": "https://smplolympics.github.io/SMPLOlympics-Site/videos/javelin_pulse.mp4"
+    },
+    {
+      "label": "高尔夫",
+      "url": "https://smplolympics.github.io/SMPLOlympics-Site/videos/golf_pulse_amp.mp4"
+    },
+    {
+      "label": "跳高",
+      "url": "https://smplolympics.github.io/SMPLOlympics-Site/videos/highjump_pulse.mp4"
+    },
+    {
+      "label": "跳远",
+      "url": "https://smplolympics.github.io/SMPLOlympics-Site/videos/longjump_pulse.mp4"
+    },
+    {
+      "label": "跨栏",
+      "url": "https://smplolympics.github.io/SMPLOlympics-Site/videos/hurdle_pulse.mp4"
+    },
+    {
+      "label": "H1 · 模仿运动",
+      "url": "https://smplolympics.github.io/SMPLOlympics-Site/videos/h1_im.mp4"
+    },
+    {
+      "label": "G1 · 模仿运动",
+      "url": "https://smplolympics.github.io/SMPLOlympics-Site/videos/g1_im.mp4"
+    },
+    {
+      "label": "H1 · 拳击迁移展示",
+      "url": "https://smplolympics.github.io/SMPLOlympics-Site/videos/h1_boxing.mp4"
+    },
+    {
+      "label": "H1 · 跳高与跨栏",
+      "url": "https://smplolympics.github.io/SMPLOlympics-Site/videos/h1_highjump_hurdle.mp4"
+    },
+    {
+      "label": "G1 · 跨栏",
+      "url": "https://smplolympics.github.io/SMPLOlympics-Site/videos/g1_hurdling.mp4"
+    },
+    {
+      "label": "G1 · 踢球",
+      "url": "https://smplolympics.github.io/SMPLOlympics-Site/videos/g1_kick.mp4"
+    },
+    {
+      "label": "soccer / data",
+      "url": "https://smplolympics.github.io/SMPLOlympics-Site/videos/soccer_data.mp4"
+    },
+    {
+      "label": "tennis / data",
+      "url": "https://smplolympics.github.io/SMPLOlympics-Site/videos/tennis_data.mp4"
+    },
+    {
+      "label": "golf / data",
+      "url": "https://smplolympics.github.io/SMPLOlympics-Site/videos/golf_data.mp4"
+    },
+    {
+      "label": "boxing / data",
+      "url": "https://smplolympics.github.io/SMPLOlympics-Site/videos/boxing_data.mp4"
+    },
+    {
+      "label": "pingpong / pulse / amp / nophc",
+      "url": "https://smplolympics.github.io/SMPLOlympics-Site/videos/pingpong_pulse_amp_nophc.mp4"
+    },
+    {
+      "label": "pingpong / pulse / amp",
+      "url": "https://smplolympics.github.io/SMPLOlympics-Site/videos/pingpong_pulse_amp.mp4"
+    },
+    {
+      "label": "highjump / ppo",
+      "url": "https://smplolympics.github.io/SMPLOlympics-Site/videos/highjump_ppo.mp4"
+    },
+    {
+      "label": "highjump / amp",
+      "url": "https://smplolympics.github.io/SMPLOlympics-Site/videos/highjump_amp.mp4"
+    },
+    {
+      "label": "longjump / ppo",
+      "url": "https://smplolympics.github.io/SMPLOlympics-Site/videos/longjump_ppo.mp4"
+    },
+    {
+      "label": "longjump / amp",
+      "url": "https://smplolympics.github.io/SMPLOlympics-Site/videos/longjump_amp.mp4"
+    },
+    {
+      "label": "hurdle / ppo",
+      "url": "https://smplolympics.github.io/SMPLOlympics-Site/videos/hurdle_ppo.mp4"
+    },
+    {
+      "label": "hurdle / amp",
+      "url": "https://smplolympics.github.io/SMPLOlympics-Site/videos/hurdle_amp.mp4"
+    },
+    {
+      "label": "javelin / ppo",
+      "url": "https://smplolympics.github.io/SMPLOlympics-Site/videos/javelin_ppo.mp4"
+    },
+    {
+      "label": "javelin / amp",
+      "url": "https://smplolympics.github.io/SMPLOlympics-Site/videos/javelin_amp.mp4"
+    },
+    {
+      "label": "golf / ppo",
+      "url": "https://smplolympics.github.io/SMPLOlympics-Site/videos/golf_ppo.mp4"
+    },
+    {
+      "label": "golf / amp",
+      "url": "https://smplolympics.github.io/SMPLOlympics-Site/videos/golf_amp.mp4"
+    },
+    {
+      "label": "golf / pulse",
+      "url": "https://smplolympics.github.io/SMPLOlympics-Site/videos/golf_pulse.mp4"
+    },
+    {
+      "label": "tennis / ppo",
+      "url": "https://smplolympics.github.io/SMPLOlympics-Site/videos/tennis_ppo.mp4"
+    },
+    {
+      "label": "tennis / amp",
+      "url": "https://smplolympics.github.io/SMPLOlympics-Site/videos/tennis_amp.mp4"
+    },
+    {
+      "label": "tennis / pulse",
+      "url": "https://smplolympics.github.io/SMPLOlympics-Site/videos/tennis_pulse.mp4"
+    },
+    {
+      "label": "tennis / pulse / amp",
+      "url": "https://smplolympics.github.io/SMPLOlympics-Site/videos/tennis_pulse_amp.mp4"
+    },
+    {
+      "label": "pingpong / ppo",
+      "url": "https://smplolympics.github.io/SMPLOlympics-Site/videos/pingpong_ppo.mp4"
+    },
+    {
+      "label": "pingpong / amp",
+      "url": "https://smplolympics.github.io/SMPLOlympics-Site/videos/pingpong_amp.mp4"
+    },
+    {
+      "label": "pingpong / pulse",
+      "url": "https://smplolympics.github.io/SMPLOlympics-Site/videos/pingpong_pulse.mp4"
+    },
+    {
+      "label": "freethrow / ppo",
+      "url": "https://smplolympics.github.io/SMPLOlympics-Site/videos/freethrow_ppo.mp4"
+    },
+    {
+      "label": "freethrow / amp",
+      "url": "https://smplolympics.github.io/SMPLOlympics-Site/videos/freethrow_amp.mp4"
+    },
+    {
+      "label": "freethrow / pulse / amp",
+      "url": "https://smplolympics.github.io/SMPLOlympics-Site/videos/freethrow_pulse_amp.mp4"
+    },
+    {
+      "label": "kick / ppo",
+      "url": "https://smplolympics.github.io/SMPLOlympics-Site/videos/kick_ppo.mp4"
+    },
+    {
+      "label": "kick / amp",
+      "url": "https://smplolympics.github.io/SMPLOlympics-Site/videos/kick_amp.mp4"
+    },
+    {
+      "label": "kick / pulse / amp",
+      "url": "https://smplolympics.github.io/SMPLOlympics-Site/videos/kick_pulse_amp.mp4"
+    }
+  ],
+  "http_checks": [
+    {
+      "label": "乒乓球 · 1 对 1",
+      "url": "https://smplolympics.github.io/SMPLOlympics-Site/videos/pingpong_pulse_amp_1v1.mp4",
+      "status": 200,
+      "content_type": "video/mp4"
+    },
+    {
+      "label": "网球 · 1 对 1",
+      "url": "https://smplolympics.github.io/SMPLOlympics-Site/videos/tennis_pulse_amp_1v1.mp4",
+      "status": 200,
+      "content_type": "video/mp4"
+    },
+    {
+      "label": "拳击 · 双人对抗",
+      "url": "https://smplolympics.github.io/SMPLOlympics-Site/videos/boxing_pulse_amp.mp4",
+      "status": 200,
+      "content_type": "video/mp4"
+    },
+    {
+      "label": "击剑 · 双人对抗",
+      "url": "https://smplolympics.github.io/SMPLOlympics-Site/videos/fencing_pulse_amp.mp4",
+      "status": 200,
+      "content_type": "video/mp4"
+    },
+    {
+      "label": "踢球",
+      "url": "https://smplolympics.github.io/SMPLOlympics-Site/videos/kick_pulse.mp4",
+      "status": 200,
+      "content_type": "video/mp4"
+    },
+    {
+      "label": "篮球罚球",
+      "url": "https://smplolympics.github.io/SMPLOlympics-Site/videos/freethrow_pulse.mp4",
+      "status": 200,
+      "content_type": "video/mp4"
+    },
+    {
+      "label": "足球 · 1 对 1",
+      "url": "https://smplolympics.github.io/SMPLOlympics-Site/videos/soccer_1v1.mp4",
+      "status": 200,
+      "content_type": "video/mp4"
+    },
+    {
+      "label": "足球 · 2 对 2",
+      "url": "https://smplolympics.github.io/SMPLOlympics-Site/videos/soccer_2v2.mp4",
+      "status": 200,
+      "content_type": "video/mp4"
+    },
+    {
+      "label": "标枪",
+      "url": "https://smplolympics.github.io/SMPLOlympics-Site/videos/javelin_pulse.mp4",
+      "status": 200,
+      "content_type": "video/mp4"
+    },
+    {
+      "label": "高尔夫",
+      "url": "https://smplolympics.github.io/SMPLOlympics-Site/videos/golf_pulse_amp.mp4",
+      "status": 200,
+      "content_type": "video/mp4"
+    },
+    {
+      "label": "跳高",
+      "url": "https://smplolympics.github.io/SMPLOlympics-Site/videos/highjump_pulse.mp4",
+      "status": 200,
+      "content_type": "video/mp4"
+    },
+    {
+      "label": "跳远",
+      "url": "https://smplolympics.github.io/SMPLOlympics-Site/videos/longjump_pulse.mp4",
+      "status": 200,
+      "content_type": "video/mp4"
+    },
+    {
+      "label": "跨栏",
+      "url": "https://smplolympics.github.io/SMPLOlympics-Site/videos/hurdle_pulse.mp4",
+      "status": 200,
+      "content_type": "video/mp4"
+    },
+    {
+      "label": "H1 · 模仿运动",
+      "url": "https://smplolympics.github.io/SMPLOlympics-Site/videos/h1_im.mp4",
+      "status": 200,
+      "content_type": "video/mp4"
+    },
+    {
+      "label": "G1 · 模仿运动",
+      "url": "https://smplolympics.github.io/SMPLOlympics-Site/videos/g1_im.mp4",
+      "status": 200,
+      "content_type": "video/mp4"
+    },
+    {
+      "label": "H1 · 拳击迁移展示",
+      "url": "https://smplolympics.github.io/SMPLOlympics-Site/videos/h1_boxing.mp4",
+      "status": 200,
+      "content_type": "video/mp4"
+    },
+    {
+      "label": "H1 · 跳高与跨栏",
+      "url": "https://smplolympics.github.io/SMPLOlympics-Site/videos/h1_highjump_hurdle.mp4",
+      "status": 200,
+      "content_type": "video/mp4"
+    },
+    {
+      "label": "G1 · 跨栏",
+      "url": "https://smplolympics.github.io/SMPLOlympics-Site/videos/g1_hurdling.mp4",
+      "status": 200,
+      "content_type": "video/mp4"
+    },
+    {
+      "label": "G1 · 踢球",
+      "url": "https://smplolympics.github.io/SMPLOlympics-Site/videos/g1_kick.mp4",
+      "status": 200,
+      "content_type": "video/mp4"
+    },
+    {
+      "label": "soccer / data",
+      "url": "https://smplolympics.github.io/SMPLOlympics-Site/videos/soccer_data.mp4",
+      "status": 200,
+      "content_type": "video/mp4"
+    },
+    {
+      "label": "tennis / data",
+      "url": "https://smplolympics.github.io/SMPLOlympics-Site/videos/tennis_data.mp4",
+      "status": 200,
+      "content_type": "video/mp4"
+    },
+    {
+      "label": "golf / data",
+      "url": "https://smplolympics.github.io/SMPLOlympics-Site/videos/golf_data.mp4",
+      "status": 200,
+      "content_type": "video/mp4"
+    },
+    {
+      "label": "boxing / data",
+      "url": "https://smplolympics.github.io/SMPLOlympics-Site/videos/boxing_data.mp4",
+      "status": 200,
+      "content_type": "video/mp4"
+    },
+    {
+      "label": "pingpong / pulse / amp / nophc",
+      "url": "https://smplolympics.github.io/SMPLOlympics-Site/videos/pingpong_pulse_amp_nophc.mp4",
+      "status": 200,
+      "content_type": "video/mp4"
+    },
+    {
+      "label": "pingpong / pulse / amp",
+      "url": "https://smplolympics.github.io/SMPLOlympics-Site/videos/pingpong_pulse_amp.mp4",
+      "status": 200,
+      "content_type": "video/mp4"
+    },
+    {
+      "label": "highjump / ppo",
+      "url": "https://smplolympics.github.io/SMPLOlympics-Site/videos/highjump_ppo.mp4",
+      "status": 200,
+      "content_type": "video/mp4"
+    },
+    {
+      "label": "highjump / amp",
+      "url": "https://smplolympics.github.io/SMPLOlympics-Site/videos/highjump_amp.mp4",
+      "status": 200,
+      "content_type": "video/mp4"
+    },
+    {
+      "label": "longjump / ppo",
+      "url": "https://smplolympics.github.io/SMPLOlympics-Site/videos/longjump_ppo.mp4",
+      "status": 200,
+      "content_type": "video/mp4"
+    },
+    {
+      "label": "longjump / amp",
+      "url": "https://smplolympics.github.io/SMPLOlympics-Site/videos/longjump_amp.mp4",
+      "status": 200,
+      "content_type": "video/mp4"
+    },
+    {
+      "label": "hurdle / ppo",
+      "url": "https://smplolympics.github.io/SMPLOlympics-Site/videos/hurdle_ppo.mp4",
+      "status": 200,
+      "content_type": "video/mp4"
+    },
+    {
+      "label": "hurdle / amp",
+      "url": "https://smplolympics.github.io/SMPLOlympics-Site/videos/hurdle_amp.mp4",
+      "status": 200,
+      "content_type": "video/mp4"
+    },
+    {
+      "label": "javelin / ppo",
+      "url": "https://smplolympics.github.io/SMPLOlympics-Site/videos/javelin_ppo.mp4",
+      "status": 200,
+      "content_type": "video/mp4"
+    },
+    {
+      "label": "javelin / amp",
+      "url": "https://smplolympics.github.io/SMPLOlympics-Site/videos/javelin_amp.mp4",
+      "status": 200,
+      "content_type": "video/mp4"
+    },
+    {
+      "label": "golf / ppo",
+      "url": "https://smplolympics.github.io/SMPLOlympics-Site/videos/golf_ppo.mp4",
+      "status": 200,
+      "content_type": "video/mp4"
+    },
+    {
+      "label": "golf / amp",
+      "url": "https://smplolympics.github.io/SMPLOlympics-Site/videos/golf_amp.mp4",
+      "status": 200,
+      "content_type": "video/mp4"
+    },
+    {
+      "label": "golf / pulse",
+      "url": "https://smplolympics.github.io/SMPLOlympics-Site/videos/golf_pulse.mp4",
+      "status": 200,
+      "content_type": "video/mp4"
+    },
+    {
+      "label": "tennis / ppo",
+      "url": "https://smplolympics.github.io/SMPLOlympics-Site/videos/tennis_ppo.mp4",
+      "status": 200,
+      "content_type": "video/mp4"
+    },
+    {
+      "label": "tennis / amp",
+      "url": "https://smplolympics.github.io/SMPLOlympics-Site/videos/tennis_amp.mp4",
+      "status": 200,
+      "content_type": "video/mp4"
+    },
+    {
+      "label": "tennis / pulse",
+      "url": "https://smplolympics.github.io/SMPLOlympics-Site/videos/tennis_pulse.mp4",
+      "status": 200,
+      "content_type": "video/mp4"
+    },
+    {
+      "label": "tennis / pulse / amp",
+      "url": "https://smplolympics.github.io/SMPLOlympics-Site/videos/tennis_pulse_amp.mp4",
+      "status": 200,
+      "content_type": "video/mp4"
+    },
+    {
+      "label": "pingpong / ppo",
+      "url": "https://smplolympics.github.io/SMPLOlympics-Site/videos/pingpong_ppo.mp4",
+      "status": 200,
+      "content_type": "video/mp4"
+    },
+    {
+      "label": "pingpong / amp",
+      "url": "https://smplolympics.github.io/SMPLOlympics-Site/videos/pingpong_amp.mp4",
+      "status": 200,
+      "content_type": "video/mp4"
+    },
+    {
+      "label": "pingpong / pulse",
+      "url": "https://smplolympics.github.io/SMPLOlympics-Site/videos/pingpong_pulse.mp4",
+      "status": 200,
+      "content_type": "video/mp4"
+    },
+    {
+      "label": "freethrow / ppo",
+      "url": "https://smplolympics.github.io/SMPLOlympics-Site/videos/freethrow_ppo.mp4",
+      "status": 200,
+      "content_type": "video/mp4"
+    },
+    {
+      "label": "freethrow / amp",
+      "url": "https://smplolympics.github.io/SMPLOlympics-Site/videos/freethrow_amp.mp4",
+      "status": 200,
+      "content_type": "video/mp4"
+    },
+    {
+      "label": "freethrow / pulse / amp",
+      "url": "https://smplolympics.github.io/SMPLOlympics-Site/videos/freethrow_pulse_amp.mp4",
+      "status": 200,
+      "content_type": "video/mp4"
+    },
+    {
+      "label": "kick / ppo",
+      "url": "https://smplolympics.github.io/SMPLOlympics-Site/videos/kick_ppo.mp4",
+      "status": 200,
+      "content_type": "video/mp4"
+    },
+    {
+      "label": "kick / amp",
+      "url": "https://smplolympics.github.io/SMPLOlympics-Site/videos/kick_amp.mp4",
+      "status": 200,
+      "content_type": "video/mp4"
+    },
+    {
+      "label": "kick / pulse / amp",
+      "url": "https://smplolympics.github.io/SMPLOlympics-Site/videos/kick_pulse_amp.mp4",
+      "status": 200,
+      "content_type": "video/mp4"
+    }
+  ]
+}

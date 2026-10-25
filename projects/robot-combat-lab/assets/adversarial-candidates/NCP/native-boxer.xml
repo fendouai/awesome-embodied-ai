@@ -1,0 +1,195 @@
+<mujoco model="humanoid">
+  <compiler angle="radian" />
+
+  <option timestep="0.00555" />
+
+  <statistic extent="2" center="0 0 1" />
+
+  <default>
+    <general ctrlrange="-1 1" ctrllimited="true" />
+    <default class="body">
+      <joint solimplimit="0 0.99 0.01" stiffness="5" armature="0.007" damping="0.1" limited="true" />
+      <geom type="capsule" condim="1" friction="1 0.05 0.05" solref="0.015" solimp="0.9 0.99 0.003" />
+      <site size="0.04 0.005 0.005" group="3" />
+      <default class="force-torque">
+        <site size="0.01 0.01 0.02" type="box" rgba="1 0 0 1" />
+      </default>
+      <default class="touch">
+        <site type="capsule" rgba="0 0 1 0.3" />
+      </default>
+    </default>
+  </default>
+
+  <worldbody>
+    <body name="pelvis" childclass="body" pos="0 0 0.916721">
+      <joint name="root" type="free" solimplimit="0.9 0.95 0.001" stiffness="0" armature="0" damping="0" />
+      <geom name="pelvis" size="0.09" pos="0 0 0.07" type="sphere" density="2226" />
+      <geom name="upper_waist" size="0.07" pos="0 0 0.205" type="sphere" density="2226" />
+      <site name="root" class="force-torque" />
+      <site name="pelvis" class="touch" size="0.091" pos="0 0 0.07" type="sphere" />
+      <site name="upper_waist" class="touch" size="0.071" pos="0 0 0.205" type="sphere" />
+      <body name="torso" pos="0.00549624 -0.000882372 0.233491">
+        <joint name="abdomen_x" stiffness="1000" range="-1.0472 1.0472" armature="0.02" damping="100" axis="1 0 0" />
+        <joint name="abdomen_y" stiffness="1000" range="-1.0472 1.5708" armature="0.02" damping="100" axis="0 1 0" />
+        <joint name="abdomen_z" stiffness="1000" range="-0.872665 0.872665" armature="0.02" damping="100" />
+        <geom name="torso" size="0.11" pos="0 0 0.12" type="sphere" density="1794" />
+        <geom name="right_clavicle" size="0.045 0.0417871" pos="-0.0114237 -0.0869773 0.233207" quat="0.668742 -0.737163 0.0968203 0" density="1100" />
+        <geom name="left_clavicle" size="0.045 0.0417871" pos="-0.0114237 0.0869773 0.233207" quat="0.668742 0.737163 0.0968203 0" density="1100" />
+        <site name="torso" class="touch" size="0.111" pos="0 0 0.12" type="sphere" />
+        <camera name="back" quat="0.601501 0.371748 -0.371748 -0.601501" pos="-3 0 1" mode="trackcom" />
+        <camera name="side" quat="0.850651 0.525731 0 0" pos="0 -3 1" mode="trackcom" />
+        <light name="top" pos="0 0 2" mode="trackcom" />
+        <body name="head" pos="-0.0322309 0.000617596 0.224">
+          <joint name="neck_x" stiffness="100" range="-0.872665 0.872665" armature="0.01" damping="10" axis="1 0 0" />
+          <joint name="neck_y" stiffness="100" range="-0.698132 1.0472" armature="0.01" damping="10" axis="0 1 0" />
+          <joint name="neck_z" stiffness="100" range="-0.785398 0.785398" armature="0.01" damping="10" />
+          <geom name="head" size="0.095" pos="0 0 0.175" type="sphere" density="1081" />
+          <site name="head" class="touch" size="0.103" pos="0 0 0.175" type="sphere" />
+          <camera name="egocentric" quat="0.524286 0.474472 -0.474472 -0.524286" pos="0.103 0 0.175" fovy="80" />
+        </body>
+        <body name="right_upper_arm" pos="-0.05348 -0.168 0.218">
+          <joint name="right_shoulder_x" stiffness="400" range="-3.14159 0.785398" armature="0.02" damping="40" axis="1 0 0" />
+          <joint name="right_shoulder_y" stiffness="400" range="-3.14159 1.0472" armature="0.02" damping="40" axis="0 1 0" />
+          <joint name="right_shoulder_z" stiffness="400" range="-1.5708 1.5708" armature="0.02" damping="40" />
+          <geom name="right_upper_arm" size="0.045 0.09" pos="0 0 -0.14" density="982" />
+          <site name="right_upper_arm" class="touch" size="0.046 0.1" pos="0 0 -0.14" />
+          <body name="right_lower_arm" pos="-0.0054 -0.0047 -0.248">
+            <joint name="right_elbow" stiffness="300" range="-2.79253 0" armature="0.01" damping="30" axis="0 1 0" />
+            <geom name="right_lower_arm" size="0.04 0.0675" pos="0 0 -0.12" density="1056" />
+            <site name="right_lower_arm" class="touch" size="0.041 0.0685" pos="0 0 -0.12" quat="0.707107 -0.707107 0 0" />
+            <body name="right_hand" pos="-0.0017 -0.0036 -0.31">
+              <geom name="right_hand" size="0.08" type="sphere" density="234" />
+              <site name="right_hand" class="touch" size="0.101" type="sphere" />
+            </body>
+          </body>
+        </body>
+        <body name="left_upper_arm" pos="-0.05348 0.168 0.218">
+          <joint name="left_shoulder_x" stiffness="400" range="-0.785398 3.14159" armature="0.02" damping="40" axis="1 0 0" />
+          <joint name="left_shoulder_y" stiffness="400" range="-3.14159 1.0472" armature="0.02" damping="40" axis="0 1 0" />
+          <joint name="left_shoulder_z" stiffness="400" range="-1.5708 1.5708" armature="0.02" damping="40" />
+          <geom name="left_upper_arm" size="0.045 0.09" pos="0 0 -0.14" density="982" />
+          <site name="left_upper_arm" class="touch" size="0.046 0.1" pos="0 0 -0.14" />
+          <body name="left_lower_arm" pos="-0.0054 0.0047 -0.248">
+            <joint name="left_elbow" stiffness="300" range="-2.79253 0" armature="0.01" damping="30" axis="0 1 0" />
+            <geom name="left_lower_arm" size="0.04 0.0675" pos="0 0 -0.12" density="1056" />
+            <site name="left_lower_arm" class="touch" size="0.041 0.0685" pos="0 0 -0.1" />
+            <body name="left_hand" pos="-0.0017 0.0036 -0.31">
+              <geom name="left_hand" size="0.08" type="sphere" density="234" />
+              <site name="left_hand" class="touch" size="0.101" type="sphere" />
+            </body>
+          </body>
+        </body>
+      </body>
+      <body name="right_thigh" pos="0 -0.0897 0">
+        <joint name="right_hip_x" stiffness="500" range="-1.0472 0.261799" armature="0.02" damping="50" axis="1 0 0" />
+        <joint name="right_hip_y" stiffness="500" range="-2.44346 1.0472" armature="0.02" damping="50" axis="0 1 0" />
+        <joint name="right_hip_z" stiffness="500" range="-1.0472 0.610865" armature="0.02" damping="50" />
+        <geom name="right_thigh" size="0.055 0.15" pos="0 0 -0.21" density="1269" />
+        <site name="right_hip" class="force-torque" />
+        <site name="right_thigh" class="touch" size="0.056 0.301" pos="0 0 -0.21" quat="0 1 0 0" />
+        <body name="right_shin" pos="0 0 -0.422">
+          <joint name="right_knee" stiffness="500" range="0 2.79253" armature="0.02" damping="50" axis="0 1 0" />
+          <geom name="right_shin" size="0.05 0.155" pos="0 0 -0.2" density="1014" />
+          <site name="right_knee" class="force-torque" />
+          <site name="right_shin" class="touch" size="0.051 0.156" pos="0 0 -0.2" quat="0 1 0 0" />
+          <body name="right_foot" pos="0 0 -0.419">
+            <joint name="right_ankle_x" stiffness="400" range="-0.523599 0.523599" armature="0.01" damping="40" axis="1 0 0" />
+            <joint name="right_ankle_y" stiffness="400" range="-0.959931 0.959931" armature="0.01" damping="40" axis="0 1 0" />
+            <joint name="right_ankle_z" stiffness="400" range="-0.698132 0.698132" armature="0.01" damping="40" />
+            <geom name="right_foot" size="0.0885 0.045 0.0275" pos="0.045 0 -0.0225" type="box" density="1141" />
+            <site name="right_ankle" class="force-torque" />
+            <site name="right_foot" class="touch" size="0.0895 0.055 0.0285" pos="0.045 0 -0.0225" type="box" />
+          </body>
+        </body>
+      </body>
+      <body name="left_thigh" pos="0 0.0897 0">
+        <joint name="left_hip_x" stiffness="500" range="-0.261799 1.0472" armature="0.02" damping="50" axis="1 0 0" />
+        <joint name="left_hip_y" stiffness="500" range="-2.44346 1.0472" armature="0.02" damping="50" axis="0 1 0" />
+        <joint name="left_hip_z" stiffness="500" range="-0.610865 1.0472" armature="0.02" damping="50" />
+        <geom name="left_thigh" size="0.055 0.15" pos="0 0 -0.21" density="1269" />
+        <site name="left_hip" class="force-torque" />
+        <site name="left_thigh" class="touch" size="0.056 0.301" pos="0 0 -0.21" quat="0 1 0 0" />
+        <body name="left_shin" pos="0 0 -0.422">
+          <joint name="left_knee" stiffness="500" range="0 2.79253" armature="0.02" damping="50" axis="0 1 0" />
+          <geom name="left_shin" size="0.05 0.155" pos="0 0 -0.2" density="1014" />
+          <site name="left_knee" class="force-torque" pos="0 0 0.02" />
+          <site name="left_shin" class="touch" size="0.051 0.156" pos="0 0 -0.2" quat="0 1 0 0" />
+          <body name="left_foot" pos="0 0 -0.419">
+            <joint name="left_ankle_x" stiffness="400" range="-0.523599 0.523599" armature="0.01" damping="40" axis="1 0 0" />
+            <joint name="left_ankle_y" stiffness="400" range="-0.959931 0.959931" armature="0.01" damping="40" axis="0 1 0" />
+            <joint name="left_ankle_z" stiffness="400" range="-0.698132 0.698132" armature="0.01" damping="40" />
+            <geom name="left_foot" size="0.0885 0.045 0.0275" pos="0.045 0 -0.0225" type="box" density="1141" />
+            <site name="left_ankle" class="force-torque" />
+            <site name="left_foot" class="touch" size="0.0895 0.055 0.0285" pos="0.045 0 -0.0225" type="box" />
+          </body>
+        </body>
+      </body>
+    </body>
+  </worldbody>
+
+  <actuator>
+    <general name="abdomen_x" joint="abdomen_x" gear="200" />
+    <general name="abdomen_y" joint="abdomen_y" gear="200" />
+    <general name="abdomen_z" joint="abdomen_z" gear="200" />
+    <general name="neck_x" joint="neck_x" gear="50" />
+    <general name="neck_y" joint="neck_y" gear="50" />
+    <general name="neck_z" joint="neck_z" gear="50" />
+    <general name="right_shoulder_x" joint="right_shoulder_x" gear="100" />
+    <general name="right_shoulder_y" joint="right_shoulder_y" gear="100" />
+    <general name="right_shoulder_z" joint="right_shoulder_z" gear="100" />
+    <general name="right_elbow" joint="right_elbow" gear="70" />
+    <general name="left_shoulder_x" joint="left_shoulder_x" gear="100" />
+    <general name="left_shoulder_y" joint="left_shoulder_y" gear="100" />
+    <general name="left_shoulder_z" joint="left_shoulder_z" gear="100" />
+    <general name="left_elbow" joint="left_elbow" gear="70" />
+    <general name="right_hip_x" joint="right_hip_x" gear="200" />
+    <general name="right_hip_z" joint="right_hip_z" gear="200" />
+    <general name="right_hip_y" joint="right_hip_y" gear="200" />
+    <general name="right_knee" joint="right_knee" gear="150" />
+    <general name="right_ankle_x" joint="right_ankle_x" gear="90" />
+    <general name="right_ankle_y" joint="right_ankle_y" gear="90" />
+    <general name="right_ankle_z" joint="right_ankle_z" gear="90" />
+    <general name="left_hip_x" joint="left_hip_x" gear="200" />
+    <general name="left_hip_z" joint="left_hip_z" gear="200" />
+    <general name="left_hip_y" joint="left_hip_y" gear="200" />
+    <general name="left_knee" joint="left_knee" gear="150" />
+    <general name="left_ankle_x" joint="left_ankle_x" gear="90" />
+    <general name="left_ankle_y" joint="left_ankle_y" gear="90" />
+    <general name="left_ankle_z" joint="left_ankle_z" gear="90" />
+  </actuator>
+
+  <sensor>
+    <subtreelinvel body="pelvis" name="pelvis_subtreelinvel" />
+    <accelerometer site="root" name="root_accel" />
+    <velocimeter site="root" name="root_vel" />
+    <gyro site="root" name="root_gyro" />
+    <force site="left_ankle" name="left_ankle_force" />
+    <force site="right_ankle" name="right_ankle_force" />
+    <force site="left_knee" name="left_knee_force" />
+    <force site="right_knee" name="right_knee_force" />
+    <force site="left_hip" name="left_hip_force" />
+    <force site="right_hip" name="right_hip_force" />
+    <torque site="left_ankle" name="left_ankle_torque" />
+    <torque site="right_ankle" name="right_ankle_torque" />
+    <torque site="left_knee" name="left_knee_torque" />
+    <torque site="right_knee" name="right_knee_torque" />
+    <torque site="left_hip" name="left_hip_torque" />
+    <torque site="right_hip" name="right_hip_torque" />
+    <touch site="pelvis" name="pelvis_touch" />
+    <touch site="upper_waist" name="upper_waist_touch" />
+    <touch site="torso" name="torso_touch" />
+    <touch site="head" name="head_touch" />
+    <touch site="right_upper_arm" name="right_upper_arm_touch" />
+    <touch site="right_lower_arm" name="right_lower_arm_touch" />
+    <touch site="right_hand" name="right_hand_touch" />
+    <touch site="left_upper_arm" name="left_upper_arm_touch" />
+    <touch site="left_lower_arm" name="left_lower_arm_touch" />
+    <touch site="left_hand" name="left_hand_touch" />
+    <touch site="right_thigh" name="right_thigh_touch" />
+    <touch site="right_shin" name="right_shin_touch" />
+    <touch site="right_foot" name="right_foot_touch" />
+    <touch site="left_thigh" name="left_thigh_touch" />
+    <touch site="left_shin" name="left_shin_touch" />
+    <touch site="left_foot" name="left_foot_touch" />
+  </sensor>
+<asset /></mujoco>

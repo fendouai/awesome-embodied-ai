@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-25",
+  "app": "integrations/bhuman/source/Build/macOS/SimRobot/Release/SimRobot.app",
+  "source_commit": "2e3374ba896da8288607f9a1881b876642fe18b8",
+  "engine": "MuJoCo 3.3.5 / original SimRobot Core3",
+  "scene": "Config/Scenes/K1/MacAcceptance3v3M.ros3",
+  "robots": 6,
+  "robot_type": "K1",
+  "sensing": "Fast simulator ground truth; camera perception not validated",
+  "evidence": [
+    "evidence/bhuman-native-match.png",
+    "evidence/bhuman-native-playing.png"
+  ],
+  "observed_score": [
+    2,
+    0
+  ],
+  "observed_game_state": "PLAYING",
+  "observed_step_rate_approx": 500,
+  "scope": "Local native ARM64 compile, six robot controllers and referee running; screenshots only, not full physics archive or completed match validation",
+  "changes": [
+    "Ninja desktop-only build entry, no robot cross-build",
+    "PCH replaced by identical forced include headers to limit disk use",
+    "Native library rpath and relative Qt framework staging",
+    "Ad-hoc signature of own staged MuJoCo library",
+    "Acceptance .con runs standard referee commands; default views opened"
+  ],
+  "limitations": [
+    "Startup hostname DNS lookup can block temporarily",
+    "Cognition-to-Motion early startup warnings observed",
+    "Native view is not streamed into browser",
+    "Original source/dependency directories must remain next to linked bundle"
+  ],
+  "video": "/results/bhuman-native/studio-match-clock/presentation.mp4",
+  "video_duration_s": 29.946,
+  "capture_average_fps": 26.714753222467106,
+  "video_scope": "Actual native framebuffer samples with native MuJoCo physics timestamps; measured ball/referee overlay and synthetic ball-speed/referee audio"
+}

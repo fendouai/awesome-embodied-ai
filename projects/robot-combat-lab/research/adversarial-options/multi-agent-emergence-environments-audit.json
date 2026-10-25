@@ -1,0 +1,57 @@
+{
+  "repository": "openai/multi-agent-emergence-environments",
+  "sha": "bafaf1e11e6398624116761f91ae7c93b136f395",
+  "archived": true,
+  "readme_sha256": "6d45e4e1d435a9259a68958adab1d9991cf4bd374135ee366f031f90d3659fbb",
+  "updated": "2024-07-30T20:54:31Z",
+  "weights_or_data": [
+    {
+      "path": "examples/blueprint.npz",
+      "bytes": 6848911
+    },
+    {
+      "path": "examples/hide_and_seek_full.npz",
+      "bytes": 6540185
+    },
+    {
+      "path": "examples/hide_and_seek_policy_phases/a_chasing.npz",
+      "bytes": 6540185
+    },
+    {
+      "path": "examples/hide_and_seek_policy_phases/b_forts.npz",
+      "bytes": 6540185
+    },
+    {
+      "path": "examples/hide_and_seek_policy_phases/c_ramps.npz",
+      "bytes": 6540185
+    },
+    {
+      "path": "examples/hide_and_seek_policy_phases/d_ramp_defense.npz",
+      "bytes": 6540185
+    },
+    {
+      "path": "examples/hide_and_seek_policy_phases/e_box_surfing.npz",
+      "bytes": 6540185
+    },
+    {
+      "path": "examples/hide_and_seek_quadrant.npz",
+      "bytes": 6511574
+    },
+    {
+      "path": "examples/hide_and_seek_quadrant_physics_exploits.npz",
+      "bytes": 6511574
+    },
+    {
+      "path": "examples/lock_and_return.npz",
+      "bytes": 6538428
+    },
+    {
+      "path": "examples/sequential_lock.npz",
+      "bytes": 6539092
+    },
+    {
+      "path": "examples/shelter.npz",
+      "bytes": 6541645
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+params:
+  seed: -1
+
+  algo:
+    name: self_play
+
+  model:
+    name: upper_level_policy
+
+  network:
+    name: upper_level_policy
+
+    use_vq: True
+    rms_momentum: 0.0001
+    hidden_dim: 1024
+    z_len: 64
+    num_embeddings: 256
+
+  load_checkpoint: False
+
+  config:
+    name: Humanoid
+    env_name: rlgpu
+    multi_gpu: False
+    ppo: True
+    mixed_precision: False
+    normalize_input: False
+    normalize_value: False
+    reward_shaper:
+      scale_value: 1
+    scale_value: 1
+    normalize_advantage: True
+    gamma: 0.95
+    tau: 0.95
+    learning_rate: 2e-5
+    lr_schedule: constant
+    score_to_win: 20000
+    max_epochs: 10000000000
+    save_best_after: 50
+    save_frequency: 50
+    save_intermediate: True
+    print_stats: True
+    grad_norm: 0.5
+    entropy_coef: 0.01
+    truncate_grads: True
+    e_clip: 0.1
+    horizon_length: 32
+    minibatch_size: 4096
+    mini_epochs: 2
+    critic_coef: 1
+    clip_value: True
+    seq_length: 4
+    bounds_loss_coef: 0
+    loss_coef: {
+      'rms_loss': 1.0
+    }
+    device: cuda:0
+    full_experiment_name: ''
+    player:
+      games_num: 1000000
+      deterministic: False

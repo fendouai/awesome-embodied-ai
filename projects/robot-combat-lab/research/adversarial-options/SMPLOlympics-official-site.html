@@ -1,0 +1,1211 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script>
+      window.dataLayer = window.dataLayer || [];
+
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-KZEKLLQP31");
+    </script>
+
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <title>SMPLOlympics: Sports Environments for Physically Simulated Humanoids</title>
+    <meta content="SMPLOlympics" property="og:title" />
+    <meta content="" name="description" property="og:description" />
+    <meta name="keywords" content="Humanoid Control" />
+
+    <link rel="stylesheet" href="assets/css/project_stylesheet.css" />
+    <link href="../data/misc/favicon.ico" rel="shortcut icon" />
+    <link href="../data/misc/favicon_apple.ico" rel="apple-touch-icon" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/fontawesome.all.min.css" />
+    <link rel="stylesheet" href="assets/academicons/css/academicons.min.css" />
+
+    <script defer src="assets/js/fontawesome.all.min.js"></script>
+    <script src="assets/js/iframeResizer.contentWindow.min.js"></script>
+  </head>
+
+  <body>
+    <div class="n-header"></div>
+    <div class="n-title">
+      <h1>SMPLOlympics: Sports Environments for Physically Simulated Humanoids</h1>
+    </div>
+
+    <ul class="authors">
+      <li>
+        <a style="font-size: 25px" target="_blank"></a>
+      </li>
+    </ul>
+
+    <div class="n-article">
+
+    <hr/>
+
+         <h2 id="abstract">
+            Abstract
+        </h2>
+        <p>
+            We present SMPLOlympics, a collection of physically simulated environments that allow humanoids to compete in a variety of Olympic sports. Sports simulation offers a rich and standardized testing ground for evaluating and improving the capabilities of learning algorithms due to the diversity and physically demanding nature of athletic activities. As humans have been competing in these sports for many years, there is also a plethora of existing knowledge on the preferred strategy to achieve better performance. To leverage these existing human demonstrations from videos and motion capture, we design our humanoid to be compatible with the widely-used SMPL and SMPL-X human models from the vision and graphics community. We provide a suite of individual sports environments, including golf, javelin throw, high jump, long jump, and hurdling, as well as competitive sports, including both 1v1 and 2v2 games such as table tennis, tennis, fencing, boxing, soccer, and basketball. Our analysis shows that combining strong motion priors with simple rewards can result in human-like behavior in various sports. By providing a unified sports benchmark and baseline implementation of state and reward designs, we hope that SMPLOlympics can help the control and animation communities achieve human-like behaviors. 
+        </p>
+    <hr/>
+
+    <hr />
+    <p>
+        <ol>
+            <li><a href="#sports_env">Sports Environments</a></li>
+                <ul>
+                    <li><a href="#sports_env_smpl">SMPL + SMPLX</a></li>
+                    <li><a href="#sports_env_robot">Unitree H1 + G1</a></li>
+                </ul>
+            <li><a href="#data">Data from Videos</a></li>
+                <ul>
+                    <li><a href="#abla_data">Ablations on Using Motion Imitation for Physically Plausible Refinement</a></li>
+                </ul>
+            <li><a href="#comparison">Algorithms Comparisons</a></li>
+            <ul>
+                <li><a href="#highjump_baselines">High Jump</a></li>
+                <li><a href="#longjump_baselines">Long Jump</a></li>
+                <li><a href="#hurdle_baselines">Hurdling</a></li>
+                <li><a href="#javelin_baselines">Javelin</a></li>
+                <li><a href="#golf_baselines">Golf</a></li>
+                <li><a href="#tennis_baselines">Tennis</a></li>
+                <li><a href="#tabletennis_baselines">Table Tennis</a></li>
+                <li><a href="#freethrow_baselines">Free Throw</a></li>
+                <li><a href="#penaltykick_baselines">Penalty Kick</a></li>
+            </ul>
+        </ol>
+    </p>
+    <hr />
+
+    <h2 id="sports_env">Sports Environments</h2>
+    <p>In this section, we provide a collage of the policies trained using our sports environments and the preliminary reward designs.  Fencing and boxing results use our competitive self-play.</p>
+
+    <h3 id="sports_env_smpl">SMPL + SMPLX</h3>
+     <table
+        style="
+          width: 100%;
+          border: 0px;
+          border-spacing: 5px 0px;
+          border-collapse: separate;
+          margin-right: auto;
+          margin-left: auto;
+          padding-bottom: 20px;
+        "
+      >
+
+        <tbody>
+          <tr class="block_videos">
+            <td>
+              <video width="100%" height="auto" muted autoplay loop controls>
+                <source
+                  src="videos/pingpong_pulse_amp_1v1.mp4#t=0.001"
+                  type="video/mp4"
+                />
+                Your browser does not support the video tag.
+              </video>
+            </td>
+            <td>
+              <video width="100%" height="auto" muted autoplay loop controls>
+                <source
+                  src="videos/tennis_pulse_amp_1v1.mp4#t=0.001"
+                  type="video/mp4"
+                />
+                Your browser does not support the video tag.
+              </video>
+            </td>
+
+            <td>
+              <video width="100%" height="auto" muted autoplay loop controls>
+                <source
+                  src="videos/boxing_pulse_amp.mp4#t=0.001"
+                  type="video/mp4"
+                />
+                Your browser does not support the video tag.
+              </video>
+          </tr>
+
+          <td>
+              <center> <b>Table Tennis</b> </center>
+            </td>
+            <td>
+              <center><b>Tennis</b></center>
+            </td>
+            <td>
+              <center><b>Boxing</b></center>
+            </td>
+        </tbody>
+      </table>
+
+      <table
+        style="
+          width: 100%;
+          border: 0px;
+          border-spacing: 5px 0px;
+          border-collapse: separate;
+          margin-right: auto;
+          margin-left: auto;
+          padding-bottom: 20px;
+        "
+      >
+
+        <tbody>
+          <tr class="block_videos">
+            <td>
+              <video width="100%" height="auto" muted autoplay loop controls>
+                <source
+                  src="videos/fencing_pulse_amp.mp4#t=0.001"
+                  type="video/mp4"
+                />
+                Your browser does not support the video tag.
+              </video>
+            </td>
+            <td>
+              <video width="100%" height="auto" muted autoplay loop controls>
+                <source
+                  src="videos/kick_pulse.mp4#t=0.001"
+                  type="video/mp4"
+                />
+                Your browser does not support the video tag.
+              </video>
+            </td>
+
+            <td>
+              <video width="100%" height="auto" muted autoplay loop controls>
+                <source
+                  src="videos/freethrow_pulse.mp4#t=0.001"
+                  type="video/mp4"
+                />
+                Your browser does not support the video tag.
+              </video>
+            </td>
+          </tr>
+
+          <td>
+              <center><b>Fencing</b></center>
+            </td>
+            <td>
+              <center><b>Penalty Kick</b></center>
+            </td>
+            <td>
+              <center><b>Free Throw</b></center>
+            </td>
+        </tbody>
+      </table>
+
+      <table
+        style="
+          width: 100%;
+          border: 0px;
+          border-spacing: 5px 0px;
+          border-collapse: separate;
+          margin-right: auto;
+          margin-left: auto;
+          padding-bottom: 20px;
+        "
+      >
+
+        <tbody>
+          <tr class="block_videos">
+            <td>
+              <video width="100%" height="auto" muted autoplay loop controls>
+                <source
+                  src="videos/soccer_1v1.mp4#t=0.001"
+                  type="video/mp4"
+                />
+                Your browser does not support the video tag.
+              </video>
+            </td>
+            <td>
+              <video width="100%" height="auto" muted autoplay loop controls>
+                <source
+                  src="videos/soccer_2v2.mp4#t=0.001"
+                  type="video/mp4"
+                />
+                Your browser does not support the video tag.
+              </video>
+            </td>
+
+          </tr>
+
+          <td>
+              <center><b>Soccer 1v1</b></center>
+            </td>
+            <td>
+              <center><b>Soccer 2v2</b></center>
+            </td>
+        </tbody>
+      </table>
+
+      <table
+        style="
+          width: 100%;
+          border: 0px;
+          border-spacing: 5px 0px;
+          border-collapse: separate;
+          margin-right: auto;
+          margin-left: auto;
+          padding-bottom: 20px;
+        "
+      >
+
+        <tbody>
+          <tr class="block_videos">
+            <td>
+              <video width="100%" height="auto" muted autoplay loop controls>
+                <source
+                  src="videos/javelin_pulse.mp4#t=0.001"
+                  type="video/mp4"
+                />
+                Your browser does not support the video tag.
+              </video>
+            </td>
+            <td>
+              <video width="100%" height="auto" muted autoplay loop controls>
+                <source
+                  src="videos/golf_pulse_amp.mp4#t=0.001"
+                  type="video/mp4"
+                />
+                Your browser does not support the video tag.
+              </video>
+            </td>
+
+          </tr>
+
+          <td>
+              <center><b>Javelin</b></center>
+            </td>
+            <td>
+              <center><b>Golf</b></center>
+            </td>
+        </tbody>
+      </table>
+
+      <table
+        style="
+          width: 100%;
+          border: 0px;
+          border-spacing: 5px 0px;
+          border-collapse: separate;
+          margin-right: auto;
+          margin-left: auto;
+          padding-bottom: 20px;
+        "
+      >
+
+        <tbody>
+          <tr class="block_videos">
+            <td>
+              <video width="100%" height="auto" muted autoplay loop controls>
+                <source
+                  src="videos/highjump_pulse.mp4#t=0.001"
+                  type="video/mp4"
+                />
+                Your browser does not support the video tag.
+              </video>
+            </td>
+            <td>
+              <video width="100%" height="auto" muted autoplay loop controls>
+                <source
+                  src="videos/longjump_pulse.mp4#t=0.001"
+                  type="video/mp4"
+                />
+                Your browser does not support the video tag.
+              </video>
+            </td>
+
+            <td>
+              <video width="100%" height="auto" muted autoplay loop controls>
+                <source
+                  src="videos/hurdle_pulse.mp4#t=0.001"
+                  type="video/mp4"
+                />
+                Your browser does not support the video tag.
+              </video>
+            </td>
+          </tr>
+
+          <td>
+              <center><b>High Jump</b></center>
+            </td>
+            <td>
+              <center><b>Long Jump</b></center>
+            </td>
+            <td>
+              <center><b>Hurdle</b></center>
+            </td>
+
+        </tbody>
+      </table>
+
+    <h3 id="sports_env_robot">Unitree H1 + G1</h3>
+    <p> All of the above sports environments support both the SMPL humanoids as well as the real-world humanoid robots (Unitree H1 and G1).  Here we provide some samples of motion imitation for H1 and G1 (using retargeted motion from AMASS); we also provide some results on humanoid sports. 
+        Notice that for H1 and G1 simulation, we use the same simulation parameters (200 Hz simulation, 50 Hz control, joint limit, torque limit, weight, etc.) as the previous sim-to-real efforts, without adding any domain randomization. 
+    </p>
+
+     <table
+        style="
+          width: 100%;
+          border: 0px;
+          border-spacing: 5px 0px;
+          border-collapse: separate;
+          margin-right: auto;
+          margin-left: auto;
+          padding-bottom: 20px;
+        "
+      >
+
+        <tbody>
+          <tr class="block_videos">
+            <td>
+              <video width="100%" height="auto" muted autoplay loop controls>
+                <source
+                  src="videos/h1_im.mp4#t=0.001"
+                  type="video/mp4"
+                />
+                Your browser does not support the video tag.
+              </video>
+            </td>
+            <td>
+              <video width="100%" height="auto" muted autoplay loop controls>
+                <source
+                  src="videos/g1_im.mp4#t=0.001"
+                  type="video/mp4"
+                />
+                Your browser does not support the video tag.
+              </video>
+            </td>
+
+          </tr>
+
+          <td>
+              <center><b>H1 Humanoid Motion Retargeting & Imitation</b></center>
+            </td>
+            <td>
+              <center><b>G1 Humanoid Motion Retargeting & Imitation</b></center>
+            </td>
+        </tbody>
+      </table>
+
+     <table
+        style="
+          width: 100%;
+          border: 0px;
+          border-spacing: 5px 0px;
+          border-collapse: separate;
+          margin-right: auto;
+          margin-left: auto;
+          padding-bottom: 20px;
+        "
+      >
+
+        <tbody>
+          <tr class="block_videos">
+            <td>
+              <video width="100%" height="auto" muted autoplay loop controls>
+                <source
+                  src="videos/h1_boxing.mp4#t=0.001"
+                  type="video/mp4"
+                />
+                Your browser does not support the video tag.
+              </video>
+            </td>
+            <td>
+              <video width="100%" height="auto" muted autoplay loop controls>
+                <source
+                  src="videos/h1_highjump_hurdle.mp4#t=0.001"
+                  type="video/mp4"
+                />
+                Your browser does not support the video tag.
+              </video>
+            </td>
+            <td>
+              <video width="100%" height="auto" muted autoplay loop controls>
+                <source
+                  src="videos/g1_hurdling.mp4#t=0.001"
+                  type="video/mp4"
+                />
+                Your browser does not support the video tag.
+              </video>
+            </td>
+            <td>
+              <video width="100%" height="auto" muted autoplay loop controls>
+                <source
+                  src="videos/g1_kick.mp4#t=0.001"
+                  type="video/mp4"
+                />
+                Your browser does not support the video tag.
+              </video>
+            </td>
+
+          </tr>
+
+           <td>
+              <center><b>H1 Humanoid (Boxing: PULSE)</b></center>
+            </td>
+            <td>
+              <center><b>H1 Humanoid (High Jump + Hurdling: PPO)</b></center>
+            </td>
+            <td>
+              <center><b>G1 Humanoid (Hurdling: PPO)</b></center>
+            </td>
+            <td>
+              <center><b>G1 Humanoid (Penalty Kick: PPO)</b></center>
+            </td>
+            
+        </tbody>
+      </table>
+
+    <h2 id="data">Data from Videos</h2>      
+      <p>
+        Our SMPL based humanoid enables us to directly use poses estimated from videos as human demonstration data. 
+        Here, we provide sample visualizations of the motion data extracted from videos using our pose estimation then simulation refinement pipeline. We can see that our extracted motion is physically plausible and describes a unique style of motion for that sport.
+       <table
+        style="
+          width: 100%;
+          border: 0px;
+          border-spacing: 5px 0px;
+          border-collapse: separate;
+          margin-right: auto;
+          margin-left: auto;
+          padding-bottom: 20px;
+        "
+      >
+
+        <tbody>
+          <tr class="block_videos">
+            <td>
+              <video width="100%" height="auto" muted autoplay loop controls>
+                <source
+                  src="videos/soccer_data.mp4#t=0.001"
+                  type="video/mp4"
+                />
+                Your browser does not support the video tag.
+              </video>
+            </td>
+            <td>
+              <video width="100%" height="auto" muted autoplay loop controls>
+                <source
+                  src="videos/tennis_data.mp4#t=0.001"
+                  type="video/mp4"
+                />
+                Your browser does not support the video tag.
+              </video>
+            </td>
+
+          </tr>
+
+          <td>
+              <center>Soccer</center>
+            </td>
+            <td>
+              <center>Tennis</center>
+            </td>
+        </tbody>
+      </table>
+
+      <table
+        style="
+          width: 100%;
+          border: 0px;
+          border-spacing: 5px 0px;
+          border-collapse: separate;
+          margin-right: auto;
+          margin-left: auto;
+          padding-bottom: 20px;
+        "
+      >
+
+        <tbody>
+          <tr class="block_videos">
+            <td>
+              <video width="100%" height="auto" muted autoplay loop controls>
+                <source
+                  src="videos/golf_data.mp4#t=0.001"
+                  type="video/mp4"
+                />
+                Your browser does not support the video tag.
+              </video>
+            </td>
+            <td>
+              <video width="100%" height="auto" muted autoplay loop controls>
+                <source
+                  src="videos/boxing_data.mp4#t=0.001"
+                  type="video/mp4"
+                />
+                Your browser does not support the video tag.
+              </video>
+            </td>
+
+          </tr>
+
+          <td>
+              <center>Golf</center>
+            </td>
+            <td>
+              <center>Boxing</center>
+            </td>
+        </tbody>
+      </table>
+      <h3 id="abla_data">Ablations on Using Motion Imitation for Physically Plausible Refinement</h3>      
+      <p>In this section, we ablate the importance of using a motion imitator (PHC) for pose refinement when acquiring data from videos. Here, we test two sequences of motion demonstration, one with refinement and one without. 
+ We train the PULSE+AMP model using these two sequences as prior and show that the quality of the demonstration data is important. Our refinement step leads to a better motion prior. </p>
+       <table
+        style="
+          width: 100%;
+          border: 0px;
+          border-spacing: 5px 0px;
+          border-collapse: separate;
+          margin-right: auto;
+          margin-left: auto;
+          padding-bottom: 20px;
+        "
+      >
+
+        <tbody>
+          <tr class="block_videos">
+            <td>
+              <video width="100%" height="auto" muted autoplay loop controls>
+                <source
+                  src="videos/pingpong_pulse_amp_nophc.mp4#t=0.001"
+                  type="video/mp4"
+                />
+                Your browser does not support the video tag.
+              </video>
+            </td>
+            <td>
+              <video width="100%" height="auto" muted autoplay loop controls>
+                <source
+                  src="videos/pingpong_pulse_amp.mp4#t=0.001"
+                  type="video/mp4"
+                />
+                Your browser does not support the video tag.
+              </video>
+            </td>
+
+          </tr>
+
+          <td>
+              <center>W/o  Refinement</center>
+            </td>
+            <td>
+              <center>W/  Refinement</center>
+            </td>
+        </tbody>
+      </table>
+
+      <h2 id="comparison">Algorithms Comparisons</h2>
+      <p>In this section, we provide visual comparisons of state-of-the-art humanoid control methods (PPO-only/AMP/PULSE). For sports that have accompanied human demonstration data from videos, we also provide PULSE+AMP as a baseline.
+
+
+      </p>
+      <h3 id="highjump_baselines">High Jump</h3>
+      <p>For high jump, we can see that using PPO without any motion prior will yield an inhuman jumping motion. AMP, due to the task difficulty and no specific high jump motion in AMASS, decides to ignore the task reward,  only optimize the discriminator reward, and stand still. 
+ Using motor skills learned from AMASS, surprisingly, PULSE can discover the Fosbury way of high jump. 
+          </p>
+    <table
+        style="
+          width: 100%;
+          border: 0px;
+          border-spacing: 5px 0px;
+          border-collapse: separate;
+          margin-right: auto;
+          margin-left: auto;
+          padding-bottom: 20px;
+        "
+      >
+
+        <tbody>
+          <tr class="block_videos">
+            <td>
+              <video width="100%" height="auto" muted autoplay loop controls>
+                <source
+                  src="videos/highjump_ppo.mp4#t=0.001"
+                  type="video/mp4"
+                />
+                Your browser does not support the video tag.
+              </video>
+            </td>
+            <td>
+              <video width="100%" height="auto" muted autoplay loop controls>
+                <source
+                  src="videos/highjump_amp.mp4#t=0.001"
+                  type="video/mp4"
+                />
+                Your browser does not support the video tag.
+              </video>
+            </td>
+             <td>
+              <video width="100%" height="auto" muted autoplay loop controls>
+                <source
+                  src="videos/highjump_pulse.mp4#t=0.001"
+                  type="video/mp4"
+                />
+                Your browser does not support the video tag.
+              </video>
+            </td>
+          </tr>
+
+          <td>
+              <center>PPO</center>
+            </td>
+            <td>
+              <center>AMP</center>
+            </td>
+            <td>
+              <center>PULSE</center>
+            </td>
+
+        </tbody>
+      </table>
+
+      <h3 id="longjump_baselines">Long Jump</h3>
+      <p>For long jump, we can see that using PPO without any motion prior will lead to inhuman motion. AMP, due to the task difficulty and no specific long jump motion in AMASS, decides to ignore the task reward,  only optimize the discriminator reward, and stand still. 
+        Using motor skills learned from AMASS, PULSE can long jump with human-like motion. 
+          </p>
+       <table
+        style="
+          width: 100%;
+          border: 0px;
+          border-spacing: 5px 0px;
+          border-collapse: separate;
+          margin-right: auto;
+          margin-left: auto;
+          padding-bottom: 20px;
+        "
+      >
+
+        <tbody>
+          <tr class="block_videos">
+            <td>
+              <video width="100%" height="auto" muted autoplay loop controls>
+                <source
+                  src="videos/longjump_ppo.mp4#t=0.001"
+                  type="video/mp4"
+                />
+                Your browser does not support the video tag.
+              </video>
+            </td>
+            <td>
+              <video width="100%" height="auto" muted autoplay loop controls>
+                <source
+                  src="videos/longjump_amp.mp4#t=0.001"
+                  type="video/mp4"
+                />
+                Your browser does not support the video tag.
+              </video>
+            </td>
+             <td>
+              <video width="100%" height="auto" muted autoplay loop controls>
+                <source
+                  src="videos/longjump_pulse.mp4#t=0.001"
+                  type="video/mp4"
+                />
+                Your browser does not support the video tag.
+              </video>
+            </td>
+          </tr>
+
+          <td>
+              <center>PPO</center>
+            </td>
+            <td>
+              <center>AMP</center>
+            </td>
+            <td>
+              <center>PULSE</center>
+            </td>
+
+        </tbody>
+      </table>
+
+     <h3 id="hurdle_baselines">Hurdling</h3>
+     <p>For hurdling, we can see that using PPO without any motion prior will yield inhuman motion. AMP, due to the task difficulty and no specific hurdling motion in AMASS, decides to ignore the task reward,  only optimize the discriminator reward, and stand still. 
+        Using motor skills learned from AMASS, PULSE can cross hurdles with human-like motion. 
+          </p>
+       <table
+        style="
+          width: 100%;
+          border: 0px;
+          border-spacing: 5px 0px;
+          border-collapse: separate;
+          margin-right: auto;
+          margin-left: auto;
+          padding-bottom: 20px;
+        "
+      >
+
+        <tbody>
+          <tr class="block_videos">
+            <td>
+              <video width="100%" height="auto" muted autoplay loop controls>
+                <source
+                  src="videos/hurdle_ppo.mp4#t=0.001"
+                  type="video/mp4"
+                />
+                Your browser does not support the video tag.
+              </video>
+            </td>
+            <td>
+              <video width="100%" height="auto" muted autoplay loop controls>
+                <source
+                  src="videos/hurdle_amp.mp4#t=0.001"
+                  type="video/mp4"
+                />
+                Your browser does not support the video tag.
+              </video>
+            </td>
+             <td>
+              <video width="100%" height="auto" muted autoplay loop controls>
+                <source
+                  src="videos/hurdle_pulse.mp4#t=0.001"
+                  type="video/mp4"
+                />
+                Your browser does not support the video tag.
+              </video>
+            </td>
+          </tr>
+
+          <td>
+              <center>PPO</center>
+            </td>
+            <td>
+              <center>AMP</center>
+            </td>
+            <td>
+              <center>PULSE</center>
+            </td>
+
+        </tbody>
+      </table>
+
+    <h3 id="javelin_baselines">Javelin</h3>
+    <p>For Javelin throw, we can see that using PPO without any motion prior will yield inhuman motion. AMP, even though with the throwing motion from videos, prioritizes discriminator reward (with the swinging hand motion) and fails to throw. 
+ Using motor skills learned from AMASS, PULSE can throw using human-like motion and even learns to jump to gain momentum. 
+          </p>
+       <table
+        style="
+          width: 100%;
+          border: 0px;
+          border-spacing: 5px 0px;
+          border-collapse: separate;
+          margin-right: auto;
+          margin-left: auto;
+          padding-bottom: 20px;
+        "
+      >
+
+        <tbody>
+          <tr class="block_videos">
+            <td>
+              <video width="100%" height="auto" muted autoplay loop controls>
+                <source
+                  src="videos/javelin_ppo.mp4#t=0.001"
+                  type="video/mp4"
+                />
+                Your browser does not support the video tag.
+              </video>
+            </td>
+            <td>
+              <video width="100%" height="auto" muted autoplay loop controls>
+                <source
+                  src="videos/javelin_amp.mp4#t=0.001"
+                  type="video/mp4"
+                />
+                Your browser does not support the video tag.
+              </video>
+            </td>
+             <td>
+              <video width="100%" height="auto" muted autoplay loop controls>
+                <source
+                  src="videos/javelin_pulse.mp4#t=0.001"
+                  type="video/mp4"
+                />
+                Your browser does not support the video tag.
+              </video>
+            </td>
+          </tr>
+
+          <td>
+              <center>PPO</center>
+            </td>
+            <td>
+              <center>AMP</center>
+            </td>
+            <td>
+              <center>PULSE</center>
+            </td>
+
+        </tbody>
+      </table>
+
+      
+      <h3 id="golf_baselines">Golf</h3>
+      <p>For golfing, PPO without any motion prior will yield inhuman motion (kicking the ball with the pelvis block). AMP, even though with the motion from video, optimizes only the task reward and ignores the discriminator reward (another possible failure mode). 
+ PULSE can kick the golf ball using human-like motion, but PULSE + AMP uses more golf-like motion due to the style guidance from human demonstration.
+          </p>
+       <table
+        style="
+          width: 100%;
+          border: 0px;
+          border-spacing: 5px 0px;
+          border-collapse: separate;
+          margin-right: auto;
+          margin-left: auto;
+          padding-bottom: 20px;
+        "
+      >
+
+        <tbody>
+          <tr class="block_videos">
+            <td>
+              <video width="100%" height="auto" muted autoplay loop controls>
+                <source
+                  src="videos/golf_ppo.mp4#t=0.001"
+                  type="video/mp4"
+                />
+                Your browser does not support the video tag.
+              </video>
+            </td>
+            <td>
+              <video width="100%" height="auto" muted autoplay loop controls>
+                <source
+                  src="videos/golf_amp.mp4#t=0.001"
+                  type="video/mp4"
+                />
+                Your browser does not support the video tag.
+              </video>
+            </td>
+             <td>
+              <video width="100%" height="auto" muted autoplay loop controls>
+                <source
+                  src="videos/golf_pulse.mp4#t=0.001"
+                  type="video/mp4"
+                />
+                Your browser does not support the video tag.
+              </video>
+            </td>
+             <td>
+              <video width="100%" height="auto" muted autoplay loop controls>
+                <source
+                  src="videos/golf_pulse_amp.mp4#t=0.001"
+                  type="video/mp4"
+                />
+                Your browser does not support the video tag.
+              </video>
+            </td>
+          </tr>
+
+          <td>
+              <center>   PPO   </center>
+            </td>
+            <td>
+              <center>   AMP   </center>
+            </td>
+            <td>
+              <center>   PULSE   </center>
+            </td>
+            <td>
+              <center>PULSE+AMP</center>
+            </td>
+
+        </tbody>
+      </table>
+
+        <h3 id="tennis_baselines">Tennis</h3>
+        <p>For tennis, PPO without any motion prior will yield an inhuman swinging motion. AMP will use tennis-like motion when not hitting the ball, but when trying to hit the ball, inhuman behavior surfaces. This is another symptom of 
+ the disagreement between task and discriminator reward. PULSE and PULSE+AMP can hit the ball using human-like motion. 
+          </p>
+       <table
+        style="
+          width: 100%;
+          border: 0px;
+          border-spacing: 5px 0px;
+          border-collapse: separate;
+          margin-right: auto;
+          margin-left: auto;
+          padding-bottom: 20px;
+        "
+      >
+
+        <tbody>
+          <tr class="block_videos">
+            <td>
+              <video width="100%" height="auto" muted autoplay loop controls>
+                <source
+                  src="videos/tennis_ppo.mp4#t=0.001"
+                  type="video/mp4"
+                />
+                Your browser does not support the video tag.
+              </video>
+            </td>
+            <td>
+              <video width="100%" height="auto" muted autoplay loop controls>
+                <source
+                  src="videos/tennis_amp.mp4#t=0.001"
+                  type="video/mp4"
+                />
+                Your browser does not support the video tag.
+              </video>
+            </td>
+             <td>
+              <video width="100%" height="auto" muted autoplay loop controls>
+                <source
+                  src="videos/tennis_pulse.mp4#t=0.001"
+                  type="video/mp4"
+                />
+                Your browser does not support the video tag.
+              </video>
+            </td>
+             <td>
+              <video width="100%" height="auto" muted autoplay loop controls>
+                <source
+                  src="videos/tennis_pulse_amp.mp4#t=0.001"
+                  type="video/mp4"
+                />
+                Your browser does not support the video tag.
+              </video>
+            </td>
+          </tr>
+
+          <td>
+              <center>   PPO   </center>
+            </td>
+            <td>
+              <center>   AMP   </center>
+            </td>
+            <td>
+              <center>   PULSE   </center>
+            </td>
+            <td>
+              <center>PULSE+AMP</center>
+            </td>
+
+        </tbody>
+      </table>
+
+        <h3 id="tabletennis_baselines">Table Tennis</h3>
+        <p>For table tennis, PPO without any motion prior results in an inhuman swinging motion. AMP uses ping-pong-like motion when not hitting the ball, but when trying to hit the ball, uses inhuman behavior. PULSE can hit the ball using human-like motion, but PULSE + AMP uses more table-tennis-like motion due to the style guidance from human demonstration.
+          </p>
+       <table
+        style="
+          width: 100%;
+          border: 0px;
+          border-spacing: 5px 0px;
+          border-collapse: separate;
+          margin-right: auto;
+          margin-left: auto;
+          padding-bottom: 20px;
+        "
+      >
+
+        <tbody>
+          <tr class="block_videos">
+            <td>
+              <video width="100%" height="auto" muted autoplay loop controls>
+                <source
+                  src="videos/pingpong_ppo.mp4#t=0.001"
+                  type="video/mp4"
+                />
+                Your browser does not support the video tag.
+              </video>
+            </td>
+            <td>
+              <video width="100%" height="auto" muted autoplay loop controls>
+                <source
+                  src="videos/pingpong_amp.mp4#t=0.001"
+                  type="video/mp4"
+                />
+                Your browser does not support the video tag.
+              </video>
+            </td>
+             <td>
+              <video width="100%" height="auto" muted autoplay loop controls>
+                <source
+                  src="videos/pingpong_pulse.mp4#t=0.001"
+                  type="video/mp4"
+                />
+                Your browser does not support the video tag.
+              </video>
+            </td>
+             <td>
+              <video width="100%" height="auto" muted autoplay loop controls>
+                <source
+                  src="videos/pingpong_pulse_amp.mp4#t=0.001"
+                  type="video/mp4"
+                />
+                Your browser does not support the video tag.
+              </video>
+            </td>
+          </tr>
+
+          <td>
+              <center>   PPO   </center>
+            </td>
+            <td>
+              <center>   AMP   </center>
+            </td>
+            <td>
+              <center>   PULSE   </center>
+            </td>
+            <td>
+              <center>PULSE+AMP</center>
+            </td>
+
+        </tbody>
+      </table>
+
+      <h3 id="freethrow_baselines">Free Throw</h3>
+      <p>For free throw, PPO without any motion prior and AMP both fail to learn proper free throw motion. PULSE and PULSE + AMP can both achieve a high free throw success rate using human-like motion.  
+          </p>
+       <table
+        style="
+          width: 100%;
+          border: 0px;
+          border-spacing: 5px 0px;
+          border-collapse: separate;
+          margin-right: auto;
+          margin-left: auto;
+          padding-bottom: 20px;
+        "
+      >
+
+        <tbody>
+          <tr class="block_videos">
+            <td>
+              <video width="100%" height="auto" muted autoplay loop controls>
+                <source
+                  src="videos/freethrow_ppo.mp4#t=0.001"
+                  type="video/mp4"
+                />
+                Your browser does not support the video tag.
+              </video>
+            </td>
+            <td>
+              <video width="100%" height="auto" muted autoplay loop controls>
+                <source
+                  src="videos/freethrow_amp.mp4#t=0.001"
+                  type="video/mp4"
+                />
+                Your browser does not support the video tag.
+              </video>
+            </td>
+             <td>
+              <video width="100%" height="auto" muted autoplay loop controls>
+                <source
+                  src="videos/freethrow_pulse.mp4#t=0.001"
+                  type="video/mp4"
+                />
+                Your browser does not support the video tag.
+              </video>
+            </td>
+             <td>
+              <video width="100%" height="auto" muted autoplay loop controls>
+                <source
+                  src="videos/freethrow_pulse_amp.mp4#t=0.001"
+                  type="video/mp4"
+                />
+                Your browser does not support the video tag.
+              </video>
+            </td>
+          </tr>
+
+          <td>
+              <center>   PPO   </center>
+            </td>
+            <td>
+              <center>   AMP   </center>
+            </td>
+            <td>
+              <center>   PULSE   </center>
+            </td>
+            <td>
+              <center>PULSE+AMP</center>
+            </td>
+
+        </tbody>
+      </table>
+
+    <h3 id="penaltykick_baselines">Penalty Kick</h3>
+    <p>For penalty kicks, PPO without any motion prior and AMP both fail to learn proper free throw motion. This is due to the difficulty of learning human-object interaction from scratch. The reward design also plays a role where PPO is exploiting the 
+ player-to-ball reward instead of learning the kicking motion. PULSE and PULSE + AMP can both learn to push the ball. However, PULSE learns to kick with a human-like motion, but PULSE+AMP suffers from the conflict between style and task reward. 
+          </p>
+       <table
+        style="
+          width: 100%;
+          border: 0px;
+          border-spacing: 5px 0px;
+          border-collapse: separate;
+          margin-right: auto;
+          margin-left: auto;
+          padding-bottom: 20px;
+        "
+      >
+
+        <tbody>
+          <tr class="block_videos">
+            <td>
+              <video width="100%" height="auto" muted autoplay loop controls>
+                <source
+                  src="videos/kick_ppo.mp4#t=0.001"
+                  type="video/mp4"
+                />
+                Your browser does not support the video tag.
+              </video>
+            </td>
+            <td>
+              <video width="100%" height="auto" muted autoplay loop controls>
+                <source
+                  src="videos/kick_amp.mp4#t=0.001"
+                  type="video/mp4"
+                />
+                Your browser does not support the video tag.
+              </video>
+            </td>
+             <td>
+              <video width="100%" height="auto" muted autoplay loop controls>
+                <source
+                  src="videos/kick_pulse.mp4#t=0.001"
+                  type="video/mp4"
+                />
+                Your browser does not support the video tag.
+              </video>
+            </td>
+             <td>
+              <video width="100%" height="auto" muted autoplay loop controls>
+                <source
+                  src="videos/kick_pulse_amp.mp4#t=0.001"
+                  type="video/mp4"
+                />
+                Your browser does not support the video tag.
+              </video>
+            </td>
+          </tr>
+
+          <td>
+              <center>   PPO   </center>
+            </td>
+            <td>
+              <center>   AMP   </center>
+            </td>
+            <td>
+              <center>   PULSE   </center>
+            </td>
+            <td>
+              <center>PULSE+AMP</center>
+            </td>
+
+        </tbody>
+      </table>
+
+    
+  </body>
+</html>

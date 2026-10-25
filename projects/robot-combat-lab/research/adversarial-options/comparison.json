@@ -1,0 +1,461 @@
+{
+  "date": "2026-10-25",
+  "scope": "球类/格斗/体育/复杂人形与团队任务对抗",
+  "verification": "Read primary repositories, docs, download scripts, file trees and checkpoint paths. No candidate executed or independently performance-validated in this round.",
+  "recommendations": {
+    "complete_ball_competition": "B-Human 2026",
+    "broad_sports_platform": "SMPLOlympics",
+    "complex_character_combat": "Tencent RoboticsX NCP",
+    "current_g1_combat": "RoboStriker Preview"
+  },
+  "items": [
+    {
+      "name": "B-Human 2026",
+      "category": "球类 / 团队战术",
+      "url": "https://github.com/bhuman/BHumanCodeRelease",
+      "docs": "https://docs.b-human.de/coderelease2026/",
+      "engine": "SimRobot；2025团队发布公告说明已采用MuJoCo",
+      "bodies": "2026支持Booster K1/T1；不是G1/H1通用策略",
+      "capabilities": "自主足球：感知、定位、角色分配、传球、带球、抢球、踢球、倒地起身；2026文档覆盖3v3/5v5，另有11v11演示策略",
+      "available": "完整代码、配置、ONNX模型；仓库实际含K1/T1起身、步行等模型",
+      "assessment": "完整球类竞技系统优先候选，有长期RoboCup比赛积累；当前版本兼容性和许可证需实测/核对",
+      "limits": "2026只支持K1/T1；本机未编译运行，不能直接用G1替换。部分oracle/fast场景使用真值，不能冒称视觉自主验证。",
+      "source_repo": "BHumanCodeRelease",
+      "repository_audit": {
+        "repository": "bhuman/BHumanCodeRelease",
+        "sha": "2e3374ba896da8288607f9a1881b876642fe18b8",
+        "archived": false,
+        "readme_sha256": "10e7d4a666cde422fc4641c69c0660dfb0b9c0b7c9b045e16c89551ca686f033",
+        "updated": "2026-10-15T17:38:20Z",
+        "weights_or_data": [
+          {
+            "path": "Config/NeuralNets/BallAndPenaltyMarkPerceptor/multihead.h5",
+            "bytes": 455240
+          },
+          {
+            "path": "Config/NeuralNets/BallAndPenaltyMarkPerceptor/multihead.onnx",
+            "bytes": 97965
+          },
+          {
+            "path": "Config/NeuralNets/FieldBoundary/net.h5",
+            "bytes": 483440
+          },
+          {
+            "path": "Config/NeuralNets/FieldBoundary/net.onnx",
+            "bytes": 74825
+          },
+          {
+            "path": "Config/NeuralNets/GetUpEngine/K1.onnx",
+            "bytes": 285695
+          },
+          {
+            "path": "Config/NeuralNets/GetUpEngine/K1_fast_standup.onnx",
+            "bytes": 818893
+          },
+          {
+            "path": "Config/NeuralNets/GetUpEngine/T1.onnx",
+            "bytes": 289283
+          },
+          {
+            "path": "Config/NeuralNets/GetUpEngine/T1_fast_standup.onnx",
+            "bytes": 825553
+          },
+          {
+            "path": "Config/NeuralNets/IntersectionsClassifier/distanceUpdatedModel.h5",
+            "bytes": 210408
+          },
+          {
+            "path": "Config/NeuralNets/IntersectionsClassifier/distanceUpdatedModel.onnx",
+            "bytes": 44125
+          },
+          {
+            "path": "Config/NeuralNets/Odometry/K1_odometry.onnx",
+            "bytes": 436145
+          },
+          {
+            "path": "Config/NeuralNets/Odometry/T1_odometry.onnx",
+            "bytes": 446385
+          },
+          {
+            "path": "Config/NeuralNets/RobotBallPerceptor/ball_robot_544.onnx",
+            "bytes": 3623825
+          },
+          {
+            "path": "Config/NeuralNets/RobotBallPerceptor/ball_robot_544_old.onnx",
+            "bytes": 3623825
+          },
+          {
+            "path": "Config/NeuralNets/RobotBallPerceptor/ball_robot_640.onnx",
+            "bytes": 3623825
+          },
+          {
+            "path": "Config/NeuralNets/RobotBallPerceptor/ball_robot_640_old.onnx",
+            "bytes": 3623825
+          },
+          {
+            "path": "Config/NeuralNets/Walk/K1_kick_inner.onnx",
+            "bytes": 266715
+          },
+          {
+            "path": "Config/NeuralNets/Walk/K1_kick_inner_soft.onnx",
+            "bytes": 266715
+          },
+          {
+            "path": "Config/NeuralNets/Walk/K1_walk.onnx",
+            "bytes": 558557
+          },
+          {
+            "path": "Config/NeuralNets/Walk/T1_kick_inner.onnx",
+            "bytes": 270303
+          },
+          {
+            "path": "Config/NeuralNets/Walk/T1_kick_inner_soft.onnx",
+            "bytes": 270303
+          },
+          {
+            "path": "Config/NeuralNets/Walk/T1_walk.onnx",
+            "bytes": 580577
+          },
+          {
+            "path": "Config/NeuralNets/WhistleDetector/WhistleNetMk16.onnx",
+            "bytes": 379461
+          }
+        ]
+      }
+    },
+    {
+      "name": "SMPLOlympics",
+      "category": "多体育项目 / 复杂人形",
+      "url": "https://github.com/SMPLOlympics/SMPLOlympics",
+      "docs": "https://smplolympics.github.io/SMPLOlympics-Site/",
+      "engine": "Isaac Gym",
+      "bodies": "SMPL/SMPL-X；项目另展示H1/G1模拟体育技能",
+      "capabilities": "乒乓球、网球、击剑、拳击、足球1v1/2v2、篮球及跳跃等；不是所有项目都必然是双人对抗",
+      "available": "多项目环境与训练脚本；download_data.sh提供PHC/PULSE基础模型及运动数据下载",
+      "assessment": "多项目体育框架首选研究参考，覆盖面最贴合本次需求",
+      "limits": "README标注Under Construction，训练模型释放TODO尚未勾选；下载脚本不能证明每种运动的比赛策略都完整可用。未逐个下载验证。Isaac Gym移植MuJoCo需适配。",
+      "source_repo": "SMPLOlympics",
+      "repository_audit": {
+        "repository": "SMPLOlympics/SMPLOlympics",
+        "sha": "9bba1fc90b54c02a43fd18b8629b38ed6907f4d2",
+        "archived": false,
+        "readme_sha256": "222e004c75749a7ec486be14d3b414905d33eea711cebd36533dcca35ffbc965",
+        "updated": "2025-06-01T20:47:52Z",
+        "weights_or_data": []
+      }
+    },
+    {
+      "name": "Tencent RoboticsX NCP",
+      "category": "格斗 / 复杂人形角色",
+      "url": "https://github.com/Tencent-RoboticsX/NCP",
+      "docs": "https://tencent-roboticsx.github.io/NCP/",
+      "engine": "Isaac Gym；README指定PyTorch1.12/CUDA兼容环境",
+      "bodies": "34自由度拳击数字人、37自由度剑盾数字人；不是实机G1",
+      "capabilities": "双人拳击、剑盾打击；上层策略组合运动先验，具有现成双方检查点测试入口",
+      "available": "boxing_100.pth、boxing_106.pth、ss_strike.pth等实际在仓库中，另有prior/tracking模型",
+      "assessment": "现成复杂人形对抗模型的优先验证对象，区别于仅有动作播放",
+      "limits": "发布测试代码与模型，但原多智能体PFSP训练部分未完整提供。原生需Isaac Gym/NVIDIA；数字人权重不可直接用于G1。游戏命中/收益不等于硬件损坏。",
+      "source_repo": "NCP",
+      "repository_audit": {
+        "repository": "Tencent-RoboticsX/NCP",
+        "sha": "42f9af5ecf179443e7d38dfd65241843d27588c2",
+        "archived": false,
+        "readme_sha256": "82acb54a8123c29f2fbcf65adbb5628dabf376f790dfce72728225694162f7c7",
+        "updated": "2024-03-14T06:42:48Z",
+        "weights_or_data": [
+          {
+            "path": "ncp/data/model/ncp_models/boxing_100.pth",
+            "bytes": 33272435
+          },
+          {
+            "path": "ncp/data/model/ncp_models/boxing_106.pth",
+            "bytes": 33272435
+          },
+          {
+            "path": "ncp/data/model/ncp_models/boxing_prior.pth",
+            "bytes": 22748625
+          },
+          {
+            "path": "ncp/data/model/ncp_models/boxing_tracking.pth",
+            "bytes": 21814539
+          },
+          {
+            "path": "ncp/data/model/ncp_models/ss_prior.pth",
+            "bytes": 27101905
+          },
+          {
+            "path": "ncp/data/model/ncp_models/ss_strike.pth",
+            "bytes": 36063859
+          },
+          {
+            "path": "ncp/data/model/ncp_models/ss_tracking.pth",
+            "bytes": 26283531
+          }
+        ]
+      }
+    },
+    {
+      "name": "RoboStriker Preview",
+      "category": "G1自主格斗",
+      "url": "https://github.com/yinkangning0124/RoboStriker-Preview",
+      "docs": "https://yinkangning0124.github.io/RoboStriker/",
+      "engine": "公开部署入口要求Isaac Lab2.1.0；论文/项目有MuJoCo sim2sim展示",
+      "bodies": "Unitree G1",
+      "capabilities": "分层动作跟踪、技能潜空间、对抗策略；对应自主人形拳击研究",
+      "available": "作者预览仓库；model_3000.pt实际存在，18,812,369字节；另需动作/资产下载",
+      "assessment": "当前G1主动对打最贴近的现成候选，应先验证其已训练策略而非自行摆臂",
+      "limits": "作者明确标为Preview，非一键成品；公开播放命令、第三方资产、对手设置和MuJoCo接口仍需验收。未实际执行模型，不能保证复现论文完整表现。",
+      "source_repo": "RoboStriker-Preview",
+      "repository_audit": {
+        "repository": "yinkangning0124/RoboStriker-Preview",
+        "sha": "52f54137770ff632391dd091e973ceb098ba3f98",
+        "archived": false,
+        "updated": "2026-06-01T08:39:00Z",
+        "stars": 11,
+        "weights_or_data": [
+          {
+            "path": "logs/rsl_marl/g1_flat_rsl_rl_ppo_stage3/combat/model_3000.pt",
+            "bytes": 18812369
+          }
+        ]
+      }
+    },
+    {
+      "name": "OpenAI multiagent-competition",
+      "category": "相扑 / 拦截 / 攻防",
+      "url": "https://github.com/openai/multiagent-competition",
+      "docs": "https://openai.com/index/competitive-self-play/",
+      "engine": "老版本MuJoCo/mujoco-py，Python3.6、TensorFlow1.1",
+      "bodies": "通用Humanoid/Ant；非G1/H1",
+      "capabilities": "sumo-humans、sumo-ants、you-shall-not-pass、kick-and-defend等，真实对抗训练和自博弈",
+      "available": "agent-zoo实际包含人形相扑、拦截、踢球攻防等预训练策略参数",
+      "assessment": "经过长期研究使用的对抗基线与规则设计参考",
+      "limits": "仓库已归档，依赖非常旧；迁移当前Python/MuJoCo必需，旧人形策略不能跨本体直接复用。相扑出界/倒地规则也不是硬件损坏规则。",
+      "source_repo": "multiagent-competition",
+      "repository_audit": {
+        "repository": "openai/multiagent-competition",
+        "sha": "b2e081a192429913b7d21a89525901d59c85e7f3",
+        "archived": true,
+        "updated": "2023-04-02T11:57:48Z",
+        "stars": 838,
+        "weights_or_data": [
+          {
+            "path": "agent-zoo/kick-and-defend/defender/agent2_parameters-v1.pkl",
+            "bytes": 1459517
+          },
+          {
+            "path": "agent-zoo/kick-and-defend/defender/agent2_parameters-v2.pkl",
+            "bytes": 1459517
+          },
+          {
+            "path": "agent-zoo/kick-and-defend/defender/agent2_parameters-v3.pkl",
+            "bytes": 1459517
+          },
+          {
+            "path": "agent-zoo/kick-and-defend/kicker/agent1_parameters-v1.pkl",
+            "bytes": 1459517
+          },
+          {
+            "path": "agent-zoo/kick-and-defend/kicker/agent1_parameters-v2.pkl",
+            "bytes": 1459517
+          },
+          {
+            "path": "agent-zoo/kick-and-defend/kicker/agent1_parameters-v3.pkl",
+            "bytes": 1459517
+          },
+          {
+            "path": "agent-zoo/run-to-goal/ants/agent1_parameters-v1.pkl",
+            "bytes": 99779
+          },
+          {
+            "path": "agent-zoo/run-to-goal/ants/agent2_parameters-v1.pkl",
+            "bytes": 99779
+          },
+          {
+            "path": "agent-zoo/run-to-goal/humans/agent1_parameters-v1.pkl",
+            "bytes": 236315
+          },
+          {
+            "path": "agent-zoo/run-to-goal/humans/agent2_parameters-v1.pkl",
+            "bytes": 236315
+          },
+          {
+            "path": "agent-zoo/sumo/ants/agent_parameters-v1.pkl",
+            "bytes": 1199933
+          },
+          {
+            "path": "agent-zoo/sumo/ants/agent_parameters-v2.pkl",
+            "bytes": 1199933
+          },
+          {
+            "path": "agent-zoo/sumo/ants/agent_parameters-v3.pkl",
+            "bytes": 1199933
+          },
+          {
+            "path": "agent-zoo/sumo/ants/agent_parameters-v4.pkl",
+            "bytes": 1199933
+          },
+          {
+            "path": "agent-zoo/sumo/humans/agent_parameters-v1.pkl",
+            "bytes": 1470869
+          },
+          {
+            "path": "agent-zoo/sumo/humans/agent_parameters-v2.pkl",
+            "bytes": 1470869
+          },
+          {
+            "path": "agent-zoo/sumo/humans/agent_parameters-v3.pkl",
+            "bytes": 1470869
+          },
+          {
+            "path": "agent-zoo/you-shall-not-pass/agent2_parameters-v1.pkl",
+            "bytes": 236315
+          }
+        ]
+      }
+    },
+    {
+      "name": "TimeChamber",
+      "category": "对抗训练 / 复杂人形 / 多智能体",
+      "url": "https://github.com/inspirai/TimeChamber",
+      "docs": "https://github.com/inspirai/TimeChamber",
+      "engine": "Isaac Gym",
+      "bodies": "人形剑盾、Ant等",
+      "capabilities": "Humanoid Strike、Ant Sumo、Ant Battle；PPO+优先虚拟自博弈、对手池、并行评估与Elo",
+      "available": "Humanoid_Strike/policy.pth和policy_op.pth等模型文件在仓库中",
+      "assessment": "搭建策略联赛和自博弈训练基础设施的候选",
+      "limits": "不是实机机器人通用控制器；原训练平台需要NVIDIA GPU；规则伤害分数不能当作机械破坏。",
+      "source_repo": "TimeChamber",
+      "repository_audit": {
+        "repository": "inspirai/TimeChamber",
+        "sha": "af3f3571c99a018a45e16d59e0f4a863a595b808",
+        "archived": false,
+        "readme_sha256": "cce0737e5e267315fd3e7f4e662a9d13916cebbcf8d59276a481a90640b0146b",
+        "updated": "2023-01-09T04:57:12Z",
+        "weights_or_data": [
+          {
+            "path": "timechamber/models/Humanoid_Strike/policy.pth",
+            "bytes": 20490364
+          },
+          {
+            "path": "timechamber/models/Humanoid_Strike/policy_op.pth",
+            "bytes": 20490421
+          },
+          {
+            "path": "timechamber/models/ant_battle_2agents/policy.pth",
+            "bytes": 698416
+          },
+          {
+            "path": "timechamber/models/ant_battle_3agents/policy.pth",
+            "bytes": 781744
+          },
+          {
+            "path": "timechamber/models/ant_sumo/policy.pth",
+            "bytes": 639728
+          },
+          {
+            "path": "timechamber/tasks/data/models/llc_reallusion_sword_shield.pth",
+            "bytes": 84543337
+          }
+        ]
+      }
+    },
+    {
+      "name": "OpenAI Hide and Seek / MAE",
+      "category": "复杂任务 / 团队对抗 / 工具使用",
+      "url": "https://github.com/openai/multi-agent-emergence-environments",
+      "docs": "https://github.com/openai/multi-agent-emergence-environments",
+      "engine": "MuJoCo worldgen旧栈",
+      "bodies": "抽象物理智能体；不是完整人形机器人",
+      "capabilities": "追逃、搬箱、封路、坡道利用、庇护所和蓝图等任务组合",
+      "available": "examples实际包含hide_and_seek_full.npz、多个学习阶段策略和构建/锁箱示例参数",
+      "assessment": "复杂任务竞争与多角色策略研究参考",
+      "limits": "已归档、依赖旧；抽象智能体动作包括抓取/锁定等规则，不能当作真实机器人抓握控制已完成。",
+      "source_repo": "multi-agent-emergence-environments",
+      "repository_audit": {
+        "repository": "openai/multi-agent-emergence-environments",
+        "sha": "bafaf1e11e6398624116761f91ae7c93b136f395",
+        "archived": true,
+        "readme_sha256": "6d45e4e1d435a9259a68958adab1d9991cf4bd374135ee366f031f90d3659fbb",
+        "updated": "2024-07-30T20:54:31Z",
+        "weights_or_data": [
+          {
+            "path": "examples/blueprint.npz",
+            "bytes": 6848911
+          },
+          {
+            "path": "examples/hide_and_seek_full.npz",
+            "bytes": 6540185
+          },
+          {
+            "path": "examples/hide_and_seek_policy_phases/a_chasing.npz",
+            "bytes": 6540185
+          },
+          {
+            "path": "examples/hide_and_seek_policy_phases/b_forts.npz",
+            "bytes": 6540185
+          },
+          {
+            "path": "examples/hide_and_seek_policy_phases/c_ramps.npz",
+            "bytes": 6540185
+          },
+          {
+            "path": "examples/hide_and_seek_policy_phases/d_ramp_defense.npz",
+            "bytes": 6540185
+          },
+          {
+            "path": "examples/hide_and_seek_policy_phases/e_box_surfing.npz",
+            "bytes": 6540185
+          },
+          {
+            "path": "examples/hide_and_seek_quadrant.npz",
+            "bytes": 6511574
+          },
+          {
+            "path": "examples/hide_and_seek_quadrant_physics_exploits.npz",
+            "bytes": 6511574
+          },
+          {
+            "path": "examples/lock_and_return.npz",
+            "bytes": 6538428
+          },
+          {
+            "path": "examples/sequential_lock.npz",
+            "bytes": 6539092
+          },
+          {
+            "path": "examples/shelter.npz",
+            "bytes": 6541645
+          }
+        ]
+      }
+    },
+    {
+      "name": "DeepMind OP3 soccer / dm_control soccer",
+      "category": "机器人球类研究 / MuJoCo环境",
+      "url": "https://sites.google.com/view/op3-soccer",
+      "docs": "https://github.com/google-deepmind/dm_control/tree/main/dm_control/locomotion/soccer",
+      "engine": "MuJoCo",
+      "bodies": "论文实机为20电机OP3；dm_control公开环境为BOXHEAD/其他仿真人形",
+      "capabilities": "论文验证1v1足球与行走/踢球/起身/防守的衔接；dm_control是另有公开来源的多智能体足球环境",
+      "available": "项目论文/实机展示；dm_control环境代码。未在论文项目页核实到OP3比赛策略完整公开下载",
+      "assessment": "强实机研究证据，但不能把环境开源等同论文机器人策略可下载",
+      "limits": "不是G1直接运行包，也不能将dm_control里的环境当作OP3完整系统已复现。",
+      "source_repo": null
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "AutomataLeague Sumo",
+      "reason": "Modern G1/MuJoCo training framework, but inspected tree contains no trained .pt/.onnx checkpoint and releases list was empty; README training claims not independently verified. Not classified as ready-trained mature package."
+    },
+    {
+      "name": "FightLab",
+      "reason": "Contains some policies/motions, but default HP/head/body damage rules conflict with this project authenticity requirement. Community experimental system, not mature hardware-damage simulator."
+    },
+    {
+      "name": "Walking / AMP motion policies alone",
+      "reason": "Motion skill priors do not automatically contain opponent-aware tactics; replaying a punch is not a trained adversarial policy."
+    }
+  ]
+}

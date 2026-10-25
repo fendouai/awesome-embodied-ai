@@ -1,0 +1,58 @@
+# Mac adversarial integration — 2026-10-25
+
+All three lanes were investigated on this Apple Silicon Mac without a remote GPU. No paid compute was used. **B-Human runs natively; RoboStriker and NCP run real learned-policy MuJoCo transfers. SMPLOlympics multi-sport tasks remain blocked.** No full original competition has been certified reproduced.
+
+## Run locally
+
+In `projects/robot-combat-lab`:
+
+```sh
+PYTHONPATH=src .venv/bin/python scripts/run_robostriker_cpu.py --seconds 20
+PYTHONPATH=src .venv/bin/python scripts/run_ncp_cpu.py --seconds 20
+# Render any printed archive directory:
+PYTHONPATH=src .venv/bin/python scripts/render_one.py PATH_TO_ARCHIVE
+# Native soccer:
+open integrations/bhuman/source/Build/macOS/SimRobot/Release/SimRobot.app --args "$PWD/integrations/bhuman/source/Config/Scenes/K1/MacAcceptance3v3M.ros3"
+```
+
+The web gateway `/web/integrations.html` offers both recorded rollouts and a fresh 20-second local rerun. One CPU job at a time. It preserves the existing neutral-PD, WBC and AMP datasets and does not mix these trials into historical rankings.
+
+## B-Human: native ARM64 soccer
+
+Pinned official source `bhuman/BHumanCodeRelease@2e3374ba896da8288607f9a1881b876642fe18b8`. Actual six-K1 3v3 match scene, original decision/controller/referee code and MuJoCo 3.3.5. UI observed **2:0** followed by PLAYING; captured screenshots in `evidence/`. This establishes native scene/controller execution, not a completed-match benchmark or full camera-perception acceptance. Fast mode supplies simulator truth. Startup DNS resolution can temporarily freeze the main thread; early Cognition→Motion timeout warnings were observed before the scene continued at about 500 physics steps/s.
+
+Only Command Line Tools were needed after adapting the desktop Ninja build. See `bhuman/mac-ninja-port-notes.md`, `force-includes.cmake`, staged-framework/signing audits and build logs. Source and library directories must remain next to the linked app bundle; it is not a standalone distributable. Original Qt and MuJoCo dependency versions differ from the Python MuJoCo 3.17 runtime.
+
+## RoboStriker: source G1 profile, both trained Stage3 actors
+
+Pinned source `yinkangning0124/RoboStriker-Preview@52f54137770ff632391dd091e973ceb098ba3f98`. Verified final published checkpoint, URDF BFS body/joint ordering, 192 task observations, 900 prior history, 90 decoder observations, saved normalizers, normalized residual 32-D latent, 29 decoded actions, source default pose/gains/armatures/effort limits. Original source URDF was converted with MuJoCo; no scripted punching, root force or fallback locomotion policy.
+
+Saved run: `results/robostriker-cpu/robostriker-cpu-1792894278679335000-part0001`. 20.00s, inter-robot contact 2.21s, maximum tilt 18.92° / 15.20°, 0 numerical warnings. Source timing: 5ms physics, 20ms policy. This is a **sim-to-sim transfer**, not source PhysX parity or hardware validation. Ground-truth opponent sensing remains privileged.
+
+The earlier 2ms trial fell after roughly 9s/14s; full records remain in `results/robostriker-cpu/robostriker-cpu-1792889543722301000-part0001`. Do not hide this timing sensitivity or infer robustness from a single successful trial. Contacts include hand/hand and hand/arm blocks, not exclusively landed torso strikes.
+
+## NCP: official boxing106 vs boxing100 physical characters
+
+Pinned source `Tencent-RoboticsX/NCP@42f9af5ecf179443e7d38dfd65241843d27588c2`. Original digital-human body with 28 hinge joints and 15 bodies, not a G1. Actual 323 proprioceptive + 289 task observations, 256×64 categorical codebook, source checkpoints, saved stochastic latent codes/noise, low-level residual-position PD targets `current_joint_position + action`. MuJoCo transfer retains source virtual-character PD effort limits; these are not identified hardware parameters.
+
+Saved run: `results/ncp-cpu/ncp-cpu-1792894566395944000`. 20.00s, contact 4.07s, maximum tilt 18.57° / 17.34°, 0 numerical warnings. Physics 1/240s, policy 1/30s. Native PhysX contact/PD/body-frame velocity equivalence remains unverified. An earlier greedy 106-vs100 screening fell around 8s; this was a non-archived development probe, not a measured success-rate trial. Default saved run follows stochastic evaluation.
+
+## SMPLOlympics: not running
+
+Pinned framework investigated, but verified per-sport complete task policies and required SMPL assets were not acquired. Original Isaac Gym requires Linux/NVIDIA. The available Mac cannot reproduce that native stack; NCP boxing is not a substitute for soccer, tennis, wrestling or the complete multi-sport suite. No assets or weights were invented. This lane stays explicitly pending.
+
+## Evidence and boundaries
+
+`trajectory.npz`: every integration state and control. `policy_io.npz`: actual observations/actions; NCP adds latent code, noise, final generator state. `contacts.npz`: real cross-body contact positions and force-frame vectors. `source-contract.json` pins source assumptions and weights. `manifest.json` hashes each artifact. Archived models reconstruct byte-for-byte and are SHA256 checked, including older gzip and repacked XZ bases.
+
+Automated checks in `tests/test_adversarial_ports.py` execute the actual pinned RoboStriker exporter's Python class and source empirical normalizer on recorded inputs, replay NCP actions from stored codes/noise, and verify one-step physical continuation without applied external wrenches. They establish implementation/replay consistency, not cross-engine ground-truth equivalence.
+
+Falls remain nonterminal. A 20-second budget pause has no winner and does not indicate damaged hardware. No calibrated thermal/gear/material failure data were obtained; no genuine hardware-destruction claim or leaderboard is produced. Human-controlled boxing, VLA comparisons and multi-seed robustness/ranking are not delivered by these first local ports.
+
+This product includes software developed by B-Human (http://www.b-human.de). Licenses retained beside models and pinned source.
+
+## Native soccer video added
+
+`results/bhuman-native/capture-20261025/battle.mp4`:35-second actual native-window recording. 138 distinct samples at about3.92 captured frames/s, measured wall-clock intervals preserved, no temporal interpolation/speedup. Spatial crop retains both goals and scoreboard. Original PNGs and capture timestamps remain archived. This is not a 500fps video or full physics-state replay. The web gateway now has video players for all three locally executed backends.
+
+SMPLOlympics also has49official external reference videos linked from the authors project website. These are never presented as local simulation evidence; source index and HTTP checks are in `research/adversarial-options/SMPLOlympics-official-videos.json`.

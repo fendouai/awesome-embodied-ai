@@ -1,0 +1,81 @@
+{
+  "repository": "openai/robosumo",
+  "sha": "3a317e27d2342dd47a869950e93315b23a74921a",
+  "archived": true,
+  "updated": "2023-04-13T09:24:42Z",
+  "stars": 310,
+  "weights_or_data": [
+    {
+      "path": "robosumo/policy_zoo/assets/ant/lstm/agent-params-v1.npy",
+      "bytes": 329572
+    },
+    {
+      "path": "robosumo/policy_zoo/assets/ant/lstm/agent-params-v2.npy",
+      "bytes": 329572
+    },
+    {
+      "path": "robosumo/policy_zoo/assets/ant/lstm/agent-params-v3.npy",
+      "bytes": 329572
+    },
+    {
+      "path": "robosumo/policy_zoo/assets/ant/mlp/agent-params-v1.npy",
+      "bytes": 98660
+    },
+    {
+      "path": "robosumo/policy_zoo/assets/ant/mlp/agent-params-v2.npy",
+      "bytes": 98660
+    },
+    {
+      "path": "robosumo/policy_zoo/assets/ant/mlp/agent-params-v3.npy",
+      "bytes": 98660
+    },
+    {
+      "path": "robosumo/policy_zoo/assets/bug/lstm/agent-params-v1.npy",
+      "bytes": 353508
+    },
+    {
+      "path": "robosumo/policy_zoo/assets/bug/lstm/agent-params-v2.npy",
+      "bytes": 353508
+    },
+    {
+      "path": "robosumo/policy_zoo/assets/bug/lstm/agent-params-v3.npy",
+      "bytes": 353508
+    },
+    {
+      "path": "robosumo/policy_zoo/assets/bug/mlp/agent-params-v1.npy",
+      "bytes": 122596
+    },
+    {
+      "path": "robosumo/policy_zoo/assets/bug/mlp/agent-params-v2.npy",
+      "bytes": 122596
+    },
+    {
+      "path": "robosumo/policy_zoo/assets/bug/mlp/agent-params-v3.npy",
+      "bytes": 122596
+    },
+    {
+      "path": "robosumo/policy_zoo/assets/spider/lstm/agent-params-v1.npy",
+      "bytes": 377444
+    },
+    {
+      "path": "robosumo/policy_zoo/assets/spider/lstm/agent-params-v2.npy",
+      "bytes": 377444
+    },
+    {
+      "path": "robosumo/policy_zoo/assets/spider/lstm/agent-params-v3.npy",
+      "bytes": 377444
+    },
+    {
+      "path": "robosumo/policy_zoo/assets/spider/mlp/agent-params-v1.npy",
+      "bytes": 146532
+    },
+    {
+      "path": "robosumo/policy_zoo/assets/spider/mlp/agent-params-v2.npy",
+      "bytes": 146532
+    },
+    {
+      "path": "robosumo/policy_zoo/assets/spider/mlp/agent-params-v3.npy",
+      "bytes": 146532
+    }
+  ]
+}

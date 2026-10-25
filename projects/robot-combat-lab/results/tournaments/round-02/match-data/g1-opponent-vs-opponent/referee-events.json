@@ -1,0 +1,95 @@
+[
+  {
+    "type": "scoring_contact",
+    "time": 2.3749999999999716,
+    "side": 0,
+    "start_time": 2.219999999999975,
+    "last_time": 2.269999999999974,
+    "approach_m_s": 2.451711136872553,
+    "impulse_ns": 10.613038330493781,
+    "peak_normal_force_n": 610.5228707661214,
+    "target": "opponent_upper_body_composite"
+  },
+  {
+    "type": "scoring_contact",
+    "time": 2.3749999999999716,
+    "side": 1,
+    "start_time": 2.219999999999975,
+    "last_time": 2.269999999999974,
+    "approach_m_s": 2.4517111368750126,
+    "impulse_ns": 10.61303833050623,
+    "peak_normal_force_n": 610.5228707665175,
+    "target": "opponent_upper_body_composite"
+  },
+  {
+    "type": "scoring_contact",
+    "time": 6.079999999999893,
+    "side": 0,
+    "start_time": 5.919999999999896,
+    "last_time": 5.974999999999895,
+    "approach_m_s": 1.7920932551989086,
+    "impulse_ns": 5.7720267812203545,
+    "peak_normal_force_n": 235.90017886675923,
+    "target": "opponent_upper_body_composite"
+  },
+  {
+    "type": "scoring_contact",
+    "time": 6.079999999999893,
+    "side": 1,
+    "start_time": 5.919999999999896,
+    "last_time": 5.974999999999895,
+    "approach_m_s": 1.7921680688338006,
+    "impulse_ns": 5.771470343063335,
+    "peak_normal_force_n": 235.86811959186485,
+    "target": "opponent_upper_body_composite"
+  },
+  {
+    "type": "down_confirmed",
+    "time": 10.605000000000258,
+    "side": 1,
+    "down_start": 10.355000000000219
+  },
+  {
+    "type": "down_confirmed",
+    "time": 12.045000000000483,
+    "side": 0,
+    "down_start": 11.795000000000444
+  },
+  {
+    "type": "recovery_timeout",
+    "time": 20.355000000000235,
+    "side": 1,
+    "down_duration": 10.000000000000016
+  },
+  {
+    "type": "recovery_timeout",
+    "time": 21.79499999999995,
+    "side": 0,
+    "down_duration": 9.999999999999504
+  },
+  {
+    "type": "match_ended",
+    "time": 21.79499999999995,
+    "winner": null,
+    "reason": "double_recovery_timeout",
+    "kind": "technical_draw",
+    "hardware_damage": false,
+    "competition_rule_result": true,
+    "clean_upper_contacts": [
+      2,
+      2
+    ],
+    "short_window_normal_impulse_ns": [
+      16.385065111714134,
+      16.384508673569563
+    ],
+    "knockdowns": [
+      1,
+      1
+    ],
+    "upright_time_s": [
+      10.435000000000276,
+      9.875000000000188
+    ]
+  }
+]

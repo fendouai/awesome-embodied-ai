@@ -1,0 +1,86 @@
+{
+  "outcome": {
+    "winner": 0,
+    "reason": "more_valid_upper_body_contacts",
+    "kind": "contact_decision",
+    "time": 89.99999999999064,
+    "hardware_damage": false,
+    "competition_rule_result": true,
+    "clean_upper_contacts": [
+      22,
+      16
+    ],
+    "short_window_normal_impulse_ns": [
+      154.12111013409418,
+      98.95617948854586
+    ],
+    "knockdowns": [
+      0,
+      0
+    ],
+    "upright_time_s": [
+      89.34499999999102,
+      89.77499999999063
+    ]
+  },
+  "status": {
+    "score": [
+      22,
+      16
+    ],
+    "impulse_ns": [
+      154.12111013409418,
+      98.95617948854586
+    ],
+    "knockdowns": [
+      0,
+      0
+    ],
+    "recovery_count_s": [
+      null,
+      null
+    ],
+    "failed": [],
+    "outcome": {
+      "winner": 0,
+      "reason": "more_valid_upper_body_contacts",
+      "kind": "contact_decision",
+      "time": 89.99999999999064,
+      "hardware_damage": false,
+      "competition_rule_result": true,
+      "clean_upper_contacts": [
+        22,
+        16
+      ],
+      "short_window_normal_impulse_ns": [
+        154.12111013409418,
+        98.95617948854586
+      ],
+      "knockdowns": [
+        0,
+        0
+      ],
+      "upright_time_s": [
+        89.34499999999102,
+        89.77499999999063
+      ]
+    }
+  },
+  "rules": {
+    "limit_s": 90.0,
+    "down_confirm_s": 0.25,
+    "recovery_deadline_s": 10.0,
+    "recovery_hold_s": 1.0,
+    "down_tilt_deg": 65.0,
+    "down_height_ratio": 0.55,
+    "upright_tilt_deg": 25.0,
+    "upright_height_ratio": 0.75,
+    "contact_gap_s": 0.1,
+    "impact_window_s": 0.08,
+    "minimum_approach_m_s": 0.25,
+    "minimum_normal_impulse_ns": 0.1,
+    "decision_impulse_margin_ns": 0.5
+  },
+  "complete": true,
+  "simulation_interruption": null
+}

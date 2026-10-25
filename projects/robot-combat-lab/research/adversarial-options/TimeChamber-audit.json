@@ -1,0 +1,33 @@
+{
+  "repository": "inspirai/TimeChamber",
+  "sha": "af3f3571c99a018a45e16d59e0f4a863a595b808",
+  "archived": false,
+  "readme_sha256": "cce0737e5e267315fd3e7f4e662a9d13916cebbcf8d59276a481a90640b0146b",
+  "updated": "2023-01-09T04:57:12Z",
+  "weights_or_data": [
+    {
+      "path": "timechamber/models/Humanoid_Strike/policy.pth",
+      "bytes": 20490364
+    },
+    {
+      "path": "timechamber/models/Humanoid_Strike/policy_op.pth",
+      "bytes": 20490421
+    },
+    {
+      "path": "timechamber/models/ant_battle_2agents/policy.pth",
+      "bytes": 698416
+    },
+    {
+      "path": "timechamber/models/ant_battle_3agents/policy.pth",
+      "bytes": 781744
+    },
+    {
+      "path": "timechamber/models/ant_sumo/policy.pth",
+      "bytes": 639728
+    },
+    {
+      "path": "timechamber/tasks/data/models/llc_reallusion_sword_shield.pth",
+      "bytes": 84543337
+    }
+  ]
+}

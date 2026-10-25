@@ -1,0 +1,22 @@
+{
+  "source_commit": "2e3374ba896da8288607f9a1881b876642fe18b8",
+  "modified_files": [
+    {
+      "file": "Make/CMake/CMakeLists.txt",
+      "sha256": "0935c2825224ecf4d0d8f8cee1f6f6631518d687c2998a9fbd196af776bd44cc"
+    },
+    {
+      "file": "Src/Libs/SimulatedRobot/ConsoleRoboCupCtrl.cpp",
+      "sha256": "42eab3a0a195a4ea8500f457dbe3e66d049e3dd261a1a73db143901e825077aa"
+    },
+    {
+      "file": "Util/SimRobot/Src/SimRobot/MainWindow.cpp",
+      "sha256": "632a2e403dd5097f586abfcb5d78f8502bae8b235e5ae6f6838ac6ed589afacf"
+    },
+    {
+      "file": "Util/SimRobot/Src/SimRobotCore3/SimObjectWidget.cpp",
+      "sha256": "03587f7edd44790b30462fc0afb80359b0548571833ac6db90ff0c83edb83f35"
+    }
+  ],
+  "notes": "Desktop Ninja build, acceptance default views,33ms GUI refresh and optional read-only framebuffer/match export. No robot controller, mass, solver or referee rule change."
+}

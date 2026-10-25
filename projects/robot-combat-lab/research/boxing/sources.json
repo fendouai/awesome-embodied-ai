@@ -1,0 +1,14 @@
+[
+  {
+    "source": "https://raw.githubusercontent.com/NVlabs/GR00T-WholeBodyControl/45c03facbf848e0c743091b7d9c17952096ff908/decoupled_wbc/control/policy/g1_gear_wbc_policy.py",
+    "commit": "45c03facbf848e0c743091b7d9c17952096ff908",
+    "local": "research/boxing/g1_gear_wbc_policy.py",
+    "sha256": "833bc58c7bacabf8634a9d458da821bc86b179af8420075ad9824e317d054e3e"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/NVlabs/GR00T-WholeBodyControl/45c03facbf848e0c743091b7d9c17952096ff908/decoupled_wbc/control/policy/g1_decoupled_whole_body_policy.py",
+    "commit": "45c03facbf848e0c743091b7d9c17952096ff908",
+    "local": "research/boxing/g1_decoupled_whole_body_policy.py",
+    "sha256": "dae67f43d975ed8c253e50a661aeecabcc6d98665ffb80358f6d699dab3aaf2b"
+  }
+]

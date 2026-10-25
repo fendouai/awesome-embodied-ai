@@ -1,0 +1,49 @@
+{
+  "repository": "m-abr/FCPCodebase",
+  "sha": "22d9e2ff9f12a271ff882868c39cc672e56cc625",
+  "archived": false,
+  "readme_sha256": "2bd2e5558345987f9736e1ff92642f833deb4a6a68daaf620ba44cffade07c40",
+  "updated": "2025-06-03T21:04:57Z",
+  "weights_or_data": [
+    {
+      "path": "behaviors/custom/Dribble/dribble_R0.pkl",
+      "bytes": 24148
+    },
+    {
+      "path": "behaviors/custom/Dribble/dribble_R1.pkl",
+      "bytes": 24148
+    },
+    {
+      "path": "behaviors/custom/Dribble/dribble_R2.pkl",
+      "bytes": 24148
+    },
+    {
+      "path": "behaviors/custom/Dribble/dribble_R3.pkl",
+      "bytes": 24148
+    },
+    {
+      "path": "behaviors/custom/Dribble/dribble_R4.pkl",
+      "bytes": 24148
+    },
+    {
+      "path": "behaviors/custom/Fall/fall.pkl",
+      "bytes": 28854
+    },
+    {
+      "path": "behaviors/custom/Walk/walk_R0.pkl",
+      "bytes": 20820
+    },
+    {
+      "path": "behaviors/custom/Walk/walk_R1_R3.pkl",
+      "bytes": 20820
+    },
+    {
+      "path": "behaviors/custom/Walk/walk_R2.pkl",
+      "bytes": 20820
+    },
+    {
+      "path": "behaviors/custom/Walk/walk_R4.pkl",
+      "bytes": 20820
+    }
+  ]
+}

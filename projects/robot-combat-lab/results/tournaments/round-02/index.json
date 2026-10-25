@@ -1,0 +1,650 @@
+{
+  "id": "round-02",
+  "format": "Complete unordered policy-pair matrix within each combat-capable backend; cross-policy pairs have both seat assignments, self-pairs run once",
+  "state": "complete",
+  "matches": [
+    {
+      "id": "g1-leg1",
+      "group": "g1",
+      "leg": 1,
+      "policies": [
+        "robostriker_ego",
+        "robostriker_opponent"
+      ],
+      "folder": "results/duels/duel-1792914768741798000-part0001",
+      "state": "complete",
+      "outcome": {
+        "winner": 1,
+        "reason": "more_valid_upper_body_contacts",
+        "kind": "contact_decision",
+        "time": 89.99999999999064,
+        "hardware_damage": false,
+        "competition_rule_result": true,
+        "clean_upper_contacts": [
+          16,
+          17
+        ],
+        "short_window_normal_impulse_ns": [
+          134.30528020510644,
+          135.62821779195318
+        ],
+        "knockdowns": [
+          0,
+          0
+        ],
+        "upright_time_s": [
+          89.40999999999063,
+          89.31499999999042
+        ]
+      },
+      "verification": {
+        "verified": true,
+        "physics_steps": 18000,
+        "max_qpos_replay_error": 0.0,
+        "winner": 1,
+        "score": [
+          16,
+          17
+        ],
+        "normal_impulse_ns": [
+          134.30528020510644,
+          135.62821779195318
+        ],
+        "trajectory_sha256": "d6f5eb0eee36b47f02f7d0274054b5216bd5c2aa8182f0718adcc33d33dde2b8",
+        "rules_sha256": "80c5f1eaac4900ab5730904a8efa7cb333560e01ff6b31be618f16355007b747",
+        "method": "Replay every native physics step with archived controls; independently recompute body poses, pre-contact approach speeds, force-window impulses and referee outcome"
+      },
+      "video": "/results/tournaments/round-02/videos/g1-leg1-robostriker_ego-vs-robostriker_opponent.mp4",
+      "poster": "/results/tournaments/round-02/videos/g1-leg1-poster.jpg",
+      "video_sha256": "548583723ecd7dad9899ce1316b5b46d2b47b6c32edb83c40fde4ace17f17c71",
+      "source_folder": "results/duels/duel-1792914768741798000-part0001",
+      "published_folder": "/results/tournaments/round-02/match-data/g1-leg1",
+      "source_video": "/results/duels/duel-1792914768741798000-part0001/duel-full.mp4"
+    },
+    {
+      "id": "g1-leg2",
+      "group": "g1",
+      "leg": 2,
+      "policies": [
+        "robostriker_opponent",
+        "robostriker_ego"
+      ],
+      "folder": "results/duels/duel-1792916992468118000-part0001",
+      "state": "complete",
+      "outcome": {
+        "winner": 0,
+        "reason": "more_valid_upper_body_contacts",
+        "kind": "contact_decision",
+        "time": 89.99999999999064,
+        "hardware_damage": false,
+        "competition_rule_result": true,
+        "clean_upper_contacts": [
+          22,
+          16
+        ],
+        "short_window_normal_impulse_ns": [
+          154.12111013409418,
+          98.95617948854586
+        ],
+        "knockdowns": [
+          0,
+          0
+        ],
+        "upright_time_s": [
+          89.34499999999102,
+          89.77499999999063
+        ]
+      },
+      "verification": {
+        "verified": true,
+        "physics_steps": 18000,
+        "max_qpos_replay_error": 0.0,
+        "winner": 0,
+        "score": [
+          22,
+          16
+        ],
+        "normal_impulse_ns": [
+          154.12111013409418,
+          98.95617948854586
+        ],
+        "trajectory_sha256": "4c30868dc57e4378592e9110517445cd57d4dd4068412e214d49b9876b39e94b",
+        "rules_sha256": "80c5f1eaac4900ab5730904a8efa7cb333560e01ff6b31be618f16355007b747",
+        "method": "Replay every native physics step with archived controls; independently recompute body poses, pre-contact approach speeds, force-window impulses and referee outcome"
+      },
+      "video": "/results/tournaments/round-02/videos/g1-leg2-robostriker_opponent-vs-robostriker_ego.mp4",
+      "poster": "/results/tournaments/round-02/videos/g1-leg2-poster.jpg",
+      "video_sha256": "74676c972954a93191c4fa628407b1e1e4ac412c5b0cd1c864e31692a8b99007",
+      "source_folder": "results/duels/duel-1792916992468118000-part0001",
+      "published_folder": "/results/tournaments/round-02/match-data/g1-leg2",
+      "source_video": "/results/duels/duel-1792916992468118000-part0001/duel-full.mp4"
+    },
+    {
+      "id": "ncp-leg1",
+      "group": "ncp",
+      "leg": 1,
+      "policies": [
+        "ncp_boxing_106",
+        "ncp_boxing_100"
+      ],
+      "folder": "results/ncp-duels/ncp-cpu-1792914871104170000",
+      "state": "complete",
+      "outcome": {
+        "winner": 1,
+        "reason": "more_valid_upper_body_contacts",
+        "kind": "contact_decision",
+        "time": 90.00000000000031,
+        "hardware_damage": false,
+        "competition_rule_result": true,
+        "clean_upper_contacts": [
+          18,
+          22
+        ],
+        "short_window_normal_impulse_ns": [
+          187.17259278423444,
+          228.70976584093245
+        ],
+        "knockdowns": [
+          0,
+          0
+        ],
+        "upright_time_s": [
+          89.80833333333365,
+          89.96666666666698
+        ]
+      },
+      "verification": {
+        "verified": true,
+        "physics_steps": 21600,
+        "max_qpos_replay_error": 0.0,
+        "winner": 1,
+        "score": [
+          18,
+          22
+        ],
+        "normal_impulse_ns": [
+          187.17259278423444,
+          228.70976584093245
+        ],
+        "trajectory_sha256": "d2636ccb8f1ec98fb4ccbc1172f75074019cbcac0302e248b26897250367469a",
+        "rules_sha256": "7b6d3181f4596f85659ef79d335b7d7d071279c0b4abd107cd3280ec66c2375a",
+        "method": "Replay every native physics step with archived controls; independently recompute body poses, pre-contact approach speeds, force-window impulses and referee outcome"
+      },
+      "video": "/results/tournaments/round-02/videos/ncp-leg1-ncp_boxing_106-vs-ncp_boxing_100.mp4",
+      "poster": "/results/tournaments/round-02/videos/ncp-leg1-poster.jpg",
+      "video_sha256": "4dcaa9481b54f1f69d06ee6a9af66b1b9e4e0b0945a0c79461f6e4d5d954242a",
+      "source_folder": "results/ncp-duels/ncp-cpu-1792914871104170000",
+      "published_folder": "/results/tournaments/round-02/match-data/ncp-leg1",
+      "source_video": "/results/ncp-duels/ncp-cpu-1792914871104170000/duel-full.mp4"
+    },
+    {
+      "id": "ncp-leg2",
+      "group": "ncp",
+      "leg": 2,
+      "policies": [
+        "ncp_boxing_100",
+        "ncp_boxing_106"
+      ],
+      "folder": "results/ncp-duels/ncp-cpu-1792917134515376000",
+      "state": "complete",
+      "outcome": {
+        "winner": null,
+        "reason": "double_recovery_timeout",
+        "kind": "technical_draw",
+        "time": 23.81249999999897,
+        "hardware_damage": false,
+        "competition_rule_result": true,
+        "clean_upper_contacts": [
+          1,
+          2
+        ],
+        "short_window_normal_impulse_ns": [
+          16.729749249805508,
+          29.40750899164502
+        ],
+        "knockdowns": [
+          1,
+          1
+        ],
+        "upright_time_s": [
+          13.308333333332898,
+          9.920833333333091
+        ]
+      },
+      "verification": {
+        "verified": true,
+        "physics_steps": 5715,
+        "max_qpos_replay_error": 0.0,
+        "winner": null,
+        "score": [
+          1,
+          2
+        ],
+        "normal_impulse_ns": [
+          16.729749249805508,
+          29.40750899164502
+        ],
+        "trajectory_sha256": "de855fe0df7eff85f3d388c554c09f8d48324284b3a61c82076899635dce07ed",
+        "rules_sha256": "5ff8be429de6341418559952587eabf19459bb7ff1a3364fe4856556e9c0b4f3",
+        "method": "Replay every native physics step with archived controls; independently recompute body poses, pre-contact approach speeds, force-window impulses and referee outcome"
+      },
+      "video": "/results/tournaments/round-02/videos/ncp-leg2-ncp_boxing_100-vs-ncp_boxing_106.mp4",
+      "poster": "/results/tournaments/round-02/videos/ncp-leg2-poster.jpg",
+      "video_sha256": "f33012298834114204fb7c15465f1584d27e830948075c94c1bc457100d75251",
+      "source_folder": "results/ncp-duels/ncp-cpu-1792917134515376000",
+      "published_folder": "/results/tournaments/round-02/match-data/ncp-leg2",
+      "source_video": "/results/ncp-duels/ncp-cpu-1792917134515376000/duel-full.mp4"
+    },
+    {
+      "id": "g1-ego-vs-ego",
+      "group": "g1",
+      "leg": 1,
+      "policies": [
+        "robostriker_ego",
+        "robostriker_ego"
+      ],
+      "folder": "results/duels/duel-1792937221039099000-part0001",
+      "state": "complete",
+      "outcome": {
+        "winner": 1,
+        "reason": "more_valid_upper_body_contacts",
+        "kind": "contact_decision",
+        "time": 89.99999999999064,
+        "hardware_damage": false,
+        "competition_rule_result": true,
+        "clean_upper_contacts": [
+          20,
+          23
+        ],
+        "short_window_normal_impulse_ns": [
+          145.7058742084957,
+          134.36234815255597
+        ],
+        "knockdowns": [
+          0,
+          0
+        ],
+        "upright_time_s": [
+          89.45499999999063,
+          89.01999999999079
+        ]
+      },
+      "verification": {
+        "verified": true,
+        "physics_steps": 18000,
+        "max_qpos_replay_error": 0.0,
+        "winner": 1,
+        "score": [
+          20,
+          23
+        ],
+        "normal_impulse_ns": [
+          145.7058742084957,
+          134.36234815255597
+        ],
+        "trajectory_sha256": "7830f8522fcbab076c1aa345e5b95c050b7e609d503b5800922cbe4e4e908d59",
+        "rules_sha256": "80c5f1eaac4900ab5730904a8efa7cb333560e01ff6b31be618f16355007b747",
+        "method": "Replay every native physics step with archived controls; independently recompute body poses, pre-contact approach speeds, force-window impulses and referee outcome"
+      },
+      "video": "/results/tournaments/round-02/videos/g1-ego-vs-ego-robostriker_ego-vs-robostriker_ego.mp4",
+      "poster": "/results/tournaments/round-02/videos/g1-ego-vs-ego-poster.jpg",
+      "video_sha256": "7a6ea5913790a318cea7f9e39364ad43c67ea99e910db9fdbd173d43dd500326",
+      "source_folder": "results/duels/duel-1792937221039099000-part0001",
+      "published_folder": "/results/tournaments/round-02/match-data/g1-ego-vs-ego",
+      "source_video": "/results/duels/duel-1792937221039099000-part0001/duel-full.mp4"
+    },
+    {
+      "id": "g1-opponent-vs-opponent",
+      "group": "g1",
+      "leg": 1,
+      "policies": [
+        "robostriker_opponent",
+        "robostriker_opponent"
+      ],
+      "folder": "results/duels/duel-1792937338544012000-part0001",
+      "state": "complete",
+      "outcome": {
+        "winner": null,
+        "reason": "double_recovery_timeout",
+        "kind": "technical_draw",
+        "time": 21.79499999999995,
+        "hardware_damage": false,
+        "competition_rule_result": true,
+        "clean_upper_contacts": [
+          2,
+          2
+        ],
+        "short_window_normal_impulse_ns": [
+          16.385065111714134,
+          16.384508673569563
+        ],
+        "knockdowns": [
+          1,
+          1
+        ],
+        "upright_time_s": [
+          10.435000000000276,
+          9.875000000000188
+        ]
+      },
+      "verification": {
+        "verified": true,
+        "physics_steps": 4359,
+        "max_qpos_replay_error": 0.0,
+        "winner": null,
+        "score": [
+          2,
+          2
+        ],
+        "normal_impulse_ns": [
+          16.385065111714134,
+          16.384508673569563
+        ],
+        "trajectory_sha256": "5d08b27245afd6a22d8a73c0c4254e862ec5ab4bd0691125163b7d0f8e63bfad",
+        "rules_sha256": "80c5f1eaac4900ab5730904a8efa7cb333560e01ff6b31be618f16355007b747",
+        "method": "Replay every native physics step with archived controls; independently recompute body poses, pre-contact approach speeds, force-window impulses and referee outcome"
+      },
+      "video": "/results/tournaments/round-02/videos/g1-opponent-vs-opponent-robostriker_opponent-vs-robostriker_opponent.mp4",
+      "poster": "/results/tournaments/round-02/videos/g1-opponent-vs-opponent-poster.jpg",
+      "video_sha256": "b36ed671d03a2e180d408ce12d3281758dfabea8634f785761d0ce8793ccf052",
+      "source_folder": "results/duels/duel-1792937338544012000-part0001",
+      "published_folder": "/results/tournaments/round-02/match-data/g1-opponent-vs-opponent",
+      "source_video": "/results/duels/duel-1792937338544012000-part0001/duel-full.mp4"
+    },
+    {
+      "id": "ncp-106-vs-106",
+      "group": "ncp",
+      "leg": 1,
+      "policies": [
+        "ncp_boxing_106",
+        "ncp_boxing_106"
+      ],
+      "folder": "results/ncp-duels/ncp-cpu-1792938354323238000",
+      "state": "complete",
+      "outcome": {
+        "winner": null,
+        "reason": "double_recovery_timeout",
+        "kind": "technical_draw",
+        "time": 12.637499999999603,
+        "hardware_damage": false,
+        "competition_rule_result": true,
+        "clean_upper_contacts": [
+          0,
+          0
+        ],
+        "short_window_normal_impulse_ns": [
+          0.0,
+          0.0
+        ],
+        "knockdowns": [
+          1,
+          1
+        ],
+        "upright_time_s": [
+          2.2541666666666735,
+          2.2500000000000067
+        ]
+      },
+      "verification": {
+        "verified": true,
+        "physics_steps": 3033,
+        "max_qpos_replay_error": 0.0,
+        "winner": null,
+        "score": [
+          0,
+          0
+        ],
+        "normal_impulse_ns": [
+          0.0,
+          0.0
+        ],
+        "trajectory_sha256": "96317586eaf511039fc162c5fa4f5cef5e785c32a2c76592321d9c718a24f232",
+        "rules_sha256": "7b6d3181f4596f85659ef79d335b7d7d071279c0b4abd107cd3280ec66c2375a",
+        "method": "Replay every native physics step with archived controls; independently recompute body poses, pre-contact approach speeds, force-window impulses and referee outcome"
+      },
+      "video": "/results/tournaments/round-02/videos/ncp-106-vs-106-ncp_boxing_106-vs-ncp_boxing_106.mp4",
+      "poster": "/results/tournaments/round-02/videos/ncp-106-vs-106-poster.jpg",
+      "video_sha256": "eca3e6fc04b9c8c9ee38a5f04fe0dc7c69fa747877059a00a0abadc742305115",
+      "source_folder": "results/ncp-duels/ncp-cpu-1792938354323238000",
+      "published_folder": "/results/tournaments/round-02/match-data/ncp-106-vs-106",
+      "source_video": "/results/ncp-duels/ncp-cpu-1792938354323238000/duel-full.mp4"
+    },
+    {
+      "id": "ncp-100-vs-100",
+      "group": "ncp",
+      "leg": 1,
+      "policies": [
+        "ncp_boxing_100",
+        "ncp_boxing_100"
+      ],
+      "folder": "results/ncp-duels/ncp-cpu-1792938492425954000",
+      "state": "complete",
+      "outcome": {
+        "winner": null,
+        "reason": "double_recovery_timeout",
+        "kind": "technical_draw",
+        "time": 57.412500000018724,
+        "hardware_damage": false,
+        "competition_rule_result": true,
+        "clean_upper_contacts": [
+          10,
+          12
+        ],
+        "short_window_normal_impulse_ns": [
+          80.67067902221336,
+          75.23226677684528
+        ],
+        "knockdowns": [
+          1,
+          1
+        ],
+        "upright_time_s": [
+          41.28750000000589,
+          47.04583333334381
+        ]
+      },
+      "verification": {
+        "verified": true,
+        "physics_steps": 13779,
+        "max_qpos_replay_error": 0.0,
+        "winner": null,
+        "score": [
+          10,
+          12
+        ],
+        "normal_impulse_ns": [
+          80.67067902221336,
+          75.23226677684528
+        ],
+        "trajectory_sha256": "8a24500d8980ab9796235636f218df1b3c357b4bf70ad5a71b588885df193079",
+        "rules_sha256": "7b6d3181f4596f85659ef79d335b7d7d071279c0b4abd107cd3280ec66c2375a",
+        "method": "Replay every native physics step with archived controls; independently recompute body poses, pre-contact approach speeds, force-window impulses and referee outcome"
+      },
+      "video": "/results/tournaments/round-02/videos/ncp-100-vs-100-ncp_boxing_100-vs-ncp_boxing_100.mp4",
+      "poster": "/results/tournaments/round-02/videos/ncp-100-vs-100-poster.jpg",
+      "video_sha256": "be4875c2342828b4f7d0d7b77bcafe6e73b6b83c5f47ce3e2cd9178ebbe1f8bd",
+      "source_folder": "results/ncp-duels/ncp-cpu-1792938492425954000",
+      "published_folder": "/results/tournaments/round-02/match-data/ncp-100-vs-100",
+      "source_video": "/results/ncp-duels/ncp-cpu-1792938492425954000/duel-full.mp4"
+    }
+  ],
+  "seed": 0,
+  "coverage": {
+    "G1": [
+      "ego-ego",
+      "ego-opponent",
+      "opponent-ego",
+      "opponent-opponent"
+    ],
+    "NCP": [
+      "106-106",
+      "106-100",
+      "100-106",
+      "100-100"
+    ],
+    "scope_note": "Within the two installed trained attack-policy pairs; locomotion policies are excluded from combat compatibility matrix because they have no trained attack/controller contract.",
+    "robot_model_matrix": [
+      {
+        "robot": "Unitree G1",
+        "robot_id": "g1_full",
+        "compatible_deployments": [
+          "unitree_rl_lab",
+          "unitree_rl_mjlab",
+          "holosoma_ppo",
+          "holosoma_fastsac",
+          "amp_recovery",
+          "nvidia_wbc",
+          "robostriker_stage3",
+          "g1_beyondmimic",
+          "pd_stand"
+        ],
+        "adversarial_deployments": [
+          "robostriker_stage3"
+        ],
+        "status": "included",
+        "reason": "RoboStriker trained attack policy is available"
+      },
+      {
+        "robot": "Unitree H1",
+        "robot_id": "h1_full",
+        "compatible_deployments": [
+          "unitree_full_gym",
+          "pd_stand"
+        ],
+        "adversarial_deployments": [],
+        "status": "excluded",
+        "reason": "Only locomotion, balance, motion-tracking or soccer deployments are available; no compatible opponent-targeting attack policy"
+      },
+      {
+        "robot": "Unitree H1-2",
+        "robot_id": "h1_2_full",
+        "compatible_deployments": [
+          "unitree_full_gym",
+          "pd_stand"
+        ],
+        "adversarial_deployments": [],
+        "status": "excluded",
+        "reason": "Only locomotion, balance, motion-tracking or soccer deployments are available; no compatible opponent-targeting attack policy"
+      },
+      {
+        "robot": "Unitree Go2",
+        "robot_id": "go2",
+        "compatible_deployments": [
+          "go2_robot_lab",
+          "go2_him",
+          "pd_stand"
+        ],
+        "adversarial_deployments": [],
+        "status": "excluded",
+        "reason": "Only locomotion, balance, motion-tracking or soccer deployments are available; no compatible opponent-targeting attack policy"
+      },
+      {
+        "robot": "Unitree A1",
+        "robot_id": "a1",
+        "compatible_deployments": [
+          "a1_vq",
+          "pd_stand"
+        ],
+        "adversarial_deployments": [],
+        "status": "excluded",
+        "reason": "Only locomotion, balance, motion-tracking or soccer deployments are available; no compatible opponent-targeting attack policy"
+      },
+      {
+        "robot": "Booster K1",
+        "robot_id": "k1",
+        "compatible_deployments": [
+          "bhuman"
+        ],
+        "adversarial_deployments": [],
+        "status": "excluded",
+        "reason": "Only locomotion, balance, motion-tracking or soccer deployments are available; no compatible opponent-targeting attack policy"
+      },
+      {
+        "robot": "Unitree Go1",
+        "robot_id": "go1",
+        "compatible_deployments": [
+          "go1_wtw",
+          "pd_stand"
+        ],
+        "adversarial_deployments": [],
+        "status": "excluded",
+        "reason": "Only locomotion, balance, motion-tracking or soccer deployments are available; no compatible opponent-targeting attack policy"
+      },
+      {
+        "robot": "Unitree B2",
+        "robot_id": "b2",
+        "compatible_deployments": [
+          "b2_robot_lab",
+          "pd_stand"
+        ],
+        "adversarial_deployments": [],
+        "status": "excluded",
+        "reason": "Only locomotion, balance, motion-tracking or soccer deployments are available; no compatible opponent-targeting attack policy"
+      },
+      {
+        "robot": "Unitree Go2-W",
+        "robot_id": "go2w",
+        "compatible_deployments": [
+          "go2w_robot_lab",
+          "pd_stand"
+        ],
+        "adversarial_deployments": [],
+        "status": "excluded",
+        "reason": "Only locomotion, balance, motion-tracking or soccer deployments are available; no compatible opponent-targeting attack policy"
+      },
+      {
+        "robot": "Unitree B2-W",
+        "robot_id": "b2w",
+        "compatible_deployments": [
+          "b2w_robot_lab",
+          "pd_stand"
+        ],
+        "adversarial_deployments": [],
+        "status": "excluded",
+        "reason": "Only locomotion, balance, motion-tracking or soccer deployments are available; no compatible opponent-targeting attack policy"
+      }
+    ]
+  },
+  "created": 1792937220.261173,
+  "stage": "published",
+  "created_restarted_from_error": true,
+  "finished": 1792938925.00911,
+  "vision_match": {
+    "id": "vision-bhuman-k1-3v3",
+    "title": "B-Human K1 3v3 · RGB camera perception",
+    "scene": "MacAcceptance3v3M.ros3 / normal-mode Game3v3M.con",
+    "robots": 6,
+    "teams": [
+      "B-Human",
+      "B-Team"
+    ],
+    "score_start": [
+      2,
+      0
+    ],
+    "score_at_cutoff": [
+      3,
+      0
+    ],
+    "leader_at_cutoff": "red",
+    "official_regulation_completed": false,
+    "sim_seconds": 19.958,
+    "source_video_sha256": "c47a18df55c65db9b92f66e20a25fb19eaa3751bdac12a1fa1d02773d839c828",
+    "video": "/results/tournaments/round-02/videos/vision-bhuman-k1-3v3.mp4",
+    "poster": "/results/tournaments/round-02/videos/vision-bhuman-k1-3v3-poster.jpg",
+    "source_result": "/results/bhuman-native/vision-native-capture-20261025/vision-result.json",
+    "source_match_csv": "/results/bhuman-native/vision-native-capture-20261025/match.csv",
+    "perception": {
+      "camera": "SimRobot CameraColor virtual RGB camera",
+      "controller": "B-Human normal camera-to-percept modules including ECImageProvider and RobotBallPerceptor",
+      "fast_ground_truth_mode": false,
+      "source_configuration": "Game3v3M"
+    },
+    "notes": "Native B-Human scoreboard at the end of the recorded exhibition segment; the 10-minute regulation match continued.",
+    "source_folder": null,
+    "published_folder": "/results/tournaments/round-02/match-data/vision-bhuman-k1-3v3",
+    "source_video": "/results/tournaments/round-02/videos/vision-bhuman-k1-3v3.mp4",
+    "result": "/results/tournaments/round-02/match-data/vision-bhuman-k1-3v3/vision-result.json",
+    "telemetry": "/results/tournaments/round-02/match-data/vision-bhuman-k1-3v3/match.csv"
+  }
+}

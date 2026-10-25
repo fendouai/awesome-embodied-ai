@@ -1,0 +1,281 @@
+[
+  {
+    "repository": "ccrpRepo/wbc_fsm",
+    "commit": "4b9afa27ad4eeab8e95584c67c91275b9831fc4d",
+    "path": "src/FSM/State_MJAmp.cpp",
+    "local": "assets/control-candidates/wbc_fsm/src/FSM/State_MJAmp.cpp",
+    "sha256": "4d7df209c03d64f3a20aaa729eb11ae6256e351b130661c8cb34acf8df4bd59f",
+    "bytes": 12030,
+    "source": "https://raw.githubusercontent.com/ccrpRepo/wbc_fsm/4b9afa27ad4eeab8e95584c67c91275b9831fc4d/src/FSM/State_MJAmp.cpp"
+  },
+  {
+    "repository": "ccrpRepo/wbc_fsm",
+    "commit": "4b9afa27ad4eeab8e95584c67c91275b9831fc4d",
+    "path": "include/FSM/State_MJAmp.h",
+    "local": "assets/control-candidates/wbc_fsm/include/FSM/State_MJAmp.h",
+    "sha256": "0fdc19b8c386816f776eb01264bf34f5b38ad1134490783d50cd5d1a614c2f63",
+    "bytes": 5669,
+    "source": "https://raw.githubusercontent.com/ccrpRepo/wbc_fsm/4b9afa27ad4eeab8e95584c67c91275b9831fc4d/include/FSM/State_MJAmp.h"
+  },
+  {
+    "repository": "ccrpRepo/wbc_fsm",
+    "commit": "4b9afa27ad4eeab8e95584c67c91275b9831fc4d",
+    "path": "config/mjamp.json",
+    "local": "assets/control-candidates/wbc_fsm/config/mjamp.json",
+    "sha256": "66d98ec8a7f7509f42048221c38fa6d089834d7bf6b72d3e867072f207ee53b8",
+    "bytes": 358,
+    "source": "https://raw.githubusercontent.com/ccrpRepo/wbc_fsm/4b9afa27ad4eeab8e95584c67c91275b9831fc4d/config/mjamp.json"
+  },
+  {
+    "repository": "ccrpRepo/wbc_fsm",
+    "commit": "4b9afa27ad4eeab8e95584c67c91275b9831fc4d",
+    "path": "model/loco/Unitree-G1-AMP-Flat_model_30000.onnx",
+    "local": "assets/control-candidates/wbc_fsm/model/loco/Unitree-G1-AMP-Flat_model_30000.onnx",
+    "sha256": "36cfc5d2a4ad8e07621a02f925d47f6a7cca4aa4e8da36d8116d07217b55f0d6",
+    "bytes": 1478878,
+    "source": "https://raw.githubusercontent.com/ccrpRepo/wbc_fsm/4b9afa27ad4eeab8e95584c67c91275b9831fc4d/model/loco/Unitree-G1-AMP-Flat_model_30000.onnx"
+  },
+  {
+    "repository": "ccrpRepo/wbc_fsm",
+    "commit": "4b9afa27ad4eeab8e95584c67c91275b9831fc4d",
+    "path": "README.md",
+    "local": "assets/control-candidates/wbc_fsm/README.md",
+    "sha256": "b22fcaa46757f024e19824416786e1cf33ce7e5e760c88a5b1b1f537b3c83363",
+    "bytes": 5786,
+    "source": "https://raw.githubusercontent.com/ccrpRepo/wbc_fsm/4b9afa27ad4eeab8e95584c67c91275b9831fc4d/README.md"
+  },
+  {
+    "repository": "amazon-far/holosoma",
+    "commit": "c0f88ef361e4badd86f3c2b66ba726891095a759",
+    "path": "src/holosoma_inference/holosoma_cpp/config/inference/g1-29dof-loco.yaml",
+    "local": "assets/control-candidates/holosoma/src/holosoma_inference/holosoma_cpp/config/inference/g1-29dof-loco.yaml",
+    "sha256": "82bc42ced611a9c34a6c7f228770882fd0947bc567266dcb2a6471e17253cdd1",
+    "bytes": 12315,
+    "source": "https://raw.githubusercontent.com/amazon-far/holosoma/c0f88ef361e4badd86f3c2b66ba726891095a759/src/holosoma_inference/holosoma_cpp/config/inference/g1-29dof-loco.yaml"
+  },
+  {
+    "repository": "amazon-far/holosoma",
+    "commit": "c0f88ef361e4badd86f3c2b66ba726891095a759",
+    "path": "src/holosoma_inference/holosoma_inference/models/loco/g1_29dof/fastsac_g1_29dof.onnx",
+    "local": "assets/control-candidates/holosoma/src/holosoma_inference/holosoma_inference/models/loco/g1_29dof/fastsac_g1_29dof.onnx",
+    "sha256": "8346fd90778439395922a8c7256f24125ae84b8dea949128bac9e23c02bc7717",
+    "bytes": 895618,
+    "source": "https://raw.githubusercontent.com/amazon-far/holosoma/c0f88ef361e4badd86f3c2b66ba726891095a759/src/holosoma_inference/holosoma_inference/models/loco/g1_29dof/fastsac_g1_29dof.onnx"
+  },
+  {
+    "repository": "amazon-far/holosoma",
+    "commit": "c0f88ef361e4badd86f3c2b66ba726891095a759",
+    "path": "src/holosoma_inference/holosoma_inference/models/loco/g1_29dof/ppo_g1_29dof.onnx",
+    "local": "assets/control-candidates/holosoma/src/holosoma_inference/holosoma_inference/models/loco/g1_29dof/ppo_g1_29dof.onnx",
+    "sha256": "c9d310f479c2da1e86f468de24f64e102a2a275c14eed0fa341473612d942294",
+    "bytes": 882235,
+    "source": "https://raw.githubusercontent.com/amazon-far/holosoma/c0f88ef361e4badd86f3c2b66ba726891095a759/src/holosoma_inference/holosoma_inference/models/loco/g1_29dof/ppo_g1_29dof.onnx"
+  },
+  {
+    "repository": "amazon-far/holosoma",
+    "commit": "c0f88ef361e4badd86f3c2b66ba726891095a759",
+    "path": "src/holosoma/holosoma/config_values/loco/g1/observation.py",
+    "local": "assets/control-candidates/holosoma/src/holosoma/holosoma/config_values/loco/g1/observation.py",
+    "sha256": "e9119ac57c9a940af12c875275c4cf84fda4ed7eca545f74d9e23ccaa870bd1a",
+    "bytes": 4627,
+    "source": "https://raw.githubusercontent.com/amazon-far/holosoma/c0f88ef361e4badd86f3c2b66ba726891095a759/src/holosoma/holosoma/config_values/loco/g1/observation.py"
+  },
+  {
+    "repository": "amazon-far/holosoma",
+    "commit": "c0f88ef361e4badd86f3c2b66ba726891095a759",
+    "path": "LICENSE",
+    "local": "assets/control-candidates/holosoma/LICENSE",
+    "sha256": "09e8a9bcec8067104652c168685ab0931e7868f9c8284b66f5ae6edae5f1130b",
+    "bytes": 10142,
+    "source": "https://raw.githubusercontent.com/amazon-far/holosoma/c0f88ef361e4badd86f3c2b66ba726891095a759/LICENSE"
+  },
+  {
+    "repository": "NVlabs/GR00T-WholeBodyControl",
+    "commit": "45c03facbf848e0c743091b7d9c17952096ff908",
+    "path": "decoupled_wbc/sim2mujoco/scripts/run_mujoco_gear_wbc.py",
+    "local": "assets/control-candidates/GR00T-WholeBodyControl/decoupled_wbc/sim2mujoco/scripts/run_mujoco_gear_wbc.py",
+    "sha256": "b78dfb546ee250116b3853f96a12f82174aca248808da33caf199ec8e42f82fd",
+    "bytes": 13476,
+    "source": "https://raw.githubusercontent.com/NVlabs/GR00T-WholeBodyControl/45c03facbf848e0c743091b7d9c17952096ff908/decoupled_wbc/sim2mujoco/scripts/run_mujoco_gear_wbc.py"
+  },
+  {
+    "repository": "NVlabs/GR00T-WholeBodyControl",
+    "commit": "45c03facbf848e0c743091b7d9c17952096ff908",
+    "path": "decoupled_wbc/sim2mujoco/resources/robots/g1/g1_gear_wbc.yaml",
+    "local": "assets/control-candidates/GR00T-WholeBodyControl/decoupled_wbc/sim2mujoco/resources/robots/g1/g1_gear_wbc.yaml",
+    "sha256": "31226a224ca8450e89d9ce17d5cb31c052192a9cbfedc8d145f1cb95627ac7a2",
+    "bytes": 1011,
+    "source": "https://raw.githubusercontent.com/NVlabs/GR00T-WholeBodyControl/45c03facbf848e0c743091b7d9c17952096ff908/decoupled_wbc/sim2mujoco/resources/robots/g1/g1_gear_wbc.yaml"
+  },
+  {
+    "repository": "NVlabs/GR00T-WholeBodyControl",
+    "commit": "45c03facbf848e0c743091b7d9c17952096ff908",
+    "path": "decoupled_wbc/control/main/teleop/configs/g1_29dof_gear_wbc.yaml",
+    "local": "assets/control-candidates/GR00T-WholeBodyControl/decoupled_wbc/control/main/teleop/configs/g1_29dof_gear_wbc.yaml",
+    "sha256": "c4878a69277431b7c8b1c18197b16fd41a7328285982885520bad6c0560409a7",
+    "bytes": 12547,
+    "source": "https://raw.githubusercontent.com/NVlabs/GR00T-WholeBodyControl/45c03facbf848e0c743091b7d9c17952096ff908/decoupled_wbc/control/main/teleop/configs/g1_29dof_gear_wbc.yaml"
+  },
+  {
+    "repository": "NVlabs/GR00T-WholeBodyControl",
+    "commit": "45c03facbf848e0c743091b7d9c17952096ff908",
+    "path": "decoupled_wbc/sim2mujoco/resources/robots/g1/policy/GR00T-WholeBodyControl-Balance.onnx",
+    "local": "assets/control-candidates/GR00T-WholeBodyControl/decoupled_wbc/sim2mujoco/resources/robots/g1/policy/GR00T-WholeBodyControl-Balance.onnx",
+    "sha256": "f645da599d4ca3d29ed273c8f4712620bb680d34977469ca3aeabe5bb9631c18",
+    "bytes": 1886682,
+    "source": "https://raw.githubusercontent.com/NVlabs/GR00T-WholeBodyControl/45c03facbf848e0c743091b7d9c17952096ff908/decoupled_wbc/sim2mujoco/resources/robots/g1/policy/GR00T-WholeBodyControl-Balance.onnx"
+  },
+  {
+    "repository": "NVlabs/GR00T-WholeBodyControl",
+    "commit": "45c03facbf848e0c743091b7d9c17952096ff908",
+    "path": "decoupled_wbc/sim2mujoco/resources/robots/g1/policy/GR00T-WholeBodyControl-Walk.onnx",
+    "local": "assets/control-candidates/GR00T-WholeBodyControl/decoupled_wbc/sim2mujoco/resources/robots/g1/policy/GR00T-WholeBodyControl-Walk.onnx",
+    "sha256": "7c82255b6905ffcc4468fa7f8ddcf7b70db168cf1042107ccab887cb6a8e5407",
+    "bytes": 1886682,
+    "source": "https://raw.githubusercontent.com/NVlabs/GR00T-WholeBodyControl/45c03facbf848e0c743091b7d9c17952096ff908/decoupled_wbc/sim2mujoco/resources/robots/g1/policy/GR00T-WholeBodyControl-Walk.onnx"
+  },
+  {
+    "repository": "NVlabs/GR00T-WholeBodyControl",
+    "commit": "45c03facbf848e0c743091b7d9c17952096ff908",
+    "path": "decoupled_wbc/sim2mujoco/resources/robots/g1/policy/NVIDIA Open Model License",
+    "local": "assets/control-candidates/GR00T-WholeBodyControl/decoupled_wbc/sim2mujoco/resources/robots/g1/policy/NVIDIA Open Model License",
+    "sha256": "a0c4f6a35dd2c858c86069d84140052831820e78f3074a2fb758bb4156b66994",
+    "bytes": 10125,
+    "source": "https://raw.githubusercontent.com/NVlabs/GR00T-WholeBodyControl/45c03facbf848e0c743091b7d9c17952096ff908/decoupled_wbc/sim2mujoco/resources/robots/g1/policy/NVIDIA%20Open%20Model%20License"
+  },
+  {
+    "repository": "ccrpRepo/wbc_fsm",
+    "commit": "4b9afa27ad4eeab8e95584c67c91275b9831fc4d",
+    "path": "include/common/mathTools.h",
+    "local": "assets/control-candidates/wbc_fsm/include/common/mathTools.h",
+    "sha256": "d2ca0cff23f3a0c62696359fe55baa572bbb457aab22db1b9080616630c14880",
+    "bytes": 29291,
+    "source": "https://github.com/ccrpRepo/wbc_fsm/blob/4b9afa27ad4eeab8e95584c67c91275b9831fc4d/include/common/mathTools.h"
+  },
+  {
+    "repository": "ccrpRepo/wbc_fsm",
+    "commit": "4b9afa27ad4eeab8e95584c67c91275b9831fc4d",
+    "path": "include/common/mathTypes.h",
+    "local": "assets/control-candidates/wbc_fsm/include/common/mathTypes.h",
+    "sha256": "4311e171242a6f1ea87754446d50896260868d0b8d5de9c9b279931a06d50007",
+    "bytes": 3763,
+    "source": "https://github.com/ccrpRepo/wbc_fsm/blob/4b9afa27ad4eeab8e95584c67c91275b9831fc4d/include/common/mathTypes.h"
+  },
+  {
+    "repository": "amazon-far/holosoma",
+    "commit": "c0f88ef361e4badd86f3c2b66ba726891095a759",
+    "path": "src/holosoma_inference/holosoma_cpp/tests/test_live_policy.cpp",
+    "local": "assets/control-candidates/holosoma/src/holosoma_inference/holosoma_cpp/tests/test_live_policy.cpp",
+    "sha256": "1d7ab9820548fc2d09d14e49a336772ade5fe1136a70eb69bdfa6529695f317b",
+    "bytes": 32863,
+    "source": "https://github.com/amazon-far/holosoma/blob/c0f88ef361e4badd86f3c2b66ba726891095a759/src/holosoma_inference/holosoma_cpp/tests/test_live_policy.cpp"
+  },
+  {
+    "repository": "amazon-far/holosoma",
+    "commit": "c0f88ef361e4badd86f3c2b66ba726891095a759",
+    "path": "src/holosoma_inference/holosoma_cpp/apps/run_policy.cpp",
+    "local": "assets/control-candidates/holosoma/src/holosoma_inference/holosoma_cpp/apps/run_policy.cpp",
+    "sha256": "eeb3a6b311569d31c7b1c677c934296df1291e857a18e0d1091bb508ce5aa052",
+    "bytes": 6696,
+    "source": "https://github.com/amazon-far/holosoma/blob/c0f88ef361e4badd86f3c2b66ba726891095a759/src/holosoma_inference/holosoma_cpp/apps/run_policy.cpp"
+  },
+  {
+    "repository": "amazon-far/holosoma",
+    "commit": "c0f88ef361e4badd86f3c2b66ba726891095a759",
+    "path": "src/holosoma_inference/holosoma_cpp/src/general_wbt_policy.cpp",
+    "local": "assets/control-candidates/holosoma/src/holosoma_inference/holosoma_cpp/src/general_wbt_policy.cpp",
+    "sha256": "9de5e0668707fc12ab57e5b531e7b762475ae797465c0eea8bd69f8f9c48712d",
+    "bytes": 6227,
+    "source": "https://github.com/amazon-far/holosoma/blob/c0f88ef361e4badd86f3c2b66ba726891095a759/src/holosoma_inference/holosoma_cpp/src/general_wbt_policy.cpp"
+  },
+  {
+    "repository": "amazon-far/holosoma",
+    "commit": "c0f88ef361e4badd86f3c2b66ba726891095a759",
+    "path": "src/holosoma_inference/holosoma_cpp/src/wbt_policy.cpp",
+    "local": "assets/control-candidates/holosoma/src/holosoma_inference/holosoma_cpp/src/wbt_policy.cpp",
+    "sha256": "a0e1ab0ba165dc006ef28f6b639da9d0152e5b345d142ba7f233145a188ac12f",
+    "bytes": 16262,
+    "source": "https://github.com/amazon-far/holosoma/blob/c0f88ef361e4badd86f3c2b66ba726891095a759/src/holosoma_inference/holosoma_cpp/src/wbt_policy.cpp"
+  },
+  {
+    "repository": "amazon-far/holosoma",
+    "commit": "c0f88ef361e4badd86f3c2b66ba726891095a759",
+    "path": "src/holosoma_inference/holosoma_cpp/src/locomotion_policy.cpp",
+    "local": "assets/control-candidates/holosoma/src/holosoma_inference/holosoma_cpp/src/locomotion_policy.cpp",
+    "sha256": "4c3e373dd853450a0ff82e0304f59d5abbed29b7457a3f01b7494bd4fd656af9",
+    "bytes": 4044,
+    "source": "https://github.com/amazon-far/holosoma/blob/c0f88ef361e4badd86f3c2b66ba726891095a759/src/holosoma_inference/holosoma_cpp/src/locomotion_policy.cpp"
+  },
+  {
+    "repository": "amazon-far/holosoma",
+    "commit": "c0f88ef361e4badd86f3c2b66ba726891095a759",
+    "path": "src/holosoma_inference/holosoma_cpp/src/observation.cpp",
+    "local": "assets/control-candidates/holosoma/src/holosoma_inference/holosoma_cpp/src/observation.cpp",
+    "sha256": "fcf3477f64a0c180201d7deb393d26c87217444041b354b65269e3d81d50e091",
+    "bytes": 3614,
+    "source": "https://github.com/amazon-far/holosoma/blob/c0f88ef361e4badd86f3c2b66ba726891095a759/src/holosoma_inference/holosoma_cpp/src/observation.cpp"
+  },
+  {
+    "repository": "amazon-far/holosoma",
+    "commit": "c0f88ef361e4badd86f3c2b66ba726891095a759",
+    "path": "src/holosoma_inference/holosoma_cpp/src/policy.cpp",
+    "local": "assets/control-candidates/holosoma/src/holosoma_inference/holosoma_cpp/src/policy.cpp",
+    "sha256": "796648bbe2dcd9047dd1b624cef5501d560c018fbbacac085ae06f1cbde482c8",
+    "bytes": 17185,
+    "source": "https://github.com/amazon-far/holosoma/blob/c0f88ef361e4badd86f3c2b66ba726891095a759/src/holosoma_inference/holosoma_cpp/src/policy.cpp"
+  },
+  {
+    "repository": "amazon-far/holosoma",
+    "commit": "c0f88ef361e4badd86f3c2b66ba726891095a759",
+    "path": "src/holosoma_inference/holosoma_cpp/include/holosoma_cpp/observation.hpp",
+    "local": "assets/control-candidates/holosoma/src/holosoma_inference/holosoma_cpp/include/holosoma_cpp/observation.hpp",
+    "sha256": "8b7e132b12f5aed4c58e39dd86ef6e82b1284bb752636007a1c5717b8ad5427d",
+    "bytes": 2098,
+    "source": "https://github.com/amazon-far/holosoma/blob/c0f88ef361e4badd86f3c2b66ba726891095a759/src/holosoma_inference/holosoma_cpp/include/holosoma_cpp/observation.hpp"
+  },
+  {
+    "repository": "amazon-far/holosoma",
+    "commit": "c0f88ef361e4badd86f3c2b66ba726891095a759",
+    "path": "src/holosoma_inference/holosoma_cpp/include/holosoma_cpp/policy.hpp",
+    "local": "assets/control-candidates/holosoma/src/holosoma_inference/holosoma_cpp/include/holosoma_cpp/policy.hpp",
+    "sha256": "4c0d3271279050da45f6d33dacc18b7c78d5cb4053448c197504edfd13fe1b06",
+    "bytes": 6492,
+    "source": "https://github.com/amazon-far/holosoma/blob/c0f88ef361e4badd86f3c2b66ba726891095a759/src/holosoma_inference/holosoma_cpp/include/holosoma_cpp/policy.hpp"
+  },
+  {
+    "repository": "amazon-far/holosoma",
+    "commit": "c0f88ef361e4badd86f3c2b66ba726891095a759",
+    "path": "src/holosoma_inference/holosoma_cpp/include/holosoma_cpp/general_wbt_policy.hpp",
+    "local": "assets/control-candidates/holosoma/src/holosoma_inference/holosoma_cpp/include/holosoma_cpp/general_wbt_policy.hpp",
+    "sha256": "830c1d19cd03b07eabdbe350b24ee7bd1fd236372f7780686907f7392c8220eb",
+    "bytes": 2013,
+    "source": "https://github.com/amazon-far/holosoma/blob/c0f88ef361e4badd86f3c2b66ba726891095a759/src/holosoma_inference/holosoma_cpp/include/holosoma_cpp/general_wbt_policy.hpp"
+  },
+  {
+    "repository": "amazon-far/holosoma",
+    "commit": "c0f88ef361e4badd86f3c2b66ba726891095a759",
+    "path": "src/holosoma_inference/holosoma_cpp/include/holosoma_cpp/wbt_policy.hpp",
+    "local": "assets/control-candidates/holosoma/src/holosoma_inference/holosoma_cpp/include/holosoma_cpp/wbt_policy.hpp",
+    "sha256": "38eec5cd26038048c72ea486f98c09d75e4d5a86a1f1ae177eaa9a0314c2313f",
+    "bytes": 3231,
+    "source": "https://github.com/amazon-far/holosoma/blob/c0f88ef361e4badd86f3c2b66ba726891095a759/src/holosoma_inference/holosoma_cpp/include/holosoma_cpp/wbt_policy.hpp"
+  },
+  {
+    "repository": "amazon-far/holosoma",
+    "commit": "c0f88ef361e4badd86f3c2b66ba726891095a759",
+    "path": "src/holosoma_inference/holosoma_cpp/include/holosoma_cpp/locomotion_policy.hpp",
+    "local": "assets/control-candidates/holosoma/src/holosoma_inference/holosoma_cpp/include/holosoma_cpp/locomotion_policy.hpp",
+    "sha256": "1459dd37790fa0ad0058e5930dcb3eeae5327d87cf2bed731b047148247d30f4",
+    "bytes": 849,
+    "source": "https://github.com/amazon-far/holosoma/blob/c0f88ef361e4badd86f3c2b66ba726891095a759/src/holosoma_inference/holosoma_cpp/include/holosoma_cpp/locomotion_policy.hpp"
+  },
+  {
+    "repository": "amazon-far/holosoma",
+    "commit": "c0f88ef361e4badd86f3c2b66ba726891095a759",
+    "path": "src/holosoma_inference/holosoma_inference/policies/locomotion.py",
+    "local": "assets/control-candidates/holosoma/src/holosoma_inference/holosoma_inference/policies/locomotion.py",
+    "sha256": "2be0e9cd4438e451b806652bf00cdeba3c175aa3c6354340f16fd9647e6fe610",
+    "bytes": 202,
+    "source": "https://github.com/amazon-far/holosoma/blob/c0f88ef361e4badd86f3c2b66ba726891095a759/src/holosoma_inference/holosoma_inference/policies/locomotion.py"
+  }
+]

@@ -1,0 +1,84 @@
+[
+  {
+    "type": "scoring_contact",
+    "time": 4.037500000000091,
+    "side": 1,
+    "start_time": 3.9000000000000887,
+    "last_time": 3.9375000000000906,
+    "approach_m_s": 1.4143570054747614,
+    "impulse_ns": 25.17619570457898,
+    "peak_normal_force_n": 1288.9048706639915,
+    "target": "opponent_upper_body_composite"
+  },
+  {
+    "type": "scoring_contact",
+    "time": 8.612499999999832,
+    "side": 1,
+    "start_time": 8.491666666666505,
+    "last_time": 8.508333333333171,
+    "approach_m_s": 1.154493243945526,
+    "impulse_ns": 4.2313132870660395,
+    "peak_normal_force_n": 258.24222639159893,
+    "target": "opponent_upper_body_composite"
+  },
+  {
+    "type": "scoring_contact",
+    "time": 8.629166666666498,
+    "side": 0,
+    "start_time": 8.487499999999839,
+    "last_time": 8.524999999999837,
+    "approach_m_s": 2.514880275808374,
+    "impulse_ns": 16.729749249805508,
+    "peak_normal_force_n": 904.01477135354,
+    "target": "opponent_upper_body_composite"
+  },
+  {
+    "type": "down_confirmed",
+    "time": 10.512499999999724,
+    "side": 1,
+    "down_start": 10.262499999999738
+  },
+  {
+    "type": "down_confirmed",
+    "time": 14.062499999999522,
+    "side": 0,
+    "down_start": 13.812499999999536
+  },
+  {
+    "type": "recovery_timeout",
+    "time": 20.26249999999917,
+    "side": 1,
+    "down_duration": 9.999999999999433
+  },
+  {
+    "type": "recovery_timeout",
+    "time": 23.81249999999897,
+    "side": 0,
+    "down_duration": 9.999999999999433
+  },
+  {
+    "type": "match_ended",
+    "time": 23.81249999999897,
+    "winner": null,
+    "reason": "double_recovery_timeout",
+    "kind": "technical_draw",
+    "hardware_damage": false,
+    "competition_rule_result": true,
+    "clean_upper_contacts": [
+      1,
+      2
+    ],
+    "short_window_normal_impulse_ns": [
+      16.729749249805508,
+      29.40750899164502
+    ],
+    "knockdowns": [
+      1,
+      1
+    ],
+    "upright_time_s": [
+      13.308333333332898,
+      9.920833333333091
+    ]
+  }
+]

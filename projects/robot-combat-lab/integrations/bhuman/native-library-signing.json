@@ -1,0 +1,6 @@
+[
+  {
+    "file": "libmujoco.3.3.5.dylib",
+    "action": "local ad-hoc build signing"
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "repository": "bhuman/BHumanCodeRelease",
+    "commit": "2e3374ba896da8288607f9a1881b876642fe18b8",
+    "local": "integrations/bhuman/source",
+    "files": 5170,
+    "bytes": 150947250,
+    "foreign_platform_entries_skipped": 94
+  },
+  {
+    "repository": "bhuman/SimRobot",
+    "commit": "9deb6ae6b2a553211612affb757490736f96bfb3",
+    "local": "integrations/bhuman/source/Util/SimRobot",
+    "files": 2864,
+    "bytes": 52776582,
+    "foreign_platform_entries_skipped": 2281
+  },
+  {
+    "repository": "bhuman/CompiledNN",
+    "commit": "8332c8759f3911e08ded6ac7e088f85620b4c4b5",
+    "local": "integrations/bhuman/source/Util/CompiledNN",
+    "files": 230,
+    "bytes": 4182801,
+    "foreign_platform_entries_skipped": 0
+  },
+  {
+    "repository": "pybind/pybind11",
+    "commit": "0bd8896a4010f2d91b2340570c24fa08606ec406",
+    "local": "integrations/bhuman/source/Util/pybind11",
+    "files": 247,
+    "bytes": 2596969,
+    "foreign_platform_entries_skipped": 0
+  }
+]

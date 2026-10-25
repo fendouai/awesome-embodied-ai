@@ -1,0 +1,219 @@
+[
+  {
+    "page": 1,
+    "url": "https://doc-cdn.unitree.com/static/2026/8/12/b83a8dae535d48d7bb273b47833c958d_2481x3509.png",
+    "local": "research/hardware-failure/official-g1-manual/page-01.png",
+    "sha256": "127b6848fbe3f72b81ba13ab4967f04696e0e05300221664115da6e5df61285f",
+    "bytes": 525602
+  },
+  {
+    "page": 2,
+    "url": "https://doc-cdn.unitree.com/static/2026/8/12/83d8f121fac94ddcbf046d29885361a6_2481x3509.png",
+    "local": "research/hardware-failure/official-g1-manual/page-02.png",
+    "sha256": "853917549d50d24a39d9cce5738338c2273f4acf61be6e9bdc4317b18b32b97c",
+    "bytes": 436714
+  },
+  {
+    "page": 3,
+    "url": "https://doc-cdn.unitree.com/static/2026/8/12/b728cfe273c940d8bfe193c5e979f8cd_2482x3509.png",
+    "local": "research/hardware-failure/official-g1-manual/page-03.png",
+    "sha256": "c09fa68582795cea8f8fedff072e02598f413247ec2495a3cf8bfb2d3488c93b",
+    "bytes": 791244
+  },
+  {
+    "page": 4,
+    "url": "https://doc-cdn.unitree.com/static/2026/8/12/28ac2e45904345308aa82380a390997c_2482x3509.png",
+    "local": "research/hardware-failure/official-g1-manual/page-04.png",
+    "sha256": "6b33b70df319c65fbd3635a04f6f719baa8a5c9604fb4d2c68fd2a4efea7379e",
+    "bytes": 781198
+  },
+  {
+    "page": 5,
+    "url": "https://doc-cdn.unitree.com/static/2026/8/12/20f1617a3d8342029b1ea4ffc63c3514_2481x3509.png",
+    "local": "research/hardware-failure/official-g1-manual/page-05.png",
+    "sha256": "f3dac003949b3ee99119340f6681fa83cc8cf3e481e63d04c0cc1747c09f317f",
+    "bytes": 793255
+  },
+  {
+    "page": 6,
+    "url": "https://doc-cdn.unitree.com/static/2026/8/12/81d76fa75a1742958367e27c7b1fa353_2481x3509.png",
+    "local": "research/hardware-failure/official-g1-manual/page-06.png",
+    "sha256": "f21668fc887f60e33886bf3d67cfd78feec270e52d0fd64dc3b239c5e5e720e1",
+    "bytes": 772247
+  },
+  {
+    "page": 7,
+    "url": "https://doc-cdn.unitree.com/static/2026/8/12/0408a8ee00e84012ba122df3b90ac8d8_2481x3509.png",
+    "local": "research/hardware-failure/official-g1-manual/page-07.png",
+    "sha256": "11ccbf996f63cd6d4f89f6521aba8606e847a4b5d198ef0d3f04bf097fb57a26",
+    "bytes": 512938
+  },
+  {
+    "page": 8,
+    "url": "https://doc-cdn.unitree.com/static/2026/8/12/f7a114d3db4141528d4af07744bab011_2481x3509.png",
+    "local": "research/hardware-failure/official-g1-manual/page-08.png",
+    "sha256": "69027b8a1be955cee2fa20843c3ec7efb38e19925575d6b0168f3ce10105a08e",
+    "bytes": 454364
+  },
+  {
+    "page": 9,
+    "url": "https://doc-cdn.unitree.com/static/2026/8/12/b4559d50b718456e9f927571e68b6938_2482x3509.png",
+    "local": "research/hardware-failure/official-g1-manual/page-09.png",
+    "sha256": "2fa531f22b80895854064cfb8dba17e50bc272d6abe879784bfc3a555eaf88b7",
+    "bytes": 635049
+  },
+  {
+    "page": 10,
+    "url": "https://doc-cdn.unitree.com/static/2026/8/12/68f0406c9a554cd4bcea2aa89b5f0852_2482x3509.png",
+    "local": "research/hardware-failure/official-g1-manual/page-10.png",
+    "sha256": "a8b678bc4821ebb87809501d7613c14a950b3ea2018cbd9a2d3a50cbadbb1815",
+    "bytes": 747319
+  },
+  {
+    "page": 11,
+    "url": "https://doc-cdn.unitree.com/static/2026/8/12/750c7897724843b6aba75fdf4d15f531_2481x3509.png",
+    "local": "research/hardware-failure/official-g1-manual/page-11.png",
+    "sha256": "c89c815a104497592ee72d2b4f20f25236e97b007c54d7225d0b2d3669b61dfa",
+    "bytes": 636064
+  },
+  {
+    "page": 12,
+    "url": "https://doc-cdn.unitree.com/static/2026/8/12/ac5756ea4ba14974ba36e219240d08ad_2481x3509.png",
+    "local": "research/hardware-failure/official-g1-manual/page-12.png",
+    "sha256": "ffc58a18b7d1a89a54ec020617bc5851671f66b2c4894ea9af8f83d558a620be",
+    "bytes": 678656
+  },
+  {
+    "page": 13,
+    "url": "https://doc-cdn.unitree.com/static/2026/8/12/7a3bdf5e185247189189bfff4a9984af_2481x3509.png",
+    "local": "research/hardware-failure/official-g1-manual/page-13.png",
+    "sha256": "051918d9ec99fc6c298b573e62c93c18d541100bf83305a4e2b1c4b64e9d80d0",
+    "bytes": 712630
+  },
+  {
+    "page": 14,
+    "url": "https://doc-cdn.unitree.com/static/2026/8/12/9ba84eb1dffd49b587e549c23eb5e7ab_2482x3508.png",
+    "local": "research/hardware-failure/official-g1-manual/page-14.png",
+    "sha256": "246143395c860552382ccda8ee5f3d04dd6c80d9cb34bc63b9323dda0d771da8",
+    "bytes": 644584
+  },
+  {
+    "page": 15,
+    "url": "https://doc-cdn.unitree.com/static/2026/8/12/9daae109ebd64fc0964b62fad1868bae_2482x3508.png",
+    "local": "research/hardware-failure/official-g1-manual/page-15.png",
+    "sha256": "185f024ed28538e2af424f15656355c7482d62209dbca206636981222939ca5f",
+    "bytes": 675420
+  },
+  {
+    "page": 16,
+    "url": "https://doc-cdn.unitree.com/static/2026/8/12/420a5364832a4afcaa57173c34a47788_2481x3508.png",
+    "local": "research/hardware-failure/official-g1-manual/page-16.png",
+    "sha256": "e1da9e0bcc5db1d1ead55eb8aa695629da23b22ba45b64d524aca68d7d768d41",
+    "bytes": 561103
+  },
+  {
+    "page": 17,
+    "url": "https://doc-cdn.unitree.com/static/2026/8/12/2e01cbebca0c41abb0d026dbca185934_2481x3508.png",
+    "local": "research/hardware-failure/official-g1-manual/page-17.png",
+    "sha256": "60f79f2c3884525569a5bac93bdc26b2ef39df0d123851f4f14f2e0c1f166f6a",
+    "bytes": 608685
+  },
+  {
+    "page": 18,
+    "url": "https://doc-cdn.unitree.com/static/2026/8/12/1ee363317f434abebe8648c1e9d8cabc_2481x3508.png",
+    "local": "research/hardware-failure/official-g1-manual/page-18.png",
+    "sha256": "8eda7035dfc06380bbf50e0db865d34ef73b7386b82dc314d7278be442c2b4b3",
+    "bytes": 443480
+  },
+  {
+    "page": 19,
+    "url": "https://doc-cdn.unitree.com/static/2026/8/12/0a4abafc657f418ba4621cf6f2d086bc_2481x3508.png",
+    "local": "research/hardware-failure/official-g1-manual/page-19.png",
+    "sha256": "c959a656856e5024c206b8dc2467a44eee1d701fe785213ef50fa87f4b056531",
+    "bytes": 1545832
+  },
+  {
+    "page": 20,
+    "url": "https://doc-cdn.unitree.com/static/2026/8/12/0c516fbe0a3e45e3916d7cd305b7771f_2482x3508.png",
+    "local": "research/hardware-failure/official-g1-manual/page-20.png",
+    "sha256": "8642e828628acc804150e1c60f2a2ccce48f2dd0b22778a093b7e4ea82630c43",
+    "bytes": 1392998
+  },
+  {
+    "page": 21,
+    "url": "https://doc-cdn.unitree.com/static/2026/8/12/cb622f3f8993461eb921d13045667726_2482x3508.png",
+    "local": "research/hardware-failure/official-g1-manual/page-21.png",
+    "sha256": "23979a5c3cda16c8fa9252185333b18c222bca0a12e290fb3817b8d0d58373a8",
+    "bytes": 722121
+  },
+  {
+    "page": 22,
+    "url": "https://doc-cdn.unitree.com/static/2026/8/12/31ce839bdcfd4eaa8709267c1f4ed8bd_2481x3508.png",
+    "local": "research/hardware-failure/official-g1-manual/page-22.png",
+    "sha256": "8c0dc8fd8b602154384d97c19b4007714faedf015d6b6cabe9a4590109cacf0a",
+    "bytes": 799673
+  },
+  {
+    "page": 23,
+    "url": "https://doc-cdn.unitree.com/static/2026/8/12/3f864b185b5c4be0b2dfda1b4e6473a6_2481x3508.png",
+    "local": "research/hardware-failure/official-g1-manual/page-23.png",
+    "sha256": "5028cb3b30e41763ef8849ce1fcc5ca8b9e19dc47f622dd118fe0c38a7f695c4",
+    "bytes": 832187
+  },
+  {
+    "page": 24,
+    "url": "https://doc-cdn.unitree.com/static/2026/8/12/7877b5308eb6411886e14e2d69295883_2481x3508.png",
+    "local": "research/hardware-failure/official-g1-manual/page-24.png",
+    "sha256": "2f4be4c91e87e1b18efa92fc26d37484e0cea8bfd5b32c12ee39620dae8bd6c1",
+    "bytes": 552842
+  },
+  {
+    "page": 25,
+    "url": "https://doc-cdn.unitree.com/static/2026/8/12/7ae6b69b60e345e8bcb24a899d47acd7_2481x3508.png",
+    "local": "research/hardware-failure/official-g1-manual/page-25.png",
+    "sha256": "4922e898e99d555ad824c79a7c1a117bbba6e057d58a98abdb0b8f6c9dda5d99",
+    "bytes": 758908
+  },
+  {
+    "page": 26,
+    "url": "https://doc-cdn.unitree.com/static/2026/8/12/c315f0f25d264167bbc7e29da8585924_2482x3508.png",
+    "local": "research/hardware-failure/official-g1-manual/page-26.png",
+    "sha256": "04661589b0fbbc6805870517074cdc2fdf72ab4670e5e3cf99e9986dad502a47",
+    "bytes": 539828
+  },
+  {
+    "page": 27,
+    "url": "https://doc-cdn.unitree.com/static/2026/8/12/ae648bf14d024cae867ca4009c15adc1_2482x3508.png",
+    "local": "research/hardware-failure/official-g1-manual/page-27.png",
+    "sha256": "7a38f7c736dc86f55c36961d300b565a0e0190548b6c0dd09074833d946b4203",
+    "bytes": 621511
+  },
+  {
+    "page": 28,
+    "url": "https://doc-cdn.unitree.com/static/2026/8/12/b4c6ca7dda2d443a870b34f57db001f9_2481x3508.png",
+    "local": "research/hardware-failure/official-g1-manual/page-28.png",
+    "sha256": "a306e9f96151870b16fad472834acaa1285f3f55f0fa12831c2bb6f6a9bb20b5",
+    "bytes": 570525
+  },
+  {
+    "page": 29,
+    "url": "https://doc-cdn.unitree.com/static/2026/8/12/6dff8e9e7af74901812f13a55fb36655_2481x3508.png",
+    "local": "research/hardware-failure/official-g1-manual/page-29.png",
+    "sha256": "a4bddb1cddca6b33ed08d9936755639425618530a6a4056574f42d1d28ad3d58",
+    "bytes": 651878
+  },
+  {
+    "page": 30,
+    "url": "https://doc-cdn.unitree.com/static/2026/8/12/c52530317e544cbb8f191c357e032361_2481x3508.png",
+    "local": "research/hardware-failure/official-g1-manual/page-30.png",
+    "sha256": "4c6c578b330af0078c3f20290152862bb2c524615cecf28c717589be8893c2ca",
+    "bytes": 805837
+  },
+  {
+    "page": 31,
+    "url": "https://doc-cdn.unitree.com/static/2026/8/12/1e482fb7efac4e9bbd7b6510e222f215_2481x3508.png",
+    "local": "research/hardware-failure/official-g1-manual/page-31.png",
+    "sha256": "ae3191774c746f1044f6a208be066261e1fb5a81ca52086a9609c50f5d860a6e",
+    "bytes": 615837
+  }
+]

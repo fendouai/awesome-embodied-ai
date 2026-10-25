@@ -1,0 +1,92 @@
+[
+  {
+    "repository": "Improbable-AI/walk-these-ways",
+    "commit": "0e7236bdc81ce855cbe3d70345a7899452bdeb1c",
+    "path": "LICENSE",
+    "local": "assets/ten-platform/wtw/LICENSE",
+    "git_blob_sha1": "6f5a558a0ad6a7064ce2f68fad684fa49698ee55",
+    "sha256": "7dc66e1919dbcc2b49af464ceac3518b230e0e253d57988d418e23f01ef675b9",
+    "bytes": 1265,
+    "source": "https://raw.githubusercontent.com/Improbable-AI/walk-these-ways/0e7236bdc81ce855cbe3d70345a7899452bdeb1c/LICENSE"
+  },
+  {
+    "repository": "Improbable-AI/walk-these-ways",
+    "commit": "0e7236bdc81ce855cbe3d70345a7899452bdeb1c",
+    "path": "go1_gym/envs/base/legged_robot.py",
+    "local": "assets/ten-platform/wtw/go1_gym/envs/base/legged_robot.py",
+    "git_blob_sha1": "f62ed7808c55bd1695fcf043b028d305f4fd7235",
+    "sha256": "76a2a6471b19776f1be9b12ce332653d6e4a2e963aa5f61adb52681d5d12e9d1",
+    "bytes": 107009,
+    "source": "https://raw.githubusercontent.com/Improbable-AI/walk-these-ways/0e7236bdc81ce855cbe3d70345a7899452bdeb1c/go1_gym/envs/base/legged_robot.py"
+  },
+  {
+    "repository": "Improbable-AI/walk-these-ways",
+    "commit": "0e7236bdc81ce855cbe3d70345a7899452bdeb1c",
+    "path": "go1_gym/envs/base/legged_robot_config.py",
+    "local": "assets/ten-platform/wtw/go1_gym/envs/base/legged_robot_config.py",
+    "git_blob_sha1": "a3b22353d31d7946c9efac2612b677623e7d558a",
+    "sha256": "2f8106d704c88c6e2e78d7d8f8fca8d772d4c891052e88901eb8e318ebcfe1b2",
+    "bytes": 15911,
+    "source": "https://raw.githubusercontent.com/Improbable-AI/walk-these-ways/0e7236bdc81ce855cbe3d70345a7899452bdeb1c/go1_gym/envs/base/legged_robot_config.py"
+  },
+  {
+    "repository": "Improbable-AI/walk-these-ways",
+    "commit": "0e7236bdc81ce855cbe3d70345a7899452bdeb1c",
+    "path": "go1_gym/envs/go1/go1_config.py",
+    "local": "assets/ten-platform/wtw/go1_gym/envs/go1/go1_config.py",
+    "git_blob_sha1": "879203bbbb62c5d9390f3261890ccecb79d58650",
+    "sha256": "e27c69976979839efe70a329f1dd9bc07b88444dac294e4f6dab03045cd7c4d5",
+    "bytes": 3074,
+    "source": "https://raw.githubusercontent.com/Improbable-AI/walk-these-ways/0e7236bdc81ce855cbe3d70345a7899452bdeb1c/go1_gym/envs/go1/go1_config.py"
+  },
+  {
+    "repository": "Improbable-AI/walk-these-ways",
+    "commit": "0e7236bdc81ce855cbe3d70345a7899452bdeb1c",
+    "path": "go1_gym/envs/wrappers/history_wrapper.py",
+    "local": "assets/ten-platform/wtw/go1_gym/envs/wrappers/history_wrapper.py",
+    "git_blob_sha1": "3fb5b613828b310fe032e953d93dc3b7dc86218b",
+    "sha256": "e2836c04d8ae1cad278e17b7063bdfdb287a4dd8a1f2b31b9fdf24ed3701c3af",
+    "bytes": 2690,
+    "source": "https://raw.githubusercontent.com/Improbable-AI/walk-these-ways/0e7236bdc81ce855cbe3d70345a7899452bdeb1c/go1_gym/envs/wrappers/history_wrapper.py"
+  },
+  {
+    "repository": "Improbable-AI/walk-these-ways",
+    "commit": "0e7236bdc81ce855cbe3d70345a7899452bdeb1c",
+    "path": "runs/gait-conditioned-agility/pretrain-v0/train/025417.456545/checkpoints/adaptation_module_latest.jit",
+    "local": "assets/ten-platform/wtw/runs/gait-conditioned-agility/pretrain-v0/train/025417.456545/checkpoints/adaptation_module_latest.jit",
+    "git_blob_sha1": "4513d87792c8f9b00a48911bfc494c17b201326b",
+    "sha256": "f0adb113954058a37d2596282f041a3bb128365558ecf64405bbc1353d5dc1b0",
+    "bytes": 2293501,
+    "source": "https://raw.githubusercontent.com/Improbable-AI/walk-these-ways/0e7236bdc81ce855cbe3d70345a7899452bdeb1c/runs/gait-conditioned-agility/pretrain-v0/train/025417.456545/checkpoints/adaptation_module_latest.jit"
+  },
+  {
+    "repository": "Improbable-AI/walk-these-ways",
+    "commit": "0e7236bdc81ce855cbe3d70345a7899452bdeb1c",
+    "path": "runs/gait-conditioned-agility/pretrain-v0/train/025417.456545/checkpoints/body_latest.jit",
+    "local": "assets/ten-platform/wtw/runs/gait-conditioned-agility/pretrain-v0/train/025417.456545/checkpoints/body_latest.jit",
+    "git_blob_sha1": "952e3fb470c61e9df240ab542e037f4d6f9ce1af",
+    "sha256": "6c14b59ca28550a012de3bf5d21fc7d6aa6b6d38eab4dc31e172519f12a19ece",
+    "bytes": 4980904,
+    "source": "https://raw.githubusercontent.com/Improbable-AI/walk-these-ways/0e7236bdc81ce855cbe3d70345a7899452bdeb1c/runs/gait-conditioned-agility/pretrain-v0/train/025417.456545/checkpoints/body_latest.jit"
+  },
+  {
+    "repository": "Improbable-AI/walk-these-ways",
+    "commit": "0e7236bdc81ce855cbe3d70345a7899452bdeb1c",
+    "path": "runs/gait-conditioned-agility/pretrain-v0/train/025417.456545/parameters.pkl",
+    "local": "assets/ten-platform/wtw/runs/gait-conditioned-agility/pretrain-v0/train/025417.456545/parameters.pkl",
+    "git_blob_sha1": "aa0d7b918d3712fffa76900764b85d09fffa69f8",
+    "sha256": "eeb132fe125fb4a2169315ae4e3f2d1b1c0a7857fdcb48824d6d375a26268e11",
+    "bytes": 484076,
+    "source": "https://raw.githubusercontent.com/Improbable-AI/walk-these-ways/0e7236bdc81ce855cbe3d70345a7899452bdeb1c/runs/gait-conditioned-agility/pretrain-v0/train/025417.456545/parameters.pkl"
+  },
+  {
+    "repository": "Improbable-AI/walk-these-ways",
+    "commit": "0e7236bdc81ce855cbe3d70345a7899452bdeb1c",
+    "path": "scripts/play.py",
+    "local": "assets/ten-platform/wtw/scripts/play.py",
+    "git_blob_sha1": "1b01385722436370e811a7d03cf0d2aaea57b327",
+    "sha256": "655417ee04e37e1367732e45886909ab5e4f6cd1d7eebb578de9b2317ee57db3",
+    "bytes": 5278,
+    "source": "https://raw.githubusercontent.com/Improbable-AI/walk-these-ways/0e7236bdc81ce855cbe3d70345a7899452bdeb1c/scripts/play.py"
+  }
+]

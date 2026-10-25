@@ -1,0 +1,288 @@
+{
+  "robot_count": 6,
+  "control_scheme_count": 8,
+  "deployment_package_count": 12,
+  "robots": [
+    {
+      "id": "g1_full",
+      "name": "Unitree G1",
+      "morphology": "人形",
+      "dof": 29,
+      "tasks": [
+        "tracking",
+        "push",
+        "combat"
+      ],
+      "profile_note": "基础能力使用rev1.0；格斗使用RoboStriker源URDF，两个配置不混排",
+      "video": "/web/integrations.html#robostriker"
+    },
+    {
+      "id": "h1_full",
+      "name": "Unitree H1",
+      "morphology": "人形",
+      "dof": 19,
+      "tasks": [
+        "tracking",
+        "push"
+      ],
+      "profile_note": "原生腿部策略映射到完整本体，上肢由PD保持",
+      "video": null
+    },
+    {
+      "id": "h1_2_full",
+      "name": "Unitree H1-2",
+      "morphology": "人形",
+      "dof": 27,
+      "tasks": [
+        "tracking",
+        "push"
+      ],
+      "profile_note": "无灵巧手配置；腿部策略迁移，上肢PD保持",
+      "video": null
+    },
+    {
+      "id": "go2",
+      "name": "Unitree Go2",
+      "morphology": "四足",
+      "dof": 12,
+      "tasks": [
+        "tracking",
+        "push"
+      ],
+      "profile_note": "Menagerie本体＋rl_sar两套公开权重；CPU/MuJoCo迁移",
+      "video": null
+    },
+    {
+      "id": "a1",
+      "name": "Unitree A1",
+      "morphology": "四足",
+      "dof": 12,
+      "tasks": [
+        "tracking",
+        "push"
+      ],
+      "profile_note": "Menagerie本体＋rl_sar VQ历史策略；CPU/MuJoCo迁移",
+      "video": null
+    },
+    {
+      "id": "k1",
+      "name": "Booster K1",
+      "morphology": "人形",
+      "dof": 22,
+      "tasks": [
+        "soccer"
+      ],
+      "profile_note": "B-Human原生3v3后端，MuJoCo3.3.5；不混入基础能力基准",
+      "video": "/web/integrations.html#bhuman"
+    }
+  ],
+  "controls": [
+    {
+      "id": "unitree_rl_lab",
+      "name": "Unitree RL Lab PPO",
+      "scheme": "ppo",
+      "robots": [
+        "g1_full"
+      ],
+      "tasks": [
+        "tracking",
+        "push"
+      ]
+    },
+    {
+      "id": "unitree_rl_mjlab",
+      "name": "Unitree RL MjLab PPO",
+      "scheme": "ppo",
+      "robots": [
+        "g1_full"
+      ],
+      "tasks": [
+        "tracking",
+        "push"
+      ]
+    },
+    {
+      "id": "holosoma_ppo",
+      "name": "Holosoma PPO",
+      "scheme": "ppo",
+      "robots": [
+        "g1_full"
+      ],
+      "tasks": [
+        "tracking",
+        "push"
+      ]
+    },
+    {
+      "id": "holosoma_fastsac",
+      "name": "Holosoma FastSAC",
+      "scheme": "fastsac",
+      "robots": [
+        "g1_full"
+      ],
+      "tasks": [
+        "tracking",
+        "push"
+      ]
+    },
+    {
+      "id": "amp_recovery",
+      "name": "AMP 行走策略",
+      "scheme": "amp",
+      "robots": [
+        "g1_full"
+      ],
+      "tasks": [
+        "tracking",
+        "push"
+      ]
+    },
+    {
+      "id": "nvidia_wbc",
+      "name": "GR00T WBC Balance/Walk",
+      "scheme": "wbc",
+      "robots": [
+        "g1_full"
+      ],
+      "tasks": [
+        "tracking",
+        "push"
+      ]
+    },
+    {
+      "id": "unitree_full_gym",
+      "name": "Unitree RL Gym PPO 腿部迁移",
+      "scheme": "ppo",
+      "robots": [
+        "h1_full",
+        "h1_2_full"
+      ],
+      "tasks": [
+        "tracking",
+        "push"
+      ]
+    },
+    {
+      "id": "go2_robot_lab",
+      "name": "Go2 Robot Lab PPO",
+      "scheme": "ppo",
+      "robots": [
+        "go2"
+      ],
+      "tasks": [
+        "tracking",
+        "push"
+      ]
+    },
+    {
+      "id": "go2_him",
+      "name": "Go2 HIM 历史与状态估计",
+      "scheme": "him",
+      "robots": [
+        "go2"
+      ],
+      "tasks": [
+        "tracking",
+        "push"
+      ]
+    },
+    {
+      "id": "a1_vq",
+      "name": "A1 VQ 历史编码策略",
+      "scheme": "vq",
+      "robots": [
+        "a1"
+      ],
+      "tasks": [
+        "tracking",
+        "push"
+      ]
+    },
+    {
+      "id": "robostriker_stage3",
+      "name": "RoboStriker Stage3 潜变量格斗",
+      "scheme": "robostriker",
+      "robots": [
+        "g1_full"
+      ],
+      "tasks": [
+        "combat"
+      ],
+      "route": "/web/integrations.html#robostriker"
+    },
+    {
+      "id": "bhuman",
+      "name": "B-Human 分层足球控制",
+      "scheme": "bhuman",
+      "robots": [
+        "k1"
+      ],
+      "tasks": [
+        "soccer"
+      ],
+      "route": "/web/integrations.html#bhuman"
+    },
+    {
+      "id": "pd_stand",
+      "name": "中性关节PD（参考基线）",
+      "scheme": "reference",
+      "robots": [
+        "g1_full",
+        "h1_full",
+        "h1_2_full",
+        "go2",
+        "a1"
+      ],
+      "tasks": [
+        "tracking",
+        "push"
+      ]
+    }
+  ],
+  "schemes": {
+    "ppo": "PPO部署",
+    "fastsac": "FastSAC",
+    "amp": "AMP",
+    "wbc": "GR00T WBC",
+    "him": "HIM状态估计/历史",
+    "vq": "VQ历史编码",
+    "robostriker": "Stage3潜变量格斗",
+    "bhuman": "B-Human分层足球"
+  },
+  "compatibility": {
+    "g1_full": [
+      "nvidia_wbc",
+      "amp_recovery",
+      "holosoma_fastsac",
+      "holosoma_ppo",
+      "unitree_rl_lab",
+      "unitree_rl_mjlab",
+      "pd_stand"
+    ],
+    "h1_full": [
+      "unitree_full_gym",
+      "pd_stand"
+    ],
+    "h1_2_full": [
+      "unitree_full_gym",
+      "pd_stand"
+    ],
+    "go2": [
+      "go2_robot_lab",
+      "go2_him",
+      "pd_stand"
+    ],
+    "a1": [
+      "a1_vq",
+      "pd_stand"
+    ]
+  },
+  "task_labels": {
+    "tracking": "命令跟踪",
+    "push": "标准化抗扰",
+    "combat": "自主格斗",
+    "soccer": "机器人足球"
+  },
+  "counting": "6款实体机器人产品的仿真本体；G1不同URDF和不同权重不重复计数。8类控制方案按部署架构分类，不表示8种不同RL训练算法。PPO权重包归为同类，PD另列参考。NCP数字人不计入机器人数量。",
+  "fairness": "只对同一本体、同一任务、同一随机种子结果做并排比较；原生增益和观测不同，比较的是部署组合，不是隔离训练算法的因果实验。无跨本体综合战力分。"
+}

@@ -1,0 +1,42 @@
+{
+  "app": "integrations/bhuman/source/Build/macOS/SimRobot/Release/SimRobot.app",
+  "frameworks": [
+    {
+      "framework": "QtGui.framework",
+      "relative_link": "../../../../../../../Util/SimRobot/Util/qt/macOS/lib/QtGui.framework"
+    },
+    {
+      "framework": "QtDBus.framework",
+      "relative_link": "../../../../../../../Util/SimRobot/Util/qt/macOS/lib/QtDBus.framework"
+    },
+    {
+      "framework": "QtCore.framework",
+      "relative_link": "../../../../../../../Util/SimRobot/Util/qt/macOS/lib/QtCore.framework"
+    },
+    {
+      "framework": "QtOpenGL.framework",
+      "relative_link": "../../../../../../../Util/SimRobot/Util/qt/macOS/lib/QtOpenGL.framework"
+    },
+    {
+      "framework": "QtOpenGLWidgets.framework",
+      "relative_link": "../../../../../../../Util/SimRobot/Util/qt/macOS/lib/QtOpenGLWidgets.framework"
+    },
+    {
+      "framework": "QtSvgWidgets.framework",
+      "relative_link": "../../../../../../../Util/SimRobot/Util/qt/macOS/lib/QtSvgWidgets.framework"
+    },
+    {
+      "framework": "QtWidgets.framework",
+      "relative_link": "../../../../../../../Util/SimRobot/Util/qt/macOS/lib/QtWidgets.framework"
+    },
+    {
+      "framework": "QtSvg.framework",
+      "relative_link": "../../../../../../../Util/SimRobot/Util/qt/macOS/lib/QtSvg.framework"
+    },
+    {
+      "framework": "QtConcurrent.framework",
+      "relative_link": "../../../../../../../Util/SimRobot/Util/qt/macOS/lib/QtConcurrent.framework"
+    }
+  ],
+  "scope": "NativeMacproject bundle; relative links require keeping the vendored source subtree"
+}

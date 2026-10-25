@@ -1,0 +1,37 @@
+{
+  "repository": "Tencent-RoboticsX/NCP",
+  "sha": "42f9af5ecf179443e7d38dfd65241843d27588c2",
+  "archived": false,
+  "readme_sha256": "82acb54a8123c29f2fbcf65adbb5628dabf376f790dfce72728225694162f7c7",
+  "updated": "2024-03-14T06:42:48Z",
+  "weights_or_data": [
+    {
+      "path": "ncp/data/model/ncp_models/boxing_100.pth",
+      "bytes": 33272435
+    },
+    {
+      "path": "ncp/data/model/ncp_models/boxing_106.pth",
+      "bytes": 33272435
+    },
+    {
+      "path": "ncp/data/model/ncp_models/boxing_prior.pth",
+      "bytes": 22748625
+    },
+    {
+      "path": "ncp/data/model/ncp_models/boxing_tracking.pth",
+      "bytes": 21814539
+    },
+    {
+      "path": "ncp/data/model/ncp_models/ss_prior.pth",
+      "bytes": 27101905
+    },
+    {
+      "path": "ncp/data/model/ncp_models/ss_strike.pth",
+      "bytes": 36063859
+    },
+    {
+      "path": "ncp/data/model/ncp_models/ss_tracking.pth",
+      "bytes": 26283531
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Template only. Not a runnable calibrated robot profile. Each entry must be keyed by exact compiled actuator name and filled from identified/tested hardware data.",
+  "parameters": {
+    "loss_w_per_nm2": null,
+    "capacity_j_per_k": null,
+    "conductance_w_per_k": null,
+    "ambient_c": null,
+    "initial_c": null,
+    "trip_c": null,
+    "reset_c": null,
+    "irreversible_c": null,
+    "irreversible_hold_s": null,
+    "provenance": null,
+    "evidence_status": null
+  },
+  "structural_fracture": "not_modeled",
+  "gearbox_failure": "not_modeled"
+}

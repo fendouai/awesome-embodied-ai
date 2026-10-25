@@ -1,0 +1,51 @@
+[
+  {
+    "type": "down_confirmed",
+    "time": 2.8208333333333684,
+    "side": 1,
+    "down_start": 2.570833333333356
+  },
+  {
+    "type": "down_confirmed",
+    "time": 2.8875000000000384,
+    "side": 0,
+    "down_start": 2.637500000000026
+  },
+  {
+    "type": "recovery_timeout",
+    "time": 12.57083333333294,
+    "side": 1,
+    "down_duration": 9.999999999999584
+  },
+  {
+    "type": "recovery_timeout",
+    "time": 12.637499999999603,
+    "side": 0,
+    "down_duration": 9.999999999999577
+  },
+  {
+    "type": "match_ended",
+    "time": 12.637499999999603,
+    "winner": null,
+    "reason": "double_recovery_timeout",
+    "kind": "technical_draw",
+    "hardware_damage": false,
+    "competition_rule_result": true,
+    "clean_upper_contacts": [
+      0,
+      0
+    ],
+    "short_window_normal_impulse_ns": [
+      0.0,
+      0.0
+    ],
+    "knockdowns": [
+      1,
+      1
+    ],
+    "upright_time_s": [
+      2.2541666666666735,
+      2.2500000000000067
+    ]
+  }
+]
