@@ -4,7 +4,7 @@ from pathlib import Path
 from combatlab.models import ROOT
 from combatlab.engine import sha256,write_json
 rounddir=ROOT/'results/tournaments/round-02';data=json.loads((rounddir/'index.json').read_text());base=rounddir/'match-data';base.mkdir(exist_ok=True);videos=rounddir/'videos';videos.mkdir(exist_ok=True)
-keep=['duel-result.json','duel-rules.json','referee-events.json','duel-verification.json','duel-video.json']
+keep=['result.json','duel-result.json','duel-rules.json','referee-events.json','duel-verification.json','duel-video.json']
 for m in data['matches']:
  source=ROOT/m['folder'];target=base/m['id'];target.mkdir(exist_ok=True)
  for name in keep:
@@ -17,7 +17,7 @@ for m in data['matches']:
  if not target_video.exists():shutil.copy2(source_video,target_video)
  p=source/'duel-poster.jpg';target_poster=videos/(m['id']+'-poster.jpg')
  if p.exists() and not target_poster.exists():shutil.copy2(p,target_poster)
- m['source_folder']=m['folder'];m['published_folder']='/'+str(target.relative_to(ROOT));m['source_video']=m.get('video');m['video']='/'+str(target_video.relative_to(ROOT));m['poster']='/'+str(target_poster.relative_to(ROOT)) if target_poster.exists() else None
+ m['source_folder']=m.get('source_folder',m['folder']);m.setdefault('source_video',m['video']);m['published_folder']='/'+str(target.relative_to(ROOT));m['video']='/'+str(target_video.relative_to(ROOT));m['poster']='/'+str(target_poster.relative_to(ROOT)) if target_poster.exists() else None
  if sha256(target_video)!=m['video_sha256']:raise RuntimeError('video hash mismatch: '+m['id'])
 vision=data['vision_match'];vsource=ROOT/'results/bhuman-native/vision-native-capture-20261025';vtarget=base/'vision-bhuman-k1-3v3';vtarget.mkdir(exist_ok=True)
 for name in ['vision-result.json','match.csv']:

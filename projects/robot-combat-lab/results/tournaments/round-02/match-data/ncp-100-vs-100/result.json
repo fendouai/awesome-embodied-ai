@@ -1,0 +1,118 @@
+{
+  "match_id": "ncp-cpu-1792938492425954000",
+  "track": "ncp_cpu_port",
+  "rated": false,
+  "robots": [
+    "NCP digital humanoid",
+    "NCP digital humanoid"
+  ],
+  "policies": [
+    "ncp_boxing_100",
+    "ncp_boxing_100"
+  ],
+  "duration_s": 57.412500000018724,
+  "result": {
+    "winner": null,
+    "reason": "double_recovery_timeout",
+    "kind": "technical_draw",
+    "time": 57.412500000018724,
+    "hardware_damage": false,
+    "competition_rule_result": true,
+    "clean_upper_contacts": [
+      10,
+      12
+    ],
+    "short_window_normal_impulse_ns": [
+      80.67067902221336,
+      75.23226677684528
+    ],
+    "knockdowns": [
+      1,
+      1
+    ],
+    "upright_time_s": [
+      41.28750000000589,
+      47.04583333334381
+    ]
+  },
+  "seed": 0,
+  "first_contact_s": 2.370833333333346,
+  "contact_duration_s": 7.2625,
+  "contact_impulse_ns": 2173.702838212255,
+  "peak_contact_force_n": 4127.5813456349415,
+  "max_tilt_deg": [
+    101.14163093603729,
+    101.19581986538014
+  ],
+  "positive_mechanical_work_j": [
+    71930.74247583636,
+    82645.16453650473
+  ],
+  "numerical_warnings": 0,
+  "max_torque_limit_violation_nm": 0.0,
+  "external_root_force_peak": 0.0,
+  "adversarial_backend": {
+    "name": "NCP CPU physical character transfer",
+    "validated_reproduction": false,
+    "scripted_strikes": false
+  },
+  "continuous": {
+    "damage_prediction": "not_calibrated"
+  },
+  "physics": {
+    "engine": "MuJoCo",
+    "version": "3.17.0",
+    "timestep_s": 0.004166666666666667,
+    "control_dt_s": 0.03333333333333333,
+    "no_hidden_root_forces": true,
+    "source_engine": "Isaac Gym PhysX"
+  },
+  "archive": {
+    "physics_frames": 13780,
+    "control_frames": 1723,
+    "replay": "Complete integration states, controls, latent code, noise and neural observations"
+  },
+  "wall_time_s": 35.7182252407074,
+  "duel": {
+    "outcome": {
+      "winner": null,
+      "reason": "double_recovery_timeout",
+      "kind": "technical_draw",
+      "time": 57.412500000018724,
+      "hardware_damage": false,
+      "competition_rule_result": true,
+      "clean_upper_contacts": [
+        10,
+        12
+      ],
+      "short_window_normal_impulse_ns": [
+        80.67067902221336,
+        75.23226677684528
+      ],
+      "knockdowns": [
+        1,
+        1
+      ],
+      "upright_time_s": [
+        41.28750000000589,
+        47.04583333334381
+      ]
+    },
+    "rules": {
+      "limit_s": 90.0,
+      "down_confirm_s": 0.25,
+      "recovery_deadline_s": 10.0,
+      "recovery_hold_s": 1.0,
+      "down_tilt_deg": 65.0,
+      "down_height_ratio": 0.55,
+      "upright_tilt_deg": 25.0,
+      "upright_height_ratio": 0.75,
+      "contact_gap_s": 0.1,
+      "impact_window_s": 0.08,
+      "minimum_approach_m_s": 0.25,
+      "minimum_normal_impulse_ns": 0.1,
+      "decision_impulse_margin_ns": 0.5
+    },
+    "complete": true
+  }
+}
