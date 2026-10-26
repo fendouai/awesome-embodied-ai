@@ -29,7 +29,7 @@ class DuelRenderer(BroadcastRenderer):
             d.rounded_rectangle((280,245,1000,480),14,fill='#08131e',outline='#cba76a',width=3)
             d.text((330,263),label,font=font(54,True),fill='#ffce83')
             d.text((330,331),f"FINAL  {o['clean_upper_contacts'][0]} : {o['clean_upper_contacts'][1]}",font=font(38,True),fill='#f1f6ff')
-            d.text((330,387),'CONTACT DECISION / 90 s' if o['kind']=='contact_decision' else o['kind'].upper(),font=font(23,True),fill='#b7d0e2')
+            d.text((330,387),f"CONTACT DECISION / {self.result['duel']['rules']['limit_s']:g} s" if o['kind']=='contact_decision' else o['kind'].upper(),font=font(23,True),fill='#b7d0e2')
             d.text((330,427),'FINAL FRAME HOLD / NOT HARDWARE DAMAGE',font=font(16),fill='#9cb5c8')
         return np.asarray(im)
 

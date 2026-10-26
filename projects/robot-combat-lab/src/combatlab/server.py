@@ -64,7 +64,7 @@ async def duel_run(backend:str):
     with LOCK:
         if tournament_running() or PORT_JOB['state']=='running' or COMPARE_JOB['state']=='running':raise HTTPException(409,'A CPU rollout is already running')
         if shutil.disk_usage(ROOT).free<512*1024**2:raise HTTPException(507,'Storage reserve below 512 MiB; existing evidence has been preserved')
-        PORT_JOB.clear();PORT_JOB.update(state='running',backend=backend,started=time.time(),seconds=90,stage='simulation')
+        PORT_JOB.clear();PORT_JOB.update(state='running',backend=backend,started=time.time(),seconds=180,stage='simulation')
         def run():
             try:
                 script,group=scripts[backend];env={**os.environ,'PYTHONPATH':str(ROOT/'src'),'MUJOCO_GL':'cgl'}
@@ -72,10 +72,11 @@ async def duel_run(backend:str):
                 with log_path.open('w') as log:
                     def execute(args,timeout=1800):
                         subprocess.run([sys.executable,*map(str,args)],cwd=ROOT,env=env,stdout=log,stderr=subprocess.STDOUT,timeout=timeout,check=True)
-                    execute([ROOT/'scripts'/script,'--limit','90'])
+                    execute([ROOT/'scripts'/script,'--limit','180'])
                     latest=json.loads((ROOT/'results'/group/'latest.json').read_text());folder=ROOT/latest['folder']
                     PORT_JOB['stage']='verification';execute([ROOT/'scripts/verify_duel.py',folder])
                     PORT_JOB['stage']='rendering';execute([ROOT/'scripts/render_duel.py',folder])
+                    PORT_JOB['stage']='commentary';execute([ROOT/'scripts/produce_match_commentary.py',folder,folder/'duel-full.mp4'])
                     execute([ROOT/'scripts/publish_duels.py'])
                 PORT_JOB.update(state='completed',stage='published',finished=time.time())
             except Exception as error:PORT_JOB.update(state='error',error=str(error),finished=time.time())

@@ -5,11 +5,13 @@ from pathlib import Path
 import json,subprocess,bisect,gzip
 import numpy as np
 import mujoco
+from functools import lru_cache
 from PIL import Image,ImageDraw,ImageFont
 from .engine import STATE_SPEC,write_json,sha256
 from .storage import load_model
 
 FONT_DIR=Path('/System/Library/Fonts/Supplemental')
+@lru_cache(maxsize=64)
 def font(n,bold=False):
     for path in [FONT_DIR/('Arial Bold.ttf' if bold else 'Arial.ttf'),Path('/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf')]:
         if path.exists():return ImageFont.truetype(str(path),n)
@@ -19,7 +21,13 @@ NAMES={'robostriker_ego':'RoboStriker Stage3 / ego','robostriker_opponent':'Robo
 
 class ReplayRenderer:
     def __init__(self,folder,width=1280,height=720):
-        self.folder=Path(folder);self.m=load_model(self.folder);self.d=mujoco.MjData(self.m);self.raw=np.load(self.folder/'trajectory.npz');self.states=self.raw['integration_states'];self.tele=json.loads((self.folder/'telemetry.json').read_text());self.times=[x['time'] for x in self.tele];self.result=json.loads((self.folder/'result.json').read_text());self.dt=float(self.raw['timestep']);self.start_time=float(self.states[0,0]);self.duration=float(self.states[-1,0]-self.start_time);self.width=width;self.height=height;self.renderer=mujoco.Renderer(self.m,height,width);self.opt=mujoco.MjvOption()
+        self.folder=Path(folder);self.m=load_model(self.folder);
+        if os.environ.get("COMBATLAB_RENDER_LOD")=="1":
+            from .presentation_lod import load_display_model
+            self.m=load_display_model(self.folder)
+            self.m.vis.quality.shadowsize=1024
+            self.m.vis.quality.offsamples=0
+        self.d=mujoco.MjData(self.m);self.raw=np.load(self.folder/'trajectory.npz');self.states=self.raw['integration_states'];self.tele=json.loads((self.folder/'telemetry.json').read_text());self.times=[x['time'] for x in self.tele];self.result=json.loads((self.folder/'result.json').read_text());self.dt=float(self.raw['timestep']);self.start_time=float(self.states[0,0]);self.duration=float(self.states[-1,0]-self.start_time);self.width=width;self.height=height;self.renderer=mujoco.Renderer(self.m,height,width);self.opt=mujoco.MjvOption()
         self.opt.geomgroup[:]=1
         self.push=json.loads((self.folder/'push-result.json').read_text()) if (self.folder/'push-result.json').exists() else None;self.disturbance=np.load(self.folder/'disturbance.npz')['samples'] if (self.folder/'disturbance.npz').exists() else None;self.current_push=np.zeros(3)
         self.cam=mujoco.MjvCamera();self.cam.type=mujoco.mjtCamera.mjCAMERA_FREE

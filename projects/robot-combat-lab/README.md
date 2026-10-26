@@ -1,3 +1,17 @@
+# Round 04 · 完整赛程、中文解说与字幕 / Recorded competition broadcast
+
+本轮包含 **8 场 MuJoCo 对抗、4 场 B-Human RGB 视觉足球**。两赛道采用公开说明的 **180 秒本地比赛窗口**；仿真赛允许真实技术终止或平局。视觉赛通过原生裁判完成开球、进球和终场。
+
+This round includes **8 MuJoCo bouts and 4 B-Human RGB-vision soccer matches**, using declared **180-second local competition windows**. Genuine technical stops and draws are retained. These are local adaptations, not official benchmark reproductions.
+
+- [中文比赛介绍、结果与视频](results/tournaments/round-04/published/README.md) · [English results and videos](results/tournaments/round-04/published/README.en.md)
+- [中文赛制与证据规范](docs/COMPETITION_PROTOCOL.zh-CN.md) · [English protocol](docs/COMPETITION_PROTOCOL.en.md)
+- 本机解说视频入口 / Local broadcast: http://127.0.0.1:8767/web/broadcast.html
+- 每场提供原片、中文配音字幕版、SRT/VTT、解说稿和事件证据；公开包提供解说版及精简证据，完整物理档案与原片保存在本机。
+- 官方参考：RoboStriker 源码时域 50 秒，NCP 500 步约 16.67 秒，HSL 常规比赛两个 600 秒半场。本轮 180 秒为本地适配，不能混称官方赛制。
+
+以下内容包含此前各阶段的历史实验，时长和结果以对应批次为准。
+
 ## 10种机器人与10类控制方案
 
 当前入口：http://127.0.0.1:8767/web/comparison.html 。新增Go1、B2、Go2-W、B2-W，以及WTW隐变量自适应和BeyondMimic参考跟踪。详见reports/ten-platform.html。

@@ -1,0 +1,77 @@
+{
+  "id": "competition-v2",
+  "created": "2026-10-26",
+  "clock": "simulation time; wall time recorded separately",
+  "local": {
+    "boxing": {
+      "limit_seconds": 180,
+      "early_stop": "native local referee technical stoppage or mutual recovery failure",
+      "evaluation": [
+        "valid upper-body hand contact count",
+        "short-window normal impulse",
+        "confirmed falls",
+        "recovery",
+        "upright duration"
+      ],
+      "official_rules": false,
+      "scoring_window_seconds": 180,
+      "recovery_extension_seconds_max": 11,
+      "time_note": "Scoring stops at180s. An already pending recovery count may continue for at most11s without additional scoring."
+    },
+    "visual_soccer": {
+      "period_seconds": 180,
+      "periods": 1,
+      "warmup_seconds": 20,
+      "ready_seconds_max": 45,
+      "set_seconds": 5,
+      "postroll_seconds": 3,
+      "match_count": 4,
+      "evaluation": "native B-Human goals; equal scores are draws",
+      "official_rules": false,
+      "referee": "original automatic referee state machine and goal detection; local duration"
+    }
+  },
+  "source_presets": {
+    "robostriker": {
+      "episode_seconds": 50,
+      "source": "research/adversarial-options/robostriker-source/source/whole_body_tracking/whole_body_tracking/tasks/combat/combat_env_cfg.py",
+      "note": "pinned source training/evaluation horizon, not a human boxing rulebook"
+    },
+    "ncp": {
+      "control_steps": 500,
+      "control_hz": 30,
+      "episode_seconds": 16.6666666667,
+      "source": "https://github.com/Tencent-RoboticsX/NCP/blob/master/ncp/data/cfg/env/humanoid_boxing.yaml",
+      "note": "source force-weighted outcome and fall termination differ from the local contest judge"
+    },
+    "hsl": {
+      "period_seconds": 600,
+      "periods": 2,
+      "source": "https://github.com/RoboCup-HumanoidSoccerLeague/HSL-Rules/blob/main/rules/game.tex",
+      "note": "official duration reference; full regulation compliance also requires matching roster, field and all referee rules"
+    }
+  },
+  "evidence": [
+    "policy and model hashes",
+    "seed and side assignments",
+    "referee version and thresholds",
+    "unaltered source video",
+    "event timeline",
+    "simulation and wall clocks",
+    "result and artifact hashes"
+  ],
+  "narration": {
+    "language": "zh-CN",
+    "voice": "Tingting",
+    "engine": "macOS local speech synthesis",
+    "deliverables": [
+      "original video",
+      "narrated MP4 with burned Chinese subtitles",
+      "SRT",
+      "VTT",
+      "narration text and evidence time references",
+      "narration audio"
+    ],
+    "policy": "only describe events supported by telemetry; preserve real ties, faults and inactivity"
+  }
+}

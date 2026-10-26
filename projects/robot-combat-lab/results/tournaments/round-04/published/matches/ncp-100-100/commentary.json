@@ -1,0 +1,283 @@
+{
+  "commentary_version": 2,
+  "kind": "boxing",
+  "voice": "Tingting",
+  "engine": "macOS local speech synthesis",
+  "language": "zh-CN",
+  "source_video": "original footage retained in local archive",
+  "source_video_sha256": "a8c14777a02fa40b9cd42ae200888230514c643e702c3d921561175a6d389d7f",
+  "video": "ncp-100-100.zh-CN.mp4",
+  "video_sha256": "1b40b2557a37356e0880a03dd766083f693af1391a70572eba2a8d6fbf85527e",
+  "intro_hold_seconds": 15.191854166666667,
+  "outro_extension_seconds": 9.871583666685389,
+  "physics_speed_changed": false,
+  "subtitles": "burned and embedded Chinese captions; external SRT/VTT also supplied",
+  "cues": [
+    {
+      "start": 0.3,
+      "end": 14.491854166666668,
+      "text": "NCP数字人拳击，蓝方模型100，橙方模型100。本场上限180秒。手部接触上身，满足速度和冲量阈值才记分，同时记录倒地与恢复。",
+      "evidence": {
+        "type": "protocol",
+        "kind": "boxing"
+      },
+      "audio": "intro.wav"
+    },
+    {
+      "start": 30.191854166666666,
+      "end": 38.276583333333335,
+      "text": "比赛进行到15秒。有效上身接触，蓝方1次，橙方3次。这一统计区间新增1比3次。",
+      "evidence": {
+        "type": "score_snapshot",
+        "simulation_time": 15.0,
+        "score": [
+          1,
+          3
+        ],
+        "interval_delta": [
+          1,
+          3
+        ]
+      },
+      "audio": "cue-000.wav"
+    },
+    {
+      "start": 56.883520833339546,
+      "end": 61.47410416667288,
+      "text": "蓝方达到倒地确认条件，裁判开始记录恢复过程。",
+      "evidence": {
+        "type": "down_confirmed",
+        "time": 41.69166666667288,
+        "side": 0,
+        "down_start": 41.44166666667268
+      },
+      "audio": "cue-002.wav"
+    },
+    {
+      "start": 62.85435416667763,
+      "end": 67.5316458333443,
+      "text": "橙方达到倒地确认条件，裁判开始记录恢复过程。",
+      "evidence": {
+        "type": "down_confirmed",
+        "time": 47.662500000010965,
+        "side": 1,
+        "down_start": 47.412500000010766
+      },
+      "audio": "cue-003.wav"
+    },
+    {
+      "start": 73.0043541666854,
+      "end": 87.02177083335206,
+      "text": "比赛在57.4秒结束。有效上身接触10比12，双方平局。结果依据是双方恢复失败，技术平局。这些是仿真比赛数据，不能解释成真实硬件损坏。",
+      "evidence": {
+        "type": "match_ended",
+        "outcome": {
+          "winner": null,
+          "reason": "double_recovery_timeout",
+          "kind": "technical_draw",
+          "time": 57.412500000018724,
+          "hardware_damage": false,
+          "competition_rule_result": true,
+          "clean_upper_contacts": [
+            10,
+            12
+          ],
+          "short_window_normal_impulse_ns": [
+            80.67067902221336,
+            75.23226677684528
+          ],
+          "knockdowns": [
+            1,
+            1
+          ],
+          "upright_time_s": [
+            41.28750000000589,
+            47.04583333334381
+          ]
+        }
+      },
+      "audio": "final.wav"
+    }
+  ],
+  "probe": {
+    "streams": [
+      {
+        "index": 0,
+        "codec_name": "h264",
+        "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+        "profile": "High",
+        "codec_type": "video",
+        "codec_tag_string": "avc1",
+        "codec_tag": "0x31637661",
+        "mime_codec_string": "avc1.64001f",
+        "width": 1280,
+        "height": 720,
+        "coded_width": 1280,
+        "coded_height": 720,
+        "has_b_frames": 2,
+        "pix_fmt": "yuv420p",
+        "level": 31,
+        "chroma_location": "left",
+        "field_order": "progressive",
+        "is_avc": "true",
+        "nal_length_size": "4",
+        "id": "0x1",
+        "r_frame_rate": "24/1",
+        "avg_frame_rate": "24/1",
+        "time_base": "1/12288",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 1088000,
+        "duration": "88.541667",
+        "bit_rate": "1010948",
+        "bits_per_raw_sample": "8",
+        "nb_frames": "2125",
+        "extradata_size": 45,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "language": "und",
+          "handler_name": "VideoHandler",
+          "encoder": "Lavc63.1.102 libx264"
+        }
+      },
+      {
+        "index": 1,
+        "codec_name": "aac",
+        "codec_long_name": "AAC (Advanced Audio Coding)",
+        "profile": "LC",
+        "codec_type": "audio",
+        "codec_tag_string": "mp4a",
+        "codec_tag": "0x6134706d",
+        "mime_codec_string": "mp4a.40.2",
+        "sample_fmt": "fltp",
+        "sample_rate": "48000",
+        "channels": 1,
+        "channel_layout": "mono",
+        "bits_per_sample": 0,
+        "initial_padding": 1024,
+        "id": "0x2",
+        "r_frame_rate": "0/0",
+        "avg_frame_rate": "0/0",
+        "time_base": "1/48000",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 4249046,
+        "duration": "88.521792",
+        "bit_rate": "80899",
+        "nb_frames": "4151",
+        "extradata_size": 5,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "language": "und",
+          "handler_name": "SoundHandler"
+        }
+      },
+      {
+        "index": 2,
+        "codec_name": "mov_text",
+        "codec_long_name": "MOV text",
+        "codec_type": "subtitle",
+        "codec_tag_string": "tx3g",
+        "codec_tag": "0x67337874",
+        "id": "0x3",
+        "r_frame_rate": "0/0",
+        "avg_frame_rate": "0/0",
+        "time_base": "1/1000000",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 87022000,
+        "duration": "87.022000",
+        "bit_rate": "56",
+        "nb_frames": "11",
+        "extradata_size": 68,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "language": "zho",
+          "handler_name": "SubtitleHandler"
+        }
+      }
+    ],
+    "format": {
+      "filename": "ncp-100-100.zh-CN.mp4",
+      "nb_streams": 3,
+      "nb_programs": 0,
+      "nb_stream_groups": 0,
+      "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+      "format_long_name": "QuickTime / MOV",
+      "start_time": "0.000000",
+      "duration": "88.541667",
+      "size": "12148530",
+      "bit_rate": "1097655",
+      "probe_score": 100,
+      "tags": {
+        "major_brand": "isom",
+        "minor_version": "512",
+        "compatible_brands": "isomiso2avc1mp41",
+        "encoder": "Lavf63.1.102"
+      }
+    }
+  },
+  "original_metadata_sha256": "d119a7f53b76fe9d672aef851dd2e22b0e8422633b46a2b5a8096dfd8166fb5f",
+  "local_narrated_video_sha256": "1b40b2557a37356e0880a03dd766083f693af1391a70572eba2a8d6fbf85527e",
+  "public_encoding": "H.264 publication derivative at400kbps when original exceeds15MiB; source timing, resolution, audio and captions retained; local master unchanged"
+}

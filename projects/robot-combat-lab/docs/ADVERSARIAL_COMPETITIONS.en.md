@@ -1,3 +1,5 @@
+> Historical archive: this document covers Round 02/03. See [Round 04](../results/tournaments/round-04/published/README.en.md) for the new 180-second local format, results and Mandarin-subtitled recordings.
+
 # Three Robot-Adversarial Tracks: Distinct Rules, Separate Results
 
 The local platform has completed three forms of opponent interaction: learned-policy boxing on Unitree G1, NCP digital-human boxing, and camera-based soccer with B-Human K1 robots. Their bodies, inputs, and judging rules differ, so their results stay in separate groups rather than becoming one cross-task power ranking.

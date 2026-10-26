@@ -9,7 +9,7 @@ from .models import ROOT
 
 @dataclass(frozen=True)
 class DuelRules:
-    limit_s:float=90.
+    limit_s:float=180.
     down_confirm_s:float=.25
     recovery_deadline_s:float=10.
     recovery_hold_s:float=1.

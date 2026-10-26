@@ -1,6 +1,7 @@
 {
   "source_commit": "2e3374ba896da8288607f9a1881b876642fe18b8",
-  "modified_files": [
+  "notes": "Local Mac simulator port. Baseline instrumentation is historical; current competition source/binary hashes are recorded per run.",
+  "baseline_modified_files_20261025": [
     {
       "file": "Make/CMake/CMakeLists.txt",
       "sha256": "0935c2825224ecf4d0d8f8cee1f6f6631518d687c2998a9fbd196af776bd44cc"
@@ -18,13 +19,24 @@
       "sha256": "03587f7edd44790b30462fc0afb80359b0548571833ac6db90ff0c83edb83f35"
     }
   ],
-  "notes": "Desktop Ninja build, acceptance default views,33ms GUI refresh and optional read-only framebuffer/match export. No robot controller, mass, solver or referee rule change.",
-  "visual_exhibition": {
+  "legacy_30_second_exhibition": {
     "period_seconds": 30,
     "rule": "Native B-Human automatic referee timeout leading to STATE_FINISHED",
     "official_regulation": false,
     "normal_camera_perception": true,
     "scene_config": "integrations/bhuman/MacAcceptance3v3M.visual-exhibition.con",
     "reproduction_note": "Apply integrations/bhuman/visual-exhibition-period.patch to the ignored local B-Human source and rebuild SimRobot. Read-only framebuffer and native GameController telemetry hooks remain local."
+  },
+  "competition_v2": {
+    "source_default_period_seconds": 600,
+    "local_period_seconds": 180,
+    "warmup_seconds": 20,
+    "preparation": "native READY/SET/PLAYING transitions",
+    "evaluation": "native soccer goals and finish; matches reset independently",
+    "capture": "read-only framebuffer, referee, ball and player-position logs; monotonic physics-step video clock",
+    "portable_patch": "integrations/bhuman/competition-v2-native.patch",
+    "runtime_hash_record": "results/tournaments/round-04/native-runtime.json",
+    "normal_rgb_camera_perception": true,
+    "official_full_match_claim": false
   }
 }

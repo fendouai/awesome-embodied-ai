@@ -1,0 +1,253 @@
+--- a/Src/Libs/SimulatedRobot/GameController.h
++++ b/Src/Libs/SimulatedRobot/GameController.h
+@@ -97,7 +97,9 @@
+   };
+ 
+   static const int numOfRobots = 2 * MAX_NUM_PLAYERS;
++  // Local vision-exhibition period; the referee still ends the match by its normal timeout rule.
+   static const int halfTime = 600;
++  unsigned localPeriodSeconds = halfTime;
+   static const int readyTime = 45;
+   static const int penaltyKickReadyTime = 30;
+   static const int kickOffTime = 10;
+@@ -165,6 +167,7 @@
+    */
+   void registerSimulatedRobot(int robot, SimulatedRobot& simulatedRobot);
+ 
++  void resetLocalMatch(unsigned periodSeconds, int kickOffSide);
+   bool initial();
+   virtual bool ready(); // overridden by TestGameController
+   bool set();
+--- a/Src/Libs/SimulatedRobot/GameController.cpp
++++ b/Src/Libs/SimulatedRobot/GameController.cpp
+@@ -28,7 +28,7 @@
+   gameControllerData.setPlay = SET_PLAY_NONE;
+   gameControllerData.firstHalf = 1;
+   gameControllerData.kickingTeam = 0; // is initialized in setTeamInfos.
+-  gameControllerData.secsRemaining = halfTime;
++  gameControllerData.secsRemaining = localPeriodSeconds;
+   gameControllerData.secondaryTime = 0;
+   competitionTypeMiddle(5);
+   for(std::size_t i = 0; i < 2; ++i)
+@@ -83,6 +83,22 @@
+   robots[robot].lastPenalty = robots[robot].info->penalty;
+   if(fieldDimensions.xPosOwnPenaltyMark == 0.f)
+     fieldDimensions.load();
++}
++
++void GameController::resetLocalMatch(unsigned periodSeconds, int kickOffSide)
++{
++  localPeriodSeconds = std::max(1u, periodSeconds);
++  initial();
++  timeBeforeCurrentState = 0;
++  gameControllerData.firstHalf = 1;
++  gameControllerData.teams[0].score = gameControllerData.teams[1].score = 0;
++  gameControllerData.secsRemaining = static_cast<int16_t>(localPeriodSeconds);
++  gameControllerData.kickingTeam = gameControllerData.teams[kickOffSide ? 1 : 0].teamNumber;
++  for(int i = 0; i < numOfRobots; ++i)
++    if(robots[i].simulatedRobot && i % MAX_NUM_PLAYERS < gameControllerData.playersPerTeam)
++      robots[i].info->penalty = PENALTY_NONE;
++  resetPenaltyTimes();
++  resetBallContacts();
+ }
+ 
+ bool GameController::initial()
+@@ -709,7 +725,7 @@
+ 
+   auto getRemainingGameTime = [this](bool real)
+   {
+-    const int duration = gameControllerData.gamePhase == GAME_PHASE_NORMAL ? halfTime : penaltyShotTime;
++    const int duration = gameControllerData.gamePhase == GAME_PHASE_NORMAL ? static_cast<int>(localPeriodSeconds) : penaltyShotTime;
+     const int timePlayed = gameControllerData.state == STATE_INITIAL
+                            || ((gameControllerData.state == STATE_READY || gameControllerData.state == STATE_SET)
+                                && (timeBeforeCurrentState == 0))
+--- a/Src/Libs/SimulatedRobot/ConsoleRoboCupCtrl.cpp
++++ b/Src/Libs/SimulatedRobot/ConsoleRoboCupCtrl.cpp
+@@ -23,6 +23,11 @@
+ 
+ #include <SimRobotEditor.h>
+ 
++#include <QDateTime>
++#include <QJsonDocument>
++#include <QJsonObject>
++#include <QFile>
++#include <QTextStream>
+ #include <QDir>
+ #include <QDirIterator>
+ #include <QFileDialog>
+@@ -92,6 +97,14 @@
+     robot->getRobotConsole()->handleConsole("endOfStartScript");
+   for(RemoteConsole* remoteRobot : remoteRobots)
+     remoteRobot->handleConsole("endOfStartScript");
++  // CombatLab acceptance scene opens its visual evidence by default.
++  // This changes presentation only; original soccer and physics logic is retained.
++  if(scenePath.find("MacAcceptance3v3M.ros3") != std::string::npos)
++  {
++    if(SimRobot::Object* field = application->resolveObject("RoboCup"))
++      application->openObject(*field);
++    application->openObject(*consoleView);
++  }
+   return true;
+ }
+ 
+@@ -142,6 +155,101 @@
+   statusText.clear();
+ 
+   RoboCupCtrl::update();
++  // Local exhibition scheduler. Only native referee state transitions are issued.
++  QFile captureRequest(qEnvironmentVariable("BOTSTEST_CAPTURE_REQUEST"));
++  if(captureRequest.open(QIODevice::ReadOnly))
++  {
++    QJsonObject config = QJsonDocument::fromJson(captureRequest.readAll()).object();
++    static QString runId;
++    static int matchNumber = 0, phase = 0;
++    static unsigned phaseStart = 0, sampleTime = 0, matchStart = 0, playingStart = 0;
++    static int lastState = -1, lastRed = -1, lastWhite = -1;
++    static float minBallX = 0.f, maxBallX = 0.f, minBallY = 0.f, maxBallY = 0.f;
++    const unsigned clock = Time::getCurrentSystemTime();
++    const qint64 wall = QDateTime::currentMSecsSinceEpoch();
++    const QString id = config["run_id"].toString();
++    const QString root = config["batch_root"].toString();
++    auto writeJson = [](const QString& path, const QJsonObject& object)
++    {
++      QFile output(path);
++      if(output.open(QIODevice::WriteOnly)) output.write(QJsonDocument(object).toJson());
++    };
++    auto beginMatch = [&]()
++    {
++      const QString directory = root + QString("/vision-%1").arg(matchNumber, 2, 10, QChar('0'));
++      QDir().mkpath(directory + "/frames");
++      config["directory"] = directory;
++      config["start_ms"] = static_cast<double>(wall - 1);
++      config["duration_ms"] = 3600000;
++      config["wall_limit_ms"] = 86400000;
++      config["frame_stride"] = 25;
++      config["frame_format"] = "jpg";
++      config["capture_enabled"] = true;
++      config["match_number"] = matchNumber;
++      config["batch_state"] = "running";
++      gameController.resetLocalMatch(config["period_seconds"].toInt(180), (matchNumber - 1) % 2);
++      phase = 1; phaseStart = matchStart = clock; playingStart = 0;
++      lastState = lastRed = lastWhite = -1;
++      minBallX = maxBallX = minBallY = maxBallY = 0.f;
++      captureRequest.close(); writeJson(captureRequest.fileName(), config);
++    };
++    if(config["batch_enabled"].toBool() && !id.isEmpty() && id != runId)
++    {
++      runId = id; matchNumber = config["start_match"].toInt(1); beginMatch();
++    }
++    if(config["batch_enabled"].toBool() && id == runId && phase > 0 && phase < 4)
++    {
++      GameControllerData state; gameController.getGameControllerData(state);
++      if(phase == 1 && clock - phaseStart >= static_cast<unsigned>(config["warmup_seconds"].toInt(20) * 1000))
++      {
++        gameController.ready(); phase = 2;
++      }
++      Vector2f ball; SimulatedRobot::getAbsoluteBallPosition(ball);
++      minBallX = std::min(minBallX, ball.x()); maxBallX = std::max(maxBallX, ball.x());
++      minBallY = std::min(minBallY, ball.y()); maxBallY = std::max(maxBallY, ball.y());
++      const QString directory = config["directory"].toString();
++      if(clock - sampleTime >= 100 || state.state != lastState)
++      {
++        sampleTime = clock;
++        QFile output(directory + "/telemetry.csv");
++        if(output.open(QIODevice::Append | QIODevice::Text))
++        {
++          QTextStream stream(&output);
++          stream << wall << "," << clock << "," << state.secsRemaining << "," << state.state << "," << state.teams[0].score << "," << state.teams[1].score << "," << ball.x()/1000.f << "," << ball.y()/1000.f;
++          for(ControllerRobot* robot : robots)
++          {
++            Pose2f pose; robot->getRobotConsole()->simulatedRobot->getRobotPose(pose);
++            stream << "," << pose.translation.x()/1000.f << "," << pose.translation.y()/1000.f;
++          }
++          stream << "\n";
++        }
++      }
++      if(state.state != lastState || state.teams[0].score != lastRed || state.teams[1].score != lastWhite)
++      {
++        QFile output(directory + "/events.jsonl");
++        if(output.open(QIODevice::Append))
++        {
++          QJsonObject event{{"wall_ms", static_cast<double>(wall)}, {"sim_ms", static_cast<double>(clock)}, {"state", state.state}, {"red", state.teams[0].score}, {"white", state.teams[1].score}, {"remaining_seconds", state.secsRemaining}};
++          output.write(QJsonDocument(event).toJson(QJsonDocument::Compact) + "\n");
++        }
++        lastState = state.state; lastRed = state.teams[0].score; lastWhite = state.teams[1].score;
++      }
++      if(state.state == STATE_PLAYING && !playingStart) playingStart = clock;
++      if(state.state == STATE_FINISHED && phase == 2) { phase = 3; phaseStart = clock; }
++      if(phase == 3 && clock - phaseStart >= 3000)
++      {
++        QJsonObject result{{"state", "FINISHED"}, {"match_number", matchNumber}, {"period_seconds", config["period_seconds"].toInt(180)}, {"red", state.teams[0].score}, {"white", state.teams[1].score}, {"start_sim_ms", static_cast<double>(matchStart)}, {"playing_start_sim_ms", static_cast<double>(playingStart)}, {"end_sim_ms", static_cast<double>(clock)}, {"ball_span_m", static_cast<double>(std::hypot(maxBallX-minBallX, maxBallY-minBallY)/1000.f)}, {"official_regulation", false}};
++        writeJson(directory + "/native-result.json", result);
++        if(matchNumber < config["match_count"].toInt(4)) { ++matchNumber; beginMatch(); }
++        else
++        {
++          phase = 4; config["capture_enabled"] = false; config["batch_state"] = "complete";
++          captureRequest.close(); writeJson(captureRequest.fileName(), config);
++        }
++      }
++      if(clock == sampleTime) writeJson(root + "/status.json", QJsonObject{{"run_id", id}, {"match_number", matchNumber}, {"phase", phase}, {"referee_state", state.state}, {"remaining_seconds", state.secsRemaining}, {"red", state.teams[0].score}, {"white", state.teams[1].score}, {"sim_ms", static_cast<double>(clock)}, {"wall_ms", static_cast<double>(wall)}, {"batch_state", phase == 4 ? "complete" : "running"}});
++    }
++  }
+ 
+   for(RemoteConsole* remoteRobot : remoteRobots)
+     remoteRobot->update();
+--- a/Util/SimRobot/Src/SimRobotCore3/SimObjectWidget.cpp
++++ b/Util/SimRobot/Src/SimRobotCore3/SimObjectWidget.cpp
+@@ -19,6 +19,14 @@
+ #include "Simulation/Simulation.h"
+ #include "Simulation/Scene.h"
+ 
++#include <mujoco/mujoco.h>
++#include <QOpenGLFunctions>
++#include <QJsonDocument>
++#include <QJsonObject>
++#include <QDateTime>
++#include <QDir>
++#include <QFile>
++#include <QTextStream>
+ #include <QOpenGLContext>
+ #include <QOpenGLFramebufferObject>
+ 
+@@ -100,6 +108,41 @@
+ void SimObjectWidget::paintGL()
+ {
+   objectRenderer.draw();
++  static bool readingFramebuffer = false;
++  if(readingFramebuffer) return;
++  // Optional presentation capture; reads framebuffer only, never physics state.
++  QFile request(qEnvironmentVariable("BOTSTEST_CAPTURE_REQUEST"));
++  if(request.open(QIODevice::ReadOnly))
++  {
++    const QJsonObject config = QJsonDocument::fromJson(request.readAll()).object();
++    const qint64 now = QDateTime::currentMSecsSinceEpoch();
++    const qint64 start = static_cast<qint64>(config["start_ms"].toDouble());
++    const qint64 duration = static_cast<qint64>(config["duration_ms"].toDouble());
++    static QString captureDirectory;
++    static unsigned int firstCaptureStep = 0, lastCaptureStep = 0;
++    const QString requestedDirectory = config["directory"].toString();
++    const unsigned int step = Simulation::simulation->simulationStep;
++    if(now >= start && captureDirectory != requestedDirectory)
++    {
++      captureDirectory = requestedDirectory;
++      firstCaptureStep = lastCaptureStep = step;
++    }
++    if(config["capture_enabled"].toBool(true) && object.getFullName() == "RoboCup" && now >= start && now < start + static_cast<qint64>(config["wall_limit_ms"].toDouble(900000)) &&
++       (step - firstCaptureStep) * 2 < static_cast<unsigned int>(duration) && step - lastCaptureStep >= static_cast<unsigned>(config["frame_stride"].toInt(16)))
++    {
++      lastCaptureStep = step;
++      const QString directory = config["directory"].toString();
++      QDir().mkpath(directory + "/frames");
++      readingFramebuffer = true;
++      QImage image = grabFramebuffer(); // Qt resolves the multisample render target.
++      readingFramebuffer = false;
++      const QString name = QString::number(now) + "." + config["frame_format"].toString("png");
++      image.save(directory + "/frames/" + name, nullptr, 86);
++      QFile index(directory + "/frame-times.csv");
++      if(index.open(QIODevice::Append | QIODevice::Text))
++        QTextStream(&index) << now << "," << name << "," << step * 2. << "," << Simulation::simulation->data->time * 1000. << "\n";
++    }
++  }
+ }
+ 
+ void SimObjectWidget::resizeGL(int width, int height)

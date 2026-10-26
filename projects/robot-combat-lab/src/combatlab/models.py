@@ -81,7 +81,11 @@ def scene_xml(robot_keys:tuple[str,str], timestep=.002, friction=.8)->str:
         orig_asset=copy.deepcopy(src.find('asset'))
         for e in orig_asset:
             if e.tag=='mesh' and not e.get('name'):e.set('name',Path(e.get('file')).stem)
-            if e.get('file'):e.set('file',str((spec.xml.parent/meshdir/e.get('file')).resolve()))
+            if e.get('file'):
+                candidates=[spec.xml.parent/meshdir/e.get('file'),spec.xml.parent/e.get('file')]
+                resolved=next((p.resolve() for p in candidates if p.is_file()),None)
+                if resolved is None:raise FileNotFoundError(f'Model asset not found: {e.get("file")} from {spec.xml}')
+                e.set('file',str(resolved))
         _namespace(orig_asset,prefix)
         for e in orig_asset:asset.append(e)
         default=src.find('default')

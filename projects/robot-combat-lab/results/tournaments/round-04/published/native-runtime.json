@@ -1,0 +1,12 @@
+{
+  "upstream_commit": "2e3374ba896da8288607f9a1881b876642fe18b8",
+  "actual_local_source_and_binary_sha256": {
+    "Src/Libs/SimulatedRobot/GameController.h": "1d87a85cb68059bfc98fc530caadc29a53e8bb8abd3a3b41a37ff48412cb0204",
+    "Src/Libs/SimulatedRobot/GameController.cpp": "54851f3b812272049581fcde38bee32fc41a4b1cfe3a1868d1b8a3dcbf6ad0ac",
+    "Src/Libs/SimulatedRobot/ConsoleRoboCupCtrl.cpp": "f305ef62e74264ab28e974c955f7c01fbdf8769ac1a7c7387c4c179db66bb624",
+    "Util/SimRobot/Src/SimRobotCore3/SimObjectWidget.cpp": "81dfc8c95760eacf50b8f8c7e98830dd631359df4b747937bb46347caa710e28",
+    "Build/macOS/SimRobot/Release/SimRobot.app/Contents/lib/libSimulatedRobot.so": "21ac786667e956198878b41a04d54af995b58c01e779558f1b7f3987ee7ba0b4",
+    "Build/macOS/SimRobot/Release/SimRobot.app/Contents/lib/libSimRobotCore3.so": "0a10496d1c273dee2993c4aa9b16b44c9ad27a869c37b943c529cc193a9f94d2"
+  },
+  "portable_patch_note": "competition-v2-native.patch uses BOTSTEST_CAPTURE_REQUEST environment lookup; the local capture build uses the task-specific request path with identical scheduling and telemetry logic."
+}

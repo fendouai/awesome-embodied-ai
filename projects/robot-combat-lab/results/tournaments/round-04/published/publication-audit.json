@@ -1,0 +1,11 @@
+{
+  "passed": 12,
+  "checks": [
+    "complete decoder pass for each public video",
+    "video,audio and subtitle streams present",
+    "duration differs from local narrated master by less than0.05s",
+    "each video under16MiB",
+    "local narrated masters unchanged"
+  ],
+  "local_master_audit": "audit.json"
+}

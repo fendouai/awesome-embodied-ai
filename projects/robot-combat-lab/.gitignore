@@ -65,6 +65,14 @@ results/tournaments/round-03/videos/*
 !results/tournaments/round-03/videos/*.mp4
 !results/tournaments/round-03/videos/*.jpg
 
+# Compact public narrated showcase; raw production/physics archives stay local.
+!results/tournaments/round-04/
+results/tournaments/round-04/*
+!results/tournaments/round-04/published/
+!results/tournaments/round-04/published/**
+integrations/bhuman/patches/
+research/competition-v2/*.tex
+
 # Keep only source manifests and parameter templates for research; do not vendor article/manual captures.
 research/hardware-failure/*.html
 research/hardware-failure/MotorState_.hpp

@@ -1,0 +1,360 @@
+{
+  "state": "complete",
+  "matches": [
+    {
+      "id": "g1-robostriker_ego-robostriker_ego",
+      "track": "simulation",
+      "score": [
+        41,
+        40
+      ],
+      "outcome": {
+        "winner": 0,
+        "reason": "more_valid_upper_body_contacts",
+        "kind": "contact_decision",
+        "time": 179.9999999999088,
+        "hardware_damage": false,
+        "competition_rule_result": true,
+        "clean_upper_contacts": [
+          41,
+          40
+        ],
+        "short_window_normal_impulse_ns": [
+          270.5988315084719,
+          259.5651463851005
+        ],
+        "knockdowns": [
+          0,
+          0
+        ],
+        "upright_time_s": [
+          179.4549999999088,
+          179.01999999990895
+        ]
+      },
+      "video": "videos/g1-robostriker_ego-robostriker_ego.zh-CN.mp4",
+      "poster": "videos/g1-robostriker_ego-robostriker_ego.jpg",
+      "record": "matches/g1-robostriker_ego-robostriker_ego",
+      "video_sha256": "c3c24e10c63d1e859ac3dfba87b742b346da677109563b23c8c58214fc08120f",
+      "original_video_sha256": "fcebba0b3e309297214e43e02340f775ae4427428c3aacc7a3a943eaeb83e267"
+    },
+    {
+      "id": "g1-robostriker_ego-robostriker_opponent",
+      "track": "simulation",
+      "score": [
+        34,
+        40
+      ],
+      "outcome": {
+        "winner": 1,
+        "reason": "more_valid_upper_body_contacts",
+        "kind": "contact_decision",
+        "time": 179.9999999999088,
+        "hardware_damage": false,
+        "competition_rule_result": true,
+        "clean_upper_contacts": [
+          34,
+          40
+        ],
+        "short_window_normal_impulse_ns": [
+          288.00516896417474,
+          252.09175137822433
+        ],
+        "knockdowns": [
+          0,
+          0
+        ],
+        "upright_time_s": [
+          179.4099999999088,
+          178.91999999990895
+        ]
+      },
+      "video": "videos/g1-robostriker_ego-robostriker_opponent.zh-CN.mp4",
+      "poster": "videos/g1-robostriker_ego-robostriker_opponent.jpg",
+      "record": "matches/g1-robostriker_ego-robostriker_opponent",
+      "video_sha256": "25a1254182079d02256fa53dd5a59f9b9602c95ee64f0c6ed136f9c0b1b2c098",
+      "original_video_sha256": "d3190c0145fe2928629c4efb5fc546568a0dcd03fc284614c0089c1e56bf0cd8"
+    },
+    {
+      "id": "g1-robostriker_opponent-robostriker_ego",
+      "track": "simulation",
+      "score": [
+        28,
+        21
+      ],
+      "outcome": {
+        "winner": null,
+        "reason": "double_recovery_timeout",
+        "kind": "technical_draw",
+        "time": 140.65999999994457,
+        "hardware_damage": false,
+        "competition_rule_result": true,
+        "clean_upper_contacts": [
+          28,
+          21
+        ],
+        "short_window_normal_impulse_ns": [
+          172.73989339273095,
+          141.58353601184405
+        ],
+        "knockdowns": [
+          1,
+          1
+        ],
+        "upright_time_s": [
+          128.8799999999551,
+          125.59999999995804
+        ]
+      },
+      "video": "videos/g1-robostriker_opponent-robostriker_ego.zh-CN.mp4",
+      "poster": "videos/g1-robostriker_opponent-robostriker_ego.jpg",
+      "record": "matches/g1-robostriker_opponent-robostriker_ego",
+      "video_sha256": "4d2973818840c1d077f64e253052f6e34739ee7f3227c279e6adf3794261980e",
+      "original_video_sha256": "687425c7761117b4e56342ce4e4ad770424ed9df3d749018545aeaa3297c8d41"
+    },
+    {
+      "id": "g1-robostriker_opponent-robostriker_opponent",
+      "track": "simulation",
+      "score": [
+        2,
+        2
+      ],
+      "outcome": {
+        "winner": null,
+        "reason": "double_recovery_timeout",
+        "kind": "technical_draw",
+        "time": 21.79499999999995,
+        "hardware_damage": false,
+        "competition_rule_result": true,
+        "clean_upper_contacts": [
+          2,
+          2
+        ],
+        "short_window_normal_impulse_ns": [
+          16.385065111714134,
+          16.384508673569563
+        ],
+        "knockdowns": [
+          1,
+          1
+        ],
+        "upright_time_s": [
+          10.435000000000276,
+          9.875000000000188
+        ]
+      },
+      "video": "videos/g1-robostriker_opponent-robostriker_opponent.zh-CN.mp4",
+      "poster": "videos/g1-robostriker_opponent-robostriker_opponent.jpg",
+      "record": "matches/g1-robostriker_opponent-robostriker_opponent",
+      "video_sha256": "bbcd82732d08b340c5b30c06ba301929d15e0f0c28b88896e6fb23f8d1d14f29",
+      "original_video_sha256": "675eee45aea7462750dfca778f6efb3b22874f65059499b1e99d3b1dfaa5b387"
+    },
+    {
+      "id": "ncp-106-106",
+      "track": "simulation",
+      "score": [
+        0,
+        0
+      ],
+      "outcome": {
+        "winner": null,
+        "reason": "double_recovery_timeout",
+        "kind": "technical_draw",
+        "time": 12.637499999999603,
+        "hardware_damage": false,
+        "competition_rule_result": true,
+        "clean_upper_contacts": [
+          0,
+          0
+        ],
+        "short_window_normal_impulse_ns": [
+          0.0,
+          0.0
+        ],
+        "knockdowns": [
+          1,
+          1
+        ],
+        "upright_time_s": [
+          2.2541666666666735,
+          2.2500000000000067
+        ]
+      },
+      "video": "videos/ncp-106-106.zh-CN.mp4",
+      "poster": "videos/ncp-106-106.jpg",
+      "record": "matches/ncp-106-106",
+      "video_sha256": "da02dd24214d6aa8446467e8a0177dbc6229a43063e431853aec42ee2235adc9",
+      "original_video_sha256": "cd6738e9fe5e18cb99ba31cdbe6d2e32338cf03acb4df7e12e170e697ffe1f36"
+    },
+    {
+      "id": "ncp-106-100",
+      "track": "simulation",
+      "score": [
+        23,
+        27
+      ],
+      "outcome": {
+        "winner": null,
+        "reason": "double_recovery_timeout",
+        "kind": "technical_draw",
+        "time": 149.49166666661287,
+        "hardware_damage": false,
+        "competition_rule_result": true,
+        "clean_upper_contacts": [
+          23,
+          27
+        ],
+        "short_window_normal_impulse_ns": [
+          231.90763484824825,
+          272.2555778794053
+        ],
+        "knockdowns": [
+          1,
+          1
+        ],
+        "upright_time_s": [
+          138.82083333328907,
+          132.82083333329467
+        ]
+      },
+      "video": "videos/ncp-106-100.zh-CN.mp4",
+      "poster": "videos/ncp-106-100.jpg",
+      "record": "matches/ncp-106-100",
+      "video_sha256": "13a3fc0e3f2d5777f53295fc41047207e3055e311656a5136028f0469bd3f2ce",
+      "original_video_sha256": "0c9446d3281fc40dfaffbb6129587cebcb6312c476ac5912ab192de5b3f4915f"
+    },
+    {
+      "id": "ncp-100-106",
+      "track": "simulation",
+      "score": [
+        1,
+        2
+      ],
+      "outcome": {
+        "winner": null,
+        "reason": "double_recovery_timeout",
+        "kind": "technical_draw",
+        "time": 23.81249999999897,
+        "hardware_damage": false,
+        "competition_rule_result": true,
+        "clean_upper_contacts": [
+          1,
+          2
+        ],
+        "short_window_normal_impulse_ns": [
+          16.729749249805508,
+          29.40750899164502
+        ],
+        "knockdowns": [
+          1,
+          1
+        ],
+        "upright_time_s": [
+          13.308333333332898,
+          9.920833333333091
+        ]
+      },
+      "video": "videos/ncp-100-106.zh-CN.mp4",
+      "poster": "videos/ncp-100-106.jpg",
+      "record": "matches/ncp-100-106",
+      "video_sha256": "29241af7b51328974ac6909cf33fed4224977306613fd3efdc8794a2506830f5",
+      "original_video_sha256": "f2aebc4499677657c955d7cf43a9446b9d0538e5c19968f4b4f2d7cd1f0a0fae"
+    },
+    {
+      "id": "ncp-100-100",
+      "track": "simulation",
+      "score": [
+        10,
+        12
+      ],
+      "outcome": {
+        "winner": null,
+        "reason": "double_recovery_timeout",
+        "kind": "technical_draw",
+        "time": 57.412500000018724,
+        "hardware_damage": false,
+        "competition_rule_result": true,
+        "clean_upper_contacts": [
+          10,
+          12
+        ],
+        "short_window_normal_impulse_ns": [
+          80.67067902221336,
+          75.23226677684528
+        ],
+        "knockdowns": [
+          1,
+          1
+        ],
+        "upright_time_s": [
+          41.28750000000589,
+          47.04583333334381
+        ]
+      },
+      "video": "videos/ncp-100-100.zh-CN.mp4",
+      "poster": "videos/ncp-100-100.jpg",
+      "record": "matches/ncp-100-100",
+      "video_sha256": "1b40b2557a37356e0880a03dd766083f693af1391a70572eba2a8d6fbf85527e",
+      "original_video_sha256": "a8c14777a02fa40b9cd42ae200888230514c643e702c3d921561175a6d389d7f"
+    },
+    {
+      "id": "vision-01",
+      "track": "vision",
+      "score": [
+        3,
+        2
+      ],
+      "outcome": "FINISHED",
+      "video": "videos/vision-01.zh-CN.mp4",
+      "poster": "videos/vision-01.jpg",
+      "record": "matches/vision-01",
+      "video_sha256": "58ad4a1570fd4546ae2bfb628e38262b1e21465013a0b1a7ffbad288cfc3cd01",
+      "original_video_sha256": "21c0b6ade4517daa7e40c0a7346b00d3291c1f4633d4360fb08bd8dd776d1812"
+    },
+    {
+      "id": "vision-02",
+      "track": "vision",
+      "score": [
+        0,
+        4
+      ],
+      "outcome": "FINISHED",
+      "video": "videos/vision-02.zh-CN.mp4",
+      "poster": "videos/vision-02.jpg",
+      "record": "matches/vision-02",
+      "video_sha256": "f3371376b7b00beea56c13715bdf06d774fad6bb702ea62adc4bfd3b39bd8132",
+      "original_video_sha256": "533b09c8995c46185b06334600db7fd96a6bf46cd907e7a229b17cc009bce961"
+    },
+    {
+      "id": "vision-03",
+      "track": "vision",
+      "score": [
+        0,
+        2
+      ],
+      "outcome": "FINISHED",
+      "video": "videos/vision-03.zh-CN.mp4",
+      "poster": "videos/vision-03.jpg",
+      "record": "matches/vision-03",
+      "video_sha256": "90910ddc8ef7dc754a3602b8e881180c5ee8c66530aa8de7619e33f1266cb9db",
+      "original_video_sha256": "d899d2aafe4a012d8c58556bbf4ba0ca7bd81001d1f34da45ab11abefa576fe7"
+    },
+    {
+      "id": "vision-04",
+      "track": "vision",
+      "score": [
+        1,
+        3
+      ],
+      "outcome": "FINISHED",
+      "video": "videos/vision-04.zh-CN.mp4",
+      "poster": "videos/vision-04.jpg",
+      "record": "matches/vision-04",
+      "video_sha256": "c704bddb4c7ebddd8db27cef912caf3ff638333a8b0e5a9dbddc3f0b9877762f",
+      "original_video_sha256": "01f8354bdb8575347ea805a15bff9eab3b2ec497a20f1190a2ccfb34e7fc99fd"
+    }
+  ],
+  "originals_retained_locally": true,
+  "full_physics_and_speech_wav_retained_locally": true,
+  "website_kept_local": true
+}

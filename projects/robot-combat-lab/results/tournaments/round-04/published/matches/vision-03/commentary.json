@@ -1,0 +1,403 @@
+{
+  "commentary_version": 2,
+  "kind": "vision",
+  "voice": "Tingting",
+  "engine": "macOS local speech synthesis",
+  "language": "zh-CN",
+  "source_video": "original footage retained in local archive",
+  "source_video_sha256": "d899d2aafe4a012d8c58556bbf4ba0ca7bd81001d1f34da45ab11abefa576fe7",
+  "video": "vision-03.zh-CN.mp4",
+  "video_sha256": "90910ddc8ef7dc754a3602b8e881180c5ee8c66530aa8de7619e33f1266cb9db",
+  "intro_hold_seconds": 14.550166666666666,
+  "outro_extension_seconds": 16.592479166666664,
+  "physics_speed_changed": false,
+  "subtitles": "burned and embedded Chinese captions; external SRT/VTT also supplied",
+  "cues": [
+    {
+      "start": 0.3,
+      "end": 13.850166666666667,
+      "text": "这里是B Human对B Team的三对三视觉足球。六台K1通过相机感知比赛。本场采用180秒本地赛制，完整保留准备、开球、比赛和裁判终局。",
+      "evidence": {
+        "type": "protocol",
+        "kind": "vision"
+      },
+      "audio": "intro.wav"
+    },
+    {
+      "start": 30.717305649717513,
+      "end": 32.90947231638418,
+      "text": "裁判状态进入开球准备。",
+      "evidence": {
+        "time": 16.167138983050847,
+        "remaining_seconds": 180,
+        "state": 2,
+        "score": [
+          0,
+          0
+        ],
+        "native_wall_ms": 1792983350894,
+        "native_sim_ms": 355372
+      },
+      "audio": "cue-001.wav"
+    },
+    {
+      "start": 35.712738095238095,
+      "end": 37.97457142857143,
+      "text": "裁判状态进入比赛进行。",
+      "evidence": {
+        "time": 21.16257142857143,
+        "remaining_seconds": 180,
+        "state": 3,
+        "score": [
+          0,
+          0
+        ],
+        "native_wall_ms": 1792983370042,
+        "native_sim_ms": 360372
+      },
+      "audio": "cue-002.wav"
+    },
+    {
+      "start": 59.55016666666667,
+      "end": 64.82900000000001,
+      "text": "当前比分，红队0比白队0。裁判记录剩余157秒。",
+      "evidence": {
+        "time": 44.158250980392154,
+        "remaining_seconds": 157,
+        "state": 3,
+        "score": [
+          0,
+          0
+        ],
+        "native_wall_ms": 1792983474144,
+        "native_sim_ms": 383372
+      },
+      "audio": "cue-003.wav"
+    },
+    {
+      "start": 100.45870941759604,
+      "end": 103.88952191759604,
+      "text": "原生裁判更新比分，红队0比白队1。",
+      "evidence": {
+        "time": 85.90854275092937,
+        "remaining_seconds": 116,
+        "state": 1,
+        "score": [
+          0,
+          1
+        ],
+        "native_wall_ms": 1792983712428,
+        "native_sim_ms": 425124
+      },
+      "audio": "cue-005.wav"
+    },
+    {
+      "start": 123.41454504504505,
+      "end": 125.60671171171171,
+      "text": "裁判状态进入开球准备。",
+      "evidence": {
+        "time": 108.86437837837838,
+        "remaining_seconds": 93,
+        "state": 2,
+        "score": [
+          0,
+          1
+        ],
+        "native_wall_ms": 1792983837614,
+        "native_sim_ms": 448074
+      },
+      "audio": "cue-007.wav"
+    },
+    {
+      "start": 128.41444147582698,
+      "end": 130.6762748091603,
+      "text": "裁判状态进入比赛进行。",
+      "evidence": {
+        "time": 113.8642748091603,
+        "remaining_seconds": 88,
+        "state": 3,
+        "score": [
+          0,
+          1
+        ],
+        "native_wall_ms": 1792983863057,
+        "native_sim_ms": 453074
+      },
+      "audio": "cue-008.wav"
+    },
+    {
+      "start": 168.05040374873352,
+      "end": 171.50442458206686,
+      "text": "原生裁判更新比分，红队0比白队2。",
+      "evidence": {
+        "time": 153.50023708206686,
+        "remaining_seconds": 48,
+        "state": 1,
+        "score": [
+          0,
+          2
+        ],
+        "native_wall_ms": 1792984139045,
+        "native_sim_ms": 492710
+      },
+      "audio": "cue-011.wav"
+    },
+    {
+      "start": 188.36171839080458,
+      "end": 190.55388505747126,
+      "text": "裁判状态进入开球准备。",
+      "evidence": {
+        "time": 173.81155172413793,
+        "remaining_seconds": 28,
+        "state": 2,
+        "score": [
+          0,
+          2
+        ],
+        "native_wall_ms": 1792984260448,
+        "native_sim_ms": 513016
+      },
+      "audio": "cue-013.wav"
+    },
+    {
+      "start": 193.3574503546099,
+      "end": 195.61928368794324,
+      "text": "裁判状态进入比赛进行。",
+      "evidence": {
+        "time": 178.80728368794325,
+        "remaining_seconds": 23,
+        "state": 3,
+        "score": [
+          0,
+          2
+        ],
+        "native_wall_ms": 1792984290744,
+        "native_sim_ms": 518016
+      },
+      "audio": "cue-014.wav"
+    },
+    {
+      "start": 199.55016666666666,
+      "end": 204.29493749999997,
+      "text": "当前比分，红队0比白队2。裁判记录剩余17秒。",
+      "evidence": {
+        "time": 184.20681944444445,
+        "remaining_seconds": 17,
+        "state": 3,
+        "score": [
+          0,
+          2
+        ],
+        "native_wall_ms": 1792984318199,
+        "native_sim_ms": 523416
+      },
+      "audio": "cue-015.wav"
+    },
+    {
+      "start": 219.07516666666666,
+      "end": 233.76764583333332,
+      "text": "原生裁判已经结束本场比赛，最终红队0比白队2，白队获胜。记录到了足球的位置变化。本场采用180秒本地赛制，完整官方比赛通常包含两个十分钟半场。",
+      "evidence": {
+        "type": "native_referee_finished",
+        "result": {
+          "ball_span_m": 15.919037460176416,
+          "end_sim_ms": 543372,
+          "match_number": 3,
+          "official_regulation": false,
+          "period_seconds": 180,
+          "playing_start_sim_ms": 360372,
+          "red": 0,
+          "start_sim_ms": 319204,
+          "state": "FINISHED",
+          "white": 2
+        }
+      },
+      "audio": "final.wav"
+    }
+  ],
+  "probe": {
+    "streams": [
+      {
+        "index": 0,
+        "codec_name": "h264",
+        "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+        "profile": "High",
+        "codec_type": "video",
+        "codec_tag_string": "avc1",
+        "codec_tag": "0x31637661",
+        "mime_codec_string": "avc1.64001f",
+        "width": 1280,
+        "height": 720,
+        "coded_width": 1280,
+        "coded_height": 720,
+        "has_b_frames": 2,
+        "sample_aspect_ratio": "1:1",
+        "display_aspect_ratio": "16:9",
+        "pix_fmt": "yuvj420p",
+        "level": 31,
+        "color_range": "pc",
+        "color_space": "bt470bg",
+        "chroma_location": "left",
+        "field_order": "progressive",
+        "is_avc": "true",
+        "nal_length_size": "4",
+        "id": "0x1",
+        "r_frame_rate": "24/1",
+        "avg_frame_rate": "24/1",
+        "time_base": "1/12288",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 2891264,
+        "duration": "235.291667",
+        "bit_rate": "135995",
+        "bits_per_raw_sample": "8",
+        "nb_frames": "5647",
+        "extradata_size": 48,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "language": "und",
+          "handler_name": "VideoHandler",
+          "encoder": "Lavc63.1.102 libx264"
+        }
+      },
+      {
+        "index": 1,
+        "codec_name": "aac",
+        "codec_long_name": "AAC (Advanced Audio Coding)",
+        "profile": "LC",
+        "codec_type": "audio",
+        "codec_tag_string": "mp4a",
+        "codec_tag": "0x6134706d",
+        "mime_codec_string": "mp4a.40.2",
+        "sample_fmt": "fltp",
+        "sample_rate": "48000",
+        "channels": 1,
+        "channel_layout": "mono",
+        "bits_per_sample": 0,
+        "initial_padding": 1024,
+        "id": "0x2",
+        "r_frame_rate": "0/0",
+        "avg_frame_rate": "0/0",
+        "time_base": "1/48000",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 11292845,
+        "duration": "235.267604",
+        "bit_rate": "34218",
+        "nb_frames": "11030",
+        "extradata_size": 5,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "language": "und",
+          "handler_name": "SoundHandler"
+        }
+      },
+      {
+        "index": 2,
+        "codec_name": "mov_text",
+        "codec_long_name": "MOV text",
+        "codec_type": "subtitle",
+        "codec_tag_string": "tx3g",
+        "codec_tag": "0x67337874",
+        "id": "0x3",
+        "r_frame_rate": "0/0",
+        "avg_frame_rate": "0/0",
+        "time_base": "1/1000000",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 233768000,
+        "duration": "233.768000",
+        "bit_rate": "28",
+        "nb_frames": "25",
+        "extradata_size": 68,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "language": "zho",
+          "handler_name": "SubtitleHandler"
+        }
+      }
+    ],
+    "format": {
+      "filename": "vision-03.zh-CN.mp4",
+      "nb_streams": 3,
+      "nb_programs": 0,
+      "nb_stream_groups": 0,
+      "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+      "format_long_name": "QuickTime / MOV",
+      "start_time": "0.000000",
+      "duration": "235.291667",
+      "size": "5172815",
+      "bit_rate": "175877",
+      "probe_score": 100,
+      "tags": {
+        "major_brand": "isom",
+        "minor_version": "512",
+        "compatible_brands": "isomiso2avc1mp41",
+        "encoder": "Lavf63.1.102"
+      }
+    }
+  },
+  "original_metadata_sha256": "0dbc995935b98197710b836e42816c3b965837c43e34fad710033fce5398b47e",
+  "local_narrated_video_sha256": "90910ddc8ef7dc754a3602b8e881180c5ee8c66530aa8de7619e33f1266cb9db",
+  "public_encoding": "H.264 publication derivative at400kbps when original exceeds15MiB; source timing, resolution, audio and captions retained; local master unchanged"
+}

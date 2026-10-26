@@ -1,0 +1,253 @@
+{
+  "commentary_version": 2,
+  "kind": "boxing",
+  "voice": "Tingting",
+  "engine": "macOS local speech synthesis",
+  "language": "zh-CN",
+  "source_video": "original footage retained in local archive",
+  "source_video_sha256": "cd6738e9fe5e18cb99ba31cdbe6d2e32338cf03acb4df7e12e170e697ffe1f36",
+  "video": "ncp-106-106.zh-CN.mp4",
+  "video_sha256": "da02dd24214d6aa8446467e8a0177dbc6229a43063e431853aec42ee2235adc9",
+  "intro_hold_seconds": 15.923270833333333,
+  "outro_extension_seconds": 9.516728833332937,
+  "physics_speed_changed": false,
+  "subtitles": "burned and embedded Chinese captions; external SRT/VTT also supplied",
+  "cues": [
+    {
+      "start": 0.3,
+      "end": 15.223270833333334,
+      "text": "NCP数字人拳击，蓝方模型106，橙方模型106。本场上限180秒。手部接触上身，满足速度和冲量阈值才记分，同时记录倒地与恢复。",
+      "evidence": {
+        "type": "protocol",
+        "kind": "boxing"
+      },
+      "audio": "intro.wav"
+    },
+    {
+      "start": 18.744104166666702,
+      "end": 23.42139583333337,
+      "text": "橙方达到倒地确认条件，裁判开始记录恢复过程。",
+      "evidence": {
+        "type": "down_confirmed",
+        "time": 2.8208333333333684,
+        "side": 1,
+        "down_start": 2.570833333333356
+      },
+      "audio": "cue-000.wav"
+    },
+    {
+      "start": 28.960770833332937,
+      "end": 42.60666666666627,
+      "text": "比赛在12.6秒结束。有效上身接触0比0，双方平局。结果依据是双方恢复失败，技术平局。这些是仿真比赛数据，不能解释成真实硬件损坏。",
+      "evidence": {
+        "type": "match_ended",
+        "outcome": {
+          "winner": null,
+          "reason": "double_recovery_timeout",
+          "kind": "technical_draw",
+          "time": 12.637499999999603,
+          "hardware_damage": false,
+          "competition_rule_result": true,
+          "clean_upper_contacts": [
+            0,
+            0
+          ],
+          "short_window_normal_impulse_ns": [
+            0.0,
+            0.0
+          ],
+          "knockdowns": [
+            1,
+            1
+          ],
+          "upright_time_s": [
+            2.2541666666666735,
+            2.2500000000000067
+          ]
+        }
+      },
+      "audio": "final.wav"
+    }
+  ],
+  "probe": {
+    "streams": [
+      {
+        "index": 0,
+        "codec_name": "h264",
+        "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+        "profile": "High",
+        "codec_type": "video",
+        "codec_tag_string": "avc1",
+        "codec_tag": "0x31637661",
+        "mime_codec_string": "avc1.64001f",
+        "width": 1280,
+        "height": 720,
+        "coded_width": 1280,
+        "coded_height": 720,
+        "has_b_frames": 2,
+        "pix_fmt": "yuv420p",
+        "level": 31,
+        "chroma_location": "left",
+        "field_order": "progressive",
+        "is_avc": "true",
+        "nal_length_size": "4",
+        "id": "0x1",
+        "r_frame_rate": "24/1",
+        "avg_frame_rate": "24/1",
+        "time_base": "1/12288",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 541696,
+        "duration": "44.083333",
+        "bit_rate": "311580",
+        "bits_per_raw_sample": "8",
+        "nb_frames": "1058",
+        "extradata_size": 45,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "language": "und",
+          "handler_name": "VideoHandler",
+          "encoder": "Lavc63.1.102 libx264"
+        }
+      },
+      {
+        "index": 1,
+        "codec_name": "aac",
+        "codec_long_name": "AAC (Advanced Audio Coding)",
+        "profile": "LC",
+        "codec_type": "audio",
+        "codec_tag_string": "mp4a",
+        "codec_tag": "0x6134706d",
+        "mime_codec_string": "mp4a.40.2",
+        "sample_fmt": "fltp",
+        "sample_rate": "48000",
+        "channels": 1,
+        "channel_layout": "mono",
+        "bits_per_sample": 0,
+        "initial_padding": 1024,
+        "id": "0x2",
+        "r_frame_rate": "0/0",
+        "avg_frame_rate": "0/0",
+        "time_base": "1/48000",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 2117120,
+        "duration": "44.106667",
+        "bit_rate": "101391",
+        "nb_frames": "2069",
+        "extradata_size": 5,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "language": "und",
+          "handler_name": "SoundHandler"
+        }
+      },
+      {
+        "index": 2,
+        "codec_name": "mov_text",
+        "codec_long_name": "MOV text",
+        "codec_type": "subtitle",
+        "codec_tag_string": "tx3g",
+        "codec_tag": "0x67337874",
+        "id": "0x3",
+        "r_frame_rate": "0/0",
+        "avg_frame_rate": "0/0",
+        "time_base": "1/1000000",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 42607000,
+        "duration": "42.607000",
+        "bit_rate": "81",
+        "nb_frames": "7",
+        "extradata_size": 68,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "language": "zho",
+          "handler_name": "SubtitleHandler"
+        }
+      }
+    ],
+    "format": {
+      "filename": "ncp-106-106.zh-CN.mp4",
+      "nb_streams": 3,
+      "nb_programs": 0,
+      "nb_stream_groups": 0,
+      "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+      "format_long_name": "QuickTime / MOV",
+      "start_time": "0.000000",
+      "duration": "44.106667",
+      "size": "2309316",
+      "bit_rate": "418860",
+      "probe_score": 100,
+      "tags": {
+        "major_brand": "isom",
+        "minor_version": "512",
+        "compatible_brands": "isomiso2avc1mp41",
+        "encoder": "Lavf63.1.102"
+      }
+    }
+  },
+  "original_metadata_sha256": "a7aee2bc2cfb6e0728f1c6fb8955a3324533809927080e05b2afdc493d2b92d1",
+  "local_narrated_video_sha256": "da02dd24214d6aa8446467e8a0177dbc6229a43063e431853aec42ee2235adc9",
+  "public_encoding": "H.264 publication derivative at400kbps when original exceeds15MiB; source timing, resolution, audio and captions retained; local master unchanged"
+}
