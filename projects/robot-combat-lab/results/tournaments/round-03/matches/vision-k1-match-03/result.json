@@ -1,0 +1,62 @@
+{
+  "match_id": "vision-k1-match-03",
+  "competition": "B-Human K1 3v3 visual soccer exhibition",
+  "state": "FINISHED",
+  "completed_by_native_referee": true,
+  "period_seconds": 30,
+  "score": {
+    "red": 0,
+    "white": 0,
+    "source": "native B-Human GameController telemetry"
+  },
+  "winner": "draw",
+  "teams": {
+    "red": "B-Human",
+    "white": "B-Team"
+  },
+  "robots": {
+    "model": "Booster K1",
+    "count": 6,
+    "format": "3v3"
+  },
+  "perception": {
+    "camera": "SimRobot CameraColor virtual RGB",
+    "mode": "B-Human normal CameraImage/ECImage/RobotBallPerceptor pipeline",
+    "fast_truth_mode": false
+  },
+  "native_simulator": "B-Human SimRobot Core3 / MuJoCo",
+  "source_frames": 811,
+  "unique_source_frames": 811,
+  "source_simulation_duration_seconds": 33.208,
+  "source_wall_duration_seconds": 113.119,
+  "source_physics_clock_start_ms": 38.0,
+  "source_physics_clock_end_ms": 33246.0,
+  "temporal_interpolation": false,
+  "video": "/results/tournaments/round-03/videos/vision-bhuman-k1-3v3-match-03.mp4",
+  "poster": "/results/tournaments/round-03/videos/vision-bhuman-k1-3v3-match-03-poster.jpg",
+  "video_sha256": "ceba5124d71bd61049b55d197a9f7996b6da18298c0f4e7226c5e9cd23f62067",
+  "limitations": [
+    "30-second local exhibition period; not the official ten-minute B-Human half",
+    "K1 visual soccer score is not comparable to MuJoCo boxing scores"
+  ],
+  "video_probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "width": 1280,
+        "height": 720,
+        "avg_frame_rate": "30/1",
+        "nb_frames": "1057"
+      }
+    ],
+    "format": {
+      "duration": "35.233333"
+    }
+  },
+  "number": 3,
+  "result": "/results/tournaments/round-03/matches/vision-k1-match-03/result.json",
+  "native_telemetry": "/results/tournaments/round-03/matches/vision-k1-match-03/match.csv",
+  "native_telemetry_rows": 2497
+}

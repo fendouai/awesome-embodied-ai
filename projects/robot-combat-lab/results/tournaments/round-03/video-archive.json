@@ -1,0 +1,33 @@
+{
+  "method": "Native SimRobot RGB framebuffer video; native referee telemetry archived per match",
+  "videos": [
+    {
+      "match": "vision-k1-match-01",
+      "video": "/results/tournaments/round-03/videos/vision-bhuman-k1-3v3-match-01.mp4",
+      "poster": "/results/tournaments/round-03/videos/vision-bhuman-k1-3v3-match-01-poster.jpg",
+      "sha256": "956babed0401a4deab225eaffb8c1f37b5b0805cf052e1433f95e5e97f70b9bd",
+      "bytes": 704202
+    },
+    {
+      "match": "vision-k1-match-02",
+      "video": "/results/tournaments/round-03/videos/vision-bhuman-k1-3v3-match-02.mp4",
+      "poster": "/results/tournaments/round-03/videos/vision-bhuman-k1-3v3-match-02-poster.jpg",
+      "sha256": "4f8a5acce1243565104a3dd70271333cd12bd5f9c0276cfe2f72e051128688e2",
+      "bytes": 614984
+    },
+    {
+      "match": "vision-k1-match-03",
+      "video": "/results/tournaments/round-03/videos/vision-bhuman-k1-3v3-match-03.mp4",
+      "poster": "/results/tournaments/round-03/videos/vision-bhuman-k1-3v3-match-03-poster.jpg",
+      "sha256": "ceba5124d71bd61049b55d197a9f7996b6da18298c0f4e7226c5e9cd23f62067",
+      "bytes": 518710
+    },
+    {
+      "match": "vision-k1-match-04",
+      "video": "/results/tournaments/round-03/videos/vision-bhuman-k1-3v3-match-04.mp4",
+      "poster": "/results/tournaments/round-03/videos/vision-bhuman-k1-3v3-match-04-poster.jpg",
+      "sha256": "020d6637ac83ada4ed6c6ce67c33da498a538cc2ef24c3825968711d94795e3a",
+      "bytes": 527661
+    }
+  ]
+}

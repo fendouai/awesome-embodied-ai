@@ -1,0 +1,17 @@
+{
+  "scenario": "MacAcceptance3v3M.ros3",
+  "configuration": "MacAcceptance3v3M.visual-exhibition.con",
+  "source_repository": "bhuman/BHumanCodeRelease",
+  "source_commit": "2e3374ba896da8288607f9a1881b876642fe18b8",
+  "simulator": "B-Human SimRobot Core3 / MuJoCo",
+  "robots": {"model": "Booster K1", "count": 6, "format": "3v3"},
+  "perception": "SimRobot CameraColor RGB -> B-Human CameraImage / ECImage / RobotBallPerceptor",
+  "fast_truth_state_mode": false,
+  "local_period_seconds": 30,
+  "official_ten_minute_half": false,
+  "referee_finish_state": "FINISHED",
+  "completed_matches": 4,
+  "result_index": "results/tournaments/round-03/index.json",
+  "reproduction_patch": "integrations/bhuman/visual-exhibition-period.patch",
+  "notes": "A local short-period exhibition using the native automatic referee timeout. This does not change B-Human behavior, physics, or camera perception."
+}

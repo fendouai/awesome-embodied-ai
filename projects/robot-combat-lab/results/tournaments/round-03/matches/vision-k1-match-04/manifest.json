@@ -1,0 +1,21 @@
+{
+  "method": "SHA-256 and byte-count manifest for the published match artifacts",
+  "files": {
+    "result.json": {
+      "sha256": "472b0069077efea62be080713282be685bb9d6ba0a309ce3a13db6d258dccfcd",
+      "bytes": 1919
+    },
+    "match.csv": {
+      "sha256": "429ff50081c5f5c2e2c5410897c836835cfe9f805c6bf172b159ce16cf89bfbf",
+      "bytes": 402119
+    },
+    "vision-bhuman-k1-3v3-match-04.mp4": {
+      "sha256": "020d6637ac83ada4ed6c6ce67c33da498a538cc2ef24c3825968711d94795e3a",
+      "bytes": 527661
+    },
+    "vision-bhuman-k1-3v3-match-04-poster.jpg": {
+      "sha256": "75f4c3932adae9295c3004ac4de3d5f6aaae7bdd0c3cf231793629f827a0d42e",
+      "bytes": 96758
+    }
+  }
+}

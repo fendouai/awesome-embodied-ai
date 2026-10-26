@@ -56,3 +56,7 @@ This product includes software developed by B-Human (http://www.b-human.de). Lic
 `results/bhuman-native/capture-20261025/battle.mp4`:35-second actual native-window recording. 138 distinct samples at about3.92 captured frames/s, measured wall-clock intervals preserved, no temporal interpolation/speedup. Spatial crop retains both goals and scoreboard. Original PNGs and capture timestamps remain archived. This is not a 500fps video or full physics-state replay. The web gateway now has video players for all three locally executed backends.
 
 SMPLOlympics also has49official external reference videos linked from the authors project website. These are never presented as local simulation evidence; source index and HTTP checks are in `research/adversarial-options/SMPLOlympics-official-videos.json`.
+
+### Local B-Human visual exhibition mode
+
+The four K1 3v3 visual matches use the normal `Game3v3M` RGB-camera perception pipeline and a local 30-second exhibition period. The stock referee automatically entered `STATE_FINISHED` at timeout; the result is a completed local exhibition, not an official ten-minute RoboCup half. To reproduce the period on a fresh local B-Human checkout, apply `bhuman/visual-exhibition-period.patch`, use `bhuman/MacAcceptance3v3M.visual-exhibition.con` as the `.con` sidecar, and rebuild SimRobot. Native frame and referee-telemetry capture hooks are local read-only instrumentation documented in `bhuman/local-modifications.json`.

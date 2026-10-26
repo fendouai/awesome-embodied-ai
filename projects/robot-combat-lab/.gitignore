@@ -48,6 +48,23 @@ results/tournaments/round-02/match-data/*/*
 !results/tournaments/round-02/match-data/*/*.csv
 !results/tournaments/round-02/videos/*.jpg
 
+# Publish the completed native RGB-camera exhibition matches, but keep raw captures local.
+!results/tournaments/round-03/
+results/tournaments/round-03/*
+!results/tournaments/round-03/index.json
+!results/tournaments/round-03/vision-matches.csv
+!results/tournaments/round-03/video-archive.json
+!results/tournaments/round-03/matches/
+results/tournaments/round-03/matches/*
+!results/tournaments/round-03/matches/*/
+results/tournaments/round-03/matches/*/*
+!results/tournaments/round-03/matches/*/*.json
+!results/tournaments/round-03/matches/*/*.csv
+!results/tournaments/round-03/videos/
+results/tournaments/round-03/videos/*
+!results/tournaments/round-03/videos/*.mp4
+!results/tournaments/round-03/videos/*.jpg
+
 # Keep only source manifests and parameter templates for research; do not vendor article/manual captures.
 research/hardware-failure/*.html
 research/hardware-failure/MotorState_.hpp

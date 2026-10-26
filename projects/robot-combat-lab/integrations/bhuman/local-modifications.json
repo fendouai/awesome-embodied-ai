@@ -18,5 +18,13 @@
       "sha256": "03587f7edd44790b30462fc0afb80359b0548571833ac6db90ff0c83edb83f35"
     }
   ],
-  "notes": "Desktop Ninja build, acceptance default views,33ms GUI refresh and optional read-only framebuffer/match export. No robot controller, mass, solver or referee rule change."
+  "notes": "Desktop Ninja build, acceptance default views,33ms GUI refresh and optional read-only framebuffer/match export. No robot controller, mass, solver or referee rule change.",
+  "visual_exhibition": {
+    "period_seconds": 30,
+    "rule": "Native B-Human automatic referee timeout leading to STATE_FINISHED",
+    "official_regulation": false,
+    "normal_camera_perception": true,
+    "scene_config": "integrations/bhuman/MacAcceptance3v3M.visual-exhibition.con",
+    "reproduction_note": "Apply integrations/bhuman/visual-exhibition-period.patch to the ignored local B-Human source and rebuild SimRobot. Read-only framebuffer and native GameController telemetry hooks remain local."
+  }
 }

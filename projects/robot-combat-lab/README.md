@@ -181,8 +181,10 @@ A field guide to embodied intelligence.
 
 首轮之后，`scripts/run_all_combinations.py`继续跑完round-02的全部unordered策略配对，包含同一策略自对抗。每种控制架构分别记录配对结果；异策略席位双向都打，单个种子只是兼容性和组合筛查。页面战绩只汇总异策略对局，同策略自对抗单独展示。
 
-视觉赛另外跑了 B-Human K1 3v3 正常相机感知路径：SimRobot `CameraColor` RGB 虚拟相机、B-Human `CameraImage → ECImage / RobotBallPerceptor`。本次录制覆盖 19.96 秒仿真物理时钟，比分从 2:0 变为红队 3:0。官方半场仍在进行，所以这是阶段记分和视觉演示，不宣称完整常规赛终局。原生 OpenGL 帧、B-Human 裁判遥测、H.264 视频和比分来源说明保存在 `results/bhuman-native/vision-native-capture-20261025/`；发布用平面视频位于 `results/tournaments/round-02/videos/`。
+### 四场完整 B-Human K1 视觉赛
 
-### 最终视觉展示赛
+B-Human K1 3v3 在 SimRobot 正常 RGB 相机感知模式下完成四场本地展示赛：`CameraColor` → `CameraImage / ECImage / RobotBallPerceptor` → B-Human 控制器。每场采用30秒本地半场，由原生 GameController 的正常自动超时规则结束，四场均记录为 `FINISHED`，比分均为0:0平局。该时长用于让本机比赛完整跑完，不是官方10分钟半场，也不构成正式赛事胜负排名。四场从首个比赛画面到裁判终局的墙钟录像采集共约9.6分钟（单场113–197秒，不含重载场景的等待）。
 
-`/web/tournament.html` 现汇总8场兼容攻击策略的仿真配对录像，并附一段 B-Human K1 3v3 正常 RGB 相机感知录像。该视觉段来自 SimRobot CameraColor 虚拟相机进入 B-Human 正常感知链路，按 MuJoCo 物理时钟选取原生 framebuffer 帧，最终阶段比分红队3:0；录制段结束时官方10分钟半场仍在进行，因此不声称它是完整官方比赛的终场胜负。公开包带9段MP4、poster、裁判/轨迹复核摘要和录像校验清单；原始高分辨率捕获帧只留本机，以控制仓库体积。
+全部结果、4段可播放 H.264、poster、逐场原生裁判遥测、比分CSV和SHA-256清单保存在 `results/tournaments/round-03/`。中英文行业式赛道介绍见 [`docs/ADVERSARIAL_COMPETITIONS.zh-CN.md`](docs/ADVERSARIAL_COMPETITIONS.zh-CN.md) 与 [`docs/ADVERSARIAL_COMPETITIONS.en.md`](docs/ADVERSARIAL_COMPETITIONS.en.md)。本地双语网页为 `web/competitions.html`；在运行本地服务后访问 `http://127.0.0.1:8767/web/competitions.html`。网页暂留本机。
+
+赛制验收元数据见 `integrations/bhuman/visual-exhibition-acceptance.json`。为复现30秒本地赛制，应用 `integrations/bhuman/visual-exhibition-period.patch`，并使用 `integrations/bhuman/MacAcceptance3v3M.visual-exhibition.con`。帧缓冲及裁判遥测采集只读记录，不改变视觉模块、比赛策略或物理模型。
