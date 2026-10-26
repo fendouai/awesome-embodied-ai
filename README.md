@@ -6,6 +6,39 @@ A curated guide to embodied AI and robotics: components, hardware, software, mod
 
 Maintained by [BotsTest](https://botstest.com/). Includes directly relevant resources and explicitly labeled supporting tools. Resource links point to their source.
 
+## Featured: our recorded robot evaluations
+
+**From discovery to execution: BotsTest adapts and runs three adversarial tracks, publishing complete match videos, Mandarin commentary and captions, results and verification records.**
+
+[All 12 matches and results](projects/robot-combat-lab/results/tournaments/round-04/published/README.en.md) · [Project and reproduction](projects/robot-combat-lab/README.md) · [Rules and evaluation](projects/robot-combat-lab/docs/COMPETITION_PROTOCOL.en.md)
+
+### G1 × RoboStriker: robot policy combat
+
+Four MuJoCo bouts run G1 ego/opponent pretrained policies, including swapped sides and same-policy controls. Valid upper-body contacts, falls and recovery are recorded; all integration-state replays passed. Example: 34:40, an amber contact-decision win.
+
+[![G1 × RoboStriker: robot policy combat](projects/robot-combat-lab/results/tournaments/round-04/published/videos/g1-robostriker_ego-robostriker_opponent.jpg)](projects/robot-combat-lab/results/tournaments/round-04/published/videos/g1-robostriker_ego-robostriker_opponent.zh-CN.mp4)
+
+[Watch complete narrated video](projects/robot-combat-lab/results/tournaments/round-04/published/videos/g1-robostriker_ego-robostriker_opponent.zh-CN.mp4) · [Captions](projects/robot-combat-lab/results/tournaments/round-04/published/matches/g1-robostriker_ego-robostriker_opponent/captions.zh-CN.srt) · [Transcript](projects/robot-combat-lab/results/tournaments/round-04/published/matches/g1-robostriker_ego-robostriker_opponent/script.zh-CN.txt)
+
+### NCP: digital-human boxing
+
+Four bouts compare NCP policies 106/100 with continuous interaction, falls and recovery. Example contacts: 23:27; mutual recovery failure produces a technical draw. Contact leads are distinct from match outcomes. These are digital humans, not robot hardware tests.
+
+[![NCP: digital-human boxing](projects/robot-combat-lab/results/tournaments/round-04/published/videos/ncp-106-100.jpg)](projects/robot-combat-lab/results/tournaments/round-04/published/videos/ncp-106-100.zh-CN.mp4)
+
+[Watch complete narrated video](projects/robot-combat-lab/results/tournaments/round-04/published/videos/ncp-106-100.zh-CN.mp4) · [Captions](projects/robot-combat-lab/results/tournaments/round-04/published/matches/ncp-106-100/captions.zh-CN.srt) · [Transcript](projects/robot-combat-lab/results/tournaments/round-04/published/matches/ncp-106-100/script.zh-CN.txt)
+
+### B-Human: autonomous RGB-vision soccer
+
+Six K1 robots play 3v3 through SimRobot cameras and the B-Human perception/control pipeline, with native goal and finish decisions. Four completed scores: 3:2, 0:4, 0:2, 1:3. Teams use the same installed program with different team settings; this is not a ranking of independent vision models.
+
+[![B-Human: autonomous RGB-vision soccer](projects/robot-combat-lab/results/tournaments/round-04/published/videos/vision-01.jpg)](projects/robot-combat-lab/results/tournaments/round-04/published/videos/vision-01.zh-CN.mp4)
+
+[Watch complete narrated video](projects/robot-combat-lab/results/tournaments/round-04/published/videos/vision-01.zh-CN.mp4) · [Captions](projects/robot-combat-lab/results/tournaments/round-04/published/matches/vision-01/captions.zh-CN.srt) · [Transcript](projects/robot-combat-lab/results/tournaments/round-04/published/matches/vision-01/script.zh-CN.txt)
+
+**Interpreting the results:** this round uses declared local 180-second scoring/playing windows, with recovery-based early boxing stops. It is not an official benchmark reproduction. Tracks are reported separately, without a cross-task ranking or hardware-damage prediction. All 12 recording audits passed. Original footage, narrated masters and detailed physics archives remain local; public videos include captions, event evidence and SHA-256 manifests.
+
+
 Edition: 2026-10-11. **2000 curated URLs**, 9 categories and 55 available subcategories. The full candidate archive preserves 2042 historically checked URLs: 16 excluded and 26 awaiting review.
 
 Editorial inclusion and endpoint checks are separate. Check dates are historical; this edition does not imply fresh network checks or installation tests. Scores help discovery; they do not measure performance or suitability for a specific deployment.

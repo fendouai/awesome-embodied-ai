@@ -6,6 +6,39 @@
 
 由 [BotsTest](https://botstest.com/) 维护。收录机器人直接相关资源，以及明确标注的基础支持工具；所有链接直接指向资源来源。
 
+## 本仓库特色：原创机器人对抗评测
+
+**从资源目录到实际运行：BotsTest 在本机适配并运行三条对抗赛道，公开完整比赛视频、中文配音字幕、结果与验证记录。**
+
+[查看全部12场比赛与结果](projects/robot-combat-lab/results/tournaments/round-04/published/README.md) · [项目与复现说明](projects/robot-combat-lab/README.md) · [赛制与评价标准](projects/robot-combat-lab/docs/COMPETITION_PROTOCOL.zh-CN.md)
+
+### G1 × RoboStriker：机器人策略对抗
+
+在MuJoCo中运行G1的ego/opponent预训练策略，交换站位并包含同策略对照，共4场。记录有效上身接触、倒地与恢复；逐物理步回放复核全部通过。示例：34:40，橙方按接触计分胜出。
+
+[![G1 × RoboStriker：机器人策略对抗](projects/robot-combat-lab/results/tournaments/round-04/published/videos/g1-robostriker_ego-robostriker_opponent.jpg)](projects/robot-combat-lab/results/tournaments/round-04/published/videos/g1-robostriker_ego-robostriker_opponent.zh-CN.mp4)
+
+[播放完整解说视频](projects/robot-combat-lab/results/tournaments/round-04/published/videos/g1-robostriker_ego-robostriker_opponent.zh-CN.mp4) · [字幕](projects/robot-combat-lab/results/tournaments/round-04/published/matches/g1-robostriker_ego-robostriker_opponent/captions.zh-CN.srt) · [解说稿](projects/robot-combat-lab/results/tournaments/round-04/published/matches/g1-robostriker_ego-robostriker_opponent/script.zh-CN.txt)
+
+### NCP：复杂数字人格斗
+
+运行NCP的106/100策略，共4场，展示连续攻防、失衡和恢复。示例接触统计23:27，但双方恢复失败，裁判判技术平局；如实区分接触领先与比赛胜负。此赛道使用数字人，不代表机器人硬件性能。
+
+[![NCP：复杂数字人格斗](projects/robot-combat-lab/results/tournaments/round-04/published/videos/ncp-106-100.jpg)](projects/robot-combat-lab/results/tournaments/round-04/published/videos/ncp-106-100.zh-CN.mp4)
+
+[播放完整解说视频](projects/robot-combat-lab/results/tournaments/round-04/published/videos/ncp-106-100.zh-CN.mp4) · [字幕](projects/robot-combat-lab/results/tournaments/round-04/published/matches/ncp-106-100/captions.zh-CN.srt) · [解说稿](projects/robot-combat-lab/results/tournaments/round-04/published/matches/ncp-106-100/script.zh-CN.txt)
+
+### B-Human：RGB视觉自主足球
+
+6台K1进行3v3比赛，通过SimRobot相机与B-Human视觉控制链路自主比赛，由原生裁判判定进球和终场。4场完整比分为3:2、0:4、0:2、1:3。双方运行同一套程序的不同队伍配置，不是独立视觉模型排名。
+
+[![B-Human：RGB视觉自主足球](projects/robot-combat-lab/results/tournaments/round-04/published/videos/vision-01.jpg)](projects/robot-combat-lab/results/tournaments/round-04/published/videos/vision-01.zh-CN.mp4)
+
+[播放完整解说视频](projects/robot-combat-lab/results/tournaments/round-04/published/videos/vision-01.zh-CN.mp4) · [字幕](projects/robot-combat-lab/results/tournaments/round-04/published/matches/vision-01/captions.zh-CN.srt) · [解说稿](projects/robot-combat-lab/results/tournaments/round-04/published/matches/vision-01/script.zh-CN.txt)
+
+**如何理解这些结果：**本轮采用180秒本地计分/比赛窗口，格斗允许恢复失败提前终止；不等同于官方基准复现。三条赛道分别统计，不跨任务排总榜，也不宣称能预测真实硬件损坏。12场视频全部通过录制校验；原片、配音母版与详细物理档案保留在本机，公开版提供可播放视频、字幕、事件证据和SHA-256清单。
+
+
 当前版本：2026-10-11。2000 个收录网址，9 个主类，55 个可用子类。完整候选档案保留2042个历史核验网址；16个已排除，26个待复核。
 
 收录、编辑复核与链接核验是不同状态。核验日期来自历史记录；本次没有重新联网检测所有网址或安装测试。排序是目录发现线索，不能替代任务适用性、性能或采购验证。

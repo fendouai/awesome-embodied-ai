@@ -196,6 +196,37 @@ def build_resources(snapshot, registry, reviews):
     return curated, decisions
 
 
+
+def evaluation_showcase(zh):
+    """Keep the original evaluation showcase in both reproducible README editions."""
+    base = "projects/robot-combat-lab"
+    published = f"{base}/results/tournaments/round-04/published"
+    report = "README.md" if zh else "README.en.md"
+    protocol = "zh-CN" if zh else "en"
+    lines = ["## 本仓库特色：原创机器人对抗评测" if zh else "## Featured: our recorded robot evaluations", "",
+             "**从资源目录到实际运行：BotsTest 在本机适配并运行三条对抗赛道，公开完整比赛视频、中文配音字幕、结果与验证记录。**" if zh else "**From discovery to execution: BotsTest adapts and runs three adversarial tracks, publishing complete match videos, Mandarin commentary and captions, results and verification records.**", "",
+             f"[查看全部12场比赛与结果]({published}/{report}) · [项目与复现说明]({base}/README.md) · [赛制与评价标准]({base}/docs/COMPETITION_PROTOCOL.{protocol}.md)" if zh else f"[All 12 matches and results]({published}/{report}) · [Project and reproduction]({base}/README.md) · [Rules and evaluation]({base}/docs/COMPETITION_PROTOCOL.{protocol}.md)", ""]
+    tracks = [
+        ("G1 × RoboStriker：机器人策略对抗" if zh else "G1 × RoboStriker: robot policy combat",
+         "在MuJoCo中运行G1的ego/opponent预训练策略，交换站位并包含同策略对照，共4场。记录有效上身接触、倒地与恢复；逐物理步回放复核全部通过。示例：34:40，橙方按接触计分胜出。" if zh else "Four MuJoCo bouts run G1 ego/opponent pretrained policies, including swapped sides and same-policy controls. Valid upper-body contacts, falls and recovery are recorded; all integration-state replays passed. Example: 34:40, an amber contact-decision win.",
+         "g1-robostriker_ego-robostriker_opponent"),
+        ("NCP：复杂数字人格斗" if zh else "NCP: digital-human boxing",
+         "运行NCP的106/100策略，共4场，展示连续攻防、失衡和恢复。示例接触统计23:27，但双方恢复失败，裁判判技术平局；如实区分接触领先与比赛胜负。此赛道使用数字人，不代表机器人硬件性能。" if zh else "Four bouts compare NCP policies 106/100 with continuous interaction, falls and recovery. Example contacts: 23:27; mutual recovery failure produces a technical draw. Contact leads are distinct from match outcomes. These are digital humans, not robot hardware tests.",
+         "ncp-106-100"),
+        ("B-Human：RGB视觉自主足球" if zh else "B-Human: autonomous RGB-vision soccer",
+         "6台K1进行3v3比赛，通过SimRobot相机与B-Human视觉控制链路自主比赛，由原生裁判判定进球和终场。4场完整比分为3:2、0:4、0:2、1:3。双方运行同一套程序的不同队伍配置，不是独立视觉模型排名。" if zh else "Six K1 robots play 3v3 through SimRobot cameras and the B-Human perception/control pipeline, with native goal and finish decisions. Four completed scores: 3:2, 0:4, 0:2, 1:3. Teams use the same installed program with different team settings; this is not a ranking of independent vision models.",
+         "vision-01"),
+    ]
+    for title, description, match in tracks:
+        video = f"{published}/videos/{match}.zh-CN.mp4"
+        image = f"{published}/videos/{match}.jpg"
+        lines += [f"### {title}", "", description, "",
+                  f"[![{title}]({image})]({video})", "",
+                  f"[播放完整解说视频]({video}) · [字幕]({published}/matches/{match}/captions.zh-CN.srt) · [解说稿]({published}/matches/{match}/script.zh-CN.txt)" if zh else f"[Watch complete narrated video]({video}) · [Captions]({published}/matches/{match}/captions.zh-CN.srt) · [Transcript]({published}/matches/{match}/script.zh-CN.txt)", ""]
+    lines += ["**如何理解这些结果：**本轮采用180秒本地计分/比赛窗口，格斗允许恢复失败提前终止；不等同于官方基准复现。三条赛道分别统计，不跨任务排总榜，也不宣称能预测真实硬件损坏。12场视频全部通过录制校验；原片、配音母版与详细物理档案保留在本机，公开版提供可播放视频、字幕、事件证据和SHA-256清单。" if zh else "**Interpreting the results:** this round uses declared local 180-second scoring/playing windows, with recovery-based early boxing stops. It is not an official benchmark reproduction. Tracks are reported separately, without a cross-task ranking or hardware-damage prediction. All 12 recording audits passed. Original footage, narrated masters and detailed physics archives remain local; public videos include captions, event evidence and SHA-256 manifests.", ""]
+    return lines
+
+
 def build_markdown(resources, snapshot, summary, lang):
     zh = lang == "zh-CN"
     suffix = ".zh-CN" if zh else ""
@@ -203,6 +234,7 @@ def build_markdown(resources, snapshot, summary, lang):
     companion = "[English](README.md)" if zh else "[简体中文](README.zh-CN.md)"
     lines = ["# Awesome Embodied AI [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)", "", companion, ""]
     lines += (["具身智能与机器人资源精选：连接元器件、硬件、软件、模型、数据集、基准、公司、产品和研究资料。", "", "由 [BotsTest](https://botstest.com/) 维护。收录机器人直接相关资源，以及明确标注的基础支持工具；所有链接直接指向资源来源。"] if zh else ["A curated guide to embodied AI and robotics: components, hardware, software, models, datasets, benchmarks, companies, products and research.", "", "Maintained by [BotsTest](https://botstest.com/). Includes directly relevant resources and explicitly labeled supporting tools. Resource links point to their source."])
+    lines += [""] + evaluation_showcase(zh)
     lines += ["", (f"当前版本：{DATE}。{summary['curated']} 个收录网址，{summary['categories']} 个主类，55 个可用子类。完整候选档案保留{summary['candidates']}个历史核验网址；{summary['excluded']}个已排除，{summary['needs_review']}个待复核。" if zh else f"Edition: {DATE}. **{summary['curated']} curated URLs**, {summary['categories']} categories and 55 available subcategories. The full candidate archive preserves {summary['candidates']} historically checked URLs: {summary['excluded']} excluded and {summary['needs_review']} awaiting review."), ""]
     lines += (["收录、编辑复核与链接核验是不同状态。核验日期来自历史记录；本次没有重新联网检测所有网址或安装测试。排序是目录发现线索，不能替代任务适用性、性能或采购验证。", "", "## 导航", ""] if zh else ["Editorial inclusion and endpoint checks are separate. Check dates are historical; this edition does not imply fresh network checks or installation tests. Scores help discovery; they do not measure performance or suitability for a specific deployment.", "", "## Contents", ""])
     for cat in snapshot["categories"]:
