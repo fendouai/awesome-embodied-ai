@@ -1,0 +1,1 @@
+{"name":"botstest-robot-combat-lab-checks","private":true,"scripts":{"check:browser":"node scripts/browser_check.cjs","report:pdf":"node scripts/export_report.cjs"},"devDependencies":{"playwright":"1.62.1"}}

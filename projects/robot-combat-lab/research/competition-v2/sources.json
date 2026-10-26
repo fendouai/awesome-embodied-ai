@@ -1,0 +1,19 @@
+{
+  "retrieved_on": "2026-10-26",
+  "hsl": {
+    "repository": "RoboCup-HumanoidSoccerLeague/HSL-Rules",
+    "commit": "06c44d4b0ea2fd3cd4fdcc2a7cb907f6ace400dc",
+    "url": "https://github.com/RoboCup-HumanoidSoccerLeague/HSL-Rules/blob/06c44d4b0ea2fd3cd4fdcc2a7cb907f6ace400dc/rules/game.tex",
+    "sha256": "f30d381a4f2289c93795076b0cc2b1e54c1f436931e4c8a0ff508fc41cdf3f09"
+  },
+  "robostriker": {
+    "commit": "52f54137770ff632391dd091e973ceb098ba3f98",
+    "local_config": "research/adversarial-options/robostriker-source/source/whole_body_tracking/whole_body_tracking/tasks/combat/combat_env_cfg.py",
+    "sha256": "d5de98a2086f71ccf27c5a3aa4b640850e5efc0227f281059fd153b2d35040d8"
+  },
+  "ncp": {
+    "commit": "42f9af5ecf179443e7d38dfd65241843d27588c2",
+    "url": "https://github.com/Tencent-RoboticsX/NCP/blob/42f9af5ecf179443e7d38dfd65241843d27588c2/ncp/data/cfg/env/humanoid_boxing.yaml",
+    "sha256": "d4db386404b0decd919b1f14182906be3acf5cf4dc3e20540198e7572dc81cdc"
+  }
+}

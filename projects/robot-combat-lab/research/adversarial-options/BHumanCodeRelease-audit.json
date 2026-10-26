@@ -1,0 +1,101 @@
+{
+  "repository": "bhuman/BHumanCodeRelease",
+  "sha": "2e3374ba896da8288607f9a1881b876642fe18b8",
+  "archived": false,
+  "readme_sha256": "10e7d4a666cde422fc4641c69c0660dfb0b9c0b7c9b045e16c89551ca686f033",
+  "updated": "2026-10-15T17:38:20Z",
+  "weights_or_data": [
+    {
+      "path": "Config/NeuralNets/BallAndPenaltyMarkPerceptor/multihead.h5",
+      "bytes": 455240
+    },
+    {
+      "path": "Config/NeuralNets/BallAndPenaltyMarkPerceptor/multihead.onnx",
+      "bytes": 97965
+    },
+    {
+      "path": "Config/NeuralNets/FieldBoundary/net.h5",
+      "bytes": 483440
+    },
+    {
+      "path": "Config/NeuralNets/FieldBoundary/net.onnx",
+      "bytes": 74825
+    },
+    {
+      "path": "Config/NeuralNets/GetUpEngine/K1.onnx",
+      "bytes": 285695
+    },
+    {
+      "path": "Config/NeuralNets/GetUpEngine/K1_fast_standup.onnx",
+      "bytes": 818893
+    },
+    {
+      "path": "Config/NeuralNets/GetUpEngine/T1.onnx",
+      "bytes": 289283
+    },
+    {
+      "path": "Config/NeuralNets/GetUpEngine/T1_fast_standup.onnx",
+      "bytes": 825553
+    },
+    {
+      "path": "Config/NeuralNets/IntersectionsClassifier/distanceUpdatedModel.h5",
+      "bytes": 210408
+    },
+    {
+      "path": "Config/NeuralNets/IntersectionsClassifier/distanceUpdatedModel.onnx",
+      "bytes": 44125
+    },
+    {
+      "path": "Config/NeuralNets/Odometry/K1_odometry.onnx",
+      "bytes": 436145
+    },
+    {
+      "path": "Config/NeuralNets/Odometry/T1_odometry.onnx",
+      "bytes": 446385
+    },
+    {
+      "path": "Config/NeuralNets/RobotBallPerceptor/ball_robot_544.onnx",
+      "bytes": 3623825
+    },
+    {
+      "path": "Config/NeuralNets/RobotBallPerceptor/ball_robot_544_old.onnx",
+      "bytes": 3623825
+    },
+    {
+      "path": "Config/NeuralNets/RobotBallPerceptor/ball_robot_640.onnx",
+      "bytes": 3623825
+    },
+    {
+      "path": "Config/NeuralNets/RobotBallPerceptor/ball_robot_640_old.onnx",
+      "bytes": 3623825
+    },
+    {
+      "path": "Config/NeuralNets/Walk/K1_kick_inner.onnx",
+      "bytes": 266715
+    },
+    {
+      "path": "Config/NeuralNets/Walk/K1_kick_inner_soft.onnx",
+      "bytes": 266715
+    },
+    {
+      "path": "Config/NeuralNets/Walk/K1_walk.onnx",
+      "bytes": 558557
+    },
+    {
+      "path": "Config/NeuralNets/Walk/T1_kick_inner.onnx",
+      "bytes": 270303
+    },
+    {
+      "path": "Config/NeuralNets/Walk/T1_kick_inner_soft.onnx",
+      "bytes": 270303
+    },
+    {
+      "path": "Config/NeuralNets/Walk/T1_walk.onnx",
+      "bytes": 580577
+    },
+    {
+      "path": "Config/NeuralNets/WhistleDetector/WhistleNetMk16.onnx",
+      "bytes": 379461
+    }
+  ]
+}

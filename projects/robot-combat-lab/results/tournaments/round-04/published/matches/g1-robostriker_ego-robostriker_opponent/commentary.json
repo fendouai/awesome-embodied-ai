@@ -1,0 +1,367 @@
+{
+  "commentary_version": 2,
+  "kind": "boxing",
+  "voice": "Tingting",
+  "engine": "macOS local speech synthesis",
+  "language": "zh-CN",
+  "source_video": "original footage retained in local archive",
+  "source_video_sha256": "d3190c0145fe2928629c4efb5fc546568a0dcd03fc284614c0089c1e56bf0cd8",
+  "video": "g1-robostriker_ego-robostriker_opponent.zh-CN.mp4",
+  "video_sha256": "25a1254182079d02256fa53dd5a59f9b9602c95ee64f0c6ed136f9c0b1b2c098",
+  "intro_hold_seconds": 14.213833333333334,
+  "outro_extension_seconds": 9.399749666575474,
+  "physics_speed_changed": false,
+  "subtitles": "burned and embedded Chinese captions; external SRT/VTT also supplied",
+  "cues": [
+    {
+      "start": 0.3,
+      "end": 13.513833333333334,
+      "text": "G1机器人对抗，蓝方策略ego，橙方策略opponent。本场上限180秒。手部接触上身，满足速度和冲量阈值才记分，同时记录倒地与恢复。",
+      "evidence": {
+        "type": "protocol",
+        "kind": "boxing"
+      },
+      "audio": "intro.wav"
+    },
+    {
+      "start": 29.213833333333334,
+      "end": 37.345,
+      "text": "比赛进行到15秒。有效上身接触，蓝方0次，橙方4次。这一统计区间新增0比4次。",
+      "evidence": {
+        "type": "score_snapshot",
+        "simulation_time": 15.0,
+        "score": [
+          0,
+          4
+        ],
+        "interval_delta": [
+          0,
+          4
+        ]
+      },
+      "audio": "cue-000.wav"
+    },
+    {
+      "start": 53.21383333333333,
+      "end": 61.63525,
+      "text": "比赛进行到39秒。有效上身接触，蓝方4次，橙方9次。这一统计区间新增4比5次。",
+      "evidence": {
+        "type": "score_snapshot",
+        "simulation_time": 39.0,
+        "score": [
+          4,
+          9
+        ],
+        "interval_delta": [
+          4,
+          5
+        ]
+      },
+      "audio": "cue-001.wav"
+    },
+    {
+      "start": 77.21383333333333,
+      "end": 85.99516666666666,
+      "text": "比赛进行到63秒。有效上身接触，蓝方11次，橙方12次。这一统计区间新增7比3次。",
+      "evidence": {
+        "type": "score_snapshot",
+        "simulation_time": 63.0,
+        "score": [
+          11,
+          12
+        ],
+        "interval_delta": [
+          7,
+          3
+        ]
+      },
+      "audio": "cue-002.wav"
+    },
+    {
+      "start": 101.21383333333333,
+      "end": 109.99516666666666,
+      "text": "比赛进行到87秒。有效上身接触，蓝方15次，橙方16次。这一统计区间新增4比4次。",
+      "evidence": {
+        "type": "score_snapshot",
+        "simulation_time": 87.0,
+        "score": [
+          15,
+          16
+        ],
+        "interval_delta": [
+          4,
+          4
+        ]
+      },
+      "audio": "cue-003.wav"
+    },
+    {
+      "start": 125.21383333333333,
+      "end": 134.27379166666665,
+      "text": "比赛进行到111秒。有效上身接触，蓝方20次，橙方25次。这一统计区间新增5比9次。",
+      "evidence": {
+        "type": "score_snapshot",
+        "simulation_time": 111.0,
+        "score": [
+          20,
+          25
+        ],
+        "interval_delta": [
+          5,
+          9
+        ]
+      },
+      "audio": "cue-004.wav"
+    },
+    {
+      "start": 149.21383333333333,
+      "end": 158.6453125,
+      "text": "比赛进行到135秒。有效上身接触，蓝方25次，橙方32次。这一统计区间新增5比7次。",
+      "evidence": {
+        "type": "score_snapshot",
+        "simulation_time": 135.0,
+        "score": [
+          25,
+          32
+        ],
+        "interval_delta": [
+          5,
+          7
+        ]
+      },
+      "audio": "cue-005.wav"
+    },
+    {
+      "start": 173.21383333333333,
+      "end": 182.63370833333332,
+      "text": "比赛进行到159秒。有效上身接触，蓝方28次，橙方36次。这一统计区间新增3比4次。",
+      "evidence": {
+        "type": "score_snapshot",
+        "simulation_time": 159.0,
+        "score": [
+          28,
+          36
+        ],
+        "interval_delta": [
+          3,
+          4
+        ]
+      },
+      "audio": "cue-006.wav"
+    },
+    {
+      "start": 194.61383333324213,
+      "end": 208.1552499999088,
+      "text": "比赛在180.0秒结束。有效上身接触34比40，橙方获胜。结果依据是限时接触计分判定。这些是仿真比赛数据，不能解释成真实硬件损坏。",
+      "evidence": {
+        "type": "match_ended",
+        "outcome": {
+          "winner": 1,
+          "reason": "more_valid_upper_body_contacts",
+          "kind": "contact_decision",
+          "time": 179.9999999999088,
+          "hardware_damage": false,
+          "competition_rule_result": true,
+          "clean_upper_contacts": [
+            34,
+            40
+          ],
+          "short_window_normal_impulse_ns": [
+            288.00516896417474,
+            252.09175137822433
+          ],
+          "knockdowns": [
+            0,
+            0
+          ],
+          "upright_time_s": [
+            179.4099999999088,
+            178.91999999990895
+          ]
+        }
+      },
+      "audio": "final.wav"
+    }
+  ],
+  "probe": {
+    "streams": [
+      {
+        "index": 0,
+        "codec_name": "h264",
+        "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+        "profile": "High",
+        "codec_type": "video",
+        "codec_tag_string": "avc1",
+        "codec_tag": "0x31637661",
+        "mime_codec_string": "avc1.64001f",
+        "width": 1280,
+        "height": 720,
+        "coded_width": 1280,
+        "coded_height": 720,
+        "has_b_frames": 2,
+        "pix_fmt": "yuv420p",
+        "level": 31,
+        "chroma_location": "left",
+        "field_order": "progressive",
+        "is_avc": "true",
+        "nal_length_size": "4",
+        "id": "0x1",
+        "r_frame_rate": "24/1",
+        "avg_frame_rate": "24/1",
+        "time_base": "1/12288",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 2576384,
+        "duration": "209.666667",
+        "bit_rate": "376027",
+        "bits_per_raw_sample": "8",
+        "nb_frames": "5032",
+        "extradata_size": 45,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "language": "und",
+          "handler_name": "VideoHandler",
+          "encoder": "Lavc63.1.102 libx264"
+        }
+      },
+      {
+        "index": 1,
+        "codec_name": "aac",
+        "codec_long_name": "AAC (Advanced Audio Coding)",
+        "profile": "LC",
+        "codec_type": "audio",
+        "codec_tag_string": "mp4a",
+        "codec_tag": "0x6134706d",
+        "mime_codec_string": "mp4a.40.2",
+        "sample_fmt": "fltp",
+        "sample_rate": "48000",
+        "channels": 1,
+        "channel_layout": "mono",
+        "bits_per_sample": 0,
+        "initial_padding": 1024,
+        "id": "0x2",
+        "r_frame_rate": "0/0",
+        "avg_frame_rate": "0/0",
+        "time_base": "1/48000",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 10063450,
+        "duration": "209.655208",
+        "bit_rate": "82249",
+        "nb_frames": "9829",
+        "extradata_size": 5,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "language": "und",
+          "handler_name": "SoundHandler"
+        }
+      },
+      {
+        "index": 2,
+        "codec_name": "mov_text",
+        "codec_long_name": "MOV text",
+        "codec_type": "subtitle",
+        "codec_tag_string": "tx3g",
+        "codec_tag": "0x67337874",
+        "id": "0x3",
+        "r_frame_rate": "0/0",
+        "avg_frame_rate": "0/0",
+        "time_base": "1/1000000",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 208155000,
+        "duration": "208.155000",
+        "bit_rate": "44",
+        "nb_frames": "19",
+        "extradata_size": 88,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "language": "zho",
+          "handler_name": "SubtitleHandler"
+        }
+      }
+    ],
+    "format": {
+      "filename": "g1-robostriker_ego-robostriker_opponent.zh-CN.mp4",
+      "nb_streams": 3,
+      "nb_programs": 0,
+      "nb_stream_groups": 0,
+      "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+      "format_long_name": "QuickTime / MOV",
+      "start_time": "0.000000",
+      "duration": "209.666667",
+      "size": "12159798",
+      "bit_rate": "463966",
+      "probe_score": 100,
+      "tags": {
+        "major_brand": "isom",
+        "minor_version": "512",
+        "compatible_brands": "isomiso2avc1mp41",
+        "encoder": "Lavf63.1.102"
+      }
+    }
+  },
+  "original_metadata_sha256": "7d544600bb7162cca39fb362efaf073ea94bfbaf78b01399bf859c71e06b2271",
+  "local_narrated_video_sha256": "4b7536f8cd0d479076b0795bce46f82499357cc8f7c59a31c31247ef77ee59b2",
+  "public_encoding": "H.264 publication derivative at400kbps when original exceeds15MiB; source timing, resolution, audio and captions retained; local master unchanged"
+}

@@ -1,0 +1,89 @@
+{
+  "outcome": {
+    "winner": null,
+    "reason": "double_recovery_timeout",
+    "kind": "technical_draw",
+    "time": 149.49166666661287,
+    "hardware_damage": false,
+    "competition_rule_result": true,
+    "clean_upper_contacts": [
+      23,
+      27
+    ],
+    "short_window_normal_impulse_ns": [
+      231.90763484824825,
+      272.2555778794053
+    ],
+    "knockdowns": [
+      1,
+      1
+    ],
+    "upright_time_s": [
+      138.82083333328907,
+      132.82083333329467
+    ]
+  },
+  "status": {
+    "score": [
+      23,
+      27
+    ],
+    "impulse_ns": [
+      231.90763484824825,
+      272.2555778794053
+    ],
+    "knockdowns": [
+      1,
+      1
+    ],
+    "recovery_count_s": [
+      9.999999999990905,
+      16.266666666651872
+    ],
+    "failed": [
+      0,
+      1
+    ],
+    "outcome": {
+      "winner": null,
+      "reason": "double_recovery_timeout",
+      "kind": "technical_draw",
+      "time": 149.49166666661287,
+      "hardware_damage": false,
+      "competition_rule_result": true,
+      "clean_upper_contacts": [
+        23,
+        27
+      ],
+      "short_window_normal_impulse_ns": [
+        231.90763484824825,
+        272.2555778794053
+      ],
+      "knockdowns": [
+        1,
+        1
+      ],
+      "upright_time_s": [
+        138.82083333328907,
+        132.82083333329467
+      ]
+    }
+  },
+  "rules": {
+    "limit_s": 180.0,
+    "down_confirm_s": 0.25,
+    "recovery_deadline_s": 10.0,
+    "recovery_hold_s": 1.0,
+    "down_tilt_deg": 65.0,
+    "down_height_ratio": 0.55,
+    "upright_tilt_deg": 25.0,
+    "upright_height_ratio": 0.75,
+    "contact_gap_s": 0.1,
+    "impact_window_s": 0.08,
+    "minimum_approach_m_s": 0.25,
+    "minimum_normal_impulse_ns": 0.1,
+    "decision_impulse_margin_ns": 0.5
+  },
+  "complete": true,
+  "simulation_interruption": null
+}

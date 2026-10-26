@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "botstest-robot-combat-lab"
+version = "0.1.0"
+description = "Auditable MuJoCo robot contact contests and motion-policy benchmarks"
+requires-python = ">=3.11"
+dependencies = ["mujoco==3.17.0", "numpy>=2.0", "scipy>=1.13", "matplotlib>=3.8", "PyYAML>=6", "Pillow>=10", "onnxruntime>=1.20", "torch>=2.5", "fastapi>=0.110", "uvicorn>=0.25"]
+
+[project.scripts]
+combatlab = "combatlab.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[project.optional-dependencies]
+test = ["pytest>=8"]
+render = ["trimesh==5.2.0", "fast-simplification==0.2.0"]

@@ -1,0 +1,12 @@
+{
+    "ball_span_m": 16.69228744506836,
+    "end_sim_ms": 543372,
+    "match_number": 3,
+    "official_regulation": false,
+    "period_seconds": 180,
+    "playing_start_sim_ms": 360372,
+    "red": 0,
+    "start_sim_ms": 319204,
+    "state": "FINISHED",
+    "white": 2
+}

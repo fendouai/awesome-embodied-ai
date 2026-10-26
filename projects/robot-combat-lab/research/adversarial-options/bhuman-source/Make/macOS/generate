@@ -1,0 +1,281 @@
+#!/bin/bash
+# Generate Xcode project using CMake. The script requires that the CMake bundle is
+# installed in a location where macOS can find it (e.g. /Applications). It runs both
+# on Intel and ARM Macs.
+
+cd "$(dirname "$(which "$0")")"
+. "../Common/libBHuman"
+
+CMAKE=../../Util/Buildchain/macOS/bin/cmake
+PROJECTDIR=../../Build/macOS
+PROJECTPATH=B-Human.xcodeproj
+PROJECTSRC=$PROJECTDIR/B-Human.xcodeproj
+PLIST="/usr/libexec/PlistBuddy -c"
+TEMPPATH="$BH_TMPDIR/generate.tmp"
+TEMPPATH2="$BH_TMPDIR/generate2.tmp"
+
+../Common/pullONNXRuntime
+
+# Create a symbolic link to cmake.
+if [ ! -e "$CMAKE" ]; then
+  echo -n "Searching for CMake... "
+  if [ -e "$(which cmake)" ]; then
+    ln -sf "$(which cmake)" "$CMAKE"
+  else
+    while read file; do
+      if [ -f "$file/Contents/bin/cmake" ]; then
+        ln -sf "$file/Contents/bin/cmake" "$CMAKE"
+      fi
+    done <<<"$(/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/LaunchServices.framework/Versions/A/Support/lsregister -dump \
+    | grep "^[ 	]*path:" \
+    | grep "CMake" \
+    | sed -e "s%[ 	]*path: *%%" -e "s% (.*%%")"
+  fi
+
+  # Could the link be created?
+  if [ -e "$CMAKE" ]; then
+    echo "Found."
+  else
+    error_and_exit 1 "CMake not found."
+  fi
+fi
+
+# Determine current version of macOS SDK.
+SDKVERSION="$(sed <"$(xcrun --show-sdk-path)/SDKSettings.json" 's%,%,|%g' \
+| tr '|' '\n' \
+| grep "MinimalDisplayName" \
+| sed 's%^.*"MinimalDisplayName":"\([^"]*\).*$%\1%')"
+CLANGVERSION="$(clang --version | grep version | sed 's%.*(\(.*\)).*%\1%')"
+
+if [ -d "$PROJECTPATH" ]; then
+  # Delete project if macOS SDK version changed.
+  if [ -f "$PROJECTPATH/sdkversion" ]; then
+    OLDVERSION="$(cat "$PROJECTPATH/sdkversion")"
+  else
+    OLDVERSION=
+  fi
+  if [ "$OLDVERSION" != "$SDKVERSION" ]; then
+    rm -fr "$PROJECTPATH" "$PROJECTDIR"
+  elif [ -d "$PROJECTDIR/PrecompiledHeaders" ]; then
+    # Delete precompiled headers if clang version changed.
+    if [ -f "$PROJECTPATH/clangversion" ]; then
+      OLDVERSION="$(cat "$PROJECTPATH/clangversion")"
+    else
+      OLDVERSION=
+    fi
+    if [ "$OLDVERSION" != "$CLANGVERSION" ]; then
+      if [ -d "$PROJECTDIR/PrecompiledHeaders" ]; then
+        rm -r "$PROJECTDIR/PrecompiledHeaders"
+      fi
+      if [ -d "$PROJECTDIR/DerivedData/B-Human/Index.noindex/PrecompiledHeaders" ]; then
+        rm -r "$PROJECTDIR/DerivedData/B-Human/Index.noindex/PrecompiledHeaders"
+      fi
+    fi
+  fi
+fi
+
+# Prevent cmake from considering this to be a duplicate.
+rm -f ../../Util/Buildchain/macOS/include
+
+# Move CMakeFiles to Build directory, where CMake expects them.
+# Previous cache files are saved if they exist.
+if [ -d "$PROJECTPATH/CMakeFiles" ]; then
+  mkdir -p "$PROJECTDIR"
+  if [ -e "$PROJECTDIR/CMakeFiles" ]; then
+    if [ -e "$PROJECTDIR/CMakeFiles-temp" ]; then
+      rm -r "$PROJECTDIR/CMakeFiles-temp"
+    fi
+    mv "$PROJECTDIR/CMakeFiles" "$PROJECTDIR/CMakeFiles-temp"
+  fi
+  mv "$PROJECTPATH/CMakeFiles" "$PROJECTDIR"
+fi
+
+# Create project.
+"$CMAKE" -G Xcode -S ../CMake -B $PROJECTDIR
+../../Util/SimRobot/Make/macOS/pbxgen pbxgen.cfg $PROJECTSRC/project.pbxproj
+xattr -w com.apple.xcode.CreatedByBuildSystem true "$PROJECTDIR"
+
+# Backwards compatibility: Remove the link to project if it exists.
+if [ -L "$PROJECTPATH" ]; then
+  rm "$PROJECTPATH"
+fi
+
+# Ensure that project directory exists.
+mkdir -p "$PROJECTPATH"
+
+# Move generated/updated CMakeFiles directory back here.
+mv "$PROJECTDIR/CMakeFiles" "$PROJECTPATH"
+
+# Restore cache files if they exist.
+if [ -e "$PROJECTDIR/CMakeFiles-temp" ]; then
+  mv "$PROJECTDIR/CMakeFiles-temp" "$PROJECTDIR/CMakeFiles"
+fi
+
+# Remember macOS SDK and clang version
+echo -n "$SDKVERSION" >"$PROJECTPATH/sdkversion"
+echo -n "$CLANGVERSION" >"$PROJECTPATH/clangversion"
+
+touch $PROJECTPATH/project.pbxproj
+if cmp -s $PROJECTPATH/project.pbxproj $PROJECTSRC/project.pbxproj; then
+  echo "Xcode project is already up to date"
+else
+  echo "Updating Xcode project"
+
+  # Copy the project file
+  mv $PROJECTSRC/project.pbxproj $PROJECTPATH/project.pbxproj
+
+  # Prepare creating schemes.
+  SCHEMEDIR=$PROJECTPATH/xcshareddata/xcschemes
+  SCHEMESRC=$PROJECTSRC/xcshareddata/xcschemes
+  SEDOPTION="$(cat $PROJECTSRC/project.pbxproj.sed)"
+  mkdir -p $SCHEMEDIR
+
+  # Create the three schemes for SimRobot from the ones CMake created for SimRobot and Tests.
+  # Patch in Tests target as testable and the normal target for profiling. Disable GPU
+  # validation to suppress some output. Add unlocking of keychain as pre-build step.
+  # Deactivate some building targets.
+  SCHEMETEMPLATE=$SCHEMESRC/SimRobot.xcscheme
+  sed <$SCHEMETEMPLATE >$TEMPPATH2 \
+  -e 's%"container:[^"]*/Build/macOS/B-Human%"container:../../Make/macOS/B-Human%' \
+  -e 's%debugDocumentVersioning *= *"YES"/>%debugDocumentVersioning = "YES">\
+   </ProfileAction>%' \
+  -e 's%<Testables/>%<Testables>\
+      </Testables>%'
+  (
+    sed <$TEMPPATH2 -n '/shouldUseLaunchSchemeArgsEnv/q;p'
+    echo '      shouldUseLaunchSchemeArgsEnv="NO">'
+    echo '      <EnvironmentVariables>'
+    echo '         <EnvironmentVariable'
+    echo '            key = "IS_XCTEST"'
+    echo '            value = "YES"'
+    echo '            isEnabled = "YES">'
+    echo '         </EnvironmentVariable>'
+    echo '         <EnvironmentVariable'
+    echo '            key = "SWIFT_BACKTRACE"'
+    echo '            value = "interactive=no"'
+    echo '            isEnabled = "YES">'
+    echo '         </EnvironmentVariable>'
+    echo '      </EnvironmentVariables>'
+    echo '      <Testables>'
+    echo '         <TestableReference'
+    echo '            skipped = "NO">'
+    sed <$SCHEMESRC/Tests.xcscheme -n '/BuildableReference/,/\/BuildActionEntry/{/\/BuildActionEntry/!p;};/\/BuildActionEntry/q' \
+    | sed 's%"container:[^"]*/Build/macOS/B-Human%"container:../../Make/macOS/B-Human%'
+    echo "         </TestableReference>"
+    sed <$TEMPPATH2 -n '/<\/Testables>/,$p'
+  ) \
+  | (
+    sed -n '/<\/ProfileAction>/q;p'
+    sed <$TEMPPATH2 -n '/BuildableProductRunnable/,/\/BuildableProductRunnable/p;/\/BuildableProductRunnable/q'
+    sed <$TEMPPATH2 -n '/<\/ProfileAction>/,$p'
+  ) \
+  | sed >$TEMPPATH \
+    -e "$SEDOPTION" \
+    -e 's%launchStyle *= *"0"%launchStyle = "0"\
+      enableGPUValidationMode = "1"%' \
+    -e 's%<BuildActionEntries>%<PreActions>\
+         <ExecutionAction\
+            ActionType = "Xcode.IDEStandardExecutionActionsCore.ExecutionActionType.ShellScriptAction">\
+            <ActionContent\
+               title = "Unlock Keychain"\
+               scriptText = "security unlock-keychain -p nao B-Human_Code_Release.keychain">\
+            </ActionContent>\
+         </ExecutionAction>\
+      </PreActions>\
+      <BuildActionEntries>%' \
+    -e 's%buildForTesting *= *"YES"%buildForTesting = "NO"%' \
+    -e 's%buildForArchiving *= *"YES"%buildForArchiving = "NO"%' \
+    -e 's%buildConfiguration *= *".*"%buildConfiguration = "Debug"%'
+  mv $TEMPPATH "$SCHEMEDIR/SimRobot - Debug.xcscheme"
+  sed <"$SCHEMEDIR/SimRobot - Debug.xcscheme" >$TEMPPATH 's%buildConfiguration *= *"Debug"%buildConfiguration = "Develop"%'
+  mv $TEMPPATH "$SCHEMEDIR/SimRobot - Develop.xcscheme"
+  sed <"$SCHEMEDIR/SimRobot - Debug.xcscheme" >$TEMPPATH 's%buildConfiguration *= *"Debug"%buildConfiguration = "Release"%'
+  mv $TEMPPATH "$SCHEMEDIR/SimRobot - Release.xcscheme"
+
+  # Create three schemes for Booster from the one CMake created.
+  # Set the deployDialog as runnable target. Deactivate some building targets.
+  for ROBOT in Booster; do
+    SCHEMETEMPLATE=$SCHEMESRC/$ROBOT.xcscheme
+    sed <$SCHEMETEMPLATE >$TEMPPATH \
+    -e "$SEDOPTION" \
+    -e 's%"container:[^"]*/Build/macOS/B-Human%"container:../../Make/macOS/B-Human%' \
+    -e 's%selectedDebuggerIdentifier.*%selectedDebuggerIdentifier = ""%' \
+    -e 's%selectedLauncherIdentifier.*%selectedLauncherIdentifier = "Xcode.IDEFoundation.Launcher.PosixSpawn"%' \
+    -e 's%buildForTesting *= *"YES"%buildForTesting = "NO"%' \
+    -e 's% buildForProfiling *= *"YES"% buildForProfiling = "NO"%' \
+    -e 's%buildForArchiving *= *"YES"%buildForArchiving = "NO"%' \
+    -e 's%buildConfiguration *= *".*"%buildConfiguration = "Debug"%'
+    mv $TEMPPATH "$SCHEMEDIR/$ROBOT - Debug.xcscheme"
+    sed <"$SCHEMEDIR/$ROBOT - Debug.xcscheme" >$TEMPPATH \
+      -e 's%buildConfiguration *= *"Debug"%buildConfiguration = "Develop"%' \
+      -e 's%argument *= *"Debug"%argument = "Develop"%'
+    mv $TEMPPATH "$SCHEMEDIR/$ROBOT - Develop.xcscheme"
+    sed <"$SCHEMEDIR/$ROBOT - Debug.xcscheme" >$TEMPPATH \
+      -e 's%buildConfiguration *= *"Debug"%buildConfiguration = "Release"%' \
+      -e 's%argument *= *"Debug"%argument = "Release"%'
+    mv $TEMPPATH "$SCHEMEDIR/$ROBOT - Release.xcscheme"
+  done
+
+  # Avoid automatically creating schemes for all targets.
+  SETTINGSDIR=$PROJECTPATH/project.xcworkspace/xcshareddata
+  SETTINGSPATH=$SETTINGSDIR/WorkspaceSettings.xcsettings
+  mkdir -p $SETTINGSDIR
+  mv $PROJECTSRC/project.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings $SETTINGSPATH
+  $PLIST "Set :IDEWorkspaceSharedSettings_AutocreateContextsIfNeeded false" $SETTINGSPATH
+
+  # Force Xcode to use Build directory.
+  SETTINGSDIR=$PROJECTPATH/project.xcworkspace/xcuserdata/$USER.xcuserdatad
+  SETTINGSPATH=$SETTINGSDIR/WorkspaceSettings.xcsettings
+  mkdir -p "$SETTINGSDIR"
+  $PLIST "Set :BuildLocationStyle UseTargetSettings" $SETTINGSPATH >/dev/null 2>>/dev/null || $PLIST "Add :BuildLocationStyle string UseTargetSettings" $SETTINGSPATH  >/dev/null
+  $PLIST "Set :CustomBuildLocationType RelativeToDerivedData" $SETTINGSPATH 2>/dev/null || $PLIST "Add :CustomBuildLocationType string RelativeToDerivedData" $SETTINGSPATH
+  $PLIST "Set :DerivedDataCustomLocation ../../Build/macOS/DerivedData" $SETTINGSPATH 2>/dev/null || $PLIST "Add :DerivedDataCustomLocation string ../../Build/macOS/DerivedData" $SETTINGSPATH
+  $PLIST "Set :DerivedDataLocationStyle WorkspaceRelativePath" $SETTINGSPATH 2>/dev/null || $PLIST "Add :DerivedDataLocationStyle string WorkspaceRelativePath" $SETTINGSPATH
+fi
+
+# Disable App Nap for SimRobot.
+defaults write org.B-Human.SimRobot NSAppSleepDisabled -bool YES
+
+# Disable a default view menu entry because it doesn't work well with recreating the menu.
+defaults write org.B-Human.SimRobot NSFullScreenMenuItemEverywhere -bool NO
+
+# Install data formatters for Xcode debugger.
+if [ ! -e ~/Library/Developer/Xcode/UserData/Debugger/CustomDataFormatters ]; then
+  mkdir -p ~/Library/Developer/Xcode/UserData/Debugger/
+  ln -sf "`pwd`/../../Util/Buildchain/macOS/CustomDataFormatters" ~/Library/Developer/Xcode/UserData/Debugger/
+fi
+
+# Install AStyle for B-Human service.
+mkdir -p ~/Library/Services/AStyle\ for\ B-Human.workflow/Contents/
+cp ../../Util/Buildchain/macOS/AStyle\ for\ B-Human.workflow/Contents/Info.plist ~/Library/Services/AStyle\ for\ B-Human.workflow/Contents/
+sed <../../Util/Buildchain/macOS/AStyle\ for\ B-Human.workflow/Contents/document.wflow >~/Library/Services/AStyle\ for\ B-Human.workflow/Contents/document.wflow "s%PWD%`pwd`%"
+
+# Install Replay Log with SimRobot service.
+mkdir -p ~/Library/Services/Replay\ Log\ with\ SimRobot.workflow/Contents/
+cp ../../Util/Buildchain/macOS/Replay\ Log\ with\ SimRobot.workflow/Contents/Info.plist ~/Library/Services/Replay\ Log\ with\ SimRobot.workflow/Contents/
+sed <../../Util/Buildchain/macOS/Replay\ Log\ with\ SimRobot.workflow/Contents/document.wflow >~/Library/Services/Replay\ Log\ with\ SimRobot.workflow/Contents/document.wflow "s%PWD%`pwd`%"
+
+# Install certificate for app signing.
+cp ../../Util/Buildchain/macOS/B-Human_Code_Release.keychain-db ~/Library/Keychains/
+security find-certificate -c B-Human_Code_Release >/dev/null 2>/dev/null
+if [ ! $? = 0 ]; then
+  security list-keychains -s `security list-keychains | tr '\n' ' ' | tr '\"' ' '` B-Human_Code_Release.keychain-db
+fi
+
+# Set link to clang++ and its headers.
+CLANGLIBPATH="$(dirname "$(dirname "$(xcrun -find clang++)")")/lib"
+ln -sf "$CLANGLIBPATH" ../../Util/Buildchain/macOS
+CLANGINCLUDEPATH="$(ls -d "$CLANGLIBPATH"/clang/*/include | head -1)"
+ln -sf "$CLANGINCLUDEPATH" ../../Util/Buildchain/macOS
+
+# Link file templates.
+mkdir -p ~/Library/Developer/Xcode/Templates/
+rm -f ~/Library/Developer/Xcode/Templates/B-Human
+ln -s "`pwd`/../../Util/BuildChain/macOS/templates" ~/Library/Developer/Xcode/Templates/B-Human
+
+# Copy code snippets.
+mkdir -p ~/Library/Developer/Xcode/UserData/CodeSnippets
+rsync -u ../../Util/BuildChain/macOS/snippets/*.codesnippet ~/Library/Developer/Xcode/UserData/CodeSnippets/
+
+# Cleanup.
+rm -r $PROJECTSRC

@@ -1,0 +1,1272 @@
+[
+  {
+    "repository": "fan-ziqi/rl_sar",
+    "commit": "376d42c9b128f963ab08579762d5a216a976ce39",
+    "path": "policy/b2/base.yaml",
+    "local": "assets/ten-platform/rl_sar/policy/b2/base.yaml",
+    "git_blob_sha1": "f3f8a90994ea02ec8ab16ad40776b77cb492ac3d",
+    "sha256": "144ccfa91383b2d9cdbca25645e80f70d4ce2ac3f66c73c78b7751e6fc818aa6",
+    "bytes": 1404,
+    "source": "https://raw.githubusercontent.com/fan-ziqi/rl_sar/376d42c9b128f963ab08579762d5a216a976ce39/policy/b2/base.yaml"
+  },
+  {
+    "repository": "fan-ziqi/rl_sar",
+    "commit": "376d42c9b128f963ab08579762d5a216a976ce39",
+    "path": "policy/b2/robot_lab/config.yaml",
+    "local": "assets/ten-platform/rl_sar/policy/b2/robot_lab/config.yaml",
+    "git_blob_sha1": "a7ebff017f44f556327951c37e18f0315bf856ba",
+    "sha256": "b8ddd49db8c55ff436a4671b3ddf68e8134a8c22ecb9973f18febf426f1accad",
+    "bytes": 1916,
+    "source": "https://raw.githubusercontent.com/fan-ziqi/rl_sar/376d42c9b128f963ab08579762d5a216a976ce39/policy/b2/robot_lab/config.yaml"
+  },
+  {
+    "repository": "fan-ziqi/rl_sar",
+    "commit": "376d42c9b128f963ab08579762d5a216a976ce39",
+    "path": "policy/b2/robot_lab/policy.pt",
+    "local": "assets/ten-platform/rl_sar/policy/b2/robot_lab/policy.pt",
+    "git_blob_sha1": "8915b00ca6d28144db7429543eb4b85610fd9e62",
+    "sha256": "d4aeb84894acda40f64feadaaad25d2be2ed3b8593b695b148e28673dff21e44",
+    "bytes": 769376,
+    "source": "https://raw.githubusercontent.com/fan-ziqi/rl_sar/376d42c9b128f963ab08579762d5a216a976ce39/policy/b2/robot_lab/policy.pt"
+  },
+  {
+    "repository": "fan-ziqi/rl_sar",
+    "commit": "376d42c9b128f963ab08579762d5a216a976ce39",
+    "path": "policy/b2w/base.yaml",
+    "local": "assets/ten-platform/rl_sar/policy/b2w/base.yaml",
+    "git_blob_sha1": "6bb85917c8f645f3a47afc280904f3bc34e8c733",
+    "sha256": "a883606bdbd5450ed04227b82cde54d9a3fc0eeedb55d61b36bdf43889f8d9f8",
+    "bytes": 1787,
+    "source": "https://raw.githubusercontent.com/fan-ziqi/rl_sar/376d42c9b128f963ab08579762d5a216a976ce39/policy/b2w/base.yaml"
+  },
+  {
+    "repository": "fan-ziqi/rl_sar",
+    "commit": "376d42c9b128f963ab08579762d5a216a976ce39",
+    "path": "policy/b2w/robot_lab/config.yaml",
+    "local": "assets/ten-platform/rl_sar/policy/b2w/robot_lab/config.yaml",
+    "git_blob_sha1": "06efdc88bf263c74a41ef051ed88fd58b67740b2",
+    "sha256": "d44bb3c36043f7216f7699a23d904fd01b5fc29ab7c35aabe56dc024d3f1cc74",
+    "bytes": 2303,
+    "source": "https://raw.githubusercontent.com/fan-ziqi/rl_sar/376d42c9b128f963ab08579762d5a216a976ce39/policy/b2w/robot_lab/config.yaml"
+  },
+  {
+    "repository": "fan-ziqi/rl_sar",
+    "commit": "376d42c9b128f963ab08579762d5a216a976ce39",
+    "path": "policy/b2w/robot_lab/policy.pt",
+    "local": "assets/ten-platform/rl_sar/policy/b2w/robot_lab/policy.pt",
+    "git_blob_sha1": "707ff8638adc63a28a8762a841a94f76e79185f9",
+    "sha256": "38155076408e8eccb22690c6c5be14bd1dcb9149245ca5e493308a9f6ff93b34",
+    "bytes": 796064,
+    "source": "https://raw.githubusercontent.com/fan-ziqi/rl_sar/376d42c9b128f963ab08579762d5a216a976ce39/policy/b2w/robot_lab/policy.pt"
+  },
+  {
+    "repository": "fan-ziqi/rl_sar",
+    "commit": "376d42c9b128f963ab08579762d5a216a976ce39",
+    "path": "policy/g1/base.yaml",
+    "local": "assets/ten-platform/rl_sar/policy/g1/base.yaml",
+    "git_blob_sha1": "63723d61417da2486bfe3b14f36e225a2a87e6aa",
+    "sha256": "88fd6c34298001f346fab030656f27325d6c072998bc6f35199d60e6c4965664",
+    "bytes": 2932,
+    "source": "https://raw.githubusercontent.com/fan-ziqi/rl_sar/376d42c9b128f963ab08579762d5a216a976ce39/policy/g1/base.yaml"
+  },
+  {
+    "repository": "fan-ziqi/rl_sar",
+    "commit": "376d42c9b128f963ab08579762d5a216a976ce39",
+    "path": "policy/g1/whole_body_tracking/dance_102/G1_Take_102.bvh_60hz.csv",
+    "local": "assets/ten-platform/rl_sar/policy/g1/whole_body_tracking/dance_102/G1_Take_102.bvh_60hz.csv",
+    "git_blob_sha1": "19abc36faefd54ae2ab10f6ec675b1edb6588c8a",
+    "sha256": "2fe91cef5de23a6ebf318c130dccf7ecc6c10859675452ea28f077198f06d1e2",
+    "bytes": 595169,
+    "source": "https://raw.githubusercontent.com/fan-ziqi/rl_sar/376d42c9b128f963ab08579762d5a216a976ce39/policy/g1/whole_body_tracking/dance_102/G1_Take_102.bvh_60hz.csv"
+  },
+  {
+    "repository": "fan-ziqi/rl_sar",
+    "commit": "376d42c9b128f963ab08579762d5a216a976ce39",
+    "path": "policy/g1/whole_body_tracking/dance_102/config.yaml",
+    "local": "assets/ten-platform/rl_sar/policy/g1/whole_body_tracking/dance_102/config.yaml",
+    "git_blob_sha1": "b7c6b83ae097f7f1e7a104f0315cf4f7dd3ab49e",
+    "sha256": "2f93f256138bf144b161b48bc65fc7e21eca3ddab2045efd780ff29b718a757d",
+    "bytes": 2898,
+    "source": "https://raw.githubusercontent.com/fan-ziqi/rl_sar/376d42c9b128f963ab08579762d5a216a976ce39/policy/g1/whole_body_tracking/dance_102/config.yaml"
+  },
+  {
+    "repository": "fan-ziqi/rl_sar",
+    "commit": "376d42c9b128f963ab08579762d5a216a976ce39",
+    "path": "policy/g1/whole_body_tracking/dance_102/policy.pt",
+    "local": "assets/ten-platform/rl_sar/policy/g1/whole_body_tracking/dance_102/policy.pt",
+    "git_blob_sha1": "2b3363ca7a4da73848763a22720a25597261af6b",
+    "sha256": "985c9ddaa9a14f9ff2b680901a9dd269f9e4bea29b5dc33b1ee5d39d6b71006e",
+    "bytes": 1001288,
+    "source": "https://raw.githubusercontent.com/fan-ziqi/rl_sar/376d42c9b128f963ab08579762d5a216a976ce39/policy/g1/whole_body_tracking/dance_102/policy.pt"
+  },
+  {
+    "repository": "fan-ziqi/rl_sar",
+    "commit": "376d42c9b128f963ab08579762d5a216a976ce39",
+    "path": "policy/go2w/base.yaml",
+    "local": "assets/ten-platform/rl_sar/policy/go2w/base.yaml",
+    "git_blob_sha1": "3ed50fd317ce879caacfe8692bcb0535082de9d5",
+    "sha256": "b7ab3eef1c05b19af84121c96a54e11511a7594411a287db9ee9bb1004d82776",
+    "bytes": 1764,
+    "source": "https://raw.githubusercontent.com/fan-ziqi/rl_sar/376d42c9b128f963ab08579762d5a216a976ce39/policy/go2w/base.yaml"
+  },
+  {
+    "repository": "fan-ziqi/rl_sar",
+    "commit": "376d42c9b128f963ab08579762d5a216a976ce39",
+    "path": "policy/go2w/robot_lab/config.yaml",
+    "local": "assets/ten-platform/rl_sar/policy/go2w/robot_lab/config.yaml",
+    "git_blob_sha1": "a8dc0606c18bd6e772f30c0e5c90fbb4ff9ce8e0",
+    "sha256": "78a1cb6a536ad14e322e4a9c69daf67bdb16d19b5b17fa09723dee04cad91879",
+    "bytes": 2268,
+    "source": "https://raw.githubusercontent.com/fan-ziqi/rl_sar/376d42c9b128f963ab08579762d5a216a976ce39/policy/go2w/robot_lab/config.yaml"
+  },
+  {
+    "repository": "fan-ziqi/rl_sar",
+    "commit": "376d42c9b128f963ab08579762d5a216a976ce39",
+    "path": "policy/go2w/robot_lab/policy.pt",
+    "local": "assets/ten-platform/rl_sar/policy/go2w/robot_lab/policy.pt",
+    "git_blob_sha1": "766df4b619c8966c6dd0839404f330a8fc3ac323",
+    "sha256": "eda0c490dfc75428fb6706d50924ebe2a91fca40ef21fae8747565699c81a2ac",
+    "bytes": 796120,
+    "source": "https://raw.githubusercontent.com/fan-ziqi/rl_sar/376d42c9b128f963ab08579762d5a216a976ce39/policy/go2w/robot_lab/policy.pt"
+  },
+  {
+    "repository": "fan-ziqi/rl_sar",
+    "commit": "376d42c9b128f963ab08579762d5a216a976ce39",
+    "path": "src/rl_sar/library/core/motion_loader/motion_loader.cpp",
+    "local": "assets/ten-platform/rl_sar/src/rl_sar/library/core/motion_loader/motion_loader.cpp",
+    "git_blob_sha1": "211773b1b99ce34615f7254261d3509f53780a89",
+    "sha256": "099fa7f8f325d50ac7d67311560be1defd1755d75e6ebfdc31ca2d14fcf6c878",
+    "bytes": 7363,
+    "source": "https://raw.githubusercontent.com/fan-ziqi/rl_sar/376d42c9b128f963ab08579762d5a216a976ce39/src/rl_sar/library/core/motion_loader/motion_loader.cpp"
+  },
+  {
+    "repository": "fan-ziqi/rl_sar",
+    "commit": "376d42c9b128f963ab08579762d5a216a976ce39",
+    "path": "src/rl_sar/library/core/motion_loader/motion_loader.hpp",
+    "local": "assets/ten-platform/rl_sar/src/rl_sar/library/core/motion_loader/motion_loader.hpp",
+    "git_blob_sha1": "925e73be65056769fe45a78e7de621a53e213eee",
+    "sha256": "2942a9e950465eb05baa2e347f907c2af1804412830bb389ab5fc82bb8cfadd2",
+    "bytes": 4743,
+    "source": "https://raw.githubusercontent.com/fan-ziqi/rl_sar/376d42c9b128f963ab08579762d5a216a976ce39/src/rl_sar/library/core/motion_loader/motion_loader.hpp"
+  },
+  {
+    "repository": "unitreerobotics/unitree_mujoco",
+    "commit": "1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d",
+    "path": "LICENSE",
+    "local": "assets/ten-platform/unitree_mujoco/LICENSE",
+    "git_blob_sha1": "42d2e648c8881ea075a3bc386c91669290b2e386",
+    "sha256": "a5d73fc4aca9074e3e6fe0b1a0ba763cf9514b2249b7390ed20fe8d53630bf25",
+    "bytes": 1559,
+    "source": "https://raw.githubusercontent.com/unitreerobotics/unitree_mujoco/1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d/LICENSE"
+  },
+  {
+    "repository": "unitreerobotics/unitree_mujoco",
+    "commit": "1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d",
+    "path": "unitree_robots/b2/assets/FL_calf.obj",
+    "local": "assets/ten-platform/unitree_mujoco/unitree_robots/b2/assets/FL_calf.obj",
+    "git_blob_sha1": "aca5cc72304e22f66760147aadafb81d9126342b",
+    "sha256": "03919f68e467d21b8e36de50e43b0c55c7fe2577132f3d8f4a3565d05568f211",
+    "bytes": 672991,
+    "source": "https://raw.githubusercontent.com/unitreerobotics/unitree_mujoco/1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d/unitree_robots/b2/assets/FL_calf.obj"
+  },
+  {
+    "repository": "unitreerobotics/unitree_mujoco",
+    "commit": "1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d",
+    "path": "unitree_robots/b2/assets/FL_foot.obj",
+    "local": "assets/ten-platform/unitree_mujoco/unitree_robots/b2/assets/FL_foot.obj",
+    "git_blob_sha1": "4e7e26d18cc882100d3a9a053df11440d678e25e",
+    "sha256": "7d1d76d8ed55e3bae20dc8bc1cfdf1ca90453cee7ccab4764d31908b52249bf4",
+    "bytes": 1134008,
+    "source": "https://raw.githubusercontent.com/unitreerobotics/unitree_mujoco/1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d/unitree_robots/b2/assets/FL_foot.obj"
+  },
+  {
+    "repository": "unitreerobotics/unitree_mujoco",
+    "commit": "1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d",
+    "path": "unitree_robots/b2/assets/FL_hip.obj",
+    "local": "assets/ten-platform/unitree_mujoco/unitree_robots/b2/assets/FL_hip.obj",
+    "git_blob_sha1": "df0406234c906dfd34f35a71dda815b80b52c7ce",
+    "sha256": "5e3942ae305c6f9f0fa074f9c92195345948bc953a5a40e7005656730133a41a",
+    "bytes": 168726,
+    "source": "https://raw.githubusercontent.com/unitreerobotics/unitree_mujoco/1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d/unitree_robots/b2/assets/FL_hip.obj"
+  },
+  {
+    "repository": "unitreerobotics/unitree_mujoco",
+    "commit": "1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d",
+    "path": "unitree_robots/b2/assets/FL_thigh.obj",
+    "local": "assets/ten-platform/unitree_mujoco/unitree_robots/b2/assets/FL_thigh.obj",
+    "git_blob_sha1": "384b55750f30f5ddc8392fa8d8c156de41c4d336",
+    "sha256": "b794d94f88310d331016855dcd91df3abdad965a81f668d25fcfc7cdcc85762b",
+    "bytes": 656761,
+    "source": "https://raw.githubusercontent.com/unitreerobotics/unitree_mujoco/1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d/unitree_robots/b2/assets/FL_thigh.obj"
+  },
+  {
+    "repository": "unitreerobotics/unitree_mujoco",
+    "commit": "1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d",
+    "path": "unitree_robots/b2/assets/FL_thigh_protect.obj",
+    "local": "assets/ten-platform/unitree_mujoco/unitree_robots/b2/assets/FL_thigh_protect.obj",
+    "git_blob_sha1": "1c6fe025dfc0e7c4096a6751efa49e1c062c5d4e",
+    "sha256": "96b7881bd5664640bfea00fa74419903639f128a39fb24d8fe20a56950e11be4",
+    "bytes": 407319,
+    "source": "https://raw.githubusercontent.com/unitreerobotics/unitree_mujoco/1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d/unitree_robots/b2/assets/FL_thigh_protect.obj"
+  },
+  {
+    "repository": "unitreerobotics/unitree_mujoco",
+    "commit": "1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d",
+    "path": "unitree_robots/b2/assets/FR_calf.obj",
+    "local": "assets/ten-platform/unitree_mujoco/unitree_robots/b2/assets/FR_calf.obj",
+    "git_blob_sha1": "aca5cc72304e22f66760147aadafb81d9126342b",
+    "sha256": "03919f68e467d21b8e36de50e43b0c55c7fe2577132f3d8f4a3565d05568f211",
+    "bytes": 672991,
+    "source": "https://raw.githubusercontent.com/unitreerobotics/unitree_mujoco/1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d/unitree_robots/b2/assets/FR_calf.obj"
+  },
+  {
+    "repository": "unitreerobotics/unitree_mujoco",
+    "commit": "1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d",
+    "path": "unitree_robots/b2/assets/FR_foot.obj",
+    "local": "assets/ten-platform/unitree_mujoco/unitree_robots/b2/assets/FR_foot.obj",
+    "git_blob_sha1": "4e7e26d18cc882100d3a9a053df11440d678e25e",
+    "sha256": "7d1d76d8ed55e3bae20dc8bc1cfdf1ca90453cee7ccab4764d31908b52249bf4",
+    "bytes": 1134008,
+    "source": "https://raw.githubusercontent.com/unitreerobotics/unitree_mujoco/1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d/unitree_robots/b2/assets/FR_foot.obj"
+  },
+  {
+    "repository": "unitreerobotics/unitree_mujoco",
+    "commit": "1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d",
+    "path": "unitree_robots/b2/assets/FR_hip.obj",
+    "local": "assets/ten-platform/unitree_mujoco/unitree_robots/b2/assets/FR_hip.obj",
+    "git_blob_sha1": "a769bb4d1c64931d42b3144ef123b79e103b3661",
+    "sha256": "23b89b015a6c30bc8423a81d547ed41cfe0fa0d1d60f922c9dd8379139d22b83",
+    "bytes": 168209,
+    "source": "https://raw.githubusercontent.com/unitreerobotics/unitree_mujoco/1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d/unitree_robots/b2/assets/FR_hip.obj"
+  },
+  {
+    "repository": "unitreerobotics/unitree_mujoco",
+    "commit": "1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d",
+    "path": "unitree_robots/b2/assets/FR_thigh.obj",
+    "local": "assets/ten-platform/unitree_mujoco/unitree_robots/b2/assets/FR_thigh.obj",
+    "git_blob_sha1": "7103d02797d126593a46b841873fc467ad74c2da",
+    "sha256": "c7caaa7ec3b143dbcda8980bd440217f30340cce739990f6883a3569b0b18af9",
+    "bytes": 1516972,
+    "source": "https://raw.githubusercontent.com/unitreerobotics/unitree_mujoco/1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d/unitree_robots/b2/assets/FR_thigh.obj"
+  },
+  {
+    "repository": "unitreerobotics/unitree_mujoco",
+    "commit": "1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d",
+    "path": "unitree_robots/b2/assets/FR_thigh_protect.obj",
+    "local": "assets/ten-platform/unitree_mujoco/unitree_robots/b2/assets/FR_thigh_protect.obj",
+    "git_blob_sha1": "902d6825b1d5943aef4f009eaef6a22247c82c59",
+    "sha256": "9be071bbcac19c8c0d4063c7903b54fb3820e551180e297bee993e45362e1552",
+    "bytes": 408074,
+    "source": "https://raw.githubusercontent.com/unitreerobotics/unitree_mujoco/1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d/unitree_robots/b2/assets/FR_thigh_protect.obj"
+  },
+  {
+    "repository": "unitreerobotics/unitree_mujoco",
+    "commit": "1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d",
+    "path": "unitree_robots/b2/assets/RL_calf.obj",
+    "local": "assets/ten-platform/unitree_mujoco/unitree_robots/b2/assets/RL_calf.obj",
+    "git_blob_sha1": "aca5cc72304e22f66760147aadafb81d9126342b",
+    "sha256": "03919f68e467d21b8e36de50e43b0c55c7fe2577132f3d8f4a3565d05568f211",
+    "bytes": 672991,
+    "source": "https://raw.githubusercontent.com/unitreerobotics/unitree_mujoco/1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d/unitree_robots/b2/assets/RL_calf.obj"
+  },
+  {
+    "repository": "unitreerobotics/unitree_mujoco",
+    "commit": "1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d",
+    "path": "unitree_robots/b2/assets/RL_foot.obj",
+    "local": "assets/ten-platform/unitree_mujoco/unitree_robots/b2/assets/RL_foot.obj",
+    "git_blob_sha1": "4e7e26d18cc882100d3a9a053df11440d678e25e",
+    "sha256": "7d1d76d8ed55e3bae20dc8bc1cfdf1ca90453cee7ccab4764d31908b52249bf4",
+    "bytes": 1134008,
+    "source": "https://raw.githubusercontent.com/unitreerobotics/unitree_mujoco/1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d/unitree_robots/b2/assets/RL_foot.obj"
+  },
+  {
+    "repository": "unitreerobotics/unitree_mujoco",
+    "commit": "1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d",
+    "path": "unitree_robots/b2/assets/RL_hip.obj",
+    "local": "assets/ten-platform/unitree_mujoco/unitree_robots/b2/assets/RL_hip.obj",
+    "git_blob_sha1": "dc92c03c2332685779ab9338ca96a6677e8fb79c",
+    "sha256": "6e2879adc22ac042a5496cc34e4b33899629bba7551409694e63ac6000c553a0",
+    "bytes": 165316,
+    "source": "https://raw.githubusercontent.com/unitreerobotics/unitree_mujoco/1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d/unitree_robots/b2/assets/RL_hip.obj"
+  },
+  {
+    "repository": "unitreerobotics/unitree_mujoco",
+    "commit": "1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d",
+    "path": "unitree_robots/b2/assets/RL_thigh.obj",
+    "local": "assets/ten-platform/unitree_mujoco/unitree_robots/b2/assets/RL_thigh.obj",
+    "git_blob_sha1": "384b55750f30f5ddc8392fa8d8c156de41c4d336",
+    "sha256": "b794d94f88310d331016855dcd91df3abdad965a81f668d25fcfc7cdcc85762b",
+    "bytes": 656761,
+    "source": "https://raw.githubusercontent.com/unitreerobotics/unitree_mujoco/1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d/unitree_robots/b2/assets/RL_thigh.obj"
+  },
+  {
+    "repository": "unitreerobotics/unitree_mujoco",
+    "commit": "1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d",
+    "path": "unitree_robots/b2/assets/RL_thigh_protect.obj",
+    "local": "assets/ten-platform/unitree_mujoco/unitree_robots/b2/assets/RL_thigh_protect.obj",
+    "git_blob_sha1": "1c6fe025dfc0e7c4096a6751efa49e1c062c5d4e",
+    "sha256": "96b7881bd5664640bfea00fa74419903639f128a39fb24d8fe20a56950e11be4",
+    "bytes": 407319,
+    "source": "https://raw.githubusercontent.com/unitreerobotics/unitree_mujoco/1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d/unitree_robots/b2/assets/RL_thigh_protect.obj"
+  },
+  {
+    "repository": "unitreerobotics/unitree_mujoco",
+    "commit": "1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d",
+    "path": "unitree_robots/b2/assets/RR_calf.obj",
+    "local": "assets/ten-platform/unitree_mujoco/unitree_robots/b2/assets/RR_calf.obj",
+    "git_blob_sha1": "aca5cc72304e22f66760147aadafb81d9126342b",
+    "sha256": "03919f68e467d21b8e36de50e43b0c55c7fe2577132f3d8f4a3565d05568f211",
+    "bytes": 672991,
+    "source": "https://raw.githubusercontent.com/unitreerobotics/unitree_mujoco/1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d/unitree_robots/b2/assets/RR_calf.obj"
+  },
+  {
+    "repository": "unitreerobotics/unitree_mujoco",
+    "commit": "1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d",
+    "path": "unitree_robots/b2/assets/RR_foot.obj",
+    "local": "assets/ten-platform/unitree_mujoco/unitree_robots/b2/assets/RR_foot.obj",
+    "git_blob_sha1": "4e7e26d18cc882100d3a9a053df11440d678e25e",
+    "sha256": "7d1d76d8ed55e3bae20dc8bc1cfdf1ca90453cee7ccab4764d31908b52249bf4",
+    "bytes": 1134008,
+    "source": "https://raw.githubusercontent.com/unitreerobotics/unitree_mujoco/1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d/unitree_robots/b2/assets/RR_foot.obj"
+  },
+  {
+    "repository": "unitreerobotics/unitree_mujoco",
+    "commit": "1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d",
+    "path": "unitree_robots/b2/assets/RR_hip.obj",
+    "local": "assets/ten-platform/unitree_mujoco/unitree_robots/b2/assets/RR_hip.obj",
+    "git_blob_sha1": "bc8ba4f67eacb043e14de634117aff7013664370",
+    "sha256": "8518c8bc919782381dce1dcc170e5d2c0621e8bf6de40d78ec98d8b48ba8eadf",
+    "bytes": 165423,
+    "source": "https://raw.githubusercontent.com/unitreerobotics/unitree_mujoco/1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d/unitree_robots/b2/assets/RR_hip.obj"
+  },
+  {
+    "repository": "unitreerobotics/unitree_mujoco",
+    "commit": "1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d",
+    "path": "unitree_robots/b2/assets/RR_thigh.obj",
+    "local": "assets/ten-platform/unitree_mujoco/unitree_robots/b2/assets/RR_thigh.obj",
+    "git_blob_sha1": "7103d02797d126593a46b841873fc467ad74c2da",
+    "sha256": "c7caaa7ec3b143dbcda8980bd440217f30340cce739990f6883a3569b0b18af9",
+    "bytes": 1516972,
+    "source": "https://raw.githubusercontent.com/unitreerobotics/unitree_mujoco/1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d/unitree_robots/b2/assets/RR_thigh.obj"
+  },
+  {
+    "repository": "unitreerobotics/unitree_mujoco",
+    "commit": "1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d",
+    "path": "unitree_robots/b2/assets/RR_thigh_protect.obj",
+    "local": "assets/ten-platform/unitree_mujoco/unitree_robots/b2/assets/RR_thigh_protect.obj",
+    "git_blob_sha1": "902d6825b1d5943aef4f009eaef6a22247c82c59",
+    "sha256": "9be071bbcac19c8c0d4063c7903b54fb3820e551180e297bee993e45362e1552",
+    "bytes": 408074,
+    "source": "https://raw.githubusercontent.com/unitreerobotics/unitree_mujoco/1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d/unitree_robots/b2/assets/RR_thigh_protect.obj"
+  },
+  {
+    "repository": "unitreerobotics/unitree_mujoco",
+    "commit": "1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d",
+    "path": "unitree_robots/b2/assets/base_link.obj",
+    "local": "assets/ten-platform/unitree_mujoco/unitree_robots/b2/assets/base_link.obj",
+    "git_blob_sha1": "eaff69c37b3287a6216ef9ec2037b282139b0ac7",
+    "sha256": "5bd2e7c234ca56777c7170b89baf879dad84fc68683711920eb0ef8c6c3b264f",
+    "bytes": 16748391,
+    "source": "https://raw.githubusercontent.com/unitreerobotics/unitree_mujoco/1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d/unitree_robots/b2/assets/base_link.obj"
+  },
+  {
+    "repository": "unitreerobotics/unitree_mujoco",
+    "commit": "1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d",
+    "path": "unitree_robots/b2/assets/f_dc_link.obj",
+    "local": "assets/ten-platform/unitree_mujoco/unitree_robots/b2/assets/f_dc_link.obj",
+    "git_blob_sha1": "543cf701481ad2a103fadf29bdab6362f4a738ac",
+    "sha256": "24993a575ae7dbaebf21c72fc11ee91d80eb65044d19bc1ca5dc26126a1501e9",
+    "bytes": 3010,
+    "source": "https://raw.githubusercontent.com/unitreerobotics/unitree_mujoco/1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d/unitree_robots/b2/assets/f_dc_link.obj"
+  },
+  {
+    "repository": "unitreerobotics/unitree_mujoco",
+    "commit": "1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d",
+    "path": "unitree_robots/b2/assets/f_oc_link.obj",
+    "local": "assets/ten-platform/unitree_mujoco/unitree_robots/b2/assets/f_oc_link.obj",
+    "git_blob_sha1": "7756e1c88291e6de2ce08738ee18b37a4c8aa7bc",
+    "sha256": "f6e8e5851e3b3af7dc21f87cd28e20b23217d47e342d455a4db4ef40e87e7538",
+    "bytes": 7653,
+    "source": "https://raw.githubusercontent.com/unitreerobotics/unitree_mujoco/1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d/unitree_robots/b2/assets/f_oc_link.obj"
+  },
+  {
+    "repository": "unitreerobotics/unitree_mujoco",
+    "commit": "1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d",
+    "path": "unitree_robots/b2/assets/fake_head_Link.STL",
+    "local": "assets/ten-platform/unitree_mujoco/unitree_robots/b2/assets/fake_head_Link.STL",
+    "git_blob_sha1": "0808e92112e8b3fe65a386e1dbe7d5587d9efd7d",
+    "sha256": "13217752a70e3c1538ba834d2a8ef203d71e2a0ea9034d124232f3d08b03a08a",
+    "bytes": 117684,
+    "source": "https://raw.githubusercontent.com/unitreerobotics/unitree_mujoco/1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d/unitree_robots/b2/assets/fake_head_Link.STL"
+  },
+  {
+    "repository": "unitreerobotics/unitree_mujoco",
+    "commit": "1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d",
+    "path": "unitree_robots/b2/assets/fake_imu_link.STL",
+    "local": "assets/ten-platform/unitree_mujoco/unitree_robots/b2/assets/fake_imu_link.STL",
+    "git_blob_sha1": "0808e92112e8b3fe65a386e1dbe7d5587d9efd7d",
+    "sha256": "13217752a70e3c1538ba834d2a8ef203d71e2a0ea9034d124232f3d08b03a08a",
+    "bytes": 117684,
+    "source": "https://raw.githubusercontent.com/unitreerobotics/unitree_mujoco/1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d/unitree_robots/b2/assets/fake_imu_link.STL"
+  },
+  {
+    "repository": "unitreerobotics/unitree_mujoco",
+    "commit": "1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d",
+    "path": "unitree_robots/b2/assets/fake_tail_link.STL",
+    "local": "assets/ten-platform/unitree_mujoco/unitree_robots/b2/assets/fake_tail_link.STL",
+    "git_blob_sha1": "0808e92112e8b3fe65a386e1dbe7d5587d9efd7d",
+    "sha256": "13217752a70e3c1538ba834d2a8ef203d71e2a0ea9034d124232f3d08b03a08a",
+    "bytes": 117684,
+    "source": "https://raw.githubusercontent.com/unitreerobotics/unitree_mujoco/1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d/unitree_robots/b2/assets/fake_tail_link.STL"
+  },
+  {
+    "repository": "unitreerobotics/unitree_mujoco",
+    "commit": "1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d",
+    "path": "unitree_robots/b2/assets/logo_left.obj",
+    "local": "assets/ten-platform/unitree_mujoco/unitree_robots/b2/assets/logo_left.obj",
+    "git_blob_sha1": "38275c3077f4fca97010f3b79f566e9527b2c1b3",
+    "sha256": "0887aa24c5178af99fd95742a6177c5697f7f49eb9dd5862ca27867d66887bd2",
+    "bytes": 272124,
+    "source": "https://raw.githubusercontent.com/unitreerobotics/unitree_mujoco/1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d/unitree_robots/b2/assets/logo_left.obj"
+  },
+  {
+    "repository": "unitreerobotics/unitree_mujoco",
+    "commit": "1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d",
+    "path": "unitree_robots/b2/assets/logo_right.obj",
+    "local": "assets/ten-platform/unitree_mujoco/unitree_robots/b2/assets/logo_right.obj",
+    "git_blob_sha1": "133d75b932bc3f30c58a12dae9591437ac22e187",
+    "sha256": "c94c9b364a612c91521fa65f82e51fc9b1720ca9ad16740ed49d3fa3dca448e9",
+    "bytes": 272963,
+    "source": "https://raw.githubusercontent.com/unitreerobotics/unitree_mujoco/1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d/unitree_robots/b2/assets/logo_right.obj"
+  },
+  {
+    "repository": "unitreerobotics/unitree_mujoco",
+    "commit": "1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d",
+    "path": "unitree_robots/b2/assets/r_dc_link.obj",
+    "local": "assets/ten-platform/unitree_mujoco/unitree_robots/b2/assets/r_dc_link.obj",
+    "git_blob_sha1": "752ce9669d7e0d7a1ea134a874d8457f5aa88a2a",
+    "sha256": "32629150f572e434cbd135de454aeaa14454871f5897fd865460b5b94d1356b7",
+    "bytes": 2943,
+    "source": "https://raw.githubusercontent.com/unitreerobotics/unitree_mujoco/1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d/unitree_robots/b2/assets/r_dc_link.obj"
+  },
+  {
+    "repository": "unitreerobotics/unitree_mujoco",
+    "commit": "1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d",
+    "path": "unitree_robots/b2/assets/r_oc_link.obj",
+    "local": "assets/ten-platform/unitree_mujoco/unitree_robots/b2/assets/r_oc_link.obj",
+    "git_blob_sha1": "da35f90313754fce7604419f2e9ea68353fc29bb",
+    "sha256": "c2448a40b0e697f827067ee8a3e0772b29aa48249da091b07311687253b9ca1a",
+    "bytes": 7737,
+    "source": "https://raw.githubusercontent.com/unitreerobotics/unitree_mujoco/1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d/unitree_robots/b2/assets/r_oc_link.obj"
+  },
+  {
+    "repository": "unitreerobotics/unitree_mujoco",
+    "commit": "1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d",
+    "path": "unitree_robots/b2/assets/unitree_ladar.obj",
+    "local": "assets/ten-platform/unitree_mujoco/unitree_robots/b2/assets/unitree_ladar.obj",
+    "git_blob_sha1": "9ec100bb3760ff535e3c28321b60a5d279992a2e",
+    "sha256": "e951dd0f9487e378a70f4f6bed7af1912fe56d5afae3acd8ae06c39474791cfe",
+    "bytes": 9252,
+    "source": "https://raw.githubusercontent.com/unitreerobotics/unitree_mujoco/1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d/unitree_robots/b2/assets/unitree_ladar.obj"
+  },
+  {
+    "repository": "unitreerobotics/unitree_mujoco",
+    "commit": "1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d",
+    "path": "unitree_robots/b2/b2.xml",
+    "local": "assets/ten-platform/unitree_mujoco/unitree_robots/b2/b2.xml",
+    "git_blob_sha1": "88e1a789b67e90adbb120237b03a11cb54b1b210",
+    "sha256": "ed6b51d00fb8593dd1c0e2360d10e06c5b86e422ec4583e92add0343ad24c9d8",
+    "bytes": 18887,
+    "source": "https://raw.githubusercontent.com/unitreerobotics/unitree_mujoco/1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d/unitree_robots/b2/b2.xml"
+  },
+  {
+    "repository": "unitreerobotics/unitree_mujoco",
+    "commit": "1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d",
+    "path": "unitree_robots/b2w/assets/FL_calf.STL",
+    "local": "assets/ten-platform/unitree_mujoco/unitree_robots/b2w/assets/FL_calf.STL",
+    "git_blob_sha1": "0448f80c8c20327c8e73adf7bd8d6938fe210ddd",
+    "sha256": "13f4d59bccf7fadd4f4f779cf3f7c9a0fca210018b65f8af8b420c3051cce447",
+    "bytes": 2041384,
+    "source": "https://raw.githubusercontent.com/unitreerobotics/unitree_mujoco/1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d/unitree_robots/b2w/assets/FL_calf.STL"
+  },
+  {
+    "repository": "unitreerobotics/unitree_mujoco",
+    "commit": "1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d",
+    "path": "unitree_robots/b2w/assets/FL_foot.obj",
+    "local": "assets/ten-platform/unitree_mujoco/unitree_robots/b2w/assets/FL_foot.obj",
+    "git_blob_sha1": "4e7e26d18cc882100d3a9a053df11440d678e25e",
+    "sha256": "7d1d76d8ed55e3bae20dc8bc1cfdf1ca90453cee7ccab4764d31908b52249bf4",
+    "bytes": 1134008,
+    "source": "https://raw.githubusercontent.com/unitreerobotics/unitree_mujoco/1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d/unitree_robots/b2w/assets/FL_foot.obj"
+  },
+  {
+    "repository": "unitreerobotics/unitree_mujoco",
+    "commit": "1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d",
+    "path": "unitree_robots/b2w/assets/FL_hip.obj",
+    "local": "assets/ten-platform/unitree_mujoco/unitree_robots/b2w/assets/FL_hip.obj",
+    "git_blob_sha1": "df0406234c906dfd34f35a71dda815b80b52c7ce",
+    "sha256": "5e3942ae305c6f9f0fa074f9c92195345948bc953a5a40e7005656730133a41a",
+    "bytes": 168726,
+    "source": "https://raw.githubusercontent.com/unitreerobotics/unitree_mujoco/1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d/unitree_robots/b2w/assets/FL_hip.obj"
+  },
+  {
+    "repository": "unitreerobotics/unitree_mujoco",
+    "commit": "1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d",
+    "path": "unitree_robots/b2w/assets/FL_thigh.obj",
+    "local": "assets/ten-platform/unitree_mujoco/unitree_robots/b2w/assets/FL_thigh.obj",
+    "git_blob_sha1": "384b55750f30f5ddc8392fa8d8c156de41c4d336",
+    "sha256": "b794d94f88310d331016855dcd91df3abdad965a81f668d25fcfc7cdcc85762b",
+    "bytes": 656761,
+    "source": "https://raw.githubusercontent.com/unitreerobotics/unitree_mujoco/1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d/unitree_robots/b2w/assets/FL_thigh.obj"
+  },
+  {
+    "repository": "unitreerobotics/unitree_mujoco",
+    "commit": "1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d",
+    "path": "unitree_robots/b2w/assets/FL_thigh_protect.obj",
+    "local": "assets/ten-platform/unitree_mujoco/unitree_robots/b2w/assets/FL_thigh_protect.obj",
+    "git_blob_sha1": "1c6fe025dfc0e7c4096a6751efa49e1c062c5d4e",
+    "sha256": "96b7881bd5664640bfea00fa74419903639f128a39fb24d8fe20a56950e11be4",
+    "bytes": 407319,
+    "source": "https://raw.githubusercontent.com/unitreerobotics/unitree_mujoco/1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d/unitree_robots/b2w/assets/FL_thigh_protect.obj"
+  },
+  {
+    "repository": "unitreerobotics/unitree_mujoco",
+    "commit": "1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d",
+    "path": "unitree_robots/b2w/assets/FL_wheel.STL",
+    "local": "assets/ten-platform/unitree_mujoco/unitree_robots/b2w/assets/FL_wheel.STL",
+    "git_blob_sha1": "eb932d07294c4002ca64630e1e212602c08f8fb2",
+    "sha256": "c756f5c79c0e840c91169b6beac7f6e081b4d1cb0532d586abb1db953fd8811f",
+    "bytes": 263984,
+    "source": "https://raw.githubusercontent.com/unitreerobotics/unitree_mujoco/1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d/unitree_robots/b2w/assets/FL_wheel.STL"
+  },
+  {
+    "repository": "unitreerobotics/unitree_mujoco",
+    "commit": "1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d",
+    "path": "unitree_robots/b2w/assets/FR_calf.STL",
+    "local": "assets/ten-platform/unitree_mujoco/unitree_robots/b2w/assets/FR_calf.STL",
+    "git_blob_sha1": "f7d03022884b8c81d472b6d4ddb3b6ac7eded9ec",
+    "sha256": "25bb9d923f20350b82243c16b780883b17207df7800be099b83358ce494d6a58",
+    "bytes": 1979584,
+    "source": "https://raw.githubusercontent.com/unitreerobotics/unitree_mujoco/1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d/unitree_robots/b2w/assets/FR_calf.STL"
+  },
+  {
+    "repository": "unitreerobotics/unitree_mujoco",
+    "commit": "1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d",
+    "path": "unitree_robots/b2w/assets/FR_foot.obj",
+    "local": "assets/ten-platform/unitree_mujoco/unitree_robots/b2w/assets/FR_foot.obj",
+    "git_blob_sha1": "4e7e26d18cc882100d3a9a053df11440d678e25e",
+    "sha256": "7d1d76d8ed55e3bae20dc8bc1cfdf1ca90453cee7ccab4764d31908b52249bf4",
+    "bytes": 1134008,
+    "source": "https://raw.githubusercontent.com/unitreerobotics/unitree_mujoco/1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d/unitree_robots/b2w/assets/FR_foot.obj"
+  },
+  {
+    "repository": "unitreerobotics/unitree_mujoco",
+    "commit": "1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d",
+    "path": "unitree_robots/b2w/assets/FR_hip.obj",
+    "local": "assets/ten-platform/unitree_mujoco/unitree_robots/b2w/assets/FR_hip.obj",
+    "git_blob_sha1": "a769bb4d1c64931d42b3144ef123b79e103b3661",
+    "sha256": "23b89b015a6c30bc8423a81d547ed41cfe0fa0d1d60f922c9dd8379139d22b83",
+    "bytes": 168209,
+    "source": "https://raw.githubusercontent.com/unitreerobotics/unitree_mujoco/1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d/unitree_robots/b2w/assets/FR_hip.obj"
+  },
+  {
+    "repository": "unitreerobotics/unitree_mujoco",
+    "commit": "1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d",
+    "path": "unitree_robots/b2w/assets/FR_thigh.obj",
+    "local": "assets/ten-platform/unitree_mujoco/unitree_robots/b2w/assets/FR_thigh.obj",
+    "git_blob_sha1": "7103d02797d126593a46b841873fc467ad74c2da",
+    "sha256": "c7caaa7ec3b143dbcda8980bd440217f30340cce739990f6883a3569b0b18af9",
+    "bytes": 1516972,
+    "source": "https://raw.githubusercontent.com/unitreerobotics/unitree_mujoco/1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d/unitree_robots/b2w/assets/FR_thigh.obj"
+  },
+  {
+    "repository": "unitreerobotics/unitree_mujoco",
+    "commit": "1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d",
+    "path": "unitree_robots/b2w/assets/FR_thigh_protect.obj",
+    "local": "assets/ten-platform/unitree_mujoco/unitree_robots/b2w/assets/FR_thigh_protect.obj",
+    "git_blob_sha1": "902d6825b1d5943aef4f009eaef6a22247c82c59",
+    "sha256": "9be071bbcac19c8c0d4063c7903b54fb3820e551180e297bee993e45362e1552",
+    "bytes": 408074,
+    "source": "https://raw.githubusercontent.com/unitreerobotics/unitree_mujoco/1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d/unitree_robots/b2w/assets/FR_thigh_protect.obj"
+  },
+  {
+    "repository": "unitreerobotics/unitree_mujoco",
+    "commit": "1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d",
+    "path": "unitree_robots/b2w/assets/FR_wheel.STL",
+    "local": "assets/ten-platform/unitree_mujoco/unitree_robots/b2w/assets/FR_wheel.STL",
+    "git_blob_sha1": "761811e2b7f592b8d80449dd070e5d0be22453fd",
+    "sha256": "d85ad60f4d30eb073336c1f2ecbc19ba350d901f4b0de653690f33dd6d17778a",
+    "bytes": 263984,
+    "source": "https://raw.githubusercontent.com/unitreerobotics/unitree_mujoco/1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d/unitree_robots/b2w/assets/FR_wheel.STL"
+  },
+  {
+    "repository": "unitreerobotics/unitree_mujoco",
+    "commit": "1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d",
+    "path": "unitree_robots/b2w/assets/RL_calf.STL",
+    "local": "assets/ten-platform/unitree_mujoco/unitree_robots/b2w/assets/RL_calf.STL",
+    "git_blob_sha1": "989e8faf490bea46ad7f29b8c1f3013838819540",
+    "sha256": "6be9fd064e8bbc72d86f8047a82d9b788b60e58842e9d17efc040105a92b2ead",
+    "bytes": 2041384,
+    "source": "https://raw.githubusercontent.com/unitreerobotics/unitree_mujoco/1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d/unitree_robots/b2w/assets/RL_calf.STL"
+  },
+  {
+    "repository": "unitreerobotics/unitree_mujoco",
+    "commit": "1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d",
+    "path": "unitree_robots/b2w/assets/RL_foot.obj",
+    "local": "assets/ten-platform/unitree_mujoco/unitree_robots/b2w/assets/RL_foot.obj",
+    "git_blob_sha1": "4e7e26d18cc882100d3a9a053df11440d678e25e",
+    "sha256": "7d1d76d8ed55e3bae20dc8bc1cfdf1ca90453cee7ccab4764d31908b52249bf4",
+    "bytes": 1134008,
+    "source": "https://raw.githubusercontent.com/unitreerobotics/unitree_mujoco/1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d/unitree_robots/b2w/assets/RL_foot.obj"
+  },
+  {
+    "repository": "unitreerobotics/unitree_mujoco",
+    "commit": "1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d",
+    "path": "unitree_robots/b2w/assets/RL_hip.obj",
+    "local": "assets/ten-platform/unitree_mujoco/unitree_robots/b2w/assets/RL_hip.obj",
+    "git_blob_sha1": "dc92c03c2332685779ab9338ca96a6677e8fb79c",
+    "sha256": "6e2879adc22ac042a5496cc34e4b33899629bba7551409694e63ac6000c553a0",
+    "bytes": 165316,
+    "source": "https://raw.githubusercontent.com/unitreerobotics/unitree_mujoco/1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d/unitree_robots/b2w/assets/RL_hip.obj"
+  },
+  {
+    "repository": "unitreerobotics/unitree_mujoco",
+    "commit": "1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d",
+    "path": "unitree_robots/b2w/assets/RL_thigh.obj",
+    "local": "assets/ten-platform/unitree_mujoco/unitree_robots/b2w/assets/RL_thigh.obj",
+    "git_blob_sha1": "384b55750f30f5ddc8392fa8d8c156de41c4d336",
+    "sha256": "b794d94f88310d331016855dcd91df3abdad965a81f668d25fcfc7cdcc85762b",
+    "bytes": 656761,
+    "source": "https://raw.githubusercontent.com/unitreerobotics/unitree_mujoco/1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d/unitree_robots/b2w/assets/RL_thigh.obj"
+  },
+  {
+    "repository": "unitreerobotics/unitree_mujoco",
+    "commit": "1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d",
+    "path": "unitree_robots/b2w/assets/RL_thigh_protect.obj",
+    "local": "assets/ten-platform/unitree_mujoco/unitree_robots/b2w/assets/RL_thigh_protect.obj",
+    "git_blob_sha1": "1c6fe025dfc0e7c4096a6751efa49e1c062c5d4e",
+    "sha256": "96b7881bd5664640bfea00fa74419903639f128a39fb24d8fe20a56950e11be4",
+    "bytes": 407319,
+    "source": "https://raw.githubusercontent.com/unitreerobotics/unitree_mujoco/1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d/unitree_robots/b2w/assets/RL_thigh_protect.obj"
+  },
+  {
+    "repository": "unitreerobotics/unitree_mujoco",
+    "commit": "1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d",
+    "path": "unitree_robots/b2w/assets/RL_wheel.STL",
+    "local": "assets/ten-platform/unitree_mujoco/unitree_robots/b2w/assets/RL_wheel.STL",
+    "git_blob_sha1": "7df1d351dd2ddddfb3ff7cfd3b5ce21275ec18d5",
+    "sha256": "1b032811cda44f156870e3f6b39e92f3701e93e000dfcc2dcc05895725684303",
+    "bytes": 263984,
+    "source": "https://raw.githubusercontent.com/unitreerobotics/unitree_mujoco/1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d/unitree_robots/b2w/assets/RL_wheel.STL"
+  },
+  {
+    "repository": "unitreerobotics/unitree_mujoco",
+    "commit": "1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d",
+    "path": "unitree_robots/b2w/assets/RR_calf.STL",
+    "local": "assets/ten-platform/unitree_mujoco/unitree_robots/b2w/assets/RR_calf.STL",
+    "git_blob_sha1": "3f9e33df1214cee7689a9068509a37a14170c52b",
+    "sha256": "245fe111bc8ab20ff7e0290b312f70cca73da9d1a5588923682f63276bafdf69",
+    "bytes": 1979584,
+    "source": "https://raw.githubusercontent.com/unitreerobotics/unitree_mujoco/1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d/unitree_robots/b2w/assets/RR_calf.STL"
+  },
+  {
+    "repository": "unitreerobotics/unitree_mujoco",
+    "commit": "1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d",
+    "path": "unitree_robots/b2w/assets/RR_foot.obj",
+    "local": "assets/ten-platform/unitree_mujoco/unitree_robots/b2w/assets/RR_foot.obj",
+    "git_blob_sha1": "4e7e26d18cc882100d3a9a053df11440d678e25e",
+    "sha256": "7d1d76d8ed55e3bae20dc8bc1cfdf1ca90453cee7ccab4764d31908b52249bf4",
+    "bytes": 1134008,
+    "source": "https://raw.githubusercontent.com/unitreerobotics/unitree_mujoco/1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d/unitree_robots/b2w/assets/RR_foot.obj"
+  },
+  {
+    "repository": "unitreerobotics/unitree_mujoco",
+    "commit": "1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d",
+    "path": "unitree_robots/b2w/assets/RR_hip.obj",
+    "local": "assets/ten-platform/unitree_mujoco/unitree_robots/b2w/assets/RR_hip.obj",
+    "git_blob_sha1": "bc8ba4f67eacb043e14de634117aff7013664370",
+    "sha256": "8518c8bc919782381dce1dcc170e5d2c0621e8bf6de40d78ec98d8b48ba8eadf",
+    "bytes": 165423,
+    "source": "https://raw.githubusercontent.com/unitreerobotics/unitree_mujoco/1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d/unitree_robots/b2w/assets/RR_hip.obj"
+  },
+  {
+    "repository": "unitreerobotics/unitree_mujoco",
+    "commit": "1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d",
+    "path": "unitree_robots/b2w/assets/RR_thigh.obj",
+    "local": "assets/ten-platform/unitree_mujoco/unitree_robots/b2w/assets/RR_thigh.obj",
+    "git_blob_sha1": "7103d02797d126593a46b841873fc467ad74c2da",
+    "sha256": "c7caaa7ec3b143dbcda8980bd440217f30340cce739990f6883a3569b0b18af9",
+    "bytes": 1516972,
+    "source": "https://raw.githubusercontent.com/unitreerobotics/unitree_mujoco/1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d/unitree_robots/b2w/assets/RR_thigh.obj"
+  },
+  {
+    "repository": "unitreerobotics/unitree_mujoco",
+    "commit": "1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d",
+    "path": "unitree_robots/b2w/assets/RR_thigh_protect.obj",
+    "local": "assets/ten-platform/unitree_mujoco/unitree_robots/b2w/assets/RR_thigh_protect.obj",
+    "git_blob_sha1": "902d6825b1d5943aef4f009eaef6a22247c82c59",
+    "sha256": "9be071bbcac19c8c0d4063c7903b54fb3820e551180e297bee993e45362e1552",
+    "bytes": 408074,
+    "source": "https://raw.githubusercontent.com/unitreerobotics/unitree_mujoco/1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d/unitree_robots/b2w/assets/RR_thigh_protect.obj"
+  },
+  {
+    "repository": "unitreerobotics/unitree_mujoco",
+    "commit": "1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d",
+    "path": "unitree_robots/b2w/assets/RR_wheel.STL",
+    "local": "assets/ten-platform/unitree_mujoco/unitree_robots/b2w/assets/RR_wheel.STL",
+    "git_blob_sha1": "c51f78a34ec128ef4de1557a87152767297fbd6c",
+    "sha256": "b82e44d23fbef9cc2c91e8711a805d7e8226b1dfb191f3794d6162d2a2167b0c",
+    "bytes": 263984,
+    "source": "https://raw.githubusercontent.com/unitreerobotics/unitree_mujoco/1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d/unitree_robots/b2w/assets/RR_wheel.STL"
+  },
+  {
+    "repository": "unitreerobotics/unitree_mujoco",
+    "commit": "1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d",
+    "path": "unitree_robots/b2w/assets/base_link.obj",
+    "local": "assets/ten-platform/unitree_mujoco/unitree_robots/b2w/assets/base_link.obj",
+    "git_blob_sha1": "eaff69c37b3287a6216ef9ec2037b282139b0ac7",
+    "sha256": "5bd2e7c234ca56777c7170b89baf879dad84fc68683711920eb0ef8c6c3b264f",
+    "bytes": 16748391,
+    "source": "https://raw.githubusercontent.com/unitreerobotics/unitree_mujoco/1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d/unitree_robots/b2w/assets/base_link.obj"
+  },
+  {
+    "repository": "unitreerobotics/unitree_mujoco",
+    "commit": "1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d",
+    "path": "unitree_robots/b2w/assets/f_dc_link.obj",
+    "local": "assets/ten-platform/unitree_mujoco/unitree_robots/b2w/assets/f_dc_link.obj",
+    "git_blob_sha1": "543cf701481ad2a103fadf29bdab6362f4a738ac",
+    "sha256": "24993a575ae7dbaebf21c72fc11ee91d80eb65044d19bc1ca5dc26126a1501e9",
+    "bytes": 3010,
+    "source": "https://raw.githubusercontent.com/unitreerobotics/unitree_mujoco/1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d/unitree_robots/b2w/assets/f_dc_link.obj"
+  },
+  {
+    "repository": "unitreerobotics/unitree_mujoco",
+    "commit": "1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d",
+    "path": "unitree_robots/b2w/assets/f_oc_link.obj",
+    "local": "assets/ten-platform/unitree_mujoco/unitree_robots/b2w/assets/f_oc_link.obj",
+    "git_blob_sha1": "7756e1c88291e6de2ce08738ee18b37a4c8aa7bc",
+    "sha256": "f6e8e5851e3b3af7dc21f87cd28e20b23217d47e342d455a4db4ef40e87e7538",
+    "bytes": 7653,
+    "source": "https://raw.githubusercontent.com/unitreerobotics/unitree_mujoco/1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d/unitree_robots/b2w/assets/f_oc_link.obj"
+  },
+  {
+    "repository": "unitreerobotics/unitree_mujoco",
+    "commit": "1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d",
+    "path": "unitree_robots/b2w/assets/fake_head_Link.STL",
+    "local": "assets/ten-platform/unitree_mujoco/unitree_robots/b2w/assets/fake_head_Link.STL",
+    "git_blob_sha1": "0808e92112e8b3fe65a386e1dbe7d5587d9efd7d",
+    "sha256": "13217752a70e3c1538ba834d2a8ef203d71e2a0ea9034d124232f3d08b03a08a",
+    "bytes": 117684,
+    "source": "https://raw.githubusercontent.com/unitreerobotics/unitree_mujoco/1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d/unitree_robots/b2w/assets/fake_head_Link.STL"
+  },
+  {
+    "repository": "unitreerobotics/unitree_mujoco",
+    "commit": "1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d",
+    "path": "unitree_robots/b2w/assets/fake_imu_link.STL",
+    "local": "assets/ten-platform/unitree_mujoco/unitree_robots/b2w/assets/fake_imu_link.STL",
+    "git_blob_sha1": "0808e92112e8b3fe65a386e1dbe7d5587d9efd7d",
+    "sha256": "13217752a70e3c1538ba834d2a8ef203d71e2a0ea9034d124232f3d08b03a08a",
+    "bytes": 117684,
+    "source": "https://raw.githubusercontent.com/unitreerobotics/unitree_mujoco/1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d/unitree_robots/b2w/assets/fake_imu_link.STL"
+  },
+  {
+    "repository": "unitreerobotics/unitree_mujoco",
+    "commit": "1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d",
+    "path": "unitree_robots/b2w/assets/fake_tail_link.STL",
+    "local": "assets/ten-platform/unitree_mujoco/unitree_robots/b2w/assets/fake_tail_link.STL",
+    "git_blob_sha1": "0808e92112e8b3fe65a386e1dbe7d5587d9efd7d",
+    "sha256": "13217752a70e3c1538ba834d2a8ef203d71e2a0ea9034d124232f3d08b03a08a",
+    "bytes": 117684,
+    "source": "https://raw.githubusercontent.com/unitreerobotics/unitree_mujoco/1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d/unitree_robots/b2w/assets/fake_tail_link.STL"
+  },
+  {
+    "repository": "unitreerobotics/unitree_mujoco",
+    "commit": "1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d",
+    "path": "unitree_robots/b2w/assets/logo_left.obj",
+    "local": "assets/ten-platform/unitree_mujoco/unitree_robots/b2w/assets/logo_left.obj",
+    "git_blob_sha1": "38275c3077f4fca97010f3b79f566e9527b2c1b3",
+    "sha256": "0887aa24c5178af99fd95742a6177c5697f7f49eb9dd5862ca27867d66887bd2",
+    "bytes": 272124,
+    "source": "https://raw.githubusercontent.com/unitreerobotics/unitree_mujoco/1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d/unitree_robots/b2w/assets/logo_left.obj"
+  },
+  {
+    "repository": "unitreerobotics/unitree_mujoco",
+    "commit": "1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d",
+    "path": "unitree_robots/b2w/assets/logo_right.obj",
+    "local": "assets/ten-platform/unitree_mujoco/unitree_robots/b2w/assets/logo_right.obj",
+    "git_blob_sha1": "133d75b932bc3f30c58a12dae9591437ac22e187",
+    "sha256": "c94c9b364a612c91521fa65f82e51fc9b1720ca9ad16740ed49d3fa3dca448e9",
+    "bytes": 272963,
+    "source": "https://raw.githubusercontent.com/unitreerobotics/unitree_mujoco/1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d/unitree_robots/b2w/assets/logo_right.obj"
+  },
+  {
+    "repository": "unitreerobotics/unitree_mujoco",
+    "commit": "1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d",
+    "path": "unitree_robots/b2w/assets/r_dc_link.obj",
+    "local": "assets/ten-platform/unitree_mujoco/unitree_robots/b2w/assets/r_dc_link.obj",
+    "git_blob_sha1": "752ce9669d7e0d7a1ea134a874d8457f5aa88a2a",
+    "sha256": "32629150f572e434cbd135de454aeaa14454871f5897fd865460b5b94d1356b7",
+    "bytes": 2943,
+    "source": "https://raw.githubusercontent.com/unitreerobotics/unitree_mujoco/1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d/unitree_robots/b2w/assets/r_dc_link.obj"
+  },
+  {
+    "repository": "unitreerobotics/unitree_mujoco",
+    "commit": "1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d",
+    "path": "unitree_robots/b2w/assets/r_oc_link.obj",
+    "local": "assets/ten-platform/unitree_mujoco/unitree_robots/b2w/assets/r_oc_link.obj",
+    "git_blob_sha1": "da35f90313754fce7604419f2e9ea68353fc29bb",
+    "sha256": "c2448a40b0e697f827067ee8a3e0772b29aa48249da091b07311687253b9ca1a",
+    "bytes": 7737,
+    "source": "https://raw.githubusercontent.com/unitreerobotics/unitree_mujoco/1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d/unitree_robots/b2w/assets/r_oc_link.obj"
+  },
+  {
+    "repository": "unitreerobotics/unitree_mujoco",
+    "commit": "1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d",
+    "path": "unitree_robots/b2w/assets/unitree_ladar.obj",
+    "local": "assets/ten-platform/unitree_mujoco/unitree_robots/b2w/assets/unitree_ladar.obj",
+    "git_blob_sha1": "9ec100bb3760ff535e3c28321b60a5d279992a2e",
+    "sha256": "e951dd0f9487e378a70f4f6bed7af1912fe56d5afae3acd8ae06c39474791cfe",
+    "bytes": 9252,
+    "source": "https://raw.githubusercontent.com/unitreerobotics/unitree_mujoco/1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d/unitree_robots/b2w/assets/unitree_ladar.obj"
+  },
+  {
+    "repository": "unitreerobotics/unitree_mujoco",
+    "commit": "1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d",
+    "path": "unitree_robots/b2w/b2w.xml",
+    "local": "assets/ten-platform/unitree_mujoco/unitree_robots/b2w/b2w.xml",
+    "git_blob_sha1": "0f65df5b8c92425489eb4d9ffa9f47a21d1396d6",
+    "sha256": "31a1b60bef0946568e98ec609fbf2dfb9237a77350a225a4bbf052698e196c0c",
+    "bytes": 22077,
+    "source": "https://raw.githubusercontent.com/unitreerobotics/unitree_mujoco/1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d/unitree_robots/b2w/b2w.xml"
+  },
+  {
+    "repository": "unitreerobotics/unitree_mujoco",
+    "commit": "1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d",
+    "path": "unitree_robots/go2w/assets/base_0.obj",
+    "local": "assets/ten-platform/unitree_mujoco/unitree_robots/go2w/assets/base_0.obj",
+    "git_blob_sha1": "f2e688236f56bd2738468a213ea61fd2f69baf0b",
+    "sha256": "8cdc53719002a5ee737d867904e534a6d6fa930b616bdcc1b3131e577d4e46c0",
+    "bytes": 1330465,
+    "source": "https://raw.githubusercontent.com/unitreerobotics/unitree_mujoco/1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d/unitree_robots/go2w/assets/base_0.obj"
+  },
+  {
+    "repository": "unitreerobotics/unitree_mujoco",
+    "commit": "1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d",
+    "path": "unitree_robots/go2w/assets/base_1.obj",
+    "local": "assets/ten-platform/unitree_mujoco/unitree_robots/go2w/assets/base_1.obj",
+    "git_blob_sha1": "e9a44eb668902b7f934f8328e4d33c6e38df8db9",
+    "sha256": "39d2f4724ff64dd5a0640c308fd98902a2946660a8d033ec8dbf368fd5af0dd6",
+    "bytes": 811791,
+    "source": "https://raw.githubusercontent.com/unitreerobotics/unitree_mujoco/1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d/unitree_robots/go2w/assets/base_1.obj"
+  },
+  {
+    "repository": "unitreerobotics/unitree_mujoco",
+    "commit": "1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d",
+    "path": "unitree_robots/go2w/assets/base_2.obj",
+    "local": "assets/ten-platform/unitree_mujoco/unitree_robots/go2w/assets/base_2.obj",
+    "git_blob_sha1": "bc661591f01c760072cb9f3fb6d80b2545bb1d53",
+    "sha256": "29cae463f95d678e4ede863c36c9b19b0d356b8340412add10670d70bdcc3095",
+    "bytes": 294090,
+    "source": "https://raw.githubusercontent.com/unitreerobotics/unitree_mujoco/1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d/unitree_robots/go2w/assets/base_2.obj"
+  },
+  {
+    "repository": "unitreerobotics/unitree_mujoco",
+    "commit": "1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d",
+    "path": "unitree_robots/go2w/assets/base_3.obj",
+    "local": "assets/ten-platform/unitree_mujoco/unitree_robots/go2w/assets/base_3.obj",
+    "git_blob_sha1": "5c98393efeb90c26bef36279e000d738dff8ff9d",
+    "sha256": "f51ba43bf300e68957a0c1aa83eaf3e4926f4ac7e64a0d6c33ae5d21fcbcf5f6",
+    "bytes": 379093,
+    "source": "https://raw.githubusercontent.com/unitreerobotics/unitree_mujoco/1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d/unitree_robots/go2w/assets/base_3.obj"
+  },
+  {
+    "repository": "unitreerobotics/unitree_mujoco",
+    "commit": "1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d",
+    "path": "unitree_robots/go2w/assets/base_4.obj",
+    "local": "assets/ten-platform/unitree_mujoco/unitree_robots/go2w/assets/base_4.obj",
+    "git_blob_sha1": "1f45bc4fa84604cd8e69124084805104b96be188",
+    "sha256": "49ddec0129546e5dd2075d5beacf7f207baa2860aeff7626818e64d2efbf3821",
+    "bytes": 7776234,
+    "source": "https://raw.githubusercontent.com/unitreerobotics/unitree_mujoco/1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d/unitree_robots/go2w/assets/base_4.obj"
+  },
+  {
+    "repository": "unitreerobotics/unitree_mujoco",
+    "commit": "1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d",
+    "path": "unitree_robots/go2w/assets/calf.stl",
+    "local": "assets/ten-platform/unitree_mujoco/unitree_robots/go2w/assets/calf.stl",
+    "git_blob_sha1": "fe01c01a5bb1a2d72c22df0385dd81ad5ff384d8",
+    "sha256": "2aee434b80da010deebb11c8538d593f7901a169cc34916350902746e591437e",
+    "bytes": 2247484,
+    "source": "https://raw.githubusercontent.com/unitreerobotics/unitree_mujoco/1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d/unitree_robots/go2w/assets/calf.stl"
+  },
+  {
+    "repository": "unitreerobotics/unitree_mujoco",
+    "commit": "1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d",
+    "path": "unitree_robots/go2w/assets/calf_0.obj",
+    "local": "assets/ten-platform/unitree_mujoco/unitree_robots/go2w/assets/calf_0.obj",
+    "git_blob_sha1": "1d9be4c392ba62a96a07043096d96d0a981fb9e9",
+    "sha256": "4a818cd563c5b7e2a271504442d05fd777d38cbaa028d4a10ad29c9f87bb355e",
+    "bytes": 877174,
+    "source": "https://raw.githubusercontent.com/unitreerobotics/unitree_mujoco/1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d/unitree_robots/go2w/assets/calf_0.obj"
+  },
+  {
+    "repository": "unitreerobotics/unitree_mujoco",
+    "commit": "1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d",
+    "path": "unitree_robots/go2w/assets/calf_1.obj",
+    "local": "assets/ten-platform/unitree_mujoco/unitree_robots/go2w/assets/calf_1.obj",
+    "git_blob_sha1": "01197551ce8ad7d7118590f949897c72a57b0e11",
+    "sha256": "51950c3a153ae3208592df86ea11c9d6756f8f645ebca5caf6910c61aeb03817",
+    "bytes": 326865,
+    "source": "https://raw.githubusercontent.com/unitreerobotics/unitree_mujoco/1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d/unitree_robots/go2w/assets/calf_1.obj"
+  },
+  {
+    "repository": "unitreerobotics/unitree_mujoco",
+    "commit": "1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d",
+    "path": "unitree_robots/go2w/assets/calf_mirror.stl",
+    "local": "assets/ten-platform/unitree_mujoco/unitree_robots/go2w/assets/calf_mirror.stl",
+    "git_blob_sha1": "6630244de8b12628730a0783be142db526415167",
+    "sha256": "528b471bfc60b6e72dbb162b34eefebced994bea82aaf58eda91f090219cd911",
+    "bytes": 1652384,
+    "source": "https://raw.githubusercontent.com/unitreerobotics/unitree_mujoco/1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d/unitree_robots/go2w/assets/calf_mirror.stl"
+  },
+  {
+    "repository": "unitreerobotics/unitree_mujoco",
+    "commit": "1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d",
+    "path": "unitree_robots/go2w/assets/calf_mirror_0.obj",
+    "local": "assets/ten-platform/unitree_mujoco/unitree_robots/go2w/assets/calf_mirror_0.obj",
+    "git_blob_sha1": "710bbe9ee5190e182e31730acb0e9ec6ed4c87db",
+    "sha256": "6dc0406207a1c08a5953fd5962aca1a270fd06593d30d100205e05c1b32d4af2",
+    "bytes": 876538,
+    "source": "https://raw.githubusercontent.com/unitreerobotics/unitree_mujoco/1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d/unitree_robots/go2w/assets/calf_mirror_0.obj"
+  },
+  {
+    "repository": "unitreerobotics/unitree_mujoco",
+    "commit": "1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d",
+    "path": "unitree_robots/go2w/assets/calf_mirror_1.obj",
+    "local": "assets/ten-platform/unitree_mujoco/unitree_robots/go2w/assets/calf_mirror_1.obj",
+    "git_blob_sha1": "6b27378a4e44d27bf974ec7ba311f5725c4dc2da",
+    "sha256": "f84f5af90b914633165beb3a5493ee499169144c5797dcf04c6eb5842f74b31a",
+    "bytes": 327261,
+    "source": "https://raw.githubusercontent.com/unitreerobotics/unitree_mujoco/1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d/unitree_robots/go2w/assets/calf_mirror_1.obj"
+  },
+  {
+    "repository": "unitreerobotics/unitree_mujoco",
+    "commit": "1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d",
+    "path": "unitree_robots/go2w/assets/foot.obj",
+    "local": "assets/ten-platform/unitree_mujoco/unitree_robots/go2w/assets/foot.obj",
+    "git_blob_sha1": "edc559eeb5b385e3df55573074e35ce1ef227a46",
+    "sha256": "df9e78a7c0110d02557439010f2a5f11f0ec4fd907b32704145dbd6aa7affc0b",
+    "bytes": 1144729,
+    "source": "https://raw.githubusercontent.com/unitreerobotics/unitree_mujoco/1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d/unitree_robots/go2w/assets/foot.obj"
+  },
+  {
+    "repository": "unitreerobotics/unitree_mujoco",
+    "commit": "1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d",
+    "path": "unitree_robots/go2w/assets/hip_0.obj",
+    "local": "assets/ten-platform/unitree_mujoco/unitree_robots/go2w/assets/hip_0.obj",
+    "git_blob_sha1": "551f12437a92cf72206aa56dca412c88220b6c4a",
+    "sha256": "cc29932ab4d251ce3f72389ec4c1f757e44eee138b87e772b648c2bc76b506cd",
+    "bytes": 2863864,
+    "source": "https://raw.githubusercontent.com/unitreerobotics/unitree_mujoco/1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d/unitree_robots/go2w/assets/hip_0.obj"
+  },
+  {
+    "repository": "unitreerobotics/unitree_mujoco",
+    "commit": "1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d",
+    "path": "unitree_robots/go2w/assets/hip_1.obj",
+    "local": "assets/ten-platform/unitree_mujoco/unitree_robots/go2w/assets/hip_1.obj",
+    "git_blob_sha1": "ed2bebfc4c2febfef45a1c67c40397964a6df6e4",
+    "sha256": "3fd5bd9b2ef6abe622c0739d3c67eaa1679b19b47132951972c4892a779ea7cf",
+    "bytes": 2767918,
+    "source": "https://raw.githubusercontent.com/unitreerobotics/unitree_mujoco/1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d/unitree_robots/go2w/assets/hip_1.obj"
+  },
+  {
+    "repository": "unitreerobotics/unitree_mujoco",
+    "commit": "1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d",
+    "path": "unitree_robots/go2w/assets/terrain.STL",
+    "local": "assets/ten-platform/unitree_mujoco/unitree_robots/go2w/assets/terrain.STL",
+    "git_blob_sha1": "c6e29dbc06be0a324d2da625f36a2a3e24003340",
+    "sha256": "38dd949eecfb697a4fff0a3a527bf638807df9a0481b29c22aff4298d5ac2b6a",
+    "bytes": 38084,
+    "source": "https://raw.githubusercontent.com/unitreerobotics/unitree_mujoco/1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d/unitree_robots/go2w/assets/terrain.STL"
+  },
+  {
+    "repository": "unitreerobotics/unitree_mujoco",
+    "commit": "1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d",
+    "path": "unitree_robots/go2w/assets/terrain.stl",
+    "local": "assets/ten-platform/unitree_mujoco/unitree_robots/go2w/assets/terrain.stl",
+    "git_blob_sha1": "d0ec042bd09087ada645c33ab4189bf4db8d8f80",
+    "sha256": "561c95d28cf9bc648feacced5b4044560dc157468c114e8314ac9c4e169097fa",
+    "bytes": 38084,
+    "source": "https://raw.githubusercontent.com/unitreerobotics/unitree_mujoco/1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d/unitree_robots/go2w/assets/terrain.stl"
+  },
+  {
+    "repository": "unitreerobotics/unitree_mujoco",
+    "commit": "1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d",
+    "path": "unitree_robots/go2w/assets/thigh_0.obj",
+    "local": "assets/ten-platform/unitree_mujoco/unitree_robots/go2w/assets/thigh_0.obj",
+    "git_blob_sha1": "0b99756ffd7d3391abeff66fc510a1ae7c5a4c8b",
+    "sha256": "bb3edfe6a7b04f4f4dff1ce7b05d426ddce941e276cc6372fb542055893c71ec",
+    "bytes": 2841868,
+    "source": "https://raw.githubusercontent.com/unitreerobotics/unitree_mujoco/1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d/unitree_robots/go2w/assets/thigh_0.obj"
+  },
+  {
+    "repository": "unitreerobotics/unitree_mujoco",
+    "commit": "1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d",
+    "path": "unitree_robots/go2w/assets/thigh_1.obj",
+    "local": "assets/ten-platform/unitree_mujoco/unitree_robots/go2w/assets/thigh_1.obj",
+    "git_blob_sha1": "5005be1de988534d0f4b94ec51eaf1ff41ba7970",
+    "sha256": "3a631822f9f7d2114b1b79dcdff5abf95103630abb7d91d1f3b8b18117132ed2",
+    "bytes": 1491320,
+    "source": "https://raw.githubusercontent.com/unitreerobotics/unitree_mujoco/1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d/unitree_robots/go2w/assets/thigh_1.obj"
+  },
+  {
+    "repository": "unitreerobotics/unitree_mujoco",
+    "commit": "1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d",
+    "path": "unitree_robots/go2w/assets/thigh_mirror_0.obj",
+    "local": "assets/ten-platform/unitree_mujoco/unitree_robots/go2w/assets/thigh_mirror_0.obj",
+    "git_blob_sha1": "7c2fd2ce44ed9e4f1d550ca1847c7c9e58f91be1",
+    "sha256": "07abaedce761f1dd48647384ac14ba1959276bc78d5a2a62051e8f1c6093933b",
+    "bytes": 2817674,
+    "source": "https://raw.githubusercontent.com/unitreerobotics/unitree_mujoco/1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d/unitree_robots/go2w/assets/thigh_mirror_0.obj"
+  },
+  {
+    "repository": "unitreerobotics/unitree_mujoco",
+    "commit": "1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d",
+    "path": "unitree_robots/go2w/assets/thigh_mirror_1.obj",
+    "local": "assets/ten-platform/unitree_mujoco/unitree_robots/go2w/assets/thigh_mirror_1.obj",
+    "git_blob_sha1": "fb7e0b4963b9889fe6b1127bbca03844163b1bc7",
+    "sha256": "db984a3e983eabbc9b38183427cca9ab0bb3bdb049f9eab030e06edda36579d6",
+    "bytes": 1482261,
+    "source": "https://raw.githubusercontent.com/unitreerobotics/unitree_mujoco/1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d/unitree_robots/go2w/assets/thigh_mirror_1.obj"
+  },
+  {
+    "repository": "unitreerobotics/unitree_mujoco",
+    "commit": "1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d",
+    "path": "unitree_robots/go2w/assets/untitled.stl",
+    "local": "assets/ten-platform/unitree_mujoco/unitree_robots/go2w/assets/untitled.stl",
+    "git_blob_sha1": "cf8df2a8578684aac9b888ca90d9ccffb7c1a1a7",
+    "sha256": "654d229dcbd6e02cd43c32e71ba137eef1bba992cd64541e46f2e2f8e7e10a5d",
+    "bytes": 38084,
+    "source": "https://raw.githubusercontent.com/unitreerobotics/unitree_mujoco/1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d/unitree_robots/go2w/assets/untitled.stl"
+  },
+  {
+    "repository": "unitreerobotics/unitree_mujoco",
+    "commit": "1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d",
+    "path": "unitree_robots/go2w/assets/wheel.stl",
+    "local": "assets/ten-platform/unitree_mujoco/unitree_robots/go2w/assets/wheel.stl",
+    "git_blob_sha1": "d9ebc78140b027eeab203523c92d3e7ace0c0ef0",
+    "sha256": "51c95e80dcd41c0cf1a9575d4d7c2c89855848f7fa2c4bf28f2f10c2e3d639e2",
+    "bytes": 906584,
+    "source": "https://raw.githubusercontent.com/unitreerobotics/unitree_mujoco/1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d/unitree_robots/go2w/assets/wheel.stl"
+  },
+  {
+    "repository": "unitreerobotics/unitree_mujoco",
+    "commit": "1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d",
+    "path": "unitree_robots/go2w/assets/wheel1.stl",
+    "local": "assets/ten-platform/unitree_mujoco/unitree_robots/go2w/assets/wheel1.stl",
+    "git_blob_sha1": "f29ff435d66fa226c72559116da6ebcad7132ee9",
+    "sha256": "d0f0ad618e1d7791020e752aaca171fa0bef0700e42493b063e4a1e8a2f9e24e",
+    "bytes": 263984,
+    "source": "https://raw.githubusercontent.com/unitreerobotics/unitree_mujoco/1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d/unitree_robots/go2w/assets/wheel1.stl"
+  },
+  {
+    "repository": "unitreerobotics/unitree_mujoco",
+    "commit": "1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d",
+    "path": "unitree_robots/go2w/go2w.xml",
+    "local": "assets/ten-platform/unitree_mujoco/unitree_robots/go2w/go2w.xml",
+    "git_blob_sha1": "88b7dbe2f6ca775a60cb1ddb2e4c2f1ee9573c5a",
+    "sha256": "c8feaef4afdf360335727c80a826d1611950c562a3daaa5b5bfcf8b57f6859a6",
+    "bytes": 16920,
+    "source": "https://raw.githubusercontent.com/unitreerobotics/unitree_mujoco/1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d/unitree_robots/go2w/go2w.xml"
+  },
+  {
+    "repository": "google-deepmind/mujoco_menagerie",
+    "commit": "f3b6013629c7b94f8ee93fd977b161fa8350f9bc",
+    "path": "unitree_go1/CHANGELOG.md",
+    "local": "assets/ten-platform/menagerie/unitree_go1/CHANGELOG.md",
+    "git_blob_sha1": "26f64dc95fe079ab0b83e8ccc024eb9d78dc8ff0",
+    "sha256": "0cf56d81d15241511c79e8c5e83dcd069b64df30103e97227207e4dfbf0775dc",
+    "bytes": 144,
+    "source": "https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/f3b6013629c7b94f8ee93fd977b161fa8350f9bc/unitree_go1/CHANGELOG.md"
+  },
+  {
+    "repository": "google-deepmind/mujoco_menagerie",
+    "commit": "f3b6013629c7b94f8ee93fd977b161fa8350f9bc",
+    "path": "unitree_go1/LICENSE",
+    "local": "assets/ten-platform/menagerie/unitree_go1/LICENSE",
+    "git_blob_sha1": "e472bbd9217c60020b6949b6d8f3b3ede72acb11",
+    "sha256": "2b794acf1e250f5545ae5a47d81e5685ea5488ce077d1087ed8be5f81e9ba5c0",
+    "bytes": 1559,
+    "source": "https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/f3b6013629c7b94f8ee93fd977b161fa8350f9bc/unitree_go1/LICENSE"
+  },
+  {
+    "repository": "google-deepmind/mujoco_menagerie",
+    "commit": "f3b6013629c7b94f8ee93fd977b161fa8350f9bc",
+    "path": "unitree_go1/README.md",
+    "local": "assets/ten-platform/menagerie/unitree_go1/README.md",
+    "git_blob_sha1": "e693a5797c4c85d38aae5c1537589ea72d56b376",
+    "sha256": "a4b63613124da20b09f9f8c550482d670ab2b784a272a489f94e2288df43f151",
+    "bytes": 1016,
+    "source": "https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/f3b6013629c7b94f8ee93fd977b161fa8350f9bc/unitree_go1/README.md"
+  },
+  {
+    "repository": "google-deepmind/mujoco_menagerie",
+    "commit": "f3b6013629c7b94f8ee93fd977b161fa8350f9bc",
+    "path": "unitree_go1/assets/calf.stl",
+    "local": "assets/ten-platform/menagerie/unitree_go1/assets/calf.stl",
+    "git_blob_sha1": "3e8ac94d7e1cd6831fd27facf604b5d832193995",
+    "sha256": "ad3685e132454fd64e4ca3e5089f0d812fb53958e95c14913a22e3193e9e9ed8",
+    "bytes": 1447984,
+    "source": "https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/f3b6013629c7b94f8ee93fd977b161fa8350f9bc/unitree_go1/assets/calf.stl"
+  },
+  {
+    "repository": "google-deepmind/mujoco_menagerie",
+    "commit": "f3b6013629c7b94f8ee93fd977b161fa8350f9bc",
+    "path": "unitree_go1/assets/hip.stl",
+    "local": "assets/ten-platform/menagerie/unitree_go1/assets/hip.stl",
+    "git_blob_sha1": "ae590bfc874b9c6f65bd0280a33891015175cb65",
+    "sha256": "b6599b9dd2751ebd87449203223f5683a6c235268b76fcc443e00e0d974a06c0",
+    "bytes": 1505284,
+    "source": "https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/f3b6013629c7b94f8ee93fd977b161fa8350f9bc/unitree_go1/assets/hip.stl"
+  },
+  {
+    "repository": "google-deepmind/mujoco_menagerie",
+    "commit": "f3b6013629c7b94f8ee93fd977b161fa8350f9bc",
+    "path": "unitree_go1/assets/thigh.stl",
+    "local": "assets/ten-platform/menagerie/unitree_go1/assets/thigh.stl",
+    "git_blob_sha1": "353801bb05ff40db35bc93e53e15d510d158960d",
+    "sha256": "bbf7c0a441323088c59276dbec8a32e708a1c61f42d30a6f6775176366ea23f8",
+    "bytes": 793584,
+    "source": "https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/f3b6013629c7b94f8ee93fd977b161fa8350f9bc/unitree_go1/assets/thigh.stl"
+  },
+  {
+    "repository": "google-deepmind/mujoco_menagerie",
+    "commit": "f3b6013629c7b94f8ee93fd977b161fa8350f9bc",
+    "path": "unitree_go1/assets/thigh_mirror.stl",
+    "local": "assets/ten-platform/menagerie/unitree_go1/assets/thigh_mirror.stl",
+    "git_blob_sha1": "11ef770c11e972aedfe15d3a16d0fb740a1da642",
+    "sha256": "1a90b89de47a57cb12a2d703f6b008a6ace8a1890a381c27723296fd0d00b9d8",
+    "bytes": 950834,
+    "source": "https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/f3b6013629c7b94f8ee93fd977b161fa8350f9bc/unitree_go1/assets/thigh_mirror.stl"
+  },
+  {
+    "repository": "google-deepmind/mujoco_menagerie",
+    "commit": "f3b6013629c7b94f8ee93fd977b161fa8350f9bc",
+    "path": "unitree_go1/assets/trunk.stl",
+    "local": "assets/ten-platform/menagerie/unitree_go1/assets/trunk.stl",
+    "git_blob_sha1": "2659eb1c0ec2dca8bbbf3907ebaf2a536a1f7bba",
+    "sha256": "051a57995dc6f892fc9bc53cd94e9a894f3dc209fd646e94d55d764150013970",
+    "bytes": 5619284,
+    "source": "https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/f3b6013629c7b94f8ee93fd977b161fa8350f9bc/unitree_go1/assets/trunk.stl"
+  },
+  {
+    "repository": "google-deepmind/mujoco_menagerie",
+    "commit": "f3b6013629c7b94f8ee93fd977b161fa8350f9bc",
+    "path": "unitree_go1/go1.xml",
+    "local": "assets/ten-platform/menagerie/unitree_go1/go1.xml",
+    "git_blob_sha1": "2d1d4ebcbffa3f1df6e89cf4a54360521cb80505",
+    "sha256": "d5a7466784c8e72fd174cc7fa5a92754a1a0a6d458a1dec79e7ca0abc9525c4a",
+    "bytes": 10875,
+    "source": "https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/f3b6013629c7b94f8ee93fd977b161fa8350f9bc/unitree_go1/go1.xml"
+  },
+  {
+    "repository": "google-deepmind/mujoco_menagerie",
+    "commit": "f3b6013629c7b94f8ee93fd977b161fa8350f9bc",
+    "path": "unitree_go1/scene.xml",
+    "local": "assets/ten-platform/menagerie/unitree_go1/scene.xml",
+    "git_blob_sha1": "c9051aa40bf9195045c4be4c370e1c31b21d71fa",
+    "sha256": "eceb4231bf2a3b0a190296963b38b904ed77dc14f5770bbcdd67fb0be8c49374",
+    "bytes": 815,
+    "source": "https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/f3b6013629c7b94f8ee93fd977b161fa8350f9bc/unitree_go1/scene.xml"
+  },
+  {
+    "repository": "Improbable-AI/rapid-locomotion-rl",
+    "commit": "f5143ef940e934849c00284e34caf164d6ce7b6e",
+    "path": "LICENSE",
+    "local": "assets/ten-platform/rapid/LICENSE",
+    "git_blob_sha1": "6f5a558a0ad6a7064ce2f68fad684fa49698ee55",
+    "sha256": "7dc66e1919dbcc2b49af464ceac3518b230e0e253d57988d418e23f01ef675b9",
+    "bytes": 1265,
+    "source": "https://raw.githubusercontent.com/Improbable-AI/rapid-locomotion-rl/f5143ef940e934849c00284e34caf164d6ce7b6e/LICENSE"
+  },
+  {
+    "repository": "Improbable-AI/rapid-locomotion-rl",
+    "commit": "f5143ef940e934849c00284e34caf164d6ce7b6e",
+    "path": "mini_gym/envs/base/legged_robot.py",
+    "local": "assets/ten-platform/rapid/mini_gym/envs/base/legged_robot.py",
+    "git_blob_sha1": "ccbe84e1116cfa08eb09ffdffe86761c5fe95b14",
+    "sha256": "8348db720c44cdab2b0b725493c7c57e775a43e129dfb26fdadf0ceb9e3bd550",
+    "bytes": 86286,
+    "source": "https://raw.githubusercontent.com/Improbable-AI/rapid-locomotion-rl/f5143ef940e934849c00284e34caf164d6ce7b6e/mini_gym/envs/base/legged_robot.py"
+  },
+  {
+    "repository": "Improbable-AI/rapid-locomotion-rl",
+    "commit": "f5143ef940e934849c00284e34caf164d6ce7b6e",
+    "path": "mini_gym/envs/base/legged_robot_config.py",
+    "local": "assets/ten-platform/rapid/mini_gym/envs/base/legged_robot_config.py",
+    "git_blob_sha1": "399aed032f3ebd668c41a01ee10022e46656f24a",
+    "sha256": "459aa0fd3cc3837767189759254c47c4156e9e4bf6112553afc00df4a0973cf2",
+    "bytes": 10088,
+    "source": "https://raw.githubusercontent.com/Improbable-AI/rapid-locomotion-rl/f5143ef940e934849c00284e34caf164d6ce7b6e/mini_gym/envs/base/legged_robot_config.py"
+  },
+  {
+    "repository": "Improbable-AI/rapid-locomotion-rl",
+    "commit": "f5143ef940e934849c00284e34caf164d6ce7b6e",
+    "path": "mini_gym/envs/go1/go1_config.py",
+    "local": "assets/ten-platform/rapid/mini_gym/envs/go1/go1_config.py",
+    "git_blob_sha1": "8fb932c09f78d8c9ffed6ef17b1dc99349bab8e3",
+    "sha256": "89916c497d1446810d266f4565507afcc2f7f6e7d744bf24fbb127fd6615559f",
+    "bytes": 3086,
+    "source": "https://raw.githubusercontent.com/Improbable-AI/rapid-locomotion-rl/f5143ef940e934849c00284e34caf164d6ce7b6e/mini_gym/envs/go1/go1_config.py"
+  },
+  {
+    "repository": "Improbable-AI/rapid-locomotion-rl",
+    "commit": "f5143ef940e934849c00284e34caf164d6ce7b6e",
+    "path": "mini_gym/envs/mini_cheetah/mini_cheetah_config.py",
+    "local": "assets/ten-platform/rapid/mini_gym/envs/mini_cheetah/mini_cheetah_config.py",
+    "git_blob_sha1": "e9cfc8a669b301895c0dbb1c72995799df4f30c3",
+    "sha256": "41a59f26e5bb437ebb0b32011a262e6d123bcb091fcd03f7019dd4da02766418",
+    "bytes": 3087,
+    "source": "https://raw.githubusercontent.com/Improbable-AI/rapid-locomotion-rl/f5143ef940e934849c00284e34caf164d6ce7b6e/mini_gym/envs/mini_cheetah/mini_cheetah_config.py"
+  },
+  {
+    "repository": "Improbable-AI/rapid-locomotion-rl",
+    "commit": "f5143ef940e934849c00284e34caf164d6ce7b6e",
+    "path": "mini_gym/envs/wrappers/history_wrapper.py",
+    "local": "assets/ten-platform/rapid/mini_gym/envs/wrappers/history_wrapper.py",
+    "git_blob_sha1": "4db2c5cfd9dad49a801c53c943980710587fee3d",
+    "sha256": "2903547138f25b1234e1dabe0679d97115eeabbbada2a8117d1a245396ad7851",
+    "bytes": 2730,
+    "source": "https://raw.githubusercontent.com/Improbable-AI/rapid-locomotion-rl/f5143ef940e934849c00284e34caf164d6ce7b6e/mini_gym/envs/wrappers/history_wrapper.py"
+  },
+  {
+    "repository": "Improbable-AI/rapid-locomotion-rl",
+    "commit": "f5143ef940e934849c00284e34caf164d6ce7b6e",
+    "path": "runs/rapid-locomotion/example/train/201852.132488/checkpoints/adaptation_module_latest.jit",
+    "local": "assets/ten-platform/rapid/runs/rapid-locomotion/example/train/201852.132488/checkpoints/adaptation_module_latest.jit",
+    "git_blob_sha1": "8b1730a12c17ef9d9f84092183b95acc3d4b6404",
+    "sha256": "36fbfab4f3331d64f50ce54ec53924bc2108557607e092ce954e37b015346867",
+    "bytes": 690877,
+    "source": "https://raw.githubusercontent.com/Improbable-AI/rapid-locomotion-rl/f5143ef940e934849c00284e34caf164d6ce7b6e/runs/rapid-locomotion/example/train/201852.132488/checkpoints/adaptation_module_latest.jit"
+  },
+  {
+    "repository": "Improbable-AI/rapid-locomotion-rl",
+    "commit": "f5143ef940e934849c00284e34caf164d6ce7b6e",
+    "path": "runs/rapid-locomotion/example/train/201852.132488/checkpoints/body_latest.jit",
+    "local": "assets/ten-platform/rapid/runs/rapid-locomotion/example/train/201852.132488/checkpoints/body_latest.jit",
+    "git_blob_sha1": "785103e4564994fcc2e252447163466053db61d4",
+    "sha256": "002a6da699022113b19c57021ecac1fd10a165639ee4fda7ef06c4abfab9a79a",
+    "bytes": 798888,
+    "source": "https://raw.githubusercontent.com/Improbable-AI/rapid-locomotion-rl/f5143ef940e934849c00284e34caf164d6ce7b6e/runs/rapid-locomotion/example/train/201852.132488/checkpoints/body_latest.jit"
+  },
+  {
+    "repository": "Improbable-AI/rapid-locomotion-rl",
+    "commit": "f5143ef940e934849c00284e34caf164d6ce7b6e",
+    "path": "runs/rapid-locomotion/example/train/201852.132488/parameters.pkl",
+    "local": "assets/ten-platform/rapid/runs/rapid-locomotion/example/train/201852.132488/parameters.pkl",
+    "git_blob_sha1": "3a5bee0d0767d2653d117140be20e52caf53b28f",
+    "sha256": "871599ed8575bcee1c8d750bb7489bf2257daab8698e68b6ef8497f4b094ce8f",
+    "bytes": 84029,
+    "source": "https://raw.githubusercontent.com/Improbable-AI/rapid-locomotion-rl/f5143ef940e934849c00284e34caf164d6ce7b6e/runs/rapid-locomotion/example/train/201852.132488/parameters.pkl"
+  }
+]

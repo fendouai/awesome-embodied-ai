@@ -1,0 +1,782 @@
+[
+  {
+    "match_id": "robot-01-f1-m0",
+    "track": "robot",
+    "robots": [
+      "g1_full",
+      "h1_full"
+    ],
+    "policies": [
+      "pd_stand",
+      "pd_stand"
+    ],
+    "seed": 20261024,
+    "friction": 0.6,
+    "timestep": 0.002,
+    "control_dt": 0.02,
+    "duration": 12.0,
+    "settle": 1.5,
+    "postroll": 1.5,
+    "distance": 0.5,
+    "speed": 0.35,
+    "lean": 0.035,
+    "ring_half_width": 2.5,
+    "fall_tilt_deg": 65.0,
+    "fall_height_ratio": 0.55,
+    "fall_hold": 0.3,
+    "rated": true,
+    "note": "Common support-force gravity-compensated joint PD, source neutral stance, prescribed mirrored arm reach/lean; no learned gait in body ranking.",
+    "pose_jitter": 0.008,
+    "position_jitter": 0.012
+  },
+  {
+    "match_id": "robot-01-f1-m1",
+    "track": "robot",
+    "robots": [
+      "h1_full",
+      "g1_full"
+    ],
+    "policies": [
+      "pd_stand",
+      "pd_stand"
+    ],
+    "seed": 20261024,
+    "friction": 0.6,
+    "timestep": 0.002,
+    "control_dt": 0.02,
+    "duration": 12.0,
+    "settle": 1.5,
+    "postroll": 1.5,
+    "distance": 0.5,
+    "speed": 0.35,
+    "lean": 0.035,
+    "ring_half_width": 2.5,
+    "fall_tilt_deg": 65.0,
+    "fall_height_ratio": 0.55,
+    "fall_hold": 0.3,
+    "rated": true,
+    "note": "Common support-force gravity-compensated joint PD, source neutral stance, prescribed mirrored arm reach/lean; no learned gait in body ranking.",
+    "pose_jitter": 0.008,
+    "position_jitter": 0.012
+  },
+  {
+    "match_id": "robot-01-f2-m0",
+    "track": "robot",
+    "robots": [
+      "g1_full",
+      "h1_full"
+    ],
+    "policies": [
+      "pd_stand",
+      "pd_stand"
+    ],
+    "seed": 20261041,
+    "friction": 0.8,
+    "timestep": 0.002,
+    "control_dt": 0.02,
+    "duration": 12.0,
+    "settle": 1.5,
+    "postroll": 1.5,
+    "distance": 0.5,
+    "speed": 0.35,
+    "lean": 0.035,
+    "ring_half_width": 2.5,
+    "fall_tilt_deg": 65.0,
+    "fall_height_ratio": 0.55,
+    "fall_hold": 0.3,
+    "rated": true,
+    "note": "Common support-force gravity-compensated joint PD, source neutral stance, prescribed mirrored arm reach/lean; no learned gait in body ranking.",
+    "pose_jitter": 0.008,
+    "position_jitter": 0.012
+  },
+  {
+    "match_id": "robot-01-f2-m1",
+    "track": "robot",
+    "robots": [
+      "h1_full",
+      "g1_full"
+    ],
+    "policies": [
+      "pd_stand",
+      "pd_stand"
+    ],
+    "seed": 20261041,
+    "friction": 0.8,
+    "timestep": 0.002,
+    "control_dt": 0.02,
+    "duration": 12.0,
+    "settle": 1.5,
+    "postroll": 1.5,
+    "distance": 0.5,
+    "speed": 0.35,
+    "lean": 0.035,
+    "ring_half_width": 2.5,
+    "fall_tilt_deg": 65.0,
+    "fall_height_ratio": 0.55,
+    "fall_hold": 0.3,
+    "rated": true,
+    "note": "Common support-force gravity-compensated joint PD, source neutral stance, prescribed mirrored arm reach/lean; no learned gait in body ranking.",
+    "pose_jitter": 0.008,
+    "position_jitter": 0.012
+  },
+  {
+    "match_id": "robot-01-f3-m0",
+    "track": "robot",
+    "robots": [
+      "g1_full",
+      "h1_full"
+    ],
+    "policies": [
+      "pd_stand",
+      "pd_stand"
+    ],
+    "seed": 20261058,
+    "friction": 1.0,
+    "timestep": 0.002,
+    "control_dt": 0.02,
+    "duration": 12.0,
+    "settle": 1.5,
+    "postroll": 1.5,
+    "distance": 0.5,
+    "speed": 0.35,
+    "lean": 0.035,
+    "ring_half_width": 2.5,
+    "fall_tilt_deg": 65.0,
+    "fall_height_ratio": 0.55,
+    "fall_hold": 0.3,
+    "rated": true,
+    "note": "Common support-force gravity-compensated joint PD, source neutral stance, prescribed mirrored arm reach/lean; no learned gait in body ranking.",
+    "pose_jitter": 0.008,
+    "position_jitter": 0.012
+  },
+  {
+    "match_id": "robot-01-f3-m1",
+    "track": "robot",
+    "robots": [
+      "h1_full",
+      "g1_full"
+    ],
+    "policies": [
+      "pd_stand",
+      "pd_stand"
+    ],
+    "seed": 20261058,
+    "friction": 1.0,
+    "timestep": 0.002,
+    "control_dt": 0.02,
+    "duration": 12.0,
+    "settle": 1.5,
+    "postroll": 1.5,
+    "distance": 0.5,
+    "speed": 0.35,
+    "lean": 0.035,
+    "ring_half_width": 2.5,
+    "fall_tilt_deg": 65.0,
+    "fall_height_ratio": 0.55,
+    "fall_hold": 0.3,
+    "rated": true,
+    "note": "Common support-force gravity-compensated joint PD, source neutral stance, prescribed mirrored arm reach/lean; no learned gait in body ranking.",
+    "pose_jitter": 0.008,
+    "position_jitter": 0.012
+  },
+  {
+    "match_id": "robot-02-f1-m0",
+    "track": "robot",
+    "robots": [
+      "g1_full",
+      "h1_2_full"
+    ],
+    "policies": [
+      "pd_stand",
+      "pd_stand"
+    ],
+    "seed": 20261025,
+    "friction": 0.6,
+    "timestep": 0.002,
+    "control_dt": 0.02,
+    "duration": 12.0,
+    "settle": 1.5,
+    "postroll": 1.5,
+    "distance": 0.5,
+    "speed": 0.35,
+    "lean": 0.035,
+    "ring_half_width": 2.5,
+    "fall_tilt_deg": 65.0,
+    "fall_height_ratio": 0.55,
+    "fall_hold": 0.3,
+    "rated": true,
+    "note": "Common support-force gravity-compensated joint PD, source neutral stance, prescribed mirrored arm reach/lean; no learned gait in body ranking.",
+    "pose_jitter": 0.008,
+    "position_jitter": 0.012
+  },
+  {
+    "match_id": "robot-02-f1-m1",
+    "track": "robot",
+    "robots": [
+      "h1_2_full",
+      "g1_full"
+    ],
+    "policies": [
+      "pd_stand",
+      "pd_stand"
+    ],
+    "seed": 20261025,
+    "friction": 0.6,
+    "timestep": 0.002,
+    "control_dt": 0.02,
+    "duration": 12.0,
+    "settle": 1.5,
+    "postroll": 1.5,
+    "distance": 0.5,
+    "speed": 0.35,
+    "lean": 0.035,
+    "ring_half_width": 2.5,
+    "fall_tilt_deg": 65.0,
+    "fall_height_ratio": 0.55,
+    "fall_hold": 0.3,
+    "rated": true,
+    "note": "Common support-force gravity-compensated joint PD, source neutral stance, prescribed mirrored arm reach/lean; no learned gait in body ranking.",
+    "pose_jitter": 0.008,
+    "position_jitter": 0.012
+  },
+  {
+    "match_id": "robot-02-f2-m0",
+    "track": "robot",
+    "robots": [
+      "g1_full",
+      "h1_2_full"
+    ],
+    "policies": [
+      "pd_stand",
+      "pd_stand"
+    ],
+    "seed": 20261042,
+    "friction": 0.8,
+    "timestep": 0.002,
+    "control_dt": 0.02,
+    "duration": 12.0,
+    "settle": 1.5,
+    "postroll": 1.5,
+    "distance": 0.5,
+    "speed": 0.35,
+    "lean": 0.035,
+    "ring_half_width": 2.5,
+    "fall_tilt_deg": 65.0,
+    "fall_height_ratio": 0.55,
+    "fall_hold": 0.3,
+    "rated": true,
+    "note": "Common support-force gravity-compensated joint PD, source neutral stance, prescribed mirrored arm reach/lean; no learned gait in body ranking.",
+    "pose_jitter": 0.008,
+    "position_jitter": 0.012
+  },
+  {
+    "match_id": "robot-02-f2-m1",
+    "track": "robot",
+    "robots": [
+      "h1_2_full",
+      "g1_full"
+    ],
+    "policies": [
+      "pd_stand",
+      "pd_stand"
+    ],
+    "seed": 20261042,
+    "friction": 0.8,
+    "timestep": 0.002,
+    "control_dt": 0.02,
+    "duration": 12.0,
+    "settle": 1.5,
+    "postroll": 1.5,
+    "distance": 0.5,
+    "speed": 0.35,
+    "lean": 0.035,
+    "ring_half_width": 2.5,
+    "fall_tilt_deg": 65.0,
+    "fall_height_ratio": 0.55,
+    "fall_hold": 0.3,
+    "rated": true,
+    "note": "Common support-force gravity-compensated joint PD, source neutral stance, prescribed mirrored arm reach/lean; no learned gait in body ranking.",
+    "pose_jitter": 0.008,
+    "position_jitter": 0.012
+  },
+  {
+    "match_id": "robot-02-f3-m0",
+    "track": "robot",
+    "robots": [
+      "g1_full",
+      "h1_2_full"
+    ],
+    "policies": [
+      "pd_stand",
+      "pd_stand"
+    ],
+    "seed": 20261059,
+    "friction": 1.0,
+    "timestep": 0.002,
+    "control_dt": 0.02,
+    "duration": 12.0,
+    "settle": 1.5,
+    "postroll": 1.5,
+    "distance": 0.5,
+    "speed": 0.35,
+    "lean": 0.035,
+    "ring_half_width": 2.5,
+    "fall_tilt_deg": 65.0,
+    "fall_height_ratio": 0.55,
+    "fall_hold": 0.3,
+    "rated": true,
+    "note": "Common support-force gravity-compensated joint PD, source neutral stance, prescribed mirrored arm reach/lean; no learned gait in body ranking.",
+    "pose_jitter": 0.008,
+    "position_jitter": 0.012
+  },
+  {
+    "match_id": "robot-02-f3-m1",
+    "track": "robot",
+    "robots": [
+      "h1_2_full",
+      "g1_full"
+    ],
+    "policies": [
+      "pd_stand",
+      "pd_stand"
+    ],
+    "seed": 20261059,
+    "friction": 1.0,
+    "timestep": 0.002,
+    "control_dt": 0.02,
+    "duration": 12.0,
+    "settle": 1.5,
+    "postroll": 1.5,
+    "distance": 0.5,
+    "speed": 0.35,
+    "lean": 0.035,
+    "ring_half_width": 2.5,
+    "fall_tilt_deg": 65.0,
+    "fall_height_ratio": 0.55,
+    "fall_hold": 0.3,
+    "rated": true,
+    "note": "Common support-force gravity-compensated joint PD, source neutral stance, prescribed mirrored arm reach/lean; no learned gait in body ranking.",
+    "pose_jitter": 0.008,
+    "position_jitter": 0.012
+  },
+  {
+    "match_id": "robot-03-f1-m0",
+    "track": "robot",
+    "robots": [
+      "h1_full",
+      "h1_2_full"
+    ],
+    "policies": [
+      "pd_stand",
+      "pd_stand"
+    ],
+    "seed": 20261026,
+    "friction": 0.6,
+    "timestep": 0.002,
+    "control_dt": 0.02,
+    "duration": 12.0,
+    "settle": 1.5,
+    "postroll": 1.5,
+    "distance": 0.5,
+    "speed": 0.35,
+    "lean": 0.035,
+    "ring_half_width": 2.5,
+    "fall_tilt_deg": 65.0,
+    "fall_height_ratio": 0.55,
+    "fall_hold": 0.3,
+    "rated": true,
+    "note": "Common support-force gravity-compensated joint PD, source neutral stance, prescribed mirrored arm reach/lean; no learned gait in body ranking.",
+    "pose_jitter": 0.008,
+    "position_jitter": 0.012
+  },
+  {
+    "match_id": "robot-03-f1-m1",
+    "track": "robot",
+    "robots": [
+      "h1_2_full",
+      "h1_full"
+    ],
+    "policies": [
+      "pd_stand",
+      "pd_stand"
+    ],
+    "seed": 20261026,
+    "friction": 0.6,
+    "timestep": 0.002,
+    "control_dt": 0.02,
+    "duration": 12.0,
+    "settle": 1.5,
+    "postroll": 1.5,
+    "distance": 0.5,
+    "speed": 0.35,
+    "lean": 0.035,
+    "ring_half_width": 2.5,
+    "fall_tilt_deg": 65.0,
+    "fall_height_ratio": 0.55,
+    "fall_hold": 0.3,
+    "rated": true,
+    "note": "Common support-force gravity-compensated joint PD, source neutral stance, prescribed mirrored arm reach/lean; no learned gait in body ranking.",
+    "pose_jitter": 0.008,
+    "position_jitter": 0.012
+  },
+  {
+    "match_id": "robot-03-f2-m0",
+    "track": "robot",
+    "robots": [
+      "h1_full",
+      "h1_2_full"
+    ],
+    "policies": [
+      "pd_stand",
+      "pd_stand"
+    ],
+    "seed": 20261043,
+    "friction": 0.8,
+    "timestep": 0.002,
+    "control_dt": 0.02,
+    "duration": 12.0,
+    "settle": 1.5,
+    "postroll": 1.5,
+    "distance": 0.5,
+    "speed": 0.35,
+    "lean": 0.035,
+    "ring_half_width": 2.5,
+    "fall_tilt_deg": 65.0,
+    "fall_height_ratio": 0.55,
+    "fall_hold": 0.3,
+    "rated": true,
+    "note": "Common support-force gravity-compensated joint PD, source neutral stance, prescribed mirrored arm reach/lean; no learned gait in body ranking.",
+    "pose_jitter": 0.008,
+    "position_jitter": 0.012
+  },
+  {
+    "match_id": "robot-03-f2-m1",
+    "track": "robot",
+    "robots": [
+      "h1_2_full",
+      "h1_full"
+    ],
+    "policies": [
+      "pd_stand",
+      "pd_stand"
+    ],
+    "seed": 20261043,
+    "friction": 0.8,
+    "timestep": 0.002,
+    "control_dt": 0.02,
+    "duration": 12.0,
+    "settle": 1.5,
+    "postroll": 1.5,
+    "distance": 0.5,
+    "speed": 0.35,
+    "lean": 0.035,
+    "ring_half_width": 2.5,
+    "fall_tilt_deg": 65.0,
+    "fall_height_ratio": 0.55,
+    "fall_hold": 0.3,
+    "rated": true,
+    "note": "Common support-force gravity-compensated joint PD, source neutral stance, prescribed mirrored arm reach/lean; no learned gait in body ranking.",
+    "pose_jitter": 0.008,
+    "position_jitter": 0.012
+  },
+  {
+    "match_id": "robot-03-f3-m0",
+    "track": "robot",
+    "robots": [
+      "h1_full",
+      "h1_2_full"
+    ],
+    "policies": [
+      "pd_stand",
+      "pd_stand"
+    ],
+    "seed": 20261060,
+    "friction": 1.0,
+    "timestep": 0.002,
+    "control_dt": 0.02,
+    "duration": 12.0,
+    "settle": 1.5,
+    "postroll": 1.5,
+    "distance": 0.5,
+    "speed": 0.35,
+    "lean": 0.035,
+    "ring_half_width": 2.5,
+    "fall_tilt_deg": 65.0,
+    "fall_height_ratio": 0.55,
+    "fall_hold": 0.3,
+    "rated": true,
+    "note": "Common support-force gravity-compensated joint PD, source neutral stance, prescribed mirrored arm reach/lean; no learned gait in body ranking.",
+    "pose_jitter": 0.008,
+    "position_jitter": 0.012
+  },
+  {
+    "match_id": "robot-03-f3-m1",
+    "track": "robot",
+    "robots": [
+      "h1_2_full",
+      "h1_full"
+    ],
+    "policies": [
+      "pd_stand",
+      "pd_stand"
+    ],
+    "seed": 20261060,
+    "friction": 1.0,
+    "timestep": 0.002,
+    "control_dt": 0.02,
+    "duration": 12.0,
+    "settle": 1.5,
+    "postroll": 1.5,
+    "distance": 0.5,
+    "speed": 0.35,
+    "lean": 0.035,
+    "ring_half_width": 2.5,
+    "fall_tilt_deg": 65.0,
+    "fall_height_ratio": 0.55,
+    "fall_hold": 0.3,
+    "rated": true,
+    "note": "Common support-force gravity-compensated joint PD, source neutral stance, prescribed mirrored arm reach/lean; no learned gait in body ranking.",
+    "pose_jitter": 0.008,
+    "position_jitter": 0.012
+  },
+  {
+    "match_id": "ai-f1-m0",
+    "track": "ai",
+    "robots": [
+      "g1_full",
+      "g1_full"
+    ],
+    "policies": [
+      "unitree_rl_lab",
+      "unitree_rl_mjlab"
+    ],
+    "seed": 20261024,
+    "friction": 0.6,
+    "timestep": 0.002,
+    "control_dt": 0.02,
+    "duration": 16.0,
+    "settle": 1.5,
+    "postroll": 1.5,
+    "distance": 2.2,
+    "speed": 0.25,
+    "lean": 0.035,
+    "ring_half_width": 2.5,
+    "fall_tilt_deg": 65.0,
+    "fall_height_ratio": 0.55,
+    "fall_hold": 0.3,
+    "rated": true,
+    "note": "Same G1 rev1.0 body, physics, pursuit driver and timing; native checkpoint observation/action decode and PD gains retained and disclosed.",
+    "pose_jitter": 0.008,
+    "position_jitter": 0.012
+  },
+  {
+    "match_id": "ai-f1-m1",
+    "track": "ai",
+    "robots": [
+      "g1_full",
+      "g1_full"
+    ],
+    "policies": [
+      "unitree_rl_mjlab",
+      "unitree_rl_lab"
+    ],
+    "seed": 20261024,
+    "friction": 0.6,
+    "timestep": 0.002,
+    "control_dt": 0.02,
+    "duration": 16.0,
+    "settle": 1.5,
+    "postroll": 1.5,
+    "distance": 2.2,
+    "speed": 0.25,
+    "lean": 0.035,
+    "ring_half_width": 2.5,
+    "fall_tilt_deg": 65.0,
+    "fall_height_ratio": 0.55,
+    "fall_hold": 0.3,
+    "rated": true,
+    "note": "Same G1 rev1.0 body, physics, pursuit driver and timing; native checkpoint observation/action decode and PD gains retained and disclosed.",
+    "pose_jitter": 0.008,
+    "position_jitter": 0.012
+  },
+  {
+    "match_id": "ai-f2-m0",
+    "track": "ai",
+    "robots": [
+      "g1_full",
+      "g1_full"
+    ],
+    "policies": [
+      "unitree_rl_lab",
+      "unitree_rl_mjlab"
+    ],
+    "seed": 20261055,
+    "friction": 0.8,
+    "timestep": 0.002,
+    "control_dt": 0.02,
+    "duration": 16.0,
+    "settle": 1.5,
+    "postroll": 1.5,
+    "distance": 2.2,
+    "speed": 0.35,
+    "lean": 0.035,
+    "ring_half_width": 2.5,
+    "fall_tilt_deg": 65.0,
+    "fall_height_ratio": 0.55,
+    "fall_hold": 0.3,
+    "rated": true,
+    "note": "Same G1 rev1.0 body, physics, pursuit driver and timing; native checkpoint observation/action decode and PD gains retained and disclosed.",
+    "pose_jitter": 0.008,
+    "position_jitter": 0.012
+  },
+  {
+    "match_id": "ai-f2-m1",
+    "track": "ai",
+    "robots": [
+      "g1_full",
+      "g1_full"
+    ],
+    "policies": [
+      "unitree_rl_mjlab",
+      "unitree_rl_lab"
+    ],
+    "seed": 20261055,
+    "friction": 0.8,
+    "timestep": 0.002,
+    "control_dt": 0.02,
+    "duration": 16.0,
+    "settle": 1.5,
+    "postroll": 1.5,
+    "distance": 2.2,
+    "speed": 0.35,
+    "lean": 0.035,
+    "ring_half_width": 2.5,
+    "fall_tilt_deg": 65.0,
+    "fall_height_ratio": 0.55,
+    "fall_hold": 0.3,
+    "rated": true,
+    "note": "Same G1 rev1.0 body, physics, pursuit driver and timing; native checkpoint observation/action decode and PD gains retained and disclosed.",
+    "pose_jitter": 0.008,
+    "position_jitter": 0.012
+  },
+  {
+    "match_id": "ai-f3-m0",
+    "track": "ai",
+    "robots": [
+      "g1_full",
+      "g1_full"
+    ],
+    "policies": [
+      "unitree_rl_lab",
+      "unitree_rl_mjlab"
+    ],
+    "seed": 20261086,
+    "friction": 1.0,
+    "timestep": 0.002,
+    "control_dt": 0.02,
+    "duration": 16.0,
+    "settle": 1.5,
+    "postroll": 1.5,
+    "distance": 2.2,
+    "speed": 0.5,
+    "lean": 0.035,
+    "ring_half_width": 2.5,
+    "fall_tilt_deg": 65.0,
+    "fall_height_ratio": 0.55,
+    "fall_hold": 0.3,
+    "rated": true,
+    "note": "Same G1 rev1.0 body, physics, pursuit driver and timing; native checkpoint observation/action decode and PD gains retained and disclosed.",
+    "pose_jitter": 0.008,
+    "position_jitter": 0.012
+  },
+  {
+    "match_id": "ai-f3-m1",
+    "track": "ai",
+    "robots": [
+      "g1_full",
+      "g1_full"
+    ],
+    "policies": [
+      "unitree_rl_mjlab",
+      "unitree_rl_lab"
+    ],
+    "seed": 20261086,
+    "friction": 1.0,
+    "timestep": 0.002,
+    "control_dt": 0.02,
+    "duration": 16.0,
+    "settle": 1.5,
+    "postroll": 1.5,
+    "distance": 2.2,
+    "speed": 0.5,
+    "lean": 0.035,
+    "ring_half_width": 2.5,
+    "fall_tilt_deg": 65.0,
+    "fall_height_ratio": 0.55,
+    "fall_hold": 0.3,
+    "rated": true,
+    "note": "Same G1 rev1.0 body, physics, pursuit driver and timing; native checkpoint observation/action decode and PD gains retained and disclosed.",
+    "pose_jitter": 0.008,
+    "position_jitter": 0.012
+  },
+  {
+    "match_id": "ai-f4-m0",
+    "track": "ai",
+    "robots": [
+      "g1_full",
+      "g1_full"
+    ],
+    "policies": [
+      "unitree_rl_lab",
+      "unitree_rl_mjlab"
+    ],
+    "seed": 20261117,
+    "friction": 1.0,
+    "timestep": 0.002,
+    "control_dt": 0.02,
+    "duration": 16.0,
+    "settle": 1.5,
+    "postroll": 1.5,
+    "distance": 2.2,
+    "speed": 0.75,
+    "lean": 0.035,
+    "ring_half_width": 2.5,
+    "fall_tilt_deg": 65.0,
+    "fall_height_ratio": 0.55,
+    "fall_hold": 0.3,
+    "rated": true,
+    "note": "Same G1 rev1.0 body, physics, pursuit driver and timing; native checkpoint observation/action decode and PD gains retained and disclosed.",
+    "pose_jitter": 0.008,
+    "position_jitter": 0.012
+  },
+  {
+    "match_id": "ai-f4-m1",
+    "track": "ai",
+    "robots": [
+      "g1_full",
+      "g1_full"
+    ],
+    "policies": [
+      "unitree_rl_mjlab",
+      "unitree_rl_lab"
+    ],
+    "seed": 20261117,
+    "friction": 1.0,
+    "timestep": 0.002,
+    "control_dt": 0.02,
+    "duration": 16.0,
+    "settle": 1.5,
+    "postroll": 1.5,
+    "distance": 2.2,
+    "speed": 0.75,
+    "lean": 0.035,
+    "ring_half_width": 2.5,
+    "fall_tilt_deg": 65.0,
+    "fall_height_ratio": 0.55,
+    "fall_hold": 0.3,
+    "rated": true,
+    "note": "Same G1 rev1.0 body, physics, pursuit driver and timing; native checkpoint observation/action decode and PD gains retained and disclosed.",
+    "pose_jitter": 0.008,
+    "position_jitter": 0.012
+  }
+]

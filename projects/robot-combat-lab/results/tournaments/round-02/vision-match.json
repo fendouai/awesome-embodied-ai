@@ -1,0 +1,33 @@
+{
+  "id": "vision-bhuman-k1-3v3",
+  "title": "B-Human K1 3v3 · RGB camera perception",
+  "scene": "MacAcceptance3v3M.ros3 / normal-mode Game3v3M.con",
+  "robots": 6,
+  "teams": [
+    "B-Human",
+    "B-Team"
+  ],
+  "score_start": [
+    2,
+    0
+  ],
+  "score_at_cutoff": [
+    3,
+    0
+  ],
+  "leader_at_cutoff": "red",
+  "official_regulation_completed": false,
+  "sim_seconds": 19.958,
+  "source_video_sha256": "c47a18df55c65db9b92f66e20a25fb19eaa3751bdac12a1fa1d02773d839c828",
+  "video": "/results/tournaments/round-02/videos/vision-bhuman-k1-3v3.mp4",
+  "poster": "/results/tournaments/round-02/videos/vision-bhuman-k1-3v3-poster.jpg",
+  "source_result": "/results/bhuman-native/vision-native-capture-20261025/vision-result.json",
+  "source_match_csv": "/results/bhuman-native/vision-native-capture-20261025/match.csv",
+  "perception": {
+    "camera": "SimRobot CameraColor virtual RGB camera",
+    "controller": "B-Human normal camera-to-percept modules including ECImageProvider and RobotBallPerceptor",
+    "fast_ground_truth_mode": false,
+    "source_configuration": "Game3v3M"
+  },
+  "notes": "Native B-Human scoreboard at the end of the recorded exhibition segment; the 10-minute regulation match continued."
+}

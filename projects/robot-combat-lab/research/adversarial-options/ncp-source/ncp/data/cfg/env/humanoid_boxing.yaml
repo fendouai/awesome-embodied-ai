@@ -1,0 +1,72 @@
+# if given, will override the device setting in gym. 
+env: 
+  numEnvs: 4096
+  envSpacing: 5
+  numHumanoid: 2
+  episodeLength: 500
+  isFlagrun: False
+  enableDebugVis: False
+  
+  pdControl: True
+  powerScale: 1.0
+  controlFrequencyInv: 2 # 30 Hz
+  stateInit: "Default"
+  useBoxingRing: True
+  hybridInitProb: 0.0
+  keyBodies: ["right_hand", "left_hand", "right_foot", "left_foot"]
+  contactBodies: [ "right_thigh", "right_shin", "right_foot", "left_thigh", "left_shin", "left_foot", "right_hand",
+                   "right_lower_arm", "right_upper_arm", "left_hand", "left_lower_arm", "left_upper_arm"]
+  rewardWeight:
+    'facing_reward_weight': 0.3
+    'vel_reward_weight': 0.2
+    'strike_reward_weight': 1.0
+    'terminate_reward_weight': 100.0
+
+  bodyRewardWeight:
+    'pelvis': 1.0
+    'torso': 1.0
+    'head': 2.0
+    'right_upper_arm': 1.0
+    'right_lower_arm': 0.0
+    'right_hand': 0.0
+    'left_upper_arm': 1.0
+    'left_lower_arm': 0.0
+    'left_hand': 0.0
+    'right_thigh': 0.0
+    'right_shin': 0.0
+    'right_foot': 0.0
+    'left_thigh': 0.0
+    'left_shin': 0.0
+    'left_foot': 0.0
+  footName: ["right_foot", "left_foot"]
+  handName: ["left_hand", "right_hand"]
+  hitTargetName: ["pelvis", "torso", "head"]
+
+  terminationHeight: 0.15
+  enableEarlyTermination: True
+
+  asset:
+    assetRoot: "ncp/data/assets"
+    assetFileName: "mjcf/amp_humanoid_boxing.xml"
+
+  plane:
+    staticFriction: 1.0
+    dynamicFriction: 1.0
+    restitution: 0.0
+
+sim:
+  substeps: 2
+  physx:
+    num_threads: 4
+    solver_type: 1  # 0: pgs, 1: tgs
+    num_position_iterations: 4
+    num_velocity_iterations: 0
+    contact_offset: 0.02
+    rest_offset: 0.0
+    bounce_threshold_velocity: 0.2
+    max_depenetration_velocity: 10.0
+    default_buffer_size_multiplier: 10.0
+
+  flex:
+    num_inner_iterations: 10
+    warm_start: 0.25

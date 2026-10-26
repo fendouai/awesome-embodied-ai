@@ -1,0 +1,13 @@
+# Native visual batch and source-rule provenance
+
+`competition-v2-native.patch` is a portable patch against pinned B-Human source `2e3374ba896da8288607f9a1881b876642fe18b8` and SimRobot submodule `9deb6ae6b2a553211612affb757490736f96bfb3`. Apply from the B-Human source root with its SimRobot dependency checked out. It adds a local-match duration/session reset, normal READY/SET/PLAYING scheduling, native referee/player/ball telemetry and read-only framebuffer recording. Goal and penalty logic remains native. It restores the source default half duration to600 seconds; per-batch local duration is explicit.
+
+Copy `scenes/Competition3v3M.ros3` and its `.con` into B-Human's `Config/Scenes/K1/`. The `.con` selects the normal RGB camera-perception chain, enables the native referee and begins in INITIAL. It does not skip READY by issuing SET and PLAYING immediately.
+
+Prepare a fresh request with `PYTHONPATH=src python scripts/prepare_visual_series_v2.py`. The script refuses existing capture folders. Point the patched simulator's `BOTSTEST_CAPTURE_REQUEST` environment variable to the generated absolute request path, rebuild, and open the scene. Keep the RoboCup field view visible for framebuffer recording. The local acceptance binary used a task-specific request-file lookup with the same scheduler; actual local code/binary hashes are recorded in round-04/native-runtime.json. The portable patch uses the environment variable instead of a host-specific absolute path.
+
+The default batch contains four independent180-second local periods, alternating kickoff side. Each has20 seconds of initialization, native READY/SET/PLAYING transitions and a native FINISHED event with three seconds of postroll. After each finish, native session scores reset for the next match. Initialization, referee state, scores, ball and six player positions are logged. The video clock is native simulationStep×0.002s and must remain monotonic. Reset timelines are rejected rather than stitched.
+
+The official HSL duration reference is two600-second halves. Choosing600 for a single local period only creates a ten-minute period and is not a claim of full official-match compliance. Source roster, field, referee clauses and both halves must also be matched to claim that compliance.
+
+`patches/` contains incremental local-development diffs retained as diagnostic provenance; use the consolidated `competition-v2-native.patch` for portable source preparation. Native visual records contain the documented referee and scene observations, not a full joint/control-state physics replay. Full integration-state replay archives are available for the separate MuJoCo boxing tracks.

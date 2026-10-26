@@ -1,0 +1,6 @@
+call Game3v3M
+gc competitionTypeMiddle 3
+ar on
+gc ready
+gc set
+gc playing

@@ -1,0 +1,25 @@
+{
+  "repository": "buckZz7/fightlab",
+  "sha": "0efca124b50378cc13879e0694c46910e3f402a2",
+  "archived": false,
+  "updated": "2026-07-30T02:44:12Z",
+  "stars": 1,
+  "weights_or_data": [
+    {
+      "path": "mocap/kungfu_retargeted/Hooks_punch.pkl",
+      "bytes": 137907
+    },
+    {
+      "path": "mocap/kungfu_retargeted/Horse-stance_punch.pkl",
+      "bytes": 157523
+    },
+    {
+      "path": "submissions/latent_29.pt",
+      "bytes": 17821277
+    },
+    {
+      "path": "submissions/policy.pt",
+      "bytes": 4927349
+    }
+  ]
+}

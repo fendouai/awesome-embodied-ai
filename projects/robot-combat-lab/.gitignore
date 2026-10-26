@@ -1,0 +1,85 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+node_modules/
+.DS_Store
+MUJOCO_LOG.TXT
+external-workspace.json
+integrations/bhuman/source/
+integrations/bhuman/build-mac/
+
+# Generated runs are large; publish the replayable round index and its complete videos below.
+results/*
+!results/tournaments/
+results/tournaments/*
+!results/tournaments/round-02/
+results/tournaments/round-02/*
+!results/tournaments/round-02/index.json
+!results/tournaments/round-02/matches.csv
+!results/tournaments/round-02/video-archive.json
+!results/tournaments/round-02/vision-match.json
+!results/tournaments/round-02/videos/
+results/tournaments/round-02/videos/*
+!results/tournaments/round-02/videos/*.mp4
+# Captured SimRobot frames and cached high-resolution source images are kept locally.
+results/bhuman-native/vision-capture-20261025/frames/
+results/bhuman-native/vision-native-capture-20261025/frames/
+results/bhuman-native/vision-native-capture-20261025-part02/frames/
+# This request file contains host-specific absolute paths.
+integrations/bhuman/capture-request.json
+integrations/bhuman/*.log
+# Browser and system snapshots from prior local research are not release material.
+evidence/*
+!evidence/tournament/
+evidence/tournament/*
+!evidence/tournament/four-simulation-matches.png
+!evidence/tournament/round-complete.png
+!evidence/tournament/visual-k1-3v3.png
+reports/hardware-evidence.*
+research/hardware-failure/evidence.json
+research/hardware-failure/source-manifest.json
+!results/tournaments/round-02/vision-match.json
+!results/tournaments/round-02/match-data/
+results/tournaments/round-02/match-data/*
+!results/tournaments/round-02/match-data/*/
+results/tournaments/round-02/match-data/*/*
+!results/tournaments/round-02/match-data/*/*.json
+!results/tournaments/round-02/match-data/*/*.csv
+!results/tournaments/round-02/videos/*.jpg
+
+# Publish the completed native RGB-camera exhibition matches, but keep raw captures local.
+!results/tournaments/round-03/
+results/tournaments/round-03/*
+!results/tournaments/round-03/index.json
+!results/tournaments/round-03/vision-matches.csv
+!results/tournaments/round-03/video-archive.json
+!results/tournaments/round-03/matches/
+results/tournaments/round-03/matches/*
+!results/tournaments/round-03/matches/*/
+results/tournaments/round-03/matches/*/*
+!results/tournaments/round-03/matches/*/*.json
+!results/tournaments/round-03/matches/*/*.csv
+!results/tournaments/round-03/videos/
+results/tournaments/round-03/videos/*
+!results/tournaments/round-03/videos/*.mp4
+!results/tournaments/round-03/videos/*.jpg
+
+# Compact public narrated showcase; raw production/physics archives stay local.
+!results/tournaments/round-04/
+results/tournaments/round-04/*
+!results/tournaments/round-04/published/
+!results/tournaments/round-04/published/**
+integrations/bhuman/patches/
+research/competition-v2/*.tex
+
+# Keep only source manifests and parameter templates for research; do not vendor article/manual captures.
+research/hardware-failure/*.html
+research/hardware-failure/MotorState_.hpp
+research/hardware-failure/nvidia-issue-174*.json
+research/hardware-failure/official-g1-manual/
+
+# Local planning notes and external-drive-only experiments are not part of the public package.
+STATUS.md
+STATUS_RESEARCH.md
+scripts/benchmark_vision_rgbd_singlepass.py

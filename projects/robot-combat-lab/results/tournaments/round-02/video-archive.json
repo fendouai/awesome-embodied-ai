@@ -1,0 +1,61 @@
+{
+  "method": "APFS copy-on-write independent copies; verified identical SHA256; original replay archives retained",
+  "videos": [
+    {
+      "match": "g1-leg1",
+      "video": "/results/tournaments/round-02/videos/g1-leg1-robostriker_ego-vs-robostriker_opponent.mp4",
+      "sha256": "548583723ecd7dad9899ce1316b5b46d2b47b6c32edb83c40fde4ace17f17c71",
+      "source_video": "/results/tournaments/round-02/videos/g1-leg1-robostriker_ego-vs-robostriker_opponent.mp4",
+      "bytes": 13474998
+    },
+    {
+      "match": "g1-leg2",
+      "video": "/results/tournaments/round-02/videos/g1-leg2-robostriker_opponent-vs-robostriker_ego.mp4",
+      "sha256": "74676c972954a93191c4fa628407b1e1e4ac412c5b0cd1c864e31692a8b99007",
+      "source_video": "/results/tournaments/round-02/videos/g1-leg2-robostriker_opponent-vs-robostriker_ego.mp4",
+      "bytes": 13044874
+    },
+    {
+      "match": "ncp-leg1",
+      "video": "/results/tournaments/round-02/videos/ncp-leg1-ncp_boxing_106-vs-ncp_boxing_100.mp4",
+      "sha256": "4dcaa9481b54f1f69d06ee6a9af66b1b9e4e0b0945a0c79461f6e4d5d954242a",
+      "source_video": "/results/tournaments/round-02/videos/ncp-leg1-ncp_boxing_106-vs-ncp_boxing_100.mp4",
+      "bytes": 14980961
+    },
+    {
+      "match": "ncp-leg2",
+      "video": "/results/tournaments/round-02/videos/ncp-leg2-ncp_boxing_100-vs-ncp_boxing_106.mp4",
+      "sha256": "f33012298834114204fb7c15465f1584d27e830948075c94c1bc457100d75251",
+      "source_video": "/results/tournaments/round-02/videos/ncp-leg2-ncp_boxing_100-vs-ncp_boxing_106.mp4",
+      "bytes": 2679077
+    },
+    {
+      "match": "g1-ego-vs-ego",
+      "video": "/results/tournaments/round-02/videos/g1-ego-vs-ego-robostriker_ego-vs-robostriker_ego.mp4",
+      "sha256": "7a6ea5913790a318cea7f9e39364ad43c67ea99e910db9fdbd173d43dd500326",
+      "source_video": "/results/tournaments/round-02/videos/g1-ego-vs-ego-robostriker_ego-vs-robostriker_ego.mp4",
+      "bytes": 16600550
+    },
+    {
+      "match": "g1-opponent-vs-opponent",
+      "video": "/results/tournaments/round-02/videos/g1-opponent-vs-opponent-robostriker_opponent-vs-robostriker_opponent.mp4",
+      "sha256": "b36ed671d03a2e180d408ce12d3281758dfabea8634f785761d0ce8793ccf052",
+      "source_video": "/results/tournaments/round-02/videos/g1-opponent-vs-opponent-robostriker_opponent-vs-robostriker_opponent.mp4",
+      "bytes": 3683275
+    },
+    {
+      "match": "ncp-106-vs-106",
+      "video": "/results/tournaments/round-02/videos/ncp-106-vs-106-ncp_boxing_106-vs-ncp_boxing_106.mp4",
+      "sha256": "eca3e6fc04b9c8c9ee38a5f04fe0dc7c69fa747877059a00a0abadc742305115",
+      "source_video": "/results/tournaments/round-02/videos/ncp-106-vs-106-ncp_boxing_106-vs-ncp_boxing_106.mp4",
+      "bytes": 1111577
+    },
+    {
+      "match": "ncp-100-vs-100",
+      "video": "/results/tournaments/round-02/videos/ncp-100-vs-100-ncp_boxing_100-vs-ncp_boxing_100.mp4",
+      "sha256": "be4875c2342828b4f7d0d7b77bcafe6e73b6b83c5f47ce3e2cd9178ebbe1f8bd",
+      "source_video": "/results/tournaments/round-02/videos/ncp-100-vs-100-ncp_boxing_100-vs-ncp_boxing_100.mp4",
+      "bytes": 8480805
+    }
+  ]
+}

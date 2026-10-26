@@ -1,0 +1,390 @@
+[
+  {
+    "type": "scoring_contact",
+    "time": 3.0399999999999574,
+    "side": 1,
+    "start_time": 2.874999999999961,
+    "last_time": 2.9349999999999596,
+    "approach_m_s": 2.6602710490876236,
+    "impulse_ns": 12.843428536000784,
+    "peak_normal_force_n": 592.3119411595331,
+    "target": "opponent_upper_body_composite"
+  },
+  {
+    "type": "scoring_contact",
+    "time": 4.739999999999921,
+    "side": 1,
+    "start_time": 4.549999999999925,
+    "last_time": 4.634999999999923,
+    "approach_m_s": 3.485822384505671,
+    "impulse_ns": 14.993279070631893,
+    "peak_normal_force_n": 700.543310814975,
+    "target": "opponent_upper_body_composite"
+  },
+  {
+    "type": "scoring_contact",
+    "time": 9.79000000000013,
+    "side": 1,
+    "start_time": 9.670000000000112,
+    "last_time": 9.690000000000115,
+    "approach_m_s": 0.707033300213997,
+    "impulse_ns": 1.5849983685433606,
+    "peak_normal_force_n": 161.35431953159514,
+    "target": "opponent_upper_body_composite"
+  },
+  {
+    "type": "scoring_contact",
+    "time": 12.02500000000048,
+    "side": 1,
+    "start_time": 11.880000000000457,
+    "last_time": 11.925000000000464,
+    "approach_m_s": 1.3779127126098625,
+    "impulse_ns": 7.545812972803509,
+    "peak_normal_force_n": 270.706032936222,
+    "target": "opponent_upper_body_composite"
+  },
+  {
+    "type": "scoring_contact",
+    "time": 15.775000000001066,
+    "side": 1,
+    "start_time": 15.640000000001045,
+    "last_time": 15.67500000000105,
+    "approach_m_s": 0.2508978178250949,
+    "impulse_ns": 5.1211453475269035,
+    "peak_normal_force_n": 265.77634597957865,
+    "target": "opponent_upper_body_composite"
+  },
+  {
+    "type": "scoring_contact",
+    "time": 19.340000000000437,
+    "side": 0,
+    "start_time": 19.190000000000467,
+    "last_time": 19.235000000000458,
+    "approach_m_s": 2.1883821308232827,
+    "impulse_ns": 8.393340853792576,
+    "peak_normal_force_n": 523.9542308604447,
+    "target": "opponent_upper_body_composite"
+  },
+  {
+    "type": "scoring_contact",
+    "time": 19.650000000000375,
+    "side": 1,
+    "start_time": 19.515000000000402,
+    "last_time": 19.545000000000396,
+    "approach_m_s": 1.6919697123975643,
+    "impulse_ns": 2.660782187415096,
+    "peak_normal_force_n": 191.30136645474164,
+    "target": "opponent_upper_body_composite"
+  },
+  {
+    "type": "scoring_contact",
+    "time": 21.500000000000007,
+    "side": 1,
+    "start_time": 21.34000000000004,
+    "last_time": 21.395000000000028,
+    "approach_m_s": 2.289497362511399,
+    "impulse_ns": 11.462322626342496,
+    "peak_normal_force_n": 544.624318834242,
+    "target": "opponent_upper_body_composite"
+  },
+  {
+    "type": "scoring_contact",
+    "time": 22.79999999999975,
+    "side": 1,
+    "start_time": 22.63499999999978,
+    "last_time": 22.69499999999977,
+    "approach_m_s": 1.2513945011520387,
+    "impulse_ns": 5.330813403976052,
+    "peak_normal_force_n": 348.11010597539706,
+    "target": "opponent_upper_body_composite"
+  },
+  {
+    "type": "scoring_contact",
+    "time": 25.45999999999922,
+    "side": 1,
+    "start_time": 25.29999999999925,
+    "last_time": 25.35499999999924,
+    "approach_m_s": 1.1269164831485494,
+    "impulse_ns": 2.2020120284216254,
+    "peak_normal_force_n": 183.20237171092847,
+    "target": "opponent_upper_body_composite"
+  },
+  {
+    "type": "scoring_contact",
+    "time": 29.814999999998353,
+    "side": 0,
+    "start_time": 29.689999999998378,
+    "last_time": 29.709999999998374,
+    "approach_m_s": 0.4454633389433973,
+    "impulse_ns": 1.1423286722625883,
+    "peak_normal_force_n": 90.89797131310681,
+    "target": "opponent_upper_body_composite"
+  },
+  {
+    "type": "scoring_contact",
+    "time": 36.49500000000022,
+    "side": 0,
+    "start_time": 36.35000000000014,
+    "last_time": 36.39500000000017,
+    "approach_m_s": 1.207604036641878,
+    "impulse_ns": 3.1586345723453744,
+    "peak_normal_force_n": 199.27680407948773,
+    "target": "opponent_upper_body_composite"
+  },
+  {
+    "type": "scoring_contact",
+    "time": 38.43000000000121,
+    "side": 0,
+    "start_time": 38.24000000000111,
+    "last_time": 38.33000000000116,
+    "approach_m_s": 3.70758164167606,
+    "impulse_ns": 31.591758317760725,
+    "peak_normal_force_n": 973.9203460199165,
+    "target": "opponent_upper_body_composite"
+  },
+  {
+    "type": "scoring_contact",
+    "time": 40.93500000000249,
+    "side": 0,
+    "start_time": 40.80000000000242,
+    "last_time": 40.83500000000244,
+    "approach_m_s": 1.2202350495257914,
+    "impulse_ns": 3.4034575536858176,
+    "peak_normal_force_n": 180.7751862641972,
+    "target": "opponent_upper_body_composite"
+  },
+  {
+    "type": "scoring_contact",
+    "time": 41.21500000000263,
+    "side": 1,
+    "start_time": 41.07000000000256,
+    "last_time": 41.11500000000258,
+    "approach_m_s": 2.3977408586400877,
+    "impulse_ns": 6.843542441357979,
+    "peak_normal_force_n": 517.0558314578194,
+    "target": "opponent_upper_body_composite"
+  },
+  {
+    "type": "scoring_contact",
+    "time": 42.95500000000352,
+    "side": 0,
+    "start_time": 42.75500000000342,
+    "last_time": 42.85500000000347,
+    "approach_m_s": 2.2061446389830026,
+    "impulse_ns": 14.530735076707032,
+    "peak_normal_force_n": 493.066748582897,
+    "target": "opponent_upper_body_composite"
+  },
+  {
+    "type": "scoring_contact",
+    "time": 44.83000000000448,
+    "side": 0,
+    "start_time": 44.680000000004405,
+    "last_time": 44.73000000000443,
+    "approach_m_s": 2.2810180839459884,
+    "impulse_ns": 8.178401479247993,
+    "peak_normal_force_n": 422.89034237618154,
+    "target": "opponent_upper_body_composite"
+  },
+  {
+    "type": "scoring_contact",
+    "time": 46.54500000000536,
+    "side": 0,
+    "start_time": 46.39500000000528,
+    "last_time": 46.44500000000531,
+    "approach_m_s": 1.9389872335504885,
+    "impulse_ns": 9.309703098589868,
+    "peak_normal_force_n": 500.8237577881882,
+    "target": "opponent_upper_body_composite"
+  },
+  {
+    "type": "scoring_contact",
+    "time": 48.12500000000617,
+    "side": 1,
+    "start_time": 47.98000000000609,
+    "last_time": 48.025000000006116,
+    "approach_m_s": 1.6985422905161642,
+    "impulse_ns": 6.509177802520474,
+    "peak_normal_force_n": 370.85436691766444,
+    "target": "opponent_upper_body_composite"
+  },
+  {
+    "type": "scoring_contact",
+    "time": 51.43500000000786,
+    "side": 1,
+    "start_time": 51.27000000000778,
+    "last_time": 51.33500000000781,
+    "approach_m_s": 4.500785747069437,
+    "impulse_ns": 27.46570132084904,
+    "peak_normal_force_n": 954.3907690878762,
+    "target": "opponent_upper_body_composite"
+  },
+  {
+    "type": "scoring_contact",
+    "time": 53.690000000009015,
+    "side": 0,
+    "start_time": 53.52000000000893,
+    "last_time": 53.59000000000896,
+    "approach_m_s": 2.024442029455324,
+    "impulse_ns": 12.235945895608493,
+    "peak_normal_force_n": 505.16391648988224,
+    "target": "opponent_upper_body_composite"
+  },
+  {
+    "type": "scoring_contact",
+    "time": 55.29000000000983,
+    "side": 0,
+    "start_time": 55.05500000000971,
+    "last_time": 55.19000000000978,
+    "approach_m_s": 1.216374150993315,
+    "impulse_ns": 7.901621069794897,
+    "peak_normal_force_n": 342.1312778190618,
+    "target": "opponent_upper_body_composite"
+  },
+  {
+    "type": "scoring_contact",
+    "time": 59.50500000001199,
+    "side": 0,
+    "start_time": 59.35500000001191,
+    "last_time": 59.40500000001194,
+    "approach_m_s": 1.461592821282318,
+    "impulse_ns": 4.992257258566331,
+    "peak_normal_force_n": 296.65064043894284,
+    "target": "opponent_upper_body_composite"
+  },
+  {
+    "type": "scoring_contact",
+    "time": 65.24000000001315,
+    "side": 0,
+    "start_time": 65.10000000001328,
+    "last_time": 65.13500000001325,
+    "approach_m_s": 0.6672151229571119,
+    "impulse_ns": 3.009071074809781,
+    "peak_normal_force_n": 152.8888761311377,
+    "target": "opponent_upper_body_composite"
+  },
+  {
+    "type": "scoring_contact",
+    "time": 68.25000000001042,
+    "side": 1,
+    "start_time": 68.03000000001062,
+    "last_time": 68.14500000001051,
+    "approach_m_s": 3.7316831148285834,
+    "impulse_ns": 9.27954938784826,
+    "peak_normal_force_n": 467.2115169446328,
+    "target": "opponent_upper_body_composite"
+  },
+  {
+    "type": "scoring_contact",
+    "time": 70.05000000000878,
+    "side": 1,
+    "start_time": 69.9150000000089,
+    "last_time": 69.94500000000887,
+    "approach_m_s": 0.6164553428153502,
+    "impulse_ns": 2.1589974332023343,
+    "peak_normal_force_n": 204.68461057512445,
+    "target": "opponent_upper_body_composite"
+  },
+  {
+    "type": "scoring_contact",
+    "time": 76.81000000000263,
+    "side": 0,
+    "start_time": 76.68000000000275,
+    "last_time": 76.70500000000273,
+    "approach_m_s": 1.0514029835301892,
+    "impulse_ns": 2.420662898300073,
+    "peak_normal_force_n": 150.321579395154,
+    "target": "opponent_upper_body_composite"
+  },
+  {
+    "type": "scoring_contact",
+    "time": 80.01499999999972,
+    "side": 0,
+    "start_time": 79.85999999999986,
+    "last_time": 79.90999999999981,
+    "approach_m_s": 1.6932324196062407,
+    "impulse_ns": 11.411252214427575,
+    "peak_normal_force_n": 536.1509705927427,
+    "target": "opponent_upper_body_composite"
+  },
+  {
+    "type": "scoring_contact",
+    "time": 82.75999999999722,
+    "side": 1,
+    "start_time": 82.61999999999735,
+    "last_time": 82.65499999999732,
+    "approach_m_s": 1.5392926804701583,
+    "impulse_ns": 8.054938919907853,
+    "peak_normal_force_n": 478.4375791135905,
+    "target": "opponent_upper_body_composite"
+  },
+  {
+    "type": "scoring_contact",
+    "time": 84.25999999999586,
+    "side": 0,
+    "start_time": 84.11999999999598,
+    "last_time": 84.15499999999595,
+    "approach_m_s": 2.44513699755999,
+    "impulse_ns": 5.251672126945456,
+    "peak_normal_force_n": 306.99115480393795,
+    "target": "opponent_upper_body_composite"
+  },
+  {
+    "type": "scoring_contact",
+    "time": 86.65999999999367,
+    "side": 1,
+    "start_time": 86.49999999999382,
+    "last_time": 86.55499999999377,
+    "approach_m_s": 1.5525826593347496,
+    "impulse_ns": 6.954285818494057,
+    "peak_normal_force_n": 287.0101325197351,
+    "target": "opponent_upper_body_composite"
+  },
+  {
+    "type": "scoring_contact",
+    "time": 87.77999999999265,
+    "side": 1,
+    "start_time": 87.63999999999278,
+    "last_time": 87.67499999999275,
+    "approach_m_s": 1.3259798063320682,
+    "impulse_ns": 4.617430126111458,
+    "peak_normal_force_n": 314.5580602005318,
+    "target": "opponent_upper_body_composite"
+  },
+  {
+    "type": "scoring_contact",
+    "time": 88.67999999999184,
+    "side": 0,
+    "start_time": 88.51999999999198,
+    "last_time": 88.57499999999193,
+    "approach_m_s": 2.001703325294912,
+    "impulse_ns": 7.374438042261861,
+    "peak_normal_force_n": 348.2423484246179,
+    "target": "opponent_upper_body_composite"
+  },
+  {
+    "type": "match_ended",
+    "time": 89.99999999999064,
+    "winner": 1,
+    "reason": "more_valid_upper_body_contacts",
+    "kind": "contact_decision",
+    "hardware_damage": false,
+    "competition_rule_result": true,
+    "clean_upper_contacts": [
+      16,
+      17
+    ],
+    "short_window_normal_impulse_ns": [
+      134.30528020510644,
+      135.62821779195318
+    ],
+    "knockdowns": [
+      0,
+      0
+    ],
+    "upright_time_s": [
+      89.40999999999063,
+      89.31499999999042
+    ]
+  }
+]

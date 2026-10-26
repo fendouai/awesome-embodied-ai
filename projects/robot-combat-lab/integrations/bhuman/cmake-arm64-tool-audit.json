@@ -1,0 +1,22 @@
+[
+  {
+    "file": ".venv/lib/python3.13/site-packages/cmake/data/bin/ccmake",
+    "before": 23218208,
+    "after": 10684448
+  },
+  {
+    "file": ".venv/lib/python3.13/site-packages/cmake/data/bin/cmake",
+    "before": 23762288,
+    "after": 10933616
+  },
+  {
+    "file": ".venv/lib/python3.13/site-packages/cmake/data/bin/ctest",
+    "before": 26066576,
+    "after": 12009104
+  },
+  {
+    "file": ".venv/lib/python3.13/site-packages/cmake/data/bin/cpack",
+    "before": 24600240,
+    "after": 11312816
+  }
+]

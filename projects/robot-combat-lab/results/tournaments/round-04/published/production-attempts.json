@@ -1,0 +1,27 @@
+[
+  {
+    "stage": "simulation_initialization",
+    "track": "g1",
+    "reason": "Portable asset meshdir/file path duplication was detected before a physics match started; path resolver corrected",
+    "counted_as_match": false
+  },
+  {
+    "stage": "visual_initialization",
+    "folder": "diagnostics/vision-02-initial-attempt",
+    "reason": "Stopped before PLAYING to reduce recorder status-file I/O; capture retained and a fresh complete second match recorded",
+    "native_states_observed": [
+      0
+    ],
+    "counted_as_match": false
+  },
+  {
+    "stage": "source_video_rendering",
+    "reason": "Partial renders restarted for display performance and isolated production lanes; saved source physics trajectories and referee outcomes retained",
+    "source_physics_changed": false
+  },
+  {
+    "stage": "commentary_preview",
+    "reason": "Black intro padding corrected to clone-frame holds, and goal calls prioritized over simultaneous referee transitions; original source footage retained",
+    "source_video_changed": false
+  }
+]

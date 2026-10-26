@@ -1,0 +1,506 @@
+{
+  "README.en.md": {
+    "sha256": "69205d78f913745d6e49fce232492405e5d51b90a2aca60ca4ee46e1dffc5c6e",
+    "bytes": 5113
+  },
+  "audit.json": {
+    "sha256": "c6d4b17502edf063b8599a59f0f6d3e655c2cdb0a5379cde051186053ec01d86",
+    "bytes": 3854
+  },
+  "production-revisions.json": {
+    "sha256": "b2a7e5beadbef13b665cbfa70e2a908c203fd9a1d10ecf903c20918511916511",
+    "bytes": 306
+  },
+  "README.md": {
+    "sha256": "c63e272f94cae5cf1f933ec2ffbe5aa559360e53114841a8b756d3b97b8ebd1b",
+    "bytes": 4808
+  },
+  "official-source-record.json": {
+    "sha256": "3e5d98f85f38e190c2ed407cb7db5e0f623eb208e59844bc30d610fb8138b909",
+    "bytes": 989
+  },
+  "native-runtime.json": {
+    "sha256": "3daa101e5739ca783e8f0cba9f23d8176a01fcef6156090c89fd8d4cab6f1449",
+    "bytes": 1114
+  },
+  "protocol.json": {
+    "sha256": "8c7410b62507b87cd3082443811e63a05df1126d7dac77cc695beea0fb1a9e96",
+    "bytes": 2733
+  },
+  "production-attempts.json": {
+    "sha256": "3c59c1c5d2fecd6082dd7c0edcce7013dbc9ffa34c3cf675724f7d4546a5af7c",
+    "bytes": 1041
+  },
+  "index.json": {
+    "sha256": "ccc481e33fb955550d61eb3f3db6ff1263326cb039962d9fab4e489b6a2ea375",
+    "bytes": 10517
+  },
+  "publication-audit.json": {
+    "sha256": "50b439c5e2967f5e6ef9216054396f021ad35b448a5c7843278e34c3f6795f59",
+    "bytes": 311
+  },
+  "videos/g1-robostriker_opponent-robostriker_opponent.jpg": {
+    "sha256": "8c2155a905fe995a1f8b4157787d08b021b1a67b39bfd45f9766abe5315220ba",
+    "bytes": 58902
+  },
+  "videos/g1-robostriker_opponent-robostriker_ego.jpg": {
+    "sha256": "f82050db8707bbd41ad7ed99c47e55be5eeaa6f24ab8f4160a5df873e34a2a46",
+    "bytes": 56172
+  },
+  "videos/vision-02.zh-CN.mp4": {
+    "sha256": "f3371376b7b00beea56c13715bdf06d774fad6bb702ea62adc4bfd3b39bd8132",
+    "bytes": 5231098
+  },
+  "videos/g1-robostriker_opponent-robostriker_ego.zh-CN.mp4": {
+    "sha256": "4d2973818840c1d077f64e253052f6e34739ee7f3227c279e6adf3794261980e",
+    "bytes": 9653185
+  },
+  "videos/vision-04.jpg": {
+    "sha256": "54fab110216580149ed6f7e59d10ae95c511b1495a747cc2d8e01d390274aaf1",
+    "bytes": 26551
+  },
+  "videos/vision-01.jpg": {
+    "sha256": "b1e256c66db950c33f2c4a59fc6f6bb980645b2746e5630f6fb3ee33c8fa8347",
+    "bytes": 26194
+  },
+  "videos/vision-04.zh-CN.mp4": {
+    "sha256": "c704bddb4c7ebddd8db27cef912caf3ff638333a8b0e5a9dbddc3f0b9877762f",
+    "bytes": 5203039
+  },
+  "videos/vision-02.jpg": {
+    "sha256": "1076b37c6193f1e9750cbae5ee5166d7b354f875abc7e8787dbc647540e59f53",
+    "bytes": 26261
+  },
+  "videos/vision-03.jpg": {
+    "sha256": "3a01b8e227039a6697a502a0e7548ee93fd071cb094821b4dd619f7642ab570a",
+    "bytes": 26655
+  },
+  "videos/vision-03.zh-CN.mp4": {
+    "sha256": "90910ddc8ef7dc754a3602b8e881180c5ee8c66530aa8de7619e33f1266cb9db",
+    "bytes": 5172815
+  },
+  "videos/g1-robostriker_ego-robostriker_opponent.jpg": {
+    "sha256": "8c25adec78b491915803862166957fe84986ecb299207ba8f2b350dbc96b79aa",
+    "bytes": 56386
+  },
+  "videos/ncp-100-106.zh-CN.mp4": {
+    "sha256": "29241af7b51328974ac6909cf33fed4224977306613fd3efdc8794a2506830f5",
+    "bytes": 4353329
+  },
+  "videos/ncp-100-106.jpg": {
+    "sha256": "401051b4bcb952ee86e486eb0bba0734d7a637500b014c48bd4bb35e1f6ad901",
+    "bytes": 54345
+  },
+  "videos/ncp-100-100.jpg": {
+    "sha256": "a4c6fbd388dbea5bbfc94f3b698b6bd058d1e769a6f2cee934b55f09f6775227",
+    "bytes": 51590
+  },
+  "videos/g1-robostriker_ego-robostriker_opponent.zh-CN.mp4": {
+    "sha256": "25a1254182079d02256fa53dd5a59f9b9602c95ee64f0c6ed136f9c0b1b2c098",
+    "bytes": 12159798
+  },
+  "videos/ncp-100-100.zh-CN.mp4": {
+    "sha256": "1b40b2557a37356e0880a03dd766083f693af1391a70572eba2a8d6fbf85527e",
+    "bytes": 12148530
+  },
+  "videos/ncp-106-106.zh-CN.mp4": {
+    "sha256": "da02dd24214d6aa8446467e8a0177dbc6229a43063e431853aec42ee2235adc9",
+    "bytes": 2309316
+  },
+  "videos/g1-robostriker_ego-robostriker_ego.jpg": {
+    "sha256": "9eb7271fc367dfe934c7a3010fc0111a0c8c7440681d96239f0c78a63ea1e315",
+    "bytes": 56416
+  },
+  "videos/g1-robostriker_ego-robostriker_ego.zh-CN.mp4": {
+    "sha256": "c3c24e10c63d1e859ac3dfba87b742b346da677109563b23c8c58214fc08120f",
+    "bytes": 12178393
+  },
+  "videos/ncp-106-100.zh-CN.mp4": {
+    "sha256": "13a3fc0e3f2d5777f53295fc41047207e3055e311656a5136028f0469bd3f2ce",
+    "bytes": 9939077
+  },
+  "videos/vision-01.zh-CN.mp4": {
+    "sha256": "58ad4a1570fd4546ae2bfb628e38262b1e21465013a0b1a7ffbad288cfc3cd01",
+    "bytes": 4625779
+  },
+  "videos/ncp-106-100.jpg": {
+    "sha256": "187452d26bab5db722309d1971bc22c76b8cd420f859ac77247ee9eb5d217055",
+    "bytes": 52917
+  },
+  "videos/g1-robostriker_opponent-robostriker_opponent.zh-CN.mp4": {
+    "sha256": "bbcd82732d08b340c5b30c06ba301929d15e0f0c28b88896e6fb23f8d1d14f29",
+    "bytes": 7502376
+  },
+  "videos/ncp-106-106.jpg": {
+    "sha256": "87743cbaca4f789343a57c92e14c40046f4e811f9072fc20162371414cf9811d",
+    "bytes": 55961
+  },
+  "matches/g1-robostriker_opponent-robostriker_ego/duel-verification.json": {
+    "sha256": "2449e988f53e193e3c7e6c4cfab7805265954d4aef5a42a0f34d033d87c605c2",
+    "bytes": 564
+  },
+  "matches/g1-robostriker_opponent-robostriker_ego/referee-events.json": {
+    "sha256": "9db95ded01f841a0228606b68b466e31c3c2bc652e1150eebfe9a9154ae06a2d",
+    "bytes": 17138
+  },
+  "matches/g1-robostriker_opponent-robostriker_ego/commentary.json": {
+    "sha256": "3280b353a0218e23734435583706119a6bb444e8316d9a6698bb3d84036c78b6",
+    "bytes": 9914
+  },
+  "matches/g1-robostriker_opponent-robostriker_ego/duel-rules.json": {
+    "sha256": "c990d5cc5eb6faab52d2537695d60cd1a32daf95325c9e91e85d5d2d71b54372",
+    "bytes": 657
+  },
+  "matches/g1-robostriker_opponent-robostriker_ego/duel-result.json": {
+    "sha256": "17761c7e104e601081f0f45b32032498805b2fcdbcbe6eb00bc2e8c752c9f486",
+    "bytes": 1801
+  },
+  "matches/g1-robostriker_opponent-robostriker_ego/captions.zh-CN.srt": {
+    "sha256": "0e57ead7930b0facc67658514cdb8e78f556d96bac0fef2036f9bdbcd5413a8b",
+    "bytes": 1236
+  },
+  "matches/g1-robostriker_opponent-robostriker_ego/script.zh-CN.txt": {
+    "sha256": "935048c3200585796b44b54566a96487244aedfd828a41faa277717893bd3e08",
+    "bytes": 1105
+  },
+  "matches/g1-robostriker_opponent-robostriker_ego/captions.zh-CN.vtt": {
+    "sha256": "611b909e7f056ce8eb56e31ab2d3c146522ce1db48c5ea7d5e890b0647a90f02",
+    "bytes": 1228
+  },
+  "matches/vision-03/commentary.json": {
+    "sha256": "ba20fd0041412cda0887ccfbf917440fc44d01765db2f32326ce0657eab324e8",
+    "bytes": 11333
+  },
+  "matches/vision-03/captions.zh-CN.srt": {
+    "sha256": "2bf977abf3e2cadfd63d6db6ef231ae7059aed57cfe3debbf6d5bd417d9668e4",
+    "bytes": 1206
+  },
+  "matches/vision-03/script.zh-CN.txt": {
+    "sha256": "b747fb30aee5513e908b3a509b6713e167cb5ffe91411cea5a77f9dfb8ae39c4",
+    "bytes": 1021
+  },
+  "matches/vision-03/timeline.json": {
+    "sha256": "93971ae186b671a691ea568edd775a40aa80fc00cfcbd676b4fb18328bb6ec97",
+    "bytes": 35797
+  },
+  "matches/vision-03/native-result.json": {
+    "sha256": "efec3fb0bed82e55f1169b9ebf7b78118f8faefc06f36582ae01e75622943a8b",
+    "bytes": 270
+  },
+  "matches/vision-03/analysis.json": {
+    "sha256": "79311c2a8e83dfba9a96d051ff94107ef908495b9b5e600ccd0025d7acef86fa",
+    "bytes": 160
+  },
+  "matches/vision-03/captions.zh-CN.vtt": {
+    "sha256": "2d8d949b09ecba5212738d63cf61f59aef940adb5bf761228216ca94bd021184",
+    "bytes": 1187
+  },
+  "matches/vision-04/commentary.json": {
+    "sha256": "1af773d37b203c7f627ee2d4c2d6fb5e0ab580b8a12d9d657234347949b98e65",
+    "bytes": 12981
+  },
+  "matches/vision-04/captions.zh-CN.srt": {
+    "sha256": "6583912c0a921bee555958f5ab95b6f0531b73e963440249966869516459d1f8",
+    "bytes": 1535
+  },
+  "matches/vision-04/script.zh-CN.txt": {
+    "sha256": "7bd892792a3063e4882dc57db2c6db443015d84a0248462cbecbbeb857acbf87",
+    "bytes": 1286
+  },
+  "matches/vision-04/timeline.json": {
+    "sha256": "fdb1ec5d41850acb353671d2ef8d4c0bc6786e23d0d88391f0fdec1aebee747c",
+    "bytes": 36537
+  },
+  "matches/vision-04/native-result.json": {
+    "sha256": "54bf6bf41e0d5c272c44bccafd4bcd6024152ffbd5d9cec017218ad9738d301f",
+    "bytes": 271
+  },
+  "matches/vision-04/analysis.json": {
+    "sha256": "496c5e8589b7db557106357a6480abe3a14f72c39253d0406e90e54063c9ef3d",
+    "bytes": 159
+  },
+  "matches/vision-04/captions.zh-CN.vtt": {
+    "sha256": "6b4ac58275a7e8c0b7439fc704c3c2b4b33646f20f91a6a6a908eec6f2a229de",
+    "bytes": 1504
+  },
+  "matches/vision-02/commentary.json": {
+    "sha256": "79ccac3fd63f402380f2bffc63c42762f16910b47b8c7c4330cf641b4ebc4fbf",
+    "bytes": 12133
+  },
+  "matches/vision-02/captions.zh-CN.srt": {
+    "sha256": "54b397ed037aee6e00b75fdeedd420a1a8d8dd67966976b8ab300032cf1c547a",
+    "bytes": 1370
+  },
+  "matches/vision-02/script.zh-CN.txt": {
+    "sha256": "690b7c01a992af4fa58c9d137b29b59e9c854a415f07002c95570f8e86a1e3d3",
+    "bytes": 1150
+  },
+  "matches/vision-02/timeline.json": {
+    "sha256": "3c66d5b1ffbdb4101a7b2c96556f085e9d606e96bfc24f73e839440a1d89dfff",
+    "bytes": 36708
+  },
+  "matches/vision-02/native-result.json": {
+    "sha256": "bae1da0ac76a30bd8278d6148c481814508b193aebe8637f88d9809c7a350168",
+    "bytes": 271
+  },
+  "matches/vision-02/analysis.json": {
+    "sha256": "b354d63a1567dd4f225a7beefd51acdd69762d599dc75cbd27da5efb0e753cc6",
+    "bytes": 158
+  },
+  "matches/vision-02/captions.zh-CN.vtt": {
+    "sha256": "70328799f0296b05a23c0a892799158cea8d5b1bec47d24de2ecf52b6ef234dc",
+    "bytes": 1345
+  },
+  "matches/ncp-106-100/duel-verification.json": {
+    "sha256": "5f07c27277d940bd62bc1cc28620c2ac24c285e5ab37a235afecf93b68c8bb53",
+    "bytes": 563
+  },
+  "matches/ncp-106-100/referee-events.json": {
+    "sha256": "98351c6da8839b421c1e7a7974c1a9ab71717d1812ddafb9f07a227ca7c915cf",
+    "bytes": 19522
+  },
+  "matches/ncp-106-100/commentary.json": {
+    "sha256": "583a73cdef0ac0317cbe2fe86303081f4199d245a1b198dc113bf702cdc0bfa4",
+    "bytes": 10231
+  },
+  "matches/ncp-106-100/duel-rules.json": {
+    "sha256": "139563049bc172e04492d0af158da20fda59b8644ed9dc1a4c3e6438f993a09d",
+    "bytes": 659
+  },
+  "matches/ncp-106-100/duel-result.json": {
+    "sha256": "371ca86be690cc01aa70c079cab7ebfcc2aec14d92d45064abc0ff84394f989e",
+    "bytes": 1800
+  },
+  "matches/ncp-106-100/captions.zh-CN.srt": {
+    "sha256": "051f194514d4f163437a3a80a721d84362510cff233308f43fca4305547a688d",
+    "bytes": 1336
+  },
+  "matches/ncp-106-100/script.zh-CN.txt": {
+    "sha256": "2b6b0c26f825f3595a9e616481c3f8a4f0025216180f5bafbbdc0b6d4ea79cfc",
+    "bytes": 1191
+  },
+  "matches/ncp-106-100/captions.zh-CN.vtt": {
+    "sha256": "956ee450b2e42a0e45c07d9a77065737565b15b2d9a90c4487d9760444b7a16d",
+    "bytes": 1326
+  },
+  "matches/ncp-106-106/duel-verification.json": {
+    "sha256": "91374c61e936951f9102b92f5524c55e543dfd954472d20855df9f5e4889408a",
+    "bytes": 531
+  },
+  "matches/ncp-106-106/referee-events.json": {
+    "sha256": "a70f32e4923366ff243efd12407465f7b74cba25a8e8c94893da12e1d6e08d44",
+    "bytes": 972
+  },
+  "matches/ncp-106-106/commentary.json": {
+    "sha256": "4682426fab64fe22465c68a7885ef0a451564112504a4e9862d93bebc78ae8b6",
+    "bytes": 7591
+  },
+  "matches/ncp-106-106/duel-rules.json": {
+    "sha256": "139563049bc172e04492d0af158da20fda59b8644ed9dc1a4c3e6438f993a09d",
+    "bytes": 659
+  },
+  "matches/ncp-106-106/duel-result.json": {
+    "sha256": "3a99970d6c31a7c2a998e3f41e8472d10a131570dfa9fc67e7414c44145c0432",
+    "bytes": 1707
+  },
+  "matches/ncp-106-106/captions.zh-CN.srt": {
+    "sha256": "2a31565e8517079e09214b672fde4094c9117cd47230ceed057fe9dc735a2fab",
+    "bytes": 522
+  },
+  "matches/ncp-106-106/script.zh-CN.txt": {
+    "sha256": "a06df14f3e33836d37c6cedb308645b08c49884506c19abab462d0e2843f2382",
+    "bytes": 468
+  },
+  "matches/ncp-106-106/captions.zh-CN.vtt": {
+    "sha256": "51706a77473ace790e437fd80dea6137292475162414c2af1e34b2b53053357e",
+    "bytes": 524
+  },
+  "matches/ncp-100-100/duel-verification.json": {
+    "sha256": "96135165c63ed27a27dc83ed7964513138fd691fe21ae8b7342595744fc76350",
+    "bytes": 562
+  },
+  "matches/ncp-100-100/referee-events.json": {
+    "sha256": "23e07ebb1059b13c27836547e89b0468ea098ab29ce02ba900d61268cd0e6e4d",
+    "bytes": 8955
+  },
+  "matches/ncp-100-100/commentary.json": {
+    "sha256": "0227711cc3ee32c1e5ff9c3f3e68aee27bc3785c4b4e6895eafb3a50d1d51a4a",
+    "bytes": 8419
+  },
+  "matches/ncp-100-100/duel-rules.json": {
+    "sha256": "139563049bc172e04492d0af158da20fda59b8644ed9dc1a4c3e6438f993a09d",
+    "bytes": 659
+  },
+  "matches/ncp-100-100/duel-result.json": {
+    "sha256": "c78091cc70b46235be19812914e090b66e74dec22cee76757995e37ed8157c84",
+    "bytes": 1794
+  },
+  "matches/ncp-100-100/captions.zh-CN.srt": {
+    "sha256": "361fe6efb12d4291ff6949b8d04de4e349e6c1fd9c4d1d2b9d20870a06d8c1b9",
+    "bytes": 764
+  },
+  "matches/ncp-100-100/script.zh-CN.txt": {
+    "sha256": "0f191caf751a026196e30917a9826925eb80b2d44ef94e378da27fdbfe160aa2",
+    "bytes": 677
+  },
+  "matches/ncp-100-100/captions.zh-CN.vtt": {
+    "sha256": "3fbcacad2888b1cc3d4d7b993081b0362dc88341d7bfc35bc25e12240d922d43",
+    "bytes": 762
+  },
+  "matches/ncp-100-106/duel-verification.json": {
+    "sha256": "2c0f1b522f311ad744fbc0539a9803e1c23b2b7bf3032dd1bdea9ee7044563f5",
+    "bytes": 560
+  },
+  "matches/ncp-100-106/referee-events.json": {
+    "sha256": "3e62b2d260b2c3aa7fa597d58eba9ef7bd9f49aeeb05ae3690754cbb91cd5ad4",
+    "bytes": 1986
+  },
+  "matches/ncp-100-106/commentary.json": {
+    "sha256": "33dd53cfc12943d388a34e816489f1eae870b41a143bdb62a37148bf01fbddd3",
+    "bytes": 7616
+  },
+  "matches/ncp-100-106/duel-rules.json": {
+    "sha256": "139563049bc172e04492d0af158da20fda59b8644ed9dc1a4c3e6438f993a09d",
+    "bytes": 659
+  },
+  "matches/ncp-100-106/duel-result.json": {
+    "sha256": "66af87cfda7d4c2c29035ad375fc1443a059f3cd8cff960fa8a8c2885ab7dd19",
+    "bytes": 1790
+  },
+  "matches/ncp-100-106/captions.zh-CN.srt": {
+    "sha256": "1f3d81e61f4cc1c06aa0916712715c298af651d3128d954a14a2f98ab32cb9d2",
+    "bytes": 522
+  },
+  "matches/ncp-100-106/script.zh-CN.txt": {
+    "sha256": "ff002837f2776659677ce6bc682feae1f19ca45ff0a1ad645cb7f3aa2fbea8d7",
+    "bytes": 468
+  },
+  "matches/ncp-100-106/captions.zh-CN.vtt": {
+    "sha256": "96a2d202a5cccbda7396e5e874393aa24e14d4c80844e1e12007ed9fcaf9753a",
+    "bytes": 524
+  },
+  "matches/g1-robostriker_opponent-robostriker_opponent/duel-verification.json": {
+    "sha256": "208ea9b5e925530b7de9a4d900dd8d8ad15a7feef33d9e837bccc31f23a8625d",
+    "bytes": 561
+  },
+  "matches/g1-robostriker_opponent-robostriker_opponent/referee-events.json": {
+    "sha256": "a07d829f6c4ff9cad15aca81d01cea2e97fd728b6bb0363e498a73f14f33db90",
+    "bytes": 2320
+  },
+  "matches/g1-robostriker_opponent-robostriker_opponent/commentary.json": {
+    "sha256": "83120420432f931dd0d2fc4bfd2d926b716d81cdd9b54dfad578d922dc7971ca",
+    "bytes": 7677
+  },
+  "matches/g1-robostriker_opponent-robostriker_opponent/duel-rules.json": {
+    "sha256": "c990d5cc5eb6faab52d2537695d60cd1a32daf95325c9e91e85d5d2d71b54372",
+    "bytes": 657
+  },
+  "matches/g1-robostriker_opponent-robostriker_opponent/duel-result.json": {
+    "sha256": "d37e770fa98d4f651cdf3b9e84b2207eb3e35eb24e2a3ecf4a4dd49694942d6b",
+    "bytes": 1792
+  },
+  "matches/g1-robostriker_opponent-robostriker_opponent/captions.zh-CN.srt": {
+    "sha256": "b507031f5bb5351da989d855e83265eb67a2f08767324a73bff00fa9e4b09c64",
+    "bytes": 531
+  },
+  "matches/g1-robostriker_opponent-robostriker_opponent/script.zh-CN.txt": {
+    "sha256": "0b9425b490b4ee492ada83edd66fbc7ed26754270475fc680e8c675cf5f99ce0",
+    "bytes": 477
+  },
+  "matches/g1-robostriker_opponent-robostriker_opponent/captions.zh-CN.vtt": {
+    "sha256": "8040a4ea1b8e2c45ec6bb646fe28b5d57d713c39834f33d84768dc3e6588036f",
+    "bytes": 533
+  },
+  "matches/g1-robostriker_ego-robostriker_opponent/duel-verification.json": {
+    "sha256": "47d6a77bf8ff6d0ec6f4df918a279d5633f61cd6c337cebcc32998a08ec074cc",
+    "bytes": 561
+  },
+  "matches/g1-robostriker_ego-robostriker_opponent/referee-events.json": {
+    "sha256": "bb2cf2a7d9e057ed72b83e15bfbe569218b5038bafb0d68535c8adb3d466b93f",
+    "bytes": 26287
+  },
+  "matches/g1-robostriker_ego-robostriker_opponent/commentary.json": {
+    "sha256": "61ee8459ec0114bf00c8d444ee1995e936697989f58beddc892a27578662158f",
+    "bytes": 10461
+  },
+  "matches/g1-robostriker_ego-robostriker_opponent/duel-rules.json": {
+    "sha256": "c990d5cc5eb6faab52d2537695d60cd1a32daf95325c9e91e85d5d2d71b54372",
+    "bytes": 657
+  },
+  "matches/g1-robostriker_ego-robostriker_opponent/duel-result.json": {
+    "sha256": "350e97984a0fc7ed5ceff986495fc4eca226741d08a59559fb628f972d6bb797",
+    "bytes": 1762
+  },
+  "matches/g1-robostriker_ego-robostriker_opponent/captions.zh-CN.srt": {
+    "sha256": "86dcbbb2a523081277049021c047b5c646836f41c38322364d567ccad298b244",
+    "bytes": 1413
+  },
+  "matches/g1-robostriker_ego-robostriker_opponent/script.zh-CN.txt": {
+    "sha256": "d932e508de516a09446d69a177cd2758db0f14e08d01bc33741ba8cca2e4f522",
+    "bytes": 1266
+  },
+  "matches/g1-robostriker_ego-robostriker_opponent/captions.zh-CN.vtt": {
+    "sha256": "ff9652816d9d2e67b297eeaa6bf6bedd4142ae8f7ae5d7ea4c30288f45527ea9",
+    "bytes": 1403
+  },
+  "matches/g1-robostriker_ego-robostriker_ego/duel-verification.json": {
+    "sha256": "0e7a54aa3b2d32a52c635a039b92403dc41ed1b1788dfdf8db759548af629dd4",
+    "bytes": 559
+  },
+  "matches/g1-robostriker_ego-robostriker_ego/referee-events.json": {
+    "sha256": "6e2cac2177037cb708cea34544227b080984d2822df7e22b64f93bfdb319a486",
+    "bytes": 28556
+  },
+  "matches/g1-robostriker_ego-robostriker_ego/commentary.json": {
+    "sha256": "a8b62bac683f25cd20987f434be6d5c7d66c38c85e0ce869e9b3f677c4cca1fb",
+    "bytes": 10465
+  },
+  "matches/g1-robostriker_ego-robostriker_ego/duel-rules.json": {
+    "sha256": "c990d5cc5eb6faab52d2537695d60cd1a32daf95325c9e91e85d5d2d71b54372",
+    "bytes": 657
+  },
+  "matches/g1-robostriker_ego-robostriker_ego/duel-result.json": {
+    "sha256": "067fe93c536a21c74e22e866f95b53fd8b6aac6402f6406fe87502ca315a3a4a",
+    "bytes": 1756
+  },
+  "matches/g1-robostriker_ego-robostriker_ego/captions.zh-CN.srt": {
+    "sha256": "e4262b17096cf1a1b042f8ead8c03a2b7e9e76c15076adcf227baef63ce0f415",
+    "bytes": 1408
+  },
+  "matches/g1-robostriker_ego-robostriker_ego/script.zh-CN.txt": {
+    "sha256": "11f60fe61ae164b3de1d2127d42f882cd97d9076f8604a3bf228f5b467341987",
+    "bytes": 1261
+  },
+  "matches/g1-robostriker_ego-robostriker_ego/captions.zh-CN.vtt": {
+    "sha256": "48a13a862116341bd2406a93a157ed5f3c7a4e0e5f2a643fd225a575f46bc056",
+    "bytes": 1398
+  },
+  "matches/vision-01/commentary.json": {
+    "sha256": "7b40f8e5e1bc5845f5291e5bcf1fe37278945df7d3aedd4add34844394058360",
+    "bytes": 12167
+  },
+  "matches/vision-01/captions.zh-CN.srt": {
+    "sha256": "4553294772ded1e18c13e94d066c83e345547daa5c2a4007c4fba8880363dd88",
+    "bytes": 1383
+  },
+  "matches/vision-01/script.zh-CN.txt": {
+    "sha256": "1496e4e8a885755a0af806793059f8fdcd09aac92c9386f8b3c4779d46947b64",
+    "bytes": 1168
+  },
+  "matches/vision-01/timeline.json": {
+    "sha256": "5ed26f51694a31fe0bf240dfd0076520156081489d7afbcf0a95bca5b17dd682",
+    "bytes": 37128
+  },
+  "matches/vision-01/native-result.json": {
+    "sha256": "6e585a39219948ee8f3f143391eb49aeec49089e00005faabc2f7b0a889688f7",
+    "bytes": 271
+  },
+  "matches/vision-01/analysis.json": {
+    "sha256": "b867dc054d4361e4fc92b70de02f87b963f0e177b02e805d205922b8d134f1c5",
+    "bytes": 159
+  },
+  "matches/vision-01/captions.zh-CN.vtt": {
+    "sha256": "1eb7df52f2ac073f58a0dfc11540206696bc0ae9a99f0060fd73cd3db3ea3965",
+    "bytes": 1358
+  }
+}

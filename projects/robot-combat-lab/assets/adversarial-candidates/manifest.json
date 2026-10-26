@@ -1,0 +1,56 @@
+[
+  {
+    "repository": "yinkangning0124/RoboStriker-Preview",
+    "commit": "52f54137770ff632391dd091e973ceb098ba3f98",
+    "path": "logs/rsl_marl/g1_flat_rsl_rl_ppo_stage3/combat/model_3000.pt",
+    "local": "assets/adversarial-candidates/RoboStriker-Preview/model_3000.pt",
+    "bytes": 18812369,
+    "git_blob_sha1": "e8cf9186e99b0ca518353eac862b73547cc28736",
+    "sha256": "9f8bb366cdb3fd9d2752d7f7aed67a7391d9ca58aadf361f0f569b35ed54f8bc"
+  },
+  {
+    "repository": "Tencent-RoboticsX/NCP",
+    "commit": "42f9af5ecf179443e7d38dfd65241843d27588c2",
+    "path": "ncp/data/model/ncp_models/boxing_106.pth",
+    "local": "assets/adversarial-candidates/NCP/boxing_106.pth",
+    "bytes": 33272435,
+    "git_blob_sha1": "2b5891425a67d9a3a343551cdb675a252f5d9474",
+    "sha256": "6faebf1ca5bc31064f6c75c3333f2f72d870bd3bdf9976d835e9f6a5f3a4305e"
+  },
+  {
+    "repository": "bhuman/BHumanCodeRelease",
+    "commit": "2e3374ba896da8288607f9a1881b876642fe18b8",
+    "path": "Config/NeuralNets/Walk/K1_walk.onnx",
+    "local": "assets/adversarial-candidates/BHuman/Walk/K1_walk.onnx",
+    "bytes": 558557,
+    "git_blob_sha1": "f1b711d0a72f43a62b1c6e10e226ccee3235a48c",
+    "sha256": "9d1ec18504cb9d05ec708b9430783a2331cabf5415fc0db81c6318472e948e8f"
+  },
+  {
+    "repository": "bhuman/BHumanCodeRelease",
+    "commit": "2e3374ba896da8288607f9a1881b876642fe18b8",
+    "path": "Config/NeuralNets/Walk/K1_kick_inner.onnx",
+    "local": "assets/adversarial-candidates/BHuman/Walk/K1_kick_inner.onnx",
+    "bytes": 266715,
+    "git_blob_sha1": "429c828e2361336d678bc35a8bfee08f0dc6df28",
+    "sha256": "7fb9ea33c36e14332861025f22e92f2f4a7ae7681f4532bdd6e1e78975fe3452"
+  },
+  {
+    "repository": "bhuman/BHumanCodeRelease",
+    "commit": "2e3374ba896da8288607f9a1881b876642fe18b8",
+    "path": "Config/NeuralNets/GetUpEngine/K1.onnx",
+    "local": "assets/adversarial-candidates/BHuman/GetUpEngine/K1.onnx",
+    "bytes": 285695,
+    "git_blob_sha1": "59bf96cd991d6a0389d01b17ca207171e0e4a218",
+    "sha256": "44ee5ddb2b64c79b511ed0914ec40fee81b03987061b130ed17bf546e47cc486"
+  },
+  {
+    "repository": "Tencent-RoboticsX/NCP",
+    "commit": "42f9af5ecf179443e7d38dfd65241843d27588c2",
+    "path": "ncp/data/model/ncp_models/boxing_100.pth",
+    "local": "assets/adversarial-candidates/NCP/boxing_100.pth",
+    "bytes": 33272435,
+    "git_blob_sha1": "e6b34e0cb0db6bee641f8fda9ac74b929237a637",
+    "sha256": "d19a0fd5db4290fdb6c90bf19c42cc40bf31a0cf6497afcb9079e9df5b439583"
+  }
+]

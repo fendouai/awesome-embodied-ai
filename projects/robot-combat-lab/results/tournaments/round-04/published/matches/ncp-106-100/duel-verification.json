@@ -1,0 +1,17 @@
+{
+  "verified": true,
+  "physics_steps": 35878,
+  "max_qpos_replay_error": 0.0,
+  "winner": null,
+  "score": [
+    23,
+    27
+  ],
+  "normal_impulse_ns": [
+    231.90763484824825,
+    272.2555778794053
+  ],
+  "trajectory_sha256": "e3499d56a9c10f88caeb725dc56b92a31748d7432d22b333705d95aeef5e0946",
+  "rules_sha256": "139563049bc172e04492d0af158da20fda59b8644ed9dc1a4c3e6438f993a09d",
+  "method": "Replay every native physics step with archived controls; independently recompute body poses, pre-contact approach speeds, force-window impulses and referee outcome"
+}

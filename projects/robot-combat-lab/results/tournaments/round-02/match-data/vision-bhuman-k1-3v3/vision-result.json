@@ -1,0 +1,59 @@
+{
+  "kind": "camera_perception_visual_soccer_exhibition",
+  "state": "captured_score_at_cutoff",
+  "scene": "MacAcceptance3v3M.ros3 / normal-mode Game3v3M.con",
+  "robot_count": 6,
+  "robot_type": "Booster K1",
+  "teams": [
+    "B-Human",
+    "B-Team"
+  ],
+  "perception": {
+    "camera": "SimRobot CameraColor virtual RGB camera",
+    "controller": "B-Human normal camera-to-percept modules including ECImageProvider and RobotBallPerceptor",
+    "fast_ground_truth_mode": false,
+    "source_configuration": "Game3v3M"
+  },
+  "physics": {
+    "engine": "native SimRobot Core3 / MuJoCo 3.3.5",
+    "step_length_s": 0.002,
+    "source": "Actual native framebuffer timestamps aligned to simulation physics clock"
+  },
+  "score": {
+    "red": 3,
+    "white": 0,
+    "from_native_referee": true,
+    "official_full_regulation_completed": false
+  },
+  "source_frames": 536,
+  "unique_frames": 536,
+  "source_simulation_duration_s": 19.958,
+  "source_wall_capture_duration_s": 177.735,
+  "source_capture_fps": 26.806293215753083,
+  "video": "vision-final.mp4",
+  "video_sha256": "c47a18df55c65db9b92f66e20a25fb19eaa3751bdac12a1fa1d02773d839c828",
+  "video_probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "width": 1280,
+        "height": 720,
+        "avg_frame_rate": "30/1",
+        "nb_frames": "720"
+      }
+    ],
+    "format": {
+      "duration": "24.000000"
+    }
+  },
+  "temporal_interpolation": false,
+  "temporal_resampling": "Nearest native framebuffer sample at each 30fps physics-clock output tick; four-second final-frame hold",
+  "audio": "No application audio captured",
+  "limitations": [
+    "A camera-perception exhibition segment, not a completed ten-minute regulation match",
+    "2:0 is the native B-Human referee score at capture cutoff",
+    "No scripted ball motion, goals, manual score changes or extra forces"
+  ]
+}

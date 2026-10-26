@@ -1,0 +1,9 @@
+[submodule "Util/CompiledNN"]
+  path = Util/CompiledNN
+  url = https://github.com/bhuman/CompiledNN.git
+[submodule "Util/SimRobot"]
+  path = Util/SimRobot
+  url = https://github.com/bhuman/SimRobot.git
+[submodule "Util/pybind11"]
+  path = Util/pybind11
+  url = https://github.com/pybind/pybind11.git

@@ -1,0 +1,164 @@
+{
+  "id": "round-03",
+  "state": "complete",
+  "track": "B-Human K1 3v3 normal RGB-camera perception soccer",
+  "format": "Four native-refereed 30-second local exhibition matches; not official ten-minute halves",
+  "engine": "B-Human SimRobot Core3 / MuJoCo",
+  "sensing": "SimRobot CameraColor RGB virtual cameras through the normal CameraImage/ECImage/RobotBallPerceptor pipeline",
+  "robots": {
+    "model": "Booster K1",
+    "count": 6,
+    "sides": [
+      "B-Human",
+      "B-Team"
+    ]
+  },
+  "score_source": "Native B-Human GameController telemetry",
+  "official_regulation_completed": false,
+  "matches": [
+    {
+      "number": 1,
+      "id": "vision-k1-match-01",
+      "period_seconds": 30,
+      "completed_by_native_referee": true,
+      "score": {
+        "red": 0,
+        "white": 0,
+        "source": "native B-Human GameController telemetry"
+      },
+      "winner": "draw",
+      "teams": {
+        "red": "B-Human",
+        "white": "B-Team"
+      },
+      "robots": {
+        "model": "Booster K1",
+        "count": 6,
+        "format": "3v3"
+      },
+      "perception": {
+        "camera": "SimRobot CameraColor virtual RGB",
+        "mode": "B-Human normal CameraImage/ECImage/RobotBallPerceptor pipeline",
+        "fast_truth_mode": false
+      },
+      "source_frames": 1340,
+      "source_simulation_duration_seconds": 53.72,
+      "source_wall_duration_seconds": 197.251,
+      "video": "/results/tournaments/round-03/videos/vision-bhuman-k1-3v3-match-01.mp4",
+      "poster": "/results/tournaments/round-03/videos/vision-bhuman-k1-3v3-match-01-poster.jpg",
+      "result": "/results/tournaments/round-03/matches/vision-k1-match-01/result.json",
+      "native_telemetry": "/results/tournaments/round-03/matches/vision-k1-match-01/match.csv",
+      "video_sha256": "956babed0401a4deab225eaffb8c1f37b5b0805cf052e1433f95e5e97f70b9bd",
+      "video_bytes": 704202,
+      "native_telemetry_sha256": "6d1631a50a251723c696cce626516b94462d75cdd52eb42364a701cf27fda778"
+    },
+    {
+      "number": 2,
+      "id": "vision-k1-match-02",
+      "period_seconds": 30,
+      "completed_by_native_referee": true,
+      "score": {
+        "red": 0,
+        "white": 0,
+        "source": "native B-Human GameController telemetry"
+      },
+      "winner": "draw",
+      "teams": {
+        "red": "B-Human",
+        "white": "B-Team"
+      },
+      "robots": {
+        "model": "Booster K1",
+        "count": 6,
+        "format": "3v3"
+      },
+      "perception": {
+        "camera": "SimRobot CameraColor virtual RGB",
+        "mode": "B-Human normal CameraImage/ECImage/RobotBallPerceptor pipeline",
+        "fast_truth_mode": false
+      },
+      "source_frames": 1144,
+      "source_simulation_duration_seconds": 49.164,
+      "source_wall_duration_seconds": 148.053,
+      "video": "/results/tournaments/round-03/videos/vision-bhuman-k1-3v3-match-02.mp4",
+      "poster": "/results/tournaments/round-03/videos/vision-bhuman-k1-3v3-match-02-poster.jpg",
+      "result": "/results/tournaments/round-03/matches/vision-k1-match-02/result.json",
+      "native_telemetry": "/results/tournaments/round-03/matches/vision-k1-match-02/match.csv",
+      "video_sha256": "4f8a5acce1243565104a3dd70271333cd12bd5f9c0276cfe2f72e051128688e2",
+      "video_bytes": 614984,
+      "native_telemetry_sha256": "a966571376d6d152fc4ef42d4697d4fec33d119766f8eaa3df43682528e13fe0"
+    },
+    {
+      "number": 3,
+      "id": "vision-k1-match-03",
+      "period_seconds": 30,
+      "completed_by_native_referee": true,
+      "score": {
+        "red": 0,
+        "white": 0,
+        "source": "native B-Human GameController telemetry"
+      },
+      "winner": "draw",
+      "teams": {
+        "red": "B-Human",
+        "white": "B-Team"
+      },
+      "robots": {
+        "model": "Booster K1",
+        "count": 6,
+        "format": "3v3"
+      },
+      "perception": {
+        "camera": "SimRobot CameraColor virtual RGB",
+        "mode": "B-Human normal CameraImage/ECImage/RobotBallPerceptor pipeline",
+        "fast_truth_mode": false
+      },
+      "source_frames": 811,
+      "source_simulation_duration_seconds": 33.208,
+      "source_wall_duration_seconds": 113.119,
+      "video": "/results/tournaments/round-03/videos/vision-bhuman-k1-3v3-match-03.mp4",
+      "poster": "/results/tournaments/round-03/videos/vision-bhuman-k1-3v3-match-03-poster.jpg",
+      "result": "/results/tournaments/round-03/matches/vision-k1-match-03/result.json",
+      "native_telemetry": "/results/tournaments/round-03/matches/vision-k1-match-03/match.csv",
+      "video_sha256": "ceba5124d71bd61049b55d197a9f7996b6da18298c0f4e7226c5e9cd23f62067",
+      "video_bytes": 518710,
+      "native_telemetry_sha256": "3ff002b95ebcd4b5e785cd2f62ea2f40f555b505deb94aadb0a9cdbdd71f4f95"
+    },
+    {
+      "number": 4,
+      "id": "vision-k1-match-04",
+      "period_seconds": 30,
+      "completed_by_native_referee": true,
+      "score": {
+        "red": 0,
+        "white": 0,
+        "source": "native B-Human GameController telemetry"
+      },
+      "winner": "draw",
+      "teams": {
+        "red": "B-Human",
+        "white": "B-Team"
+      },
+      "robots": {
+        "model": "Booster K1",
+        "count": 6,
+        "format": "3v3"
+      },
+      "perception": {
+        "camera": "SimRobot CameraColor virtual RGB",
+        "mode": "B-Human normal CameraImage/ECImage/RobotBallPerceptor pipeline",
+        "fast_truth_mode": false
+      },
+      "source_frames": 813,
+      "source_simulation_duration_seconds": 33.422,
+      "source_wall_duration_seconds": 114.961,
+      "video": "/results/tournaments/round-03/videos/vision-bhuman-k1-3v3-match-04.mp4",
+      "poster": "/results/tournaments/round-03/videos/vision-bhuman-k1-3v3-match-04-poster.jpg",
+      "result": "/results/tournaments/round-03/matches/vision-k1-match-04/result.json",
+      "native_telemetry": "/results/tournaments/round-03/matches/vision-k1-match-04/match.csv",
+      "video_sha256": "020d6637ac83ada4ed6c6ce67c33da498a538cc2ef24c3825968711d94795e3a",
+      "video_bytes": 527661,
+      "native_telemetry_sha256": "429ff50081c5f5c2e2c5410897c836835cfe9f805c6bf172b159ce16cf89bfbf"
+    }
+  ]
+}

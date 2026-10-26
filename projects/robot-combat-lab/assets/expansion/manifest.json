@@ -1,0 +1,452 @@
+[
+  {
+    "repository": "fan-ziqi/rl_sar",
+    "commit": "376d42c9b128f963ab08579762d5a216a976ce39",
+    "path": "LICENSE",
+    "local": "assets/expansion/rl_sar/LICENSE",
+    "git_blob_sha1": "d6da63e87835f0f96c2da2d2d93923a1bfa4e6b8",
+    "sha256": "6c18491053290fe1bada9775674b2b14493c4f0fdeab41e013dd5d4c82461d57",
+    "bytes": 11342,
+    "source": "https://raw.githubusercontent.com/fan-ziqi/rl_sar/376d42c9b128f963ab08579762d5a216a976ce39/LICENSE"
+  },
+  {
+    "repository": "fan-ziqi/rl_sar",
+    "commit": "376d42c9b128f963ab08579762d5a216a976ce39",
+    "path": "policy/a1/base.yaml",
+    "local": "assets/expansion/rl_sar/policy/a1/base.yaml",
+    "git_blob_sha1": "9a4ea06cfa2e7e0adfed8f5e8f80516b886852a9",
+    "sha256": "393e46e92cd6d2863774423398aca65f8938b397584459a57d4b304c5df26a57",
+    "bytes": 1380,
+    "source": "https://raw.githubusercontent.com/fan-ziqi/rl_sar/376d42c9b128f963ab08579762d5a216a976ce39/policy/a1/base.yaml"
+  },
+  {
+    "repository": "fan-ziqi/rl_sar",
+    "commit": "376d42c9b128f963ab08579762d5a216a976ce39",
+    "path": "policy/a1/legged_gym/config.yaml",
+    "local": "assets/expansion/rl_sar/policy/a1/legged_gym/config.yaml",
+    "git_blob_sha1": "a5c6034ee3bbe462dfc01462b274110d488d1b07",
+    "sha256": "01d5a196b5679c0ef905fb1ac8234b45be569df3cce83f43c52ea3756f35a758",
+    "bytes": 1921,
+    "source": "https://raw.githubusercontent.com/fan-ziqi/rl_sar/376d42c9b128f963ab08579762d5a216a976ce39/policy/a1/legged_gym/config.yaml"
+  },
+  {
+    "repository": "fan-ziqi/rl_sar",
+    "commit": "376d42c9b128f963ab08579762d5a216a976ce39",
+    "path": "policy/a1/legged_gym/model.pt",
+    "local": "assets/expansion/rl_sar/policy/a1/legged_gym/model.pt",
+    "git_blob_sha1": "b2b7aa8a88359dc05c6cb8d611bac6c70b91300c",
+    "sha256": "b0045ccca07d13fec36e4dc4981df1d7e4495dd81d0c6b9c4909699520ec0cf6",
+    "bytes": 4567712,
+    "source": "https://raw.githubusercontent.com/fan-ziqi/rl_sar/376d42c9b128f963ab08579762d5a216a976ce39/policy/a1/legged_gym/model.pt"
+  },
+  {
+    "repository": "fan-ziqi/rl_sar",
+    "commit": "376d42c9b128f963ab08579762d5a216a976ce39",
+    "path": "policy/go2/base.yaml",
+    "local": "assets/expansion/rl_sar/policy/go2/base.yaml",
+    "git_blob_sha1": "913f19700a230e73790a81086f112035e76d7371",
+    "sha256": "78e9b9c2be72544ab334362535ab876630808f87170ec3e38c56f9817cd53d02",
+    "bytes": 1381,
+    "source": "https://raw.githubusercontent.com/fan-ziqi/rl_sar/376d42c9b128f963ab08579762d5a216a976ce39/policy/go2/base.yaml"
+  },
+  {
+    "repository": "fan-ziqi/rl_sar",
+    "commit": "376d42c9b128f963ab08579762d5a216a976ce39",
+    "path": "policy/go2/himloco/config.yaml",
+    "local": "assets/expansion/rl_sar/policy/go2/himloco/config.yaml",
+    "git_blob_sha1": "2910e482946924c5caeb9c25dd9069b5b608a508",
+    "sha256": "67179d241385bc142ffe02d0b1c04899f46f2ae9f9eef6e57935a6f57c5430c5",
+    "bytes": 1777,
+    "source": "https://raw.githubusercontent.com/fan-ziqi/rl_sar/376d42c9b128f963ab08579762d5a216a976ce39/policy/go2/himloco/config.yaml"
+  },
+  {
+    "repository": "fan-ziqi/rl_sar",
+    "commit": "376d42c9b128f963ab08579762d5a216a976ce39",
+    "path": "policy/go2/himloco/himloco.pt",
+    "local": "assets/expansion/rl_sar/policy/go2/himloco/himloco.pt",
+    "git_blob_sha1": "b3886b101602556411cfb953445137c9235f92ba",
+    "sha256": "d9945f85a39944aaf241a67f7d2b25a15326a0222d0e503aeb05a7f188430509",
+    "bytes": 991615,
+    "source": "https://raw.githubusercontent.com/fan-ziqi/rl_sar/376d42c9b128f963ab08579762d5a216a976ce39/policy/go2/himloco/himloco.pt"
+  },
+  {
+    "repository": "fan-ziqi/rl_sar",
+    "commit": "376d42c9b128f963ab08579762d5a216a976ce39",
+    "path": "policy/go2/robot_lab/config.yaml",
+    "local": "assets/expansion/rl_sar/policy/go2/robot_lab/config.yaml",
+    "git_blob_sha1": "fdd28948033f9e958a29e893e3f1a4a2d59a2de0",
+    "sha256": "b8fbd540597b9f326fd4acb83d97d72306fb9bbc8ef84e1d8e350871b4de4e37",
+    "bytes": 1881,
+    "source": "https://raw.githubusercontent.com/fan-ziqi/rl_sar/376d42c9b128f963ab08579762d5a216a976ce39/policy/go2/robot_lab/config.yaml"
+  },
+  {
+    "repository": "fan-ziqi/rl_sar",
+    "commit": "376d42c9b128f963ab08579762d5a216a976ce39",
+    "path": "policy/go2/robot_lab/policy.pt",
+    "local": "assets/expansion/rl_sar/policy/go2/robot_lab/policy.pt",
+    "git_blob_sha1": "1a4be7f7b56f22282acdbd728917416b69107399",
+    "sha256": "9f14cb95e74ac9e5e30954da0fc0c33eaa41e337852ebed19fcee869279ade0b",
+    "bytes": 769376,
+    "source": "https://raw.githubusercontent.com/fan-ziqi/rl_sar/376d42c9b128f963ab08579762d5a216a976ce39/policy/go2/robot_lab/policy.pt"
+  },
+  {
+    "repository": "fan-ziqi/rl_sar",
+    "commit": "376d42c9b128f963ab08579762d5a216a976ce39",
+    "path": "src/rl_sar/library/core/observation_buffer/observation_buffer.cpp",
+    "local": "assets/expansion/rl_sar/src/rl_sar/library/core/observation_buffer/observation_buffer.cpp",
+    "git_blob_sha1": "05c6f615c553a8a07ab8943f4f74e97cb09580a8",
+    "sha256": "e9dd2f18f2312dfab079fd35dc5632657079752fad9142efef11091007f8f9a2",
+    "bytes": 5245,
+    "source": "https://raw.githubusercontent.com/fan-ziqi/rl_sar/376d42c9b128f963ab08579762d5a216a976ce39/src/rl_sar/library/core/observation_buffer/observation_buffer.cpp"
+  },
+  {
+    "repository": "fan-ziqi/rl_sar",
+    "commit": "376d42c9b128f963ab08579762d5a216a976ce39",
+    "path": "src/rl_sar/library/core/observation_buffer/observation_buffer.hpp",
+    "local": "assets/expansion/rl_sar/src/rl_sar/library/core/observation_buffer/observation_buffer.hpp",
+    "git_blob_sha1": "5ac850391f041946b854b7cc1abf0731b6c48614",
+    "sha256": "c0a4e1ee8f39b90ac7878f23dcdd6d2eae450a9fee9352661b3d8fa5cbe51466",
+    "bytes": 2349,
+    "source": "https://raw.githubusercontent.com/fan-ziqi/rl_sar/376d42c9b128f963ab08579762d5a216a976ce39/src/rl_sar/library/core/observation_buffer/observation_buffer.hpp"
+  },
+  {
+    "repository": "fan-ziqi/rl_sar",
+    "commit": "376d42c9b128f963ab08579762d5a216a976ce39",
+    "path": "src/rl_sar/src/rl_sim_mujoco.cpp",
+    "local": "assets/expansion/rl_sar/src/rl_sar/src/rl_sim_mujoco.cpp",
+    "git_blob_sha1": "8971236820ba65f8800597381cb8bd6e6e1f2f73",
+    "sha256": "4518d29d3233b7e1e17ce61ab33ea76168aabd84244880971adf5e2f9282db73",
+    "bytes": 18008,
+    "source": "https://raw.githubusercontent.com/fan-ziqi/rl_sar/376d42c9b128f963ab08579762d5a216a976ce39/src/rl_sar/src/rl_sim_mujoco.cpp"
+  },
+  {
+    "repository": "fan-ziqi/rl_sar",
+    "commit": "376d42c9b128f963ab08579762d5a216a976ce39",
+    "path": "src/rl_sar/test/test_observation_buffer.cpp",
+    "local": "assets/expansion/rl_sar/src/rl_sar/test/test_observation_buffer.cpp",
+    "git_blob_sha1": "ff750556a2fe8b71227b8c5c95cb6204378e1b76",
+    "sha256": "f4c404a04bc8a9f0be2ad87b098babd842e765611d117932c9fb2a61b99cfdcc",
+    "bytes": 2502,
+    "source": "https://raw.githubusercontent.com/fan-ziqi/rl_sar/376d42c9b128f963ab08579762d5a216a976ce39/src/rl_sar/test/test_observation_buffer.cpp"
+  },
+  {
+    "repository": "google-deepmind/mujoco_menagerie",
+    "commit": "f3b6013629c7b94f8ee93fd977b161fa8350f9bc",
+    "path": "unitree_a1/CHANGELOG.md",
+    "local": "assets/expansion/menagerie/unitree_a1/CHANGELOG.md",
+    "git_blob_sha1": "55f47b37e5683e49f969c8b1d3952bf0a104fd7a",
+    "sha256": "1487615f8fd0db5c5a996312dfedbaefb1e19444e50a77da03319e9aab382e9a",
+    "bytes": 143,
+    "source": "https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/f3b6013629c7b94f8ee93fd977b161fa8350f9bc/unitree_a1/CHANGELOG.md"
+  },
+  {
+    "repository": "google-deepmind/mujoco_menagerie",
+    "commit": "f3b6013629c7b94f8ee93fd977b161fa8350f9bc",
+    "path": "unitree_a1/LICENSE",
+    "local": "assets/expansion/menagerie/unitree_a1/LICENSE",
+    "git_blob_sha1": "e472bbd9217c60020b6949b6d8f3b3ede72acb11",
+    "sha256": "2b794acf1e250f5545ae5a47d81e5685ea5488ce077d1087ed8be5f81e9ba5c0",
+    "bytes": 1559,
+    "source": "https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/f3b6013629c7b94f8ee93fd977b161fa8350f9bc/unitree_a1/LICENSE"
+  },
+  {
+    "repository": "google-deepmind/mujoco_menagerie",
+    "commit": "f3b6013629c7b94f8ee93fd977b161fa8350f9bc",
+    "path": "unitree_a1/README.md",
+    "local": "assets/expansion/menagerie/unitree_a1/README.md",
+    "git_blob_sha1": "4c5c731030f9fe81cae2c0f1338eb98c99f1196e",
+    "sha256": "b470a3cbf0358dc183edb905cbd430f73db8f4a6fa1d30d040194293c6eeaa53",
+    "bytes": 1606,
+    "source": "https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/f3b6013629c7b94f8ee93fd977b161fa8350f9bc/unitree_a1/README.md"
+  },
+  {
+    "repository": "google-deepmind/mujoco_menagerie",
+    "commit": "f3b6013629c7b94f8ee93fd977b161fa8350f9bc",
+    "path": "unitree_a1/a1.xml",
+    "local": "assets/expansion/menagerie/unitree_a1/a1.xml",
+    "git_blob_sha1": "f0a1a9f036ac9fecb9ca9a35ec9e7b2976936f53",
+    "sha256": "492978cb7700b0064bcefbc2b93dba651a828cf9212df91d56e951666890807c",
+    "bytes": 9740,
+    "source": "https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/f3b6013629c7b94f8ee93fd977b161fa8350f9bc/unitree_a1/a1.xml"
+  },
+  {
+    "repository": "google-deepmind/mujoco_menagerie",
+    "commit": "f3b6013629c7b94f8ee93fd977b161fa8350f9bc",
+    "path": "unitree_a1/assets/calf.obj",
+    "local": "assets/expansion/menagerie/unitree_a1/assets/calf.obj",
+    "git_blob_sha1": "38e405e82dbc49b937e8524e452b219d1df6a716",
+    "sha256": "76e4c432d597a15e02d2afd31410b143f421a1d67bc86d7f3802dc6f391f0a1e",
+    "bytes": 5327177,
+    "source": "https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/f3b6013629c7b94f8ee93fd977b161fa8350f9bc/unitree_a1/assets/calf.obj"
+  },
+  {
+    "repository": "google-deepmind/mujoco_menagerie",
+    "commit": "f3b6013629c7b94f8ee93fd977b161fa8350f9bc",
+    "path": "unitree_a1/assets/hip.obj",
+    "local": "assets/expansion/menagerie/unitree_a1/assets/hip.obj",
+    "git_blob_sha1": "e3820f839170814d2e9cc5a32386c65dc3d020bb",
+    "sha256": "db1c7bf190915376e78f7d50ea2ab3b625d1b6edd02ec2ed0d02d7c1e195aabb",
+    "bytes": 1974009,
+    "source": "https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/f3b6013629c7b94f8ee93fd977b161fa8350f9bc/unitree_a1/assets/hip.obj"
+  },
+  {
+    "repository": "google-deepmind/mujoco_menagerie",
+    "commit": "f3b6013629c7b94f8ee93fd977b161fa8350f9bc",
+    "path": "unitree_a1/assets/thigh.obj",
+    "local": "assets/expansion/menagerie/unitree_a1/assets/thigh.obj",
+    "git_blob_sha1": "7e403bb120f4d75519a878b2aa70cb2124526fa5",
+    "sha256": "9146a38aeb231b253f5fc132168ae6ce7485502bc6b6fad3d8af088724c620b9",
+    "bytes": 3245342,
+    "source": "https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/f3b6013629c7b94f8ee93fd977b161fa8350f9bc/unitree_a1/assets/thigh.obj"
+  },
+  {
+    "repository": "google-deepmind/mujoco_menagerie",
+    "commit": "f3b6013629c7b94f8ee93fd977b161fa8350f9bc",
+    "path": "unitree_a1/assets/thigh_mirror.obj",
+    "local": "assets/expansion/menagerie/unitree_a1/assets/thigh_mirror.obj",
+    "git_blob_sha1": "025cf1ac995d3640ad2831325977be2eb7f99b7f",
+    "sha256": "03cca79a14e307d00aa303d64dc364f4e62ca16138d58f9789f4e17be3dd2f58",
+    "bytes": 3354472,
+    "source": "https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/f3b6013629c7b94f8ee93fd977b161fa8350f9bc/unitree_a1/assets/thigh_mirror.obj"
+  },
+  {
+    "repository": "google-deepmind/mujoco_menagerie",
+    "commit": "f3b6013629c7b94f8ee93fd977b161fa8350f9bc",
+    "path": "unitree_a1/assets/trunk.obj",
+    "local": "assets/expansion/menagerie/unitree_a1/assets/trunk.obj",
+    "git_blob_sha1": "9d97acbdfa5247af58493d2cb3385e0247c6fb6f",
+    "sha256": "c29e82d0addb4c7e0f02b59057fccc53e9b6f2b149d4140cc2644712a39b8878",
+    "bytes": 5410512,
+    "source": "https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/f3b6013629c7b94f8ee93fd977b161fa8350f9bc/unitree_a1/assets/trunk.obj"
+  },
+  {
+    "repository": "google-deepmind/mujoco_menagerie",
+    "commit": "f3b6013629c7b94f8ee93fd977b161fa8350f9bc",
+    "path": "unitree_a1/scene.xml",
+    "local": "assets/expansion/menagerie/unitree_a1/scene.xml",
+    "git_blob_sha1": "76b5aa31ad3977ad0325c8f2197da0a0dd55b4dd",
+    "sha256": "415eb95e2982c5a90c873f10d45e3efee94186ef6050e2c9aaea40135ff569ad",
+    "bytes": 813,
+    "source": "https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/f3b6013629c7b94f8ee93fd977b161fa8350f9bc/unitree_a1/scene.xml"
+  },
+  {
+    "repository": "google-deepmind/mujoco_menagerie",
+    "commit": "f3b6013629c7b94f8ee93fd977b161fa8350f9bc",
+    "path": "unitree_go2/CHANGELOG.md",
+    "local": "assets/expansion/menagerie/unitree_go2/CHANGELOG.md",
+    "git_blob_sha1": "4904af769cabfe24e674d365d4f658d586e5cdb7",
+    "sha256": "5d35e51b35ee779ac9cacf10599b440a51509c9fa3aa9c067bd9dc775ed11bd3",
+    "bytes": 460,
+    "source": "https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/f3b6013629c7b94f8ee93fd977b161fa8350f9bc/unitree_go2/CHANGELOG.md"
+  },
+  {
+    "repository": "google-deepmind/mujoco_menagerie",
+    "commit": "f3b6013629c7b94f8ee93fd977b161fa8350f9bc",
+    "path": "unitree_go2/LICENSE",
+    "local": "assets/expansion/menagerie/unitree_go2/LICENSE",
+    "git_blob_sha1": "b646a94d1e171bc58d5761c1bcaadaa579a4d757",
+    "sha256": "7e2dfda59b98e38d123f539b59ecb637ffd8908d19e09f7765884a309f010d40",
+    "bytes": 1537,
+    "source": "https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/f3b6013629c7b94f8ee93fd977b161fa8350f9bc/unitree_go2/LICENSE"
+  },
+  {
+    "repository": "google-deepmind/mujoco_menagerie",
+    "commit": "f3b6013629c7b94f8ee93fd977b161fa8350f9bc",
+    "path": "unitree_go2/README.md",
+    "local": "assets/expansion/menagerie/unitree_go2/README.md",
+    "git_blob_sha1": "a1c7451dd564861ca2a50625badfe158c189ca36",
+    "sha256": "b1384664f8bd60ef4333e340aa06c6f2b1175a5329e3ea9345da3dde20362069",
+    "bytes": 2435,
+    "source": "https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/f3b6013629c7b94f8ee93fd977b161fa8350f9bc/unitree_go2/README.md"
+  },
+  {
+    "repository": "google-deepmind/mujoco_menagerie",
+    "commit": "f3b6013629c7b94f8ee93fd977b161fa8350f9bc",
+    "path": "unitree_go2/assets/base_0.obj",
+    "local": "assets/expansion/menagerie/unitree_go2/assets/base_0.obj",
+    "git_blob_sha1": "f2e688236f56bd2738468a213ea61fd2f69baf0b",
+    "sha256": "8cdc53719002a5ee737d867904e534a6d6fa930b616bdcc1b3131e577d4e46c0",
+    "bytes": 1330465,
+    "source": "https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/f3b6013629c7b94f8ee93fd977b161fa8350f9bc/unitree_go2/assets/base_0.obj"
+  },
+  {
+    "repository": "google-deepmind/mujoco_menagerie",
+    "commit": "f3b6013629c7b94f8ee93fd977b161fa8350f9bc",
+    "path": "unitree_go2/assets/base_1.obj",
+    "local": "assets/expansion/menagerie/unitree_go2/assets/base_1.obj",
+    "git_blob_sha1": "e9a44eb668902b7f934f8328e4d33c6e38df8db9",
+    "sha256": "39d2f4724ff64dd5a0640c308fd98902a2946660a8d033ec8dbf368fd5af0dd6",
+    "bytes": 811791,
+    "source": "https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/f3b6013629c7b94f8ee93fd977b161fa8350f9bc/unitree_go2/assets/base_1.obj"
+  },
+  {
+    "repository": "google-deepmind/mujoco_menagerie",
+    "commit": "f3b6013629c7b94f8ee93fd977b161fa8350f9bc",
+    "path": "unitree_go2/assets/base_2.obj",
+    "local": "assets/expansion/menagerie/unitree_go2/assets/base_2.obj",
+    "git_blob_sha1": "bc661591f01c760072cb9f3fb6d80b2545bb1d53",
+    "sha256": "29cae463f95d678e4ede863c36c9b19b0d356b8340412add10670d70bdcc3095",
+    "bytes": 294090,
+    "source": "https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/f3b6013629c7b94f8ee93fd977b161fa8350f9bc/unitree_go2/assets/base_2.obj"
+  },
+  {
+    "repository": "google-deepmind/mujoco_menagerie",
+    "commit": "f3b6013629c7b94f8ee93fd977b161fa8350f9bc",
+    "path": "unitree_go2/assets/base_3.obj",
+    "local": "assets/expansion/menagerie/unitree_go2/assets/base_3.obj",
+    "git_blob_sha1": "5c98393efeb90c26bef36279e000d738dff8ff9d",
+    "sha256": "f51ba43bf300e68957a0c1aa83eaf3e4926f4ac7e64a0d6c33ae5d21fcbcf5f6",
+    "bytes": 379093,
+    "source": "https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/f3b6013629c7b94f8ee93fd977b161fa8350f9bc/unitree_go2/assets/base_3.obj"
+  },
+  {
+    "repository": "google-deepmind/mujoco_menagerie",
+    "commit": "f3b6013629c7b94f8ee93fd977b161fa8350f9bc",
+    "path": "unitree_go2/assets/base_4.obj",
+    "local": "assets/expansion/menagerie/unitree_go2/assets/base_4.obj",
+    "git_blob_sha1": "1f45bc4fa84604cd8e69124084805104b96be188",
+    "sha256": "49ddec0129546e5dd2075d5beacf7f207baa2860aeff7626818e64d2efbf3821",
+    "bytes": 7776234,
+    "source": "https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/f3b6013629c7b94f8ee93fd977b161fa8350f9bc/unitree_go2/assets/base_4.obj"
+  },
+  {
+    "repository": "google-deepmind/mujoco_menagerie",
+    "commit": "f3b6013629c7b94f8ee93fd977b161fa8350f9bc",
+    "path": "unitree_go2/assets/calf_0.obj",
+    "local": "assets/expansion/menagerie/unitree_go2/assets/calf_0.obj",
+    "git_blob_sha1": "1d9be4c392ba62a96a07043096d96d0a981fb9e9",
+    "sha256": "4a818cd563c5b7e2a271504442d05fd777d38cbaa028d4a10ad29c9f87bb355e",
+    "bytes": 877174,
+    "source": "https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/f3b6013629c7b94f8ee93fd977b161fa8350f9bc/unitree_go2/assets/calf_0.obj"
+  },
+  {
+    "repository": "google-deepmind/mujoco_menagerie",
+    "commit": "f3b6013629c7b94f8ee93fd977b161fa8350f9bc",
+    "path": "unitree_go2/assets/calf_1.obj",
+    "local": "assets/expansion/menagerie/unitree_go2/assets/calf_1.obj",
+    "git_blob_sha1": "01197551ce8ad7d7118590f949897c72a57b0e11",
+    "sha256": "51950c3a153ae3208592df86ea11c9d6756f8f645ebca5caf6910c61aeb03817",
+    "bytes": 326865,
+    "source": "https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/f3b6013629c7b94f8ee93fd977b161fa8350f9bc/unitree_go2/assets/calf_1.obj"
+  },
+  {
+    "repository": "google-deepmind/mujoco_menagerie",
+    "commit": "f3b6013629c7b94f8ee93fd977b161fa8350f9bc",
+    "path": "unitree_go2/assets/calf_mirror_0.obj",
+    "local": "assets/expansion/menagerie/unitree_go2/assets/calf_mirror_0.obj",
+    "git_blob_sha1": "710bbe9ee5190e182e31730acb0e9ec6ed4c87db",
+    "sha256": "6dc0406207a1c08a5953fd5962aca1a270fd06593d30d100205e05c1b32d4af2",
+    "bytes": 876538,
+    "source": "https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/f3b6013629c7b94f8ee93fd977b161fa8350f9bc/unitree_go2/assets/calf_mirror_0.obj"
+  },
+  {
+    "repository": "google-deepmind/mujoco_menagerie",
+    "commit": "f3b6013629c7b94f8ee93fd977b161fa8350f9bc",
+    "path": "unitree_go2/assets/calf_mirror_1.obj",
+    "local": "assets/expansion/menagerie/unitree_go2/assets/calf_mirror_1.obj",
+    "git_blob_sha1": "6b27378a4e44d27bf974ec7ba311f5725c4dc2da",
+    "sha256": "f84f5af90b914633165beb3a5493ee499169144c5797dcf04c6eb5842f74b31a",
+    "bytes": 327261,
+    "source": "https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/f3b6013629c7b94f8ee93fd977b161fa8350f9bc/unitree_go2/assets/calf_mirror_1.obj"
+  },
+  {
+    "repository": "google-deepmind/mujoco_menagerie",
+    "commit": "f3b6013629c7b94f8ee93fd977b161fa8350f9bc",
+    "path": "unitree_go2/assets/foot.obj",
+    "local": "assets/expansion/menagerie/unitree_go2/assets/foot.obj",
+    "git_blob_sha1": "edc559eeb5b385e3df55573074e35ce1ef227a46",
+    "sha256": "df9e78a7c0110d02557439010f2a5f11f0ec4fd907b32704145dbd6aa7affc0b",
+    "bytes": 1144729,
+    "source": "https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/f3b6013629c7b94f8ee93fd977b161fa8350f9bc/unitree_go2/assets/foot.obj"
+  },
+  {
+    "repository": "google-deepmind/mujoco_menagerie",
+    "commit": "f3b6013629c7b94f8ee93fd977b161fa8350f9bc",
+    "path": "unitree_go2/assets/hip_0.obj",
+    "local": "assets/expansion/menagerie/unitree_go2/assets/hip_0.obj",
+    "git_blob_sha1": "551f12437a92cf72206aa56dca412c88220b6c4a",
+    "sha256": "cc29932ab4d251ce3f72389ec4c1f757e44eee138b87e772b648c2bc76b506cd",
+    "bytes": 2863864,
+    "source": "https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/f3b6013629c7b94f8ee93fd977b161fa8350f9bc/unitree_go2/assets/hip_0.obj"
+  },
+  {
+    "repository": "google-deepmind/mujoco_menagerie",
+    "commit": "f3b6013629c7b94f8ee93fd977b161fa8350f9bc",
+    "path": "unitree_go2/assets/hip_1.obj",
+    "local": "assets/expansion/menagerie/unitree_go2/assets/hip_1.obj",
+    "git_blob_sha1": "ed2bebfc4c2febfef45a1c67c40397964a6df6e4",
+    "sha256": "3fd5bd9b2ef6abe622c0739d3c67eaa1679b19b47132951972c4892a779ea7cf",
+    "bytes": 2767918,
+    "source": "https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/f3b6013629c7b94f8ee93fd977b161fa8350f9bc/unitree_go2/assets/hip_1.obj"
+  },
+  {
+    "repository": "google-deepmind/mujoco_menagerie",
+    "commit": "f3b6013629c7b94f8ee93fd977b161fa8350f9bc",
+    "path": "unitree_go2/assets/thigh_0.obj",
+    "local": "assets/expansion/menagerie/unitree_go2/assets/thigh_0.obj",
+    "git_blob_sha1": "0b99756ffd7d3391abeff66fc510a1ae7c5a4c8b",
+    "sha256": "bb3edfe6a7b04f4f4dff1ce7b05d426ddce941e276cc6372fb542055893c71ec",
+    "bytes": 2841868,
+    "source": "https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/f3b6013629c7b94f8ee93fd977b161fa8350f9bc/unitree_go2/assets/thigh_0.obj"
+  },
+  {
+    "repository": "google-deepmind/mujoco_menagerie",
+    "commit": "f3b6013629c7b94f8ee93fd977b161fa8350f9bc",
+    "path": "unitree_go2/assets/thigh_1.obj",
+    "local": "assets/expansion/menagerie/unitree_go2/assets/thigh_1.obj",
+    "git_blob_sha1": "5005be1de988534d0f4b94ec51eaf1ff41ba7970",
+    "sha256": "3a631822f9f7d2114b1b79dcdff5abf95103630abb7d91d1f3b8b18117132ed2",
+    "bytes": 1491320,
+    "source": "https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/f3b6013629c7b94f8ee93fd977b161fa8350f9bc/unitree_go2/assets/thigh_1.obj"
+  },
+  {
+    "repository": "google-deepmind/mujoco_menagerie",
+    "commit": "f3b6013629c7b94f8ee93fd977b161fa8350f9bc",
+    "path": "unitree_go2/assets/thigh_mirror_0.obj",
+    "local": "assets/expansion/menagerie/unitree_go2/assets/thigh_mirror_0.obj",
+    "git_blob_sha1": "7c2fd2ce44ed9e4f1d550ca1847c7c9e58f91be1",
+    "sha256": "07abaedce761f1dd48647384ac14ba1959276bc78d5a2a62051e8f1c6093933b",
+    "bytes": 2817674,
+    "source": "https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/f3b6013629c7b94f8ee93fd977b161fa8350f9bc/unitree_go2/assets/thigh_mirror_0.obj"
+  },
+  {
+    "repository": "google-deepmind/mujoco_menagerie",
+    "commit": "f3b6013629c7b94f8ee93fd977b161fa8350f9bc",
+    "path": "unitree_go2/assets/thigh_mirror_1.obj",
+    "local": "assets/expansion/menagerie/unitree_go2/assets/thigh_mirror_1.obj",
+    "git_blob_sha1": "fb7e0b4963b9889fe6b1127bbca03844163b1bc7",
+    "sha256": "db984a3e983eabbc9b38183427cca9ab0bb3bdb049f9eab030e06edda36579d6",
+    "bytes": 1482261,
+    "source": "https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/f3b6013629c7b94f8ee93fd977b161fa8350f9bc/unitree_go2/assets/thigh_mirror_1.obj"
+  },
+  {
+    "repository": "google-deepmind/mujoco_menagerie",
+    "commit": "f3b6013629c7b94f8ee93fd977b161fa8350f9bc",
+    "path": "unitree_go2/go2.xml",
+    "local": "assets/expansion/menagerie/unitree_go2/go2.xml",
+    "git_blob_sha1": "78657f2a5ba464cab1fbf7a7aebb21579110df34",
+    "sha256": "50adb09a4365293e2acdaf2010ae35a82b0f09fea18ae51806fef91e310ed04a",
+    "bytes": 11678,
+    "source": "https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/f3b6013629c7b94f8ee93fd977b161fa8350f9bc/unitree_go2/go2.xml"
+  },
+  {
+    "repository": "google-deepmind/mujoco_menagerie",
+    "commit": "f3b6013629c7b94f8ee93fd977b161fa8350f9bc",
+    "path": "unitree_go2/scene.xml",
+    "local": "assets/expansion/menagerie/unitree_go2/scene.xml",
+    "git_blob_sha1": "9c4470b77610f567fbefd146ea2b0df8925efff6",
+    "sha256": "b56123ea2bf09070bf4054f0be9aa418e49041ddddce44dbbf7ab35e8b732641",
+    "bytes": 816,
+    "source": "https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/f3b6013629c7b94f8ee93fd977b161fa8350f9bc/unitree_go2/scene.xml"
+  },
+  {
+    "repository": "google-deepmind/mujoco_menagerie",
+    "commit": "f3b6013629c7b94f8ee93fd977b161fa8350f9bc",
+    "path": "unitree_a1/assets/trunk_A1.png",
+    "local": "assets/expansion/menagerie/unitree_a1/assets/trunk_A1.png",
+    "git_blob_sha1": "3307d582645b0b691319ba8f85cbc22960454716",
+    "sha256": "512e8cfa5ebedfc4199afe172590d3d486461e42244ab5d439020111f9fc7e78",
+    "bytes": 71835,
+    "source": "https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/f3b6013629c7b94f8ee93fd977b161fa8350f9bc/unitree_a1/assets/trunk_A1.png"
+  }
+]

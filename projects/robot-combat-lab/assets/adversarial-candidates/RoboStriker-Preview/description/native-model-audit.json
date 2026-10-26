@@ -1,0 +1,12 @@
+{
+  "urdf_sha256": "dbc8471004e9b0b85c27a4ebc1f0d90a727c1cf7ca9ef507b805596f2004d64b",
+  "mjcf_sha256": "5e9d56c71c213562dbf9d1bc31b13e0461c2ff6f2223adf28bf9ef8ae5efabb7",
+  "nq": 36,
+  "nv": 35,
+  "actuators": 29,
+  "bodies": 30,
+  "mass_kg": 33.341142000000005,
+  "missing_visuals": [],
+  "collision_cylinders_converted_to_capsules": 28,
+  "notes": "Source URDF physical description, MuJoCo import/fixed-body merge; visuals reuse local Unitree meshes; motor limits/gains/armatures are applied by the source-profile adapter. PhysX and MuJoCo contact/solver are not claimed identical."
+}

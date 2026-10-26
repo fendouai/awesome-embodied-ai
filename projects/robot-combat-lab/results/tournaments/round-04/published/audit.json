@@ -1,0 +1,104 @@
+{
+  "scope": "all",
+  "state": "complete",
+  "passed": 12,
+  "pending": [],
+  "matches": [
+    {
+      "id": "g1-robostriker_ego-robostriker_ego",
+      "state": "passed",
+      "video_sha256": "bd71271cf3d5a3d886a1483cc148bae74726bf14ea8a3fc023bc0fdf60c5d7f1",
+      "source_sha256": "fcebba0b3e309297214e43e02340f775ae4427428c3aacc7a3a943eaeb83e267",
+      "cue_count": 9,
+      "duration_seconds": 209.291667
+    },
+    {
+      "id": "g1-robostriker_ego-robostriker_opponent",
+      "state": "passed",
+      "video_sha256": "4b7536f8cd0d479076b0795bce46f82499357cc8f7c59a31c31247ef77ee59b2",
+      "source_sha256": "d3190c0145fe2928629c4efb5fc546568a0dcd03fc284614c0089c1e56bf0cd8",
+      "cue_count": 9,
+      "duration_seconds": 209.666667
+    },
+    {
+      "id": "g1-robostriker_opponent-robostriker_ego",
+      "state": "passed",
+      "video_sha256": "aff6e81f0bd957f9b3542e7d64951fc5aea2cc43615373d0f90100d3c73af41e",
+      "source_sha256": "687425c7761117b4e56342ce4e4ad770424ed9df3d749018545aeaa3297c8d41",
+      "cue_count": 8,
+      "duration_seconds": 171.458333
+    },
+    {
+      "id": "g1-robostriker_opponent-robostriker_opponent",
+      "state": "passed",
+      "video_sha256": "bbcd82732d08b340c5b30c06ba301929d15e0f0c28b88896e6fb23f8d1d14f29",
+      "source_sha256": "675eee45aea7462750dfca778f6efb3b22874f65059499b1e99d3b1dfaa5b387",
+      "cue_count": 3,
+      "duration_seconds": 51.916667
+    },
+    {
+      "id": "ncp-106-106",
+      "state": "passed",
+      "video_sha256": "da02dd24214d6aa8446467e8a0177dbc6229a43063e431853aec42ee2235adc9",
+      "source_sha256": "cd6738e9fe5e18cb99ba31cdbe6d2e32338cf03acb4df7e12e170e697ffe1f36",
+      "cue_count": 3,
+      "duration_seconds": 44.106667
+    },
+    {
+      "id": "ncp-106-100",
+      "state": "passed",
+      "video_sha256": "f1bb5ed33b558646030af07b3b0907a788b0168c82e34a06e244e80654f971b3",
+      "source_sha256": "0c9446d3281fc40dfaffbb6129587cebcb6312c476ac5912ab192de5b3f4915f",
+      "cue_count": 9,
+      "duration_seconds": 181.958333
+    },
+    {
+      "id": "ncp-100-106",
+      "state": "passed",
+      "video_sha256": "29241af7b51328974ac6909cf33fed4224977306613fd3efdc8794a2506830f5",
+      "source_sha256": "f2aebc4499677657c955d7cf43a9446b9d0538e5c19968f4b4f2d7cd1f0a0fae",
+      "cue_count": 3,
+      "duration_seconds": 55.0
+    },
+    {
+      "id": "ncp-100-100",
+      "state": "passed",
+      "video_sha256": "1b40b2557a37356e0880a03dd766083f693af1391a70572eba2a8d6fbf85527e",
+      "source_sha256": "a8c14777a02fa40b9cd42ae200888230514c643e702c3d921561175a6d389d7f",
+      "cue_count": 5,
+      "duration_seconds": 88.541667
+    },
+    {
+      "id": "vision-01",
+      "state": "passed",
+      "video_sha256": "58ad4a1570fd4546ae2bfb628e38262b1e21465013a0b1a7ffbad288cfc3cd01",
+      "source_sha256": "21c0b6ade4517daa7e40c0a7346b00d3291c1f4633d4360fb08bd8dd776d1812",
+      "cue_count": 14,
+      "duration_seconds": 230.416667
+    },
+    {
+      "id": "vision-02",
+      "state": "passed",
+      "video_sha256": "f3371376b7b00beea56c13715bdf06d774fad6bb702ea62adc4bfd3b39bd8132",
+      "source_sha256": "533b09c8995c46185b06334600db7fd96a6bf46cd907e7a229b17cc009bce961",
+      "cue_count": 14,
+      "duration_seconds": 230.314083
+    },
+    {
+      "id": "vision-03",
+      "state": "passed",
+      "video_sha256": "90910ddc8ef7dc754a3602b8e881180c5ee8c66530aa8de7619e33f1266cb9db",
+      "source_sha256": "d899d2aafe4a012d8c58556bbf4ba0ca7bd81001d1f34da45ab11abefa576fe7",
+      "cue_count": 12,
+      "duration_seconds": 235.291667
+    },
+    {
+      "id": "vision-04",
+      "state": "passed",
+      "video_sha256": "c704bddb4c7ebddd8db27cef912caf3ff638333a8b0e5a9dbddc3f0b9877762f",
+      "source_sha256": "01f8354bdb8575347ea805a15bff9eab3b2ec497a20f1190a2ccfb34e7fc99fd",
+      "cue_count": 16,
+      "duration_seconds": 235.230771
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "video": "duel-full.mp4",
+  "source_trajectory_sha256": "d6f5eb0eee36b47f02f7d0274054b5216bd5c2aa8182f0718adcc33d33dde2b8",
+  "video_sha256": "548583723ecd7dad9899ce1316b5b46d2b47b6c32edb83c40fde4ace17f17c71",
+  "fps": 24,
+  "source_duration_s": 89.99999999999064,
+  "final_frame_hold_s": 6,
+  "physics_unchanged": true,
+  "synthetic_audio": true,
+  "outcome": {
+    "winner": 1,
+    "reason": "more_valid_upper_body_contacts",
+    "kind": "contact_decision",
+    "time": 89.99999999999064,
+    "hardware_damage": false,
+    "competition_rule_result": true,
+    "clean_upper_contacts": [
+      16,
+      17
+    ],
+    "short_window_normal_impulse_ns": [
+      134.30528020510644,
+      135.62821779195318
+    ],
+    "knockdowns": [
+      0,
+      0
+    ],
+    "upright_time_s": [
+      89.40999999999063,
+      89.31499999999042
+    ]
+  }
+}

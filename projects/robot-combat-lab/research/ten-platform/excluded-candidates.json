@@ -1,0 +1,87 @@
+{
+  "candidate": "Rapid-Locomotion Mini Cheetah",
+  "status": "excluded_not_registered",
+  "reason": "Published URDF violates the physical principal-inertia triangle; no fabricated inertia used to meet the robot count",
+  "invalid_links": [
+    {
+      "link": "base",
+      "inertia": {
+        "ixx": 0.011253,
+        "ixy": 0.0,
+        "ixz": 0.0,
+        "iyy": 0.36203,
+        "iyz": 0.0,
+        "izz": 0.042673
+      },
+      "eigenvalues": [
+        0.011253,
+        0.042673,
+        0.36203
+      ]
+    },
+    {
+      "link": "FR_thigh",
+      "inertia": {
+        "ixx": 0.001983,
+        "ixy": 0.000245,
+        "ixz": 1.3e-05,
+        "iyy": 0.002103,
+        "iyz": 1.5e-06,
+        "izz": 0.000408
+      },
+      "eigenvalues": [
+        0.0004078925412357755,
+        0.0017908225928030745,
+        0.0022952848659611516
+      ]
+    },
+    {
+      "link": "FL_thigh",
+      "inertia": {
+        "ixx": 0.001983,
+        "ixy": 0.000245,
+        "ixz": 1.3e-05,
+        "iyy": 0.002103,
+        "iyz": 1.5e-06,
+        "izz": 0.000408
+      },
+      "eigenvalues": [
+        0.0004078925412357755,
+        0.0017908225928030745,
+        0.0022952848659611516
+      ]
+    },
+    {
+      "link": "RR_thigh",
+      "inertia": {
+        "ixx": 0.001983,
+        "ixy": 0.000245,
+        "ixz": 1.3e-05,
+        "iyy": 0.002103,
+        "iyz": 1.5e-06,
+        "izz": 0.000408
+      },
+      "eigenvalues": [
+        0.0004078925412357755,
+        0.0017908225928030745,
+        0.0022952848659611516
+      ]
+    },
+    {
+      "link": "RL_thigh",
+      "inertia": {
+        "ixx": 0.001983,
+        "ixy": 0.000245,
+        "ixz": 1.3e-05,
+        "iyy": 0.002103,
+        "iyz": 1.5e-06,
+        "izz": 0.000408
+      },
+      "eigenvalues": [
+        0.0004078925412357755,
+        0.0017908225928030745,
+        0.0022952848659611516
+      ]
+    }
+  ]
+}

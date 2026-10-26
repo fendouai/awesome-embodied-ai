@@ -7,6 +7,7 @@ import hashlib
 import json
 import ipaddress
 import re
+import subprocess
 from collections import Counter
 from pathlib import Path
 from urllib.parse import urlsplit, unquote
@@ -99,13 +100,15 @@ def main():
     for relative, expected in load(DATA / "checksums.json").items():
         assert hashlib.sha256((ROOT / relative).read_bytes()).hexdigest() == expected, relative
     forbidden = ["BEGIN OPENSSH PRIVATE KEY", "BEGIN RSA PRIVATE KEY", "__gmitm=", "Authorization: Bearer ", "DJANGO_SECRET_KEY=", "/Users/", "/tmp/botstest"]
-    for path in ROOT.rglob("*"):
-        if not path.is_file() or any(x in {".git", ".venv", "__pycache__"} for x in path.parts):
+    # Validate only published Git files; local captures and environments are not release data.
+    tracked = subprocess.check_output(["git", "ls-files", "-z"], cwd=ROOT).decode().split("\0")
+    for relative in filter(None, tracked):
+        path = ROOT / relative
+        if not path.is_file() or path == Path(__file__):
             continue
-        if path == Path(__file__):
-            continue
-        content = path.read_text(encoding="utf-8-sig")
-        assert not any(value in content for value in forbidden), f"Non-public operational data in {path.name}"
+        # Byte matching also scans video/image files without assuming UTF-8 text.
+        content = path.read_bytes()
+        assert not any(value.encode() in content for value in forbidden), f"Non-public operational data in {relative}"
     print(json.dumps({"status": "passed", "curated_resources": len(resources), "candidate_decisions": len(decisions), "bilingual_category_files": 18, "schema": "JSON Schema 2020-12", "score_reproduction": "matches stored six-decimal scores", "private_data_scan": "passed", "fresh_network_checks": 0}))
 
 

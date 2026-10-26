@@ -1,0 +1,13 @@
+{
+  "repository": "yinkangning0124/RoboStriker-Preview",
+  "sha": "52f54137770ff632391dd091e973ceb098ba3f98",
+  "archived": false,
+  "updated": "2026-06-01T08:39:00Z",
+  "stars": 11,
+  "weights_or_data": [
+    {
+      "path": "logs/rsl_marl/g1_flat_rsl_rl_ppo_stage3/combat/model_3000.pt",
+      "bytes": 18812369
+    }
+  ]
+}

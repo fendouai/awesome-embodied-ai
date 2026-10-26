@@ -1,0 +1,13 @@
+diff --git a/Src/Libs/SimulatedRobot/GameController.h b/Src/Libs/SimulatedRobot/GameController.h
+--- a/Src/Libs/SimulatedRobot/GameController.h
++++ b/Src/Libs/SimulatedRobot/GameController.h
+@@ -99,7 +99,8 @@
+
+   static const int numOfRobots = 2 * MAX_NUM_PLAYERS;
+-  static const int halfTime = 600;
++  // Local vision-exhibition period; the referee still ends the match by its normal timeout rule.
++  static const int halfTime = 30;
+   static const int readyTime = 45;
+   static const int penaltyKickReadyTime = 30;
+   static const int kickOffTime = 10;
+   static const int freeKickTime = 30;
