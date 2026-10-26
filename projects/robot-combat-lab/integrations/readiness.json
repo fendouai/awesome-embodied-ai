@@ -14,7 +14,7 @@
     "ninja": "1.11.1.4 (venv)",
     "docker": {
       "ok": false,
-      "output": "failed to connect to the docker API at unix:///Users/f/.colima/x86/docker.sock; check if the path is correct and if the daemon is running: dial unix /Users/f/.colima/x86/docker.sock: connect: no such file or directory"
+      "output": "failed to connect to the docker API at unix://<local-home>/.colima/x86/docker.sock; check if the path is correct and if the daemon is running: dial unix <local-home>/.colima/x86/docker.sock: connect: no such file or directory"
     },
     "full_matches_reproduced": 0
   },

@@ -1,5 +1,5 @@
 const fs=require('fs'),path=require('path');
-let pw;try{pw=require('playwright')}catch{pw=require('/Users/f/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright')}
+let pw;try{pw=require('playwright')}catch{pw=require(process.env.PLAYWRIGHT_MODULE || 'playwright')}
 (async()=>{
 const browser=await pw.chromium.launch({headless:true,executablePath:process.env.CHROME_PATH||'/Applications/Google Chrome.app/Contents/MacOS/Google Chrome'});
 const page=await browser.newPage({viewport:{width:1440,height:1080},deviceScaleFactor:1});const errors=[];page.on('pageerror',e=>errors.push(e.message));

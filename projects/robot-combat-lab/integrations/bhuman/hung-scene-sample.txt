@@ -1,6 +1,6 @@
 Analysis of sampling SimRobot (pid 48395) every 1 millisecond
 Process:         SimRobot [48395]
-Path:            /Users/USER/*/SimRobot.app/Contents/MacOS/SimRobot
+Path:            <local-users>/USER/*/SimRobot.app/Contents/MacOS/SimRobot
 Load Address:    0x102c90000
 Identifier:      $(PRODUCT_BUNDLE_IDENTIFIER)
 Version:         0
@@ -2117,25 +2117,25 @@ Sort by top of stack, same collapsed (when >= 5):
         std::__hash_table<std::__hash_value_type<char const*, unsigned long>>::find<char const*>(char const* const&)  (in libSimulatedRobot.so)        5
 
 Binary Images:
-       0x102c90000 -        0x102cbbfc7 +$(PRODUCT_BUNDLE_IDENTIFIER) (0) <FBCFF953-B2A8-3CE0-B08D-761B86ED3613> /Users/*/SimRobot.app/Contents/MacOS/SimRobot
-       0x102d80000 -        0x102de62a3 +org.qt-project.QtOpenGL (6.12 - 6.12.0) <E5DE4A1B-4EC7-39A0-913D-926FCC04203A> /Users/*/QtOpenGL.framework/Versions/A/QtOpenGL
-       0x102ec4000 -        0x102f1e4df +org.qt-project.QtSvg (6.12 - 6.12.0) <D9F89413-ACEB-35B4-A5D2-6578063B8696> /Users/*/QtSvg.framework/Versions/A/QtSvg
+       0x102c90000 -        0x102cbbfc7 +$(PRODUCT_BUNDLE_IDENTIFIER) (0) <FBCFF953-B2A8-3CE0-B08D-761B86ED3613> <local-users>/*/SimRobot.app/Contents/MacOS/SimRobot
+       0x102d80000 -        0x102de62a3 +org.qt-project.QtOpenGL (6.12 - 6.12.0) <E5DE4A1B-4EC7-39A0-913D-926FCC04203A> <local-users>/*/QtOpenGL.framework/Versions/A/QtOpenGL
+       0x102ec4000 -        0x102f1e4df +org.qt-project.QtSvg (6.12 - 6.12.0) <D9F89413-ACEB-35B4-A5D2-6578063B8696> <local-users>/*/QtSvg.framework/Versions/A/QtSvg
        0x102fe4000 -        0x102fec03f  libobjc-trampolines.dylib (951.7) <690EDFF1-56BE-3018-BEC2-9F63287CEB2D> /usr/lib/libobjc-trampolines.dylib
-       0x103004000 -        0x10308abff +org.qt-project.QtDBus (6.12 - 6.12.0) <C1A9CA25-E744-3B64-9566-C7880BBB12B4> /Users/*/QtDBus.framework/Versions/A/QtDBus
-       0x10352c000 -        0x10399d7cf +org.qt-project.QtWidgets (6.12 - 6.12.0) <11BDBDA2-E337-3D42-82D6-39CEA59AEE32> /Users/*/QtWidgets.framework/Versions/A/QtWidgets
-       0x1040f0000 -        0x10419f587 +libqcocoa.dylib (0) <028E2655-9FD8-3E6E-A861-D6CD79B760BC> /Users/*/libqcocoa.dylib
-       0x1041e4000 -        0x10420698f +libqmacstyle.dylib (0) <EA18C1D9-4FB9-3F94-A4EE-B48FC9863279> /Users/*/libqmacstyle.dylib
-       0x104348000 -        0x104a3d923 +org.qt-project.QtGui (6.12 - 6.12.0) <0ADC7F4E-0530-351E-B446-2C38E090134E> /Users/*/QtGui.framework/Versions/A/QtGui
-       0x104b94000 -        0x10509b3c7 +org.qt-project.QtCore (6.12 - 6.12.0) <5815D706-D7F1-3D27-AC89-7FED4755520D> /Users/*/QtCore.framework/Versions/A/QtCore
+       0x103004000 -        0x10308abff +org.qt-project.QtDBus (6.12 - 6.12.0) <C1A9CA25-E744-3B64-9566-C7880BBB12B4> <local-users>/*/QtDBus.framework/Versions/A/QtDBus
+       0x10352c000 -        0x10399d7cf +org.qt-project.QtWidgets (6.12 - 6.12.0) <11BDBDA2-E337-3D42-82D6-39CEA59AEE32> <local-users>/*/QtWidgets.framework/Versions/A/QtWidgets
+       0x1040f0000 -        0x10419f587 +libqcocoa.dylib (0) <028E2655-9FD8-3E6E-A861-D6CD79B760BC> <local-users>/*/libqcocoa.dylib
+       0x1041e4000 -        0x10420698f +libqmacstyle.dylib (0) <EA18C1D9-4FB9-3F94-A4EE-B48FC9863279> <local-users>/*/libqmacstyle.dylib
+       0x104348000 -        0x104a3d923 +org.qt-project.QtGui (6.12 - 6.12.0) <0ADC7F4E-0530-351E-B446-2C38E090134E> <local-users>/*/QtGui.framework/Versions/A/QtGui
+       0x104b94000 -        0x10509b3c7 +org.qt-project.QtCore (6.12 - 6.12.0) <5815D706-D7F1-3D27-AC89-7FED4755520D> <local-users>/*/QtCore.framework/Versions/A/QtCore
        0x11dd14000 -        0x11e58a0df  com.apple.AGXMetalG16G-B0 (353.14 - 353.14) <9B0A2398-8610-35D6-B7F3-B76933F2AAF4> /System/Library/Extensions/AGXMetalG16G_B0.bundle/Contents/MacOS/AGXMetalG16G_B0
-       0x122ee8000 -        0x122ef015c +org.qt-project.QtOpenGLWidgets (6.12 - 6.12.0) <A79E91C5-7D65-35A5-9C68-C188D79ED491> /Users/*/QtOpenGLWidgets.framework/Versions/A/QtOpenGLWidgets
-       0x12305c000 -        0x1230c4533 +libSimRobotCore3.so (0) <3B1FD9F7-259A-3804-92DB-57C96CBF6CC7> /Users/*/SimRobot.app/Contents/lib/libSimRobotCore3.so
-       0x123198000 -        0x123208217 +libqjpeg.dylib (0) <5AB2AD3A-30A4-3F13-BF21-FE80646A27C5> /Users/*/libqjpeg.dylib
+       0x122ee8000 -        0x122ef015c +org.qt-project.QtOpenGLWidgets (6.12 - 6.12.0) <A79E91C5-7D65-35A5-9C68-C188D79ED491> <local-users>/*/QtOpenGLWidgets.framework/Versions/A/QtOpenGLWidgets
+       0x12305c000 -        0x1230c4533 +libSimRobotCore3.so (0) <3B1FD9F7-259A-3804-92DB-57C96CBF6CC7> <local-users>/*/SimRobot.app/Contents/lib/libSimRobotCore3.so
+       0x123198000 -        0x123208217 +libqjpeg.dylib (0) <5AB2AD3A-30A4-3F13-BF21-FE80646A27C5> <local-users>/*/libqjpeg.dylib
        0x12334c000 -        0x1233ace57  com.apple.AppleMetalOpenGLRenderer (1.0 - 1) <91E3912E-C8B3-303A-ADDA-EA75A3915A9A> /System/Library/Extensions/AppleMetalOpenGLRenderer.bundle/Contents/MacOS/AppleMetalOpenGLRenderer
-       0x12348c000 -        0x1237abff7 +libmujoco.3.3.5.dylib (0) <C99E8064-FCAB-3183-9758-CB1416895C00> /Users/*/SimRobot.app/Contents/lib/libmujoco.3.3.5.dylib
-       0x125000000 -        0x1250064cf +org.qt-project.QtSvgWidgets (6.12 - 6.12.0) <D75D2B2F-4945-3C13-943F-DBFBE63AAE0F> /Users/*/QtSvgWidgets.framework/Versions/A/QtSvgWidgets
-       0x125ff0000 -        0x126a0b35b +libSimulatedRobot.so (0) <818F1110-208A-30D5-A39F-E8EE641E22D6> /Users/*/SimRobot.app/Contents/lib/libSimulatedRobot.so
-       0x128a54000 -        0x129a47ffb +libonnxruntime.1.24.4.dylib (0) <3643AE31-79CA-3CBB-AB61-1764C437B763> /Users/*/SimRobot.app/Contents/lib/libonnxruntime.1.24.4.dylib
+       0x12348c000 -        0x1237abff7 +libmujoco.3.3.5.dylib (0) <C99E8064-FCAB-3183-9758-CB1416895C00> <local-users>/*/SimRobot.app/Contents/lib/libmujoco.3.3.5.dylib
+       0x125000000 -        0x1250064cf +org.qt-project.QtSvgWidgets (6.12 - 6.12.0) <D75D2B2F-4945-3C13-943F-DBFBE63AAE0F> <local-users>/*/QtSvgWidgets.framework/Versions/A/QtSvgWidgets
+       0x125ff0000 -        0x126a0b35b +libSimulatedRobot.so (0) <818F1110-208A-30D5-A39F-E8EE641E22D6> <local-users>/*/SimRobot.app/Contents/lib/libSimulatedRobot.so
+       0x128a54000 -        0x129a47ffb +libonnxruntime.1.24.4.dylib (0) <3643AE31-79CA-3CBB-AB61-1764C437B763> <local-users>/*/SimRobot.app/Contents/lib/libonnxruntime.1.24.4.dylib
        0x18dee8000 -        0x18df3ab4b  libobjc.A.dylib (951.7) <03BD9E32-CF0A-37B0-898A-3CE8DE06D842> /usr/lib/libobjc.A.dylib
        0x18df3b000 -        0x18df6fd58  libdyld.dylib (1387) <957F93B3-8805-39C7-9C51-EDD1715F550E> /usr/lib/system/libdyld.dylib
        0x18df70000 -        0x18e0234ff  dyld (1.0.0 - 1387) <74E52480-C2BD-3C8D-812D-95FE2B74A096> /usr/lib/dyld
